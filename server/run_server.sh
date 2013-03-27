@@ -1,3 +1,3 @@
 #!/bin/sh
 # Author: Simon Wan Wenli
-g++ -o crawler -pthread server.cpp 
+g++ -o server -pthread server.cpp 
