@@ -16,11 +16,7 @@
 
 using namespace std;
 
-void some_function(string str)
-{
-    cout << "str : " << str.c_str() <<endl;
-}
-
+string gethostaddr(string url);
 string getHostUrl(string url);
 string getLocationUrl(string url);
 void* spider_thread ( void *args );
@@ -28,7 +24,7 @@ void* spider_thread ( void *args );
 deque <string> all_links;
 string hostAddress;
 string locationAddress;
-int *serverFD;
+int serverFD;
 
 pthread_mutex_t lock;
 
@@ -45,7 +41,7 @@ int main ()
         return -1;
     }
 	
-	server_host = gethostbyname("127.0.0.1");
+	server_host = gethostbyname("172.23.69.139");
 	
 	memset( &server_addr , 0 , sizeof ( struct sockaddr_in ) );
     server_addr.sin_family = AF_INET;
@@ -60,64 +56,102 @@ int main ()
         return -1;
     }
 	
-	while (true)
+	int net_len;
+	serverFD = client_sock;
+	
+	while (recv( client_sock ,&net_len, 4, 0 )) 
 	{
-		/// receive url string from server
+		int length;
+		length = ntohl(net_len);
 		
-		signed char ch;
-		//string url_from_server = "runningmanclub.blogspot.sg/index.html";
-		
-		while ( recv( client_sock ,&ch, sizeof(ch), 0 ) == 1 ) 
+		if (length != 0)
 		{
-			url_from_server += ch;
-		}
-		
-		cout << url_from_server << endl;
+			/// receive url string from server
+			signed char ch;
+			string url_from_server;
+			
+			for (int i = 0;  i < length; ++i) 
+			{
+				recv( client_sock , &ch, 1, 0 );
+				url_from_server += ch;
+			}
+			
+			cout << length << endl;
+			cout << url_from_server << endl;
+			
+			string temp = gethostaddr(url_from_server);
+			
+			cout << temp << endl;
+			
+			unsigned found = str.find_last_of("/");
+			string temp_str = temp.substr(found+1);
 
-		if (gethostbyname(getHostUrl(url_from_server).c_str()) != NULL)
-		{		
-			/// divide url string into host and location url
-			string host, location;
+			struct hostent *HOST;
+			HOST = gethostbyname(getHostUrl(temp).c_str());
 			
-			hostAddress = getHostUrl(url_from_server);
-			locationAddress = getLocationUrl(url_from_server);
-			serverFD = &client_sock;
-			
-			pthread_t threadID;	
-			
-			int sock;
-			int *sockFD = new int;
-			
-			/// Create new TCP socket. 
-			if ( ( sock = socket ( AF_INET , SOCK_STREAM , 0 ) ) < 0 ) 
-			{
-				cerr << "Error creating Server socket\n";
-				return -1;
-			}
+			if (HOST != NULL)
+			{		
+				/// divide url string into host and location url
+				string host, location;
 				
-			*sockFD = sock;
-			
-			fflush(stdout);
-			
-			if (pthread_create(&threadID, NULL, spider_thread, sockFD) != 0)
-			{
-				cerr << "Error on pthread_create()\n";
-				close ( client_sock );
-				return -1;
+				hostAddress = getHostUrl(url_from_server);
+				locationAddress = getLocationUrl(url_from_server);
+				
+				pthread_t threadID;	
+				
+				int sock;
+				int *sockFD = new int;
+				
+				/// Create new TCP socket. 
+				if ( ( sock = socket ( AF_INET , SOCK_STREAM , 0 ) ) < 0 ) 
+				{
+					cerr << "Error creating Server socket\n";
+					return -1;
+				}
+					
+				*sockFD = sock;
+				
+				fflush(stdout);
+				
+				if (pthread_create(&threadID, NULL, spider_thread, sockFD) != 0)
+				{
+					cerr << "Error on pthread_create()\n";
+					close ( client_sock );
+					return -1;
+				}
+				
 			}
-			
+			else
+			{
+				/// Invalid url
+			}
 		}
-		else
-		{
-			/// Invalid url
-		}
-		
 		sleep(3);
 	}
 	
 	close (client_sock);
     
 	return 0;
+}
+
+string gethostaddr(string full_addr)
+{
+	string link = "";
+    string http( full_addr.begin(), full_addr.begin()+7 );
+	
+    if (!http.compare("http://"))
+    {
+		/// there is http
+        string host( full_addr.begin()+7, full_addr.end() );
+        link = host;
+    }
+    else
+    {
+		/// there is no http
+        link = full_addr;
+	}
+    
+    return link;
 }
 
 /* This function takes in a URL address string and returns the host address URL. */
@@ -254,17 +288,9 @@ void* spider_thread( void *args )
         // std::cout << *it << endl;
     // }
 	
-	int body_length = htonl(body.length());
-	int quantity = htonl(all_links.size());
-
-	cout << body.length() << endl;
-	cout << body_length << endl;
-	cout << endl;
-	cout << all_links.size() << endl;
-	cout << quantity << endl;
-	
 	/// HTTP html page length
-	if (send(serverFD, (const char*)body_length, 4, 0) < 0) 
+	int body_length = htonl(body.length());
+	if (send(serverFD, (const char*)&body_length, 4, 0) < 0) 
 	{
 		cerr << "Error on send html page length\n";
     }
@@ -275,17 +301,26 @@ void* spider_thread( void *args )
 		cerr << "Error on send html page content\n";
     }
 	
+	string list = "";
+	for (deque<string>::iterator it = all_links.begin(); it != all_links.end(); ++it)
+	{
+		string item = *it;
+		list += (item + ";");
+	}
+	cout << list << endl;
+	
 	/// List of URLs size
-	if (send(serverFD, (const char*)quantity, 4, 0) < 0) 
+	int quantity = htonl(list.length());
+	if (send(serverFD, (const char*)&quantity, 4, 0) < 0) 
 	{
 		cerr << "Error on send urls list size\n";
     }
 	
 	/// List of URLs
-	// if (send(serverFD, (const char*)quantity, 4, 0) < 0) 
-	// {
-		// cerr << "Error on send urls list in string content\n";
-    // }
+	if (send(serverFD, list.c_str(), list.length(), 0) < 0) 
+	{
+		cerr << "Error on send urls list in string content\n";
+    }
 	
 	close (sockFD);  
 	
