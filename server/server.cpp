@@ -157,12 +157,28 @@ bool is_string_in_list(list<string> l, string s)
 	}
 }
 
+void print_list(list<string> l)
+{
+	if (l.empty())
+	{
+		cout << "empty list" << endl;
+	}
+	else
+	{
+		list<string>::iterator iter;
+		for (iter = l.begin(); iter != l.end(); iter++)
+		{
+			cout << *iter << endl;
+		}
+	}
+}
+
 bool write_crawler(int sock, string url)
 {
 	int content_len = url.length();
-	int net_len = htonl(content_len);
+	// int net_len = htonl(content_len);
 
-	send(sock, (const char*)&net_len, 4, 0);
+	// send(sock, (const char*)&net_len, 4, 0);
 	send(sock, url.c_str(), content_len, 0);
 	return true;
 }
