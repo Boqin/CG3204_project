@@ -1,7 +1,7 @@
 /* Server for search engine
  * Module: CG3204L
  * Author: Wan Wenli, Qiu Boqin, ...
- * Last updated: 3:11PM 27 Mar 2013
+ * Last updated: 9:09PM 27 Mar 2013
  */
 #include <unistd.h>
 #include <iostream>
@@ -53,7 +53,8 @@ int main (int argc , char **argv)
     serverAddress.sin_port = htons ( port );
     serverAddress.sin_addr.s_addr = INADDR_ANY;
     if ( bind ( socketFD , (const struct sockaddr*) &serverAddress ,
-                sizeof ( struct sockaddr_in ) ) < 0 ) {
+                sizeof ( struct sockaddr_in ) ) < 0 )
+	{
         std :: cerr << "Error on bind()\n";
         close ( socketFD );
         return -1;
@@ -61,7 +62,8 @@ int main (int argc , char **argv)
 
     // Tell the OS that the server wants to listen on this socket
     //  with max number of pending TCP connections = 10
-    if ( listen ( socketFD , 10 ) < 0 ) {
+    if ( listen ( socketFD , 10 ) < 0 )
+	{
         std :: cerr << "Error on listen()\n";
         close ( socketFD );
         return -1;
@@ -69,9 +71,10 @@ int main (int argc , char **argv)
 
     // Wait for connections
     cout << "Echo Server Running on Port " << port
-                << std :: endl;
-	read_crawler(1, "www.google.com.sg");
-    int newSocketFD;
+		<< std :: endl;
+    
+	int newSocketFD;
+	unquested_urls.push_back("www.nus.edu.sg");
     while (true)
 	{
         if ( ( newSocketFD = accept ( socketFD , NULL , NULL ) ) < 0 )
@@ -118,7 +121,12 @@ void* clientThread (void *args)
 	pthread_mutex_lock(&lock);
 	string url = unquested_urls.front();
 	unquested_urls.pop_front();
-	quested_urls.push_back(url);
+
+	if (is_string_in_list(quested_urls, url) == false &&
+		is_string_in_list(unquested_urls, url) == false)
+	{
+		quested_urls.push_back(url);
+	}
 	pthread_mutex_unlock(&lock);
 
 	// write to crawler
@@ -183,7 +191,7 @@ bool read_crawler(int sock, string fn)
 	{
 		recv(sock, &http_reply, content_len, 0);
 		// create a new file to store the HTTP reply
-		reply_dir = fn + DB_DIR;
+		reply_dir = DB_DIR + fn; // generate reply dir
 		ofstream reply_file(reply_dir.c_str());
 		if(reply_file.is_open())
 		{
