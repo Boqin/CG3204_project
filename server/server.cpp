@@ -21,6 +21,7 @@
 
 #define PORT 5000
 #define DB_DIR "./database/"
+#define URL_DIR "./database/unquested_urls.txt"
 
 using namespace std;
 
@@ -31,13 +32,13 @@ pthread_mutex_t lock;
 
 // functions
 bool is_string_in_list(list<string> l, string s);
-void extract_files_from_dir(string dir);
-bool write_crawler(int sock, string url);
-bool read_crawler(int sock, string fn);
 void* clientThread(void *args);
 void print_list(list<string> l);
 void print_list_to_file(list<string> l, string dir);
-void load_list_from_file(string dir);
+void load_quested_urls(string dir);
+void load_unquested_urls(string dir);
+bool write_crawler(int sock, string url);
+bool read_crawler(int sock, string fn);
 
 int main (int argc , char **argv)
 {
@@ -90,7 +91,8 @@ int main (int argc , char **argv)
 	// get the last crawled URL
 	string fn = "www.nus.edu.sg";
 	cout << "Starts from URL: " << fn << endl;
-	extract_files_from_dir(DB_DIR);
+	load_quested_urls(DB_DIR);
+	load_unquested_urls(URL_DIR);
 	// print_list(quested_urls);
 	unquested_urls.push_back(fn);
 
@@ -140,6 +142,8 @@ void* clientThread (void *args)
 	while (!unquested_urls.empty())
 	{
 		pthread_mutex_lock(&lock);
+
+		print_list_to_file(unquested_urls, URL_DIR);
 		string url = unquested_urls.front();
 		unquested_urls.pop_front();
 
@@ -178,7 +182,64 @@ bool is_string_in_list(list<string> l, string s)
 	}
 }
 
-void extract_files_from_dir(string dir)
+// for debugging purpose
+void print_list(list<string> l)
+{
+	if (l.empty())
+	{
+		cout << "empty list" << endl;
+	}
+	else
+	{
+		list<string>::iterator iter;
+		for (iter = l.begin(); iter != l.end(); iter++)
+		{
+			cout << *iter << endl;
+		}
+	}
+}
+
+// print at most 10 URLs from unquested_urls into database
+void print_list_to_file(list<string> l, string dir)
+{
+	ofstream f(dir.c_str());
+	if(f.is_open())
+	{
+		list<string>::iterator iter;
+		int count;
+		for (iter = l.begin(); iter != l.end(); iter++)
+		{
+			f << *iter << endl;
+			if (count == 9)
+			{
+				f.close();
+				return;
+			}
+			count++;
+		}
+	}
+	else
+	{
+		cerr << "Cannot open file" << dir << endl;
+	}
+	f.close();
+	return;
+}
+
+// load unquested_urls from DB based on previous crawling
+void load_unquested_urls(string dir)
+{
+	ifstream f(dir.c_str());
+	string line;
+	while(std::getline(f, line))
+	{
+		unquested_urls.push_back(line);
+	}
+	return;
+}
+
+// load quested_urls from DB based on previous crawling
+void load_quested_urls(string dir)
 {
 	string fn;
     DIR *dp;
@@ -199,24 +260,6 @@ void extract_files_from_dir(string dir)
     closedir(dp);
 	return;
 }
-
-// for debugging purpose
-void print_list(list<string> l)
-{
-	if (l.empty())
-	{
-		cout << "empty list" << endl;
-	}
-	else
-	{
-		list<string>::iterator iter;
-		for (iter = l.begin(); iter != l.end(); iter++)
-		{
-			cout << *iter << endl;
-		}
-	}
-}
-
 
 bool write_crawler(int sock, string url)
 {
@@ -277,10 +320,7 @@ bool read_crawler(int sock, string fn)
 			reply_file << http_reply;
 			reply_file.close();
 			//debug
-			cout << "\nHTTP reply saved in " << reply_dir << endl;
-		}
-		else
-		{
+			cout << "HTTP reply saved in " << reply_dir << endl; } else {
 			cerr << "\nUnable to open file." << endl;
 		}
 	}
@@ -326,7 +366,6 @@ bool read_crawler(int sock, string fn)
 				// insert the URL into the unquested_url
 				unquested_urls.push_back(url);
 			}
-
 
 			t_start = t_end + 1;
 			t_end = url_list.find_first_of(";", t_start);
