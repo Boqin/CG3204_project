@@ -19,7 +19,7 @@
 #include <algorithm>
 
 #define PORT 5000
-#define DB_DIR "/tmp/database/"
+#define DB_DIR "./database"
 
 using namespace std;
 
@@ -41,7 +41,8 @@ int main (int argc , char **argv)
 
     // Create a TCP socket
     int socketFD;
-    if ( ( socketFD = socket ( AF_INET , SOCK_STREAM , 0 ) ) < 0 ) {
+    if ( ( socketFD = socket ( AF_INET , SOCK_STREAM , 0 ) ) < 0 )
+	{
         std :: cerr << "Error creating Server socket\n";
         return -1;
     }
@@ -117,24 +118,36 @@ void* clientThread (void *args)
     int socketFD = *clientSocketFD;
     delete clientSocketFD;
 
-	// get the URL from queue to crawl
-	pthread_mutex_lock(&lock);
-	string url = unquested_urls.front();
-	unquested_urls.pop_front();
-
-	if (is_string_in_list(quested_urls, url) == false &&
-		is_string_in_list(unquested_urls, url) == false)
-	{
-		quested_urls.push_back(url);
-	}
-	pthread_mutex_unlock(&lock);
-
-	// write to crawler
+	/* for debug
+	string url = "www.google.com.sg";
 	write_crawler(socketFD, url);
-
-	//
 	std::replace(url.begin(), url.end(), '/', '*');
 	read_crawler(socketFD, url);
+	*/
+
+	// get the URL from queue to crawl
+	while (!unquested_urls.empty())
+	{
+		pthread_mutex_lock(&lock);
+		string url = unquested_urls.front();
+		// debug
+		cout << "url sent to crawler: " << url << endl;
+		unquested_urls.pop_front();
+
+		if (is_string_in_list(quested_urls, url) == false &&
+			is_string_in_list(unquested_urls, url) == false)
+		{
+			quested_urls.push_back(url);
+		}
+		pthread_mutex_unlock(&lock);
+
+		// write to crawler
+		write_crawler(socketFD, url);
+
+		//
+		std::replace(url.begin(), url.end(), '/', '*');
+		read_crawler(socketFD, url);
+	}
 
     close (socketFD);
 	pthread_exit(NULL);
@@ -176,9 +189,9 @@ void print_list(list<string> l)
 bool write_crawler(int sock, string url)
 {
 	int content_len = url.length();
-	// int net_len = htonl(content_len);
+	int net_len = htonl(content_len);
 
-	// send(sock, (const char*)&net_len, 4, 0);
+	send(sock, (const char*)&net_len, 4, 0);
 	send(sock, url.c_str(), content_len, 0);
 	return true;
 }
@@ -187,6 +200,7 @@ bool read_crawler(int sock, string fn)
 {
 	int net_len;
 	int content_len;
+	char ch;
 	string url;
 	string url_list;
 	string http_reply;
@@ -199,15 +213,27 @@ bool read_crawler(int sock, string fn)
 	recv(sock, &net_len, 4, 0);
 	content_len = ntohl(net_len);
 
+	// debug
+	cout << "content_len: " << content_len << endl;
+
 	// if length is 0, means there is no http reply
 	// invalid URL
 	if (content_len == 0)
 		return false;
 	else
 	{
-		recv(sock, &http_reply, content_len, 0);
+		for(int i = 0; i < content_len; i++)
+		{
+			recv(sock, &ch, 1, 0);
+			http_reply += ch;
+		}
 		// create a new file to store the HTTP reply
 		reply_dir = DB_DIR + fn; // generate reply dir
+
+		//debug
+		cout << "file dir: " << reply_dir << endl;
+		// cout << http_reply << endl;
+
 		ofstream reply_file(reply_dir.c_str());
 		if(reply_file.is_open())
 		{
@@ -230,6 +256,14 @@ bool read_crawler(int sock, string fn)
 		return false;
 	else
 	{
+		for(int i = 0; i < content_len; i++)
+		{
+			recv(sock, &ch, 1, 0);
+			url_list += ch;
+		}
+		// debug
+		cout << "content_len: " << content_len << endl;
+		cout << "url_list: " << url_list << endl;
 		// recv(sock, &url_list, content_len, 0);
 		t_end = url_list.find_first_of(";");
 		while(t_end != string::npos && t_end < url_list.length())
@@ -239,6 +273,7 @@ bool read_crawler(int sock, string fn)
 			url = url_list.substr(t_start, t_end - t_start);
 			pthread_mutex_unlock(&lock);
 
+			// debug
 			cout << url << endl;
 			unquested_urls.push_back(url);
 			// insert the URL into the unquested_url
