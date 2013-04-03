@@ -19,7 +19,7 @@
 #include <algorithm>
 
 #define PORT 5000
-#define DB_DIR "./database"
+#define DB_DIR "./database/"
 
 using namespace std;
 
@@ -38,6 +38,14 @@ int main (int argc , char **argv)
 {
     // Port to listen on
     uint16_t port = PORT;
+
+	if (argc != 2)
+	{
+		cerr << "Please enter a key word." << endl;
+		exit(-1);
+	}
+
+	string keywd = argv[1];
 
     // Create a TCP socket
     int socketFD;
@@ -90,7 +98,7 @@ int main (int argc , char **argv)
 		}
 
         // On a new connection, create a new thread
-        //  Also, tell the thread the socket FD it should use for this connection
+        // Also, tell the thread the socket FD it should use for this connection
         pthread_t threadID;
         int *clientSocketFD = new int;
         *clientSocketFD = newSocketFD;
@@ -222,6 +230,7 @@ bool read_crawler(int sock, string fn)
 		return false;
 	else
 	{
+		// receive http_reply
 		for(int i = 0; i < content_len; i++)
 		{
 			recv(sock, &ch, 1, 0);
@@ -256,6 +265,7 @@ bool read_crawler(int sock, string fn)
 		return false;
 	else
 	{
+		// receive url_list
 		for(int i = 0; i < content_len; i++)
 		{
 			recv(sock, &ch, 1, 0);
@@ -263,8 +273,8 @@ bool read_crawler(int sock, string fn)
 		}
 		// debug
 		cout << "content_len: " << content_len << endl;
-		cout << "url_list: " << url_list << endl;
-		// recv(sock, &url_list, content_len, 0);
+		// cout << "url_list: " << url_list << endl;
+
 		t_end = url_list.find_first_of(";");
 		while(t_end != string::npos && t_end < url_list.length())
 		{
