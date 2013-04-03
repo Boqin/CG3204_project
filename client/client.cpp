@@ -41,7 +41,7 @@ int main ()
         return -1;
     }
 	
-	server_host = gethostbyname("172.23.69.139");
+	server_host = gethostbyname("127.0.0.1");
 	
 	memset( &server_addr , 0 , sizeof ( struct sockaddr_in ) );
     server_addr.sin_family = AF_INET;
@@ -56,11 +56,11 @@ int main ()
         return -1;
     }
 	
-	int net_len;
+	int net_len = 1000;
 	serverFD = client_sock;
 	
-	while (recv( client_sock ,&net_len, 4, 0 )) 
-	{
+	//while (recv( client_sock ,&net_len, 4, 0 )) 
+	//{
 		int length;
 		length = ntohl(net_len);
 		
@@ -68,13 +68,14 @@ int main ()
 		{
 			/// receive url string from server
 			signed char ch;
-			string url_from_server;
+			//string url_from_server;
+			string url_from_server = "http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd";
 			
-			for (int i = 0;  i < length; ++i) 
-			{
-				recv( client_sock , &ch, 1, 0 );
-				url_from_server += ch;
-			}
+			// for (int i = 0;  i < length; ++i) 
+			// {
+				// recv( client_sock , &ch, 1, 0 );
+				// url_from_server += ch;
+			// }
 			
 			cout << length << endl;
 			cout << url_from_server << endl;
@@ -82,9 +83,6 @@ int main ()
 			string temp = gethostaddr(url_from_server);
 			
 			cout << temp << endl;
-			
-			unsigned found = str.find_last_of("/");
-			string temp_str = temp.substr(found+1);
 
 			struct hostent *HOST;
 			HOST = gethostbyname(getHostUrl(temp).c_str());
@@ -92,13 +90,10 @@ int main ()
 			if (HOST != NULL)
 			{		
 				/// divide url string into host and location url
-				string host, location;
+				hostAddress = getHostUrl(temp);
+				locationAddress = getLocationUrl(temp);
 				
-				hostAddress = getHostUrl(url_from_server);
-				locationAddress = getLocationUrl(url_from_server);
-				
-				pthread_t threadID;	
-				
+				pthread_t threadID;
 				int sock;
 				int *sockFD = new int;
 				
@@ -108,10 +103,45 @@ int main ()
 					cerr << "Error creating Server socket\n";
 					return -1;
 				}
-					
+				
 				*sockFD = sock;
 				
 				fflush(stdout);
+				
+				// /// Bind to IP Address of this machine on port 80.
+				// struct sockaddr_in server;
+				// memset ( &server , 0 , sizeof ( struct sockaddr_in ) );
+				// server.sin_family = AF_INET;
+				// server.sin_port = htons ( 80 );
+				// server.sin_addr = *((struct in_addr *) HOST->h_addr);
+				// bzero(&(server.sin_zero),8);
+				
+				// if (connect(sock, (struct sockaddr *)&server, sizeof(struct sockaddr)) == -1) 
+				// {
+					// cerr << "Error connecting port 80\n";
+					// close ( sock );
+				// }
+				
+				// /// HTTP request message
+				// string send_data = "HEAD " + locationAddress + " HTTP/1.1\r\nHost: " + hostAddress + "\r\n\r\n";
+				// cout << send_data << endl;
+				
+				// if (send ( sock , send_data.c_str() , send_data.length() , 0 ) < 0)
+				// {
+					// cerr << "Error on send HEAD packet\n";
+					// close ( sock );
+				// }
+				
+				// signed char ch;
+				// string echo = "";
+				
+				// /// HTTP reply message
+				// while ( recv( sock ,&ch, sizeof(ch), 0 ) == 1 ) 
+				// {
+					// echo += ch;
+				// }
+					
+				// cout << echo << endl;
 				
 				if (pthread_create(&threadID, NULL, spider_thread, sockFD) != 0)
 				{
@@ -127,7 +157,9 @@ int main ()
 			}
 		}
 		sleep(3);
-	}
+	//}
+	
+	while (1);
 	
 	close (client_sock);
     
@@ -307,7 +339,6 @@ void* spider_thread( void *args )
 		string item = *it;
 		list += (item + ";");
 	}
-	cout << list << endl;
 	
 	/// List of URLs size
 	int quantity = htonl(list.length());
@@ -321,6 +352,10 @@ void* spider_thread( void *args )
 	{
 		cerr << "Error on send urls list in string content\n";
     }
+	
+	cout << body_length << endl;
+	cout << quantity << endl;
+	cout << list << endl;
 	
 	close (sockFD);  
 	
