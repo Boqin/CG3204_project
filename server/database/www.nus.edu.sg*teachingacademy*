@@ -1,0 +1,570 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" --><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- SEO PHP tags to go here -->
+<META NAME="Author" CONTENT="Kiruthika Ragupathi">
+<META NAME="Classification" CONTENT="Singapore">
+<meta name="keywords" content="NUS Teaching Academy, Teaching Academy, Academy, Academy Fellows">
+<meta name="description" content="NUS Teaching Academy aims to foster a culture of teaching excellence and provides a platform to engage our outstanding teachers, enabling them to share their expertise and develop new pedagogies.">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>NUS Teaching Academy</title>
+<!-- InstanceEndEditable -->
+<!-- SEO PHP tags end -->
+<link rel="stylesheet" type="text/css" href="styles/base.css" media="screen, print, projection, handheld" />
+<link rel="stylesheet" type="text/css" href="styles/screen.css"  media="screen, projection, print" />
+<link rel="stylesheet" type="text/css" href="styles/mainnav.css"  media="screen, projection, print" />
+<link rel="stylesheet" type="text/css" href="styles/handheld.css"  media="handheld" />
+<link rel="stylesheet" type="text/css" href="styles/innerpage.css"  media="screen, print, projection" />
+<!-- InstanceBeginEditable name="head" -->
+<script type="text/javascript" src="js/left-menu.js"></script>
+<script type="text/javascript" src="js/cdtmails.js"></script>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<style type="text/css">
+            /* hide from ie on mac \*/
+            #website {
+               /* height: 100%;*/
+                overflow: hidden;
+            }
+            /* end hide */
+        .announce {
+	color: #009;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: left;
+}
+       .red {
+	color: #F00;
+	font-weight: bold;
+}
+       a:hover {
+	color: #00C;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.announceRed {
+	color: #F60;
+}
+.style1 {color: #000099}
+</style>      
+        
+        <script language="JavaScript" type="text/javascript"> 
+<!--
+//v1.7
+// Flash Player Version Detection
+// Detect Client Browser type
+// Copyright 2005-2008 Adobe Systems Incorporated.  All rights reserved.
+var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false;
+var isOpera = (navigator.userAgent.indexOf("Opera") != -1) ? true : false;
+function ControlVersion()
+{
+	var version;
+	var axo;
+	var e;
+	// NOTE : new ActiveXObject(strFoo) throws an exception if strFoo isn't in the registry
+	try {
+		// version will be set for 7.X or greater players
+		axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");
+		version = axo.GetVariable("$version");
+	} catch (e) {
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 6.X players only
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");
+			
+			// installed player is some revision of 6.0
+			// GetVariable("$version") crashes for versions 6.0.22 through 6.0.29,
+			// so we have to be careful. 
+			
+			// default to the first public version
+			version = "WIN 6,0,21,0";
+			// throws if AllowScripAccess does not exist (introduced in 6.0r47)		
+			axo.AllowScriptAccess = "always";
+			// safe to call for 6.0r47 or greater
+			version = axo.GetVariable("$version");
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 4.X or 5.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3");
+			version = axo.GetVariable("$version");
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 3.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3");
+			version = "WIN 3,0,18,0";
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 2.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash");
+			version = "WIN 2,0,0,11";
+		} catch (e) {
+			version = -1;
+		}
+	}
+	
+	return version;
+}
+// JavaScript helper required to detect Flash Player PlugIn version information
+function GetSwfVer(){
+	// NS/Opera version >= 3 check for Flash plugin in plugin array
+	var flashVer = -1;
+	
+	if (navigator.plugins != null && navigator.plugins.length > 0) {
+		if (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]) {
+			var swVer2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+			var flashDescription = navigator.plugins["Shockwave Flash" + swVer2].description;
+			var descArray = flashDescription.split(" ");
+			var tempArrayMajor = descArray[2].split(".");			
+			var versionMajor = tempArrayMajor[0];
+			var versionMinor = tempArrayMajor[1];
+			var versionRevision = descArray[3];
+			if (versionRevision == "") {
+				versionRevision = descArray[4];
+			}
+			if (versionRevision[0] == "d") {
+				versionRevision = versionRevision.substring(1);
+			} else if (versionRevision[0] == "r") {
+				versionRevision = versionRevision.substring(1);
+				if (versionRevision.indexOf("d") > 0) {
+					versionRevision = versionRevision.substring(0, versionRevision.indexOf("d"));
+				}
+			}
+			var flashVer = versionMajor + "." + versionMinor + "." + versionRevision;
+		}
+	}
+	// MSN/WebTV 2.6 supports Flash 4
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.6") != -1) flashVer = 4;
+	// WebTV 2.5 supports Flash 3
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.5") != -1) flashVer = 3;
+	// older WebTV supports Flash 2
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 2;
+	else if ( isIE && isWin && !isOpera ) {
+		flashVer = ControlVersion();
+	}	
+	return flashVer;
+}
+// When called with reqMajorVer, reqMinorVer, reqRevision returns true if that version or greater is available
+function DetectFlashVer(reqMajorVer, reqMinorVer, reqRevision)
+{
+	versionStr = GetSwfVer();
+	if (versionStr == -1 ) {
+		return false;
+	} else if (versionStr != 0) {
+		if(isIE && isWin && !isOpera) {
+			// Given "WIN 2,0,0,11"
+			tempArray         = versionStr.split(" "); 	// ["WIN", "2,0,0,11"]
+			tempString        = tempArray[1];			// "2,0,0,11"
+			versionArray      = tempString.split(",");	// ['2', '0', '0', '11']
+		} else {
+			versionArray      = versionStr.split(".");
+		}
+		var versionMajor      = versionArray[0];
+		var versionMinor      = versionArray[1];
+		var versionRevision   = versionArray[2];
+        	// is the major.revision >= requested major.revision AND the minor version >= requested minor
+		if (versionMajor > parseFloat(reqMajorVer)) {
+			return true;
+		} else if (versionMajor == parseFloat(reqMajorVer)) {
+			if (versionMinor > parseFloat(reqMinorVer))
+				return true;
+			else if (versionMinor == parseFloat(reqMinorVer)) {
+				if (versionRevision >= parseFloat(reqRevision))
+					return true;
+			}
+		}
+		return false;
+	}
+}
+function AC_AddExtension(src, ext)
+{
+  if (src.indexOf('?') != -1)
+    return src.replace(/\?/, ext+'?'); 
+  else
+    return src + ext;
+}
+function AC_Generateobj(objAttrs, params, embedAttrs) 
+{ 
+  var str = '';
+  if (isIE && isWin && !isOpera)
+  {
+    str += '<object ';
+    for (var i in objAttrs)
+    {
+      str += i + '="' + objAttrs[i] + '" ';
+    }
+    str += '>';
+    for (var i in params)
+    {
+      str += '<param name="' + i + '" value="' + params[i] + '" /> ';
+    }
+    str += '</object>';
+  }
+  else
+  {
+    str += '<embed ';
+    for (var i in embedAttrs)
+    {
+      str += i + '="' + embedAttrs[i] + '" ';
+    }
+    str += '> </embed>';
+  }
+  document.write(str);
+}
+function AC_FL_RunContent(){
+  var ret = 
+    AC_GetArgs
+    (  arguments, ".swf", "movie", "clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+     , "application/x-shockwave-flash"
+    );
+  AC_Generateobj(ret.objAttrs, ret.params, ret.embedAttrs);
+}
+function AC_SW_RunContent(){
+  var ret = 
+    AC_GetArgs
+    (  arguments, ".dcr", "src", "clsid:166B1BCA-3F9C-11CF-8075-444553540000"
+     , null
+    );
+  AC_Generateobj(ret.objAttrs, ret.params, ret.embedAttrs);
+}
+function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
+  var ret = new Object();
+  ret.embedAttrs = new Object();
+  ret.params = new Object();
+  ret.objAttrs = new Object();
+  for (var i=0; i < args.length; i=i+2){
+    var currArg = args[i].toLowerCase();    
+    switch (currArg){	
+      case "classid":
+        break;
+      case "pluginspage":
+        ret.embedAttrs[args[i]] = args[i+1];
+        break;
+      case "src":
+      case "movie":	
+        args[i+1] = AC_AddExtension(args[i+1], ext);
+        ret.embedAttrs["src"] = args[i+1];
+        ret.params[srcParamName] = args[i+1];
+        break;
+      case "onafterupdate":
+      case "onbeforeupdate":
+      case "onblur":
+      case "oncellchange":
+      case "onclick":
+      case "ondblclick":
+      case "ondrag":
+      case "ondragend":
+      case "ondragenter":
+      case "ondragleave":
+      case "ondragover":
+      case "ondrop":
+      case "onfinish":
+      case "onfocus":
+      case "onhelp":
+      case "onmousedown":
+      case "onmouseup":
+      case "onmouseover":
+      case "onmousemove":
+      case "onmouseout":
+      case "onkeypress":
+      case "onkeydown":
+      case "onkeyup":
+      case "onload":
+      case "onlosecapture":
+      case "onpropertychange":
+      case "onreadystatechange":
+      case "onrowsdelete":
+      case "onrowenter":
+      case "onrowexit":
+      case "onrowsinserted":
+      case "onstart":
+      case "onscroll":
+      case "onbeforeeditfocus":
+      case "onactivate":
+      case "onbeforedeactivate":
+      case "ondeactivate":
+      case "type":
+      case "codebase":
+      case "id":
+        ret.objAttrs[args[i]] = args[i+1];
+        break;
+      case "width":
+      case "height":
+      case "align":
+      case "vspace": 
+      case "hspace":
+      case "class":
+      case "title":
+      case "accesskey":
+      case "name":
+      case "tabindex":
+        ret.embedAttrs[args[i]] = ret.objAttrs[args[i]] = args[i+1];
+        break;
+      default:
+        ret.embedAttrs[args[i]] = ret.params[args[i]] = args[i+1];
+    }
+  }
+  ret.objAttrs["classid"] = classid;
+  if (mimeType) ret.embedAttrs["type"] = mimeType;
+  return ret;
+}
+// -->
+</script>
+  
+<!-- InstanceEndEditable -->
+</head>
+<body>
+<div id="wrapper">
+  <!-- header -->
+  <div id="header">
+    <div style="float:left; padding:15px 0px 0px 20px"><a href="http://www.nus.edu.sg/"><img src="http://www.nus.edu.sg/iw/resources/global/images/logo.gif"  alt="National University of Singapore" border="0"/></a></div> 
+    <div id="pointermenu2">
+      <ul>
+        <li><a href="http://exchange.nus.edu.sg/" target="_blank"><span style="text-transform:none">myEMAIL</span></a></li>
+        <li><a href="http://ivle.nus.edu.sg/lms/default.aspx" target="_blank">ivle</a></li>
+        <li><a href="http://www.lib.nus.edu.sg/" target="_blank">library</a></li>
+        <li><a href="http://www.nus.edu.sg/campusmap/" >maps</a></li>
+        <li><a href="http://aces01.nus.edu.sg/CoE/jsp/coeMain.jsp" >calendar</a></li>
+        <li><a href="http://www.nus.edu.sg/sitemap.php" >sitemap</a></li>
+        <li><a href="http://www.nus.edu.sg/contactus.php" >contact</a></li>
+        <li><a href="#" id="rightcorner">&nbsp;</a></li>
+      </ul>
+      <br style="clear: left" />
+    </div>
+    <div id="searchform">
+<script src="http://www.nus.edu.sg/search/search.js" type="text/javascript"></script>
+
+
+<FORM id="frmSearch" name="frmSearch" onSubmit="evalSearch();return false">
+		 <a href="http://www.nus.edu.sg/search/" style="text-decoration:none; font-size:11px; font-weight:bold; color:#666666">Search </a> 
+         <input id=txtKeyword name=txtKeyword type="Text" value="search for..." onfocus="value=''" class="equal" size="18">
+		 in
+		 <SELECT id="SearchMenu" name="SearchMenu">
+
+         <OPTION selected value="0">NUS Websites</OPTION>
+         <OPTION value="1">Internet</OPTION>					  
+         <OPTION value="2">Staff Directory</OPTION>
+		 <OPTION value="3">Advanced Search</OPTION>
+		 </SELECT>
+         		    <input class="equal" id="Go" src="http://www.nus.edu.sg/iw/resources/global/images/go.jpg" type="image">
+</FORM>
+
+         	</div>
+  </div>
+  <!--/header-->
+  <!-- main navigation -->
+  <div id="menu">
+   <ul>
+  <!-- Home -->
+      <li><a href="index.htm">Home </a>      </li>
+ <!-- About Us -->
+        <li><a href="about.htm" >About Us
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a href="vision-mission.htm" > Vision and Mission</a></li>
+          <li><a href="aims.htm" > Aims and Purposes</a></li>
+          <li><a href="functions.htm" > Functions and Activities</a></li>
+          <li><a href="structure.htm" >Structure </a>       </li>          
+         <li><a href="subcommittees.htm" > Sub-Committees</a></li>  
+         <li><a href="contact.htm" >Contact Us </a>    </li>  
+        
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+           
+ <!-- Fellows -->
+        <li><a href="fellows.htm" >Fellows
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a href="exco.htm" >Executive Council</a></li>
+          <li><a href="current-fellows.htm" >Current Fellows</a></li>
+          <li><a href="fellow-induction.htm" > Induction for New Fellows</a></li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+
+   <!-- Projects -->     
+      <li><a href="projects.htm" >Projects
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+          <ul>
+          <li><a href="projects-studentfeedback.htm" > Student Feedback</a></li>
+          <li><a href="projects-peerreview.htm" > Peer Review of Teaching</a></li>
+        </ul>
+       <!--[if lte IE 6]></td></tr></table></a><![endif]--> 
+      </li>
+       
+ <!-- Publications-->  
+       <li><a href="publications.htm" >Publications
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+          <ul>
+          <li><a href="jnusta/index.htm" > Journal of the NUS Teaching Academy (JNUSTA) </a></li>
+          <li><a href="acadmatters/index.htm" > Academy Matters</a></li>
+          <li><a href="acadjourneys/index.htm" > Academic Journeys</a></li>
+          <li><a href="online-resources/index.htm" > Online Resources</a></li>          
+        </ul>
+       <!--[if lte IE 6]></td></tr></table></a><![endif]--> 
+      </li>    
+
+<!-- Outreach -->
+       <li><a href="outreach.htm" >Outreach </a> </li>
+
+<!-- Masterclass -->
+       <li><a href="masterclass/index.htm" >Masterclass </a> </li>
+      
+ <!-- Events-->  
+		<li><a href="events.htm" >Events
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+          <ul>
+          <li><a href="acad-events.htm" > Academy Events</a></li>
+          <li><a href="acad-cdtl-events.htm" > Academy - CDTL Events</a></li>
+        </ul>
+       <!--[if lte IE 6]></td></tr></table></a><![endif]--> 
+      </li>
+       
+<!-- Photo Gallery-->  
+		<li><a href="gallery/index.htm" >Photo Gallery
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+          <ul>
+          <li><a href="gallery/mclass-events.htm" >Masterclass </a></li>
+          <li><a href="gallery/tlc-events.htm" >TLC Events</a></li>
+        </ul>
+       <!--[if lte IE 6]></td></tr></table></a><![endif]--> 
+      </li>
+
+      
+     
+    </ul>
+  </div>
+  <!-- /main navigation -->
+  <div id="bannercontent">
+    <div id="firstpgtitle" class="firstpgtitle">
+      <h1> </h1>
+          </div>
+      <div id="main-content">
+        <table width="100%" border="0">
+          <tr>
+            <td><!-- InstanceBeginEditable name="Main_text" -->
+              <table width="100%" border="0" cellpadding="2" cellspacing="0">
+                <tr>
+                  <td width="35%" height="823" align="center" valign="top" style="text-align: center"><p><img src="images/whats-new.gif" width="360" height="33" alt="What's New!" /></p>
+<table width="100%" border="1" cellspacing="3" cellpadding="3">
+                    <tr></tr>
+                    <tr>
+                      <td valign="top" bgcolor="#E4E4E4" class="txtsmall"><p align="left">                      <strong><span class="style1">Academy Matters</span> <br />
+                        </strong>Please <a href="acadmatters/pdf/AcadMatters_Nov2012.pdf">click here</a> to view the November 2012 issue of the <em>Academy Matters</em>. <br />
+                        <br />
+                      
+                        <p align="left"><span class="announce"><strong>Journal of the NUS Teaching Academy (JNUSTA):</strong></span><span class="announceRed"><strong> <br />
+                          <a href="jnusta/current-issue/index.htm" class="announceRed">NEW ISSUE</a> </strong></span><span class="announce"><strong>out now!</strong><br />
+                      </span>The editorial board is pleased to announce that the latest issue of JNUSTA (<a href="jnusta/current-issue/index.htm">Feb/Mar 2013, Vol.3 No.1</a>) has been published online.</p></td>
+                    </tr>
+                    </table></td>
+                  <td width="65%" align="center" valign="top" style="text-align: left">
+                    <table width="100%" border="0" cellpadding="5" cellspacing="5">
+                      <tr>
+                        <td height="33">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="550" height="270" id="FlashID" title="photos">
+                          <param name="movie" value="acad-main.swf" />
+                          <param name="quality" value="high" />
+                          <param name="wmode" value="opaque" />
+                          <param name="swfversion" value="6.0.65.0" />
+                          <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+                          <param name="expressinstall" value="Scripts/expressInstall.swf" />
+                          <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+                          <!--[if !IE]>-->
+                          <object type="application/x-shockwave-flash" data="acad-main.swf" width="550" height="270">
+                            <!--<![endif]-->
+                            <param name="quality" value="high" />
+                            <param name="wmode" value="opaque" />
+                            <param name="swfversion" value="6.0.65.0" />
+                            <param name="expressinstall" value="Scripts/expressInstall.swf" />
+                            <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+                            <div>
+                              <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+                              <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+                            </div>
+                            <!--[if !IE]>-->
+                          </object>
+                          <!--<![endif]-->
+                        </object></td>
+                      </tr>
+                      <tr>
+                        <td><p>
+                          </iframe>
+                        </p></td>
+                      </tr>
+                    </table></td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center" valign="top" style="text-align: center">&nbsp;</td>
+                </tr>
+              </table>
+            <!-- InstanceEndEditable --></td>
+          </tr>
+        </table>
+        
+        <div id="top">
+          <div align="right"><a href="#"><img src="images/top.gif" alt="top" width="32" height="12" border="0" /></a></div>
+        </div>
+      </div>
+  </div>
+  <!--footer-->
+  <div id="footer">
+    <div class="inner">
+      <div class="left">
+        <p>© Copyright 2001-2012 National University of Singapore. All Rights Reserved.</p>
+        <p><a href="http://www.nus.edu.sg/terms.php" >Terms of Use</a> | <a href="http://www.nus.edu.sg/policy.php" >Privacy</a> | <a href="http://www.nus.edu.sg/nondiscrim.php" >Non-discrimination</a>
+          <!-- | <a href="#">Using this site</a>-->
+        </p>
+      </div>
+      <div class="right">
+        <p class="copy"><a href="http://www.nus.edu.sg/sitemap.php" >Site Map</a> | <a href="http://www.nus.edu.sg/contactus.php" >Feedback</a> |<a href="http://www.nus.edu.sg/campusmap/" >Campus Map</a></p>
+<!-- InstanceBeginEditable name="Footer Date and Owner" -->Last modified on
+           <!-- #BeginDate format:Sw1 -->14 March, 2013<!-- #EndDate -->
+          <script type="text/javascript">
+swfobject.registerObject("FlashID");
+           </script>
+<!-- InstanceEndEditable --> 
+      </div>
+    </div>
+  </div>
+  <!-- End Footer -->
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "http://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+  <script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1546804-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+  <!--/footer-->
+</div>
+<!--/wrapper-->
+</body>
+<!-- InstanceEnd --></html>

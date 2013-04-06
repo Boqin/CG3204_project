@@ -1,0 +1,387 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Master.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>NUS - National University of Singapore</title>
+<link href="includes/style-new.css" type="text/css" rel="stylesheet" />
+<script src="includes/jquery.min.js" type="text/javascript"></script>
+
+<script language="JavaScript" type="text/javascript">
+var addthis_config = {ui_click: true }
+</script>
+
+<!--  Expandable box-->
+<link rel="stylesheet" type="text/css" href="quicklinks-module/styles/quicklinks_screen.css" />
+<link rel="stylesheet" type="text/css" href="quicklinks-module/styles/js.css" />
+
+
+<!-- Left Menu Start -->
+<script language="JavaScript" src="includes/left-menu.js" type="text/javascript"></script>
+<script language="JavaScript" src="includes/testleft-menu.js" type="text/javascript"></script>
+<!-- Left Menu End -->
+
+<!-- Searchbar Selector Start -->
+<script language="JavaScript" src="includes/search.js" type="text/javascript"></script>
+<!-- Searchbar Selector End -->
+
+<!-- Print Button Start -->
+<script language="JavaScript" src="includes/jquery.printElement.min.js" type="text/javascript"></script>
+<script language="JavaScript" src="includes/print.js" type="text/javascript"></script>
+<!-- Print Start Start -->
+
+
+<!-- Menu Fade Start -->
+<script type="text/javascript" src="includes/fade/jquery.hoverIntent.minified.js"></script>
+<script language="JavaScript" src="includes/fade.js" type="text/javascript"></script>
+<!-- Menu Fade End -->
+
+
+<!-- Searchbar Dropdown Start -->
+<script language="JavaScript" src="includes/searchbar-dropdown.js" type="text/javascript"></script>
+<!-- Searchbar Dropdown End -->
+
+<!-- Academic Dropdown Start -->
+<script language="JavaScript" src="includes/academic-dropdown.js" type="text/javascript"></script>
+<!-- Academic Dropdown Start -->
+
+<!-- Searchbar Selector Start -->
+<script language="JavaScript" src="includes/search.js" type="text/javascript"></script>
+<!-- Searchbar Selector End -->
+
+<!-- InstanceBeginEditable name="templateLevelHeader" -->
+                  
+<link rel="stylesheet" href="story/nivo-slider.css" type="text/css" media="screen" />
+<script src="story/jquery.nivo.slider.2.1.modif.js" type="text/javascript"></script>
+<script language="JavaScript" src="story/slider.js" type="text/javascript"></script>
+
+<style type="text/css">
+body {
+    font-size: 0.8em;
+}
+</style>
+            
+            
+<!-- InstanceEndEditable -->
+
+<style type="text/css">
+<!--
+.style1 {color: #666666}
+-->
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+  <div id="inner_wrapper">
+  	<div id="wrapper_content">
+		<!-- Header Section Start -->
+        <div id="header">
+		<a href="http://www.nus.edu.sg/">
+        <h1> <img src="images/logo.png" alt="nus" width="140" height="64" title="nus" /> </h1>
+		</a>
+        <div id="faculty-logo">
+            <a href="index.html">
+            <img width="300" height="64" alt="" src="images/global_cobrand.png">
+            </a>
+        </div>
+        <div class="header_right_sec">
+          <div class="top_links">
+            <div class="left_curve">
+              <div class="right_curve">
+                <ul>
+              <li><a href="http://exchange.nus.edu.sg/" target="_blank"><span style="text-transform: none;">myEmail</span></a></li>
+              <li><a href="https://ivle.nus.edu.sg/" target="_blank">IVLE</a></li>
+              <li><a href="http://www.lib.nus.edu.sg/" target="_blank">Library</a></li>
+              <li><a href="http://www.nus.edu.sg/campusmap/" target="_blank">Map</a></li>
+              <li><a href="http://www.nus.edu.sg/careers" target="_blank">Careers</a></li>
+              <li><a href="https://aces01.nus.edu.sg/CoE/jsp/coeMain.jsp" target="_blank">Calendar</a></li>
+          </ul>
+</div>
+            </div>
+          </div>
+          <div class="search_area">
+            <form id="frmSearch" name="frmSearch" onsubmit="evalSearch();return false;" action="#">
+            <div id="search-box">
+                        <input type="text"  value="Search by keyword"  onblur="if (this.value == '') {this.value = 'Search by keyword';}"  onfocus="if (this.value == 'Search by keyword') {this.value = '';}" id="txtKeyword" name="txtKeyword" />
+            </div>
+            <div id="search-coloumn">
+                 <select id="source" name="SearchMenu" >
+
+                        <option selected="selected" value="0">NUS Websites</option>
+              <option value="2">Staff Directory</option>
+
+                 </select>
+            </div>
+            <div id="go-coloumn">
+                <input name="" type="button" id="search-btn" value="Go" onclick="evalSearch();return false;"/>
+            </div>
+            </form>
+
+       	  </div>
+   	 	  </div>
+   	  </div>
+         <div class="clear"></div>
+		<!-- Header Section End -->
+        
+        <!-- Navigation Section Start -->
+      <div id="navigation_orange" >     
+         
+         <ul id="topnav">
+		 
+           <li><a href="index.html" class="parent">Home</a>  		   
+		   	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>
+                <li><h2><a href="president.html">President's Message</a></h2></li>
+		        <li><h2><a href="global_strategy.html">NUS' Global Strategy</a></h2></li>								                
+				<li><h2><a href="feature_stories_01.html">Feature Stories</a></h2></li>	
+				<li><h2><a href="CIS/index.html">China-India-Singapore Dialogue on Higher Education</a></h2></li>	
+				</ul>
+			 <ul>			              
+                <li><h2><a href="related_offices.html">Related Offices&nbsp; &nbsp; &nbsp; &nbsp;</a></h2></li>										   
+                <li class="sublink"><a href="related_offices.html">Office of the Vice President (University & Global Relations)</a></li>
+                <li class="sublink"><a href="http://www.nus.edu.sg/iro/" target="_blank" >International Relations Office</a></li>
+                <li class="sublink"><a href="http://www.nus.edu.sg/enterprise/" target="_blank" >NUS Enterprise</a></li>
+                <li class="sublink"><a href="iaru_secretariat.html">IARU Secretariat</a></li>
+                <li class="sublink"><a href="apru_secretariat.html">APRU Secretariat</a></li>
+                <li class="sublink"><a href="http://www.eucentre.sg/" target="_blank" >EU Centre</a></li>				
+              </ul>
+            <div class="clear"></div>
+            </div>            
+        </div>
+		   
+		   
+		     </li>
+		  
+	 <li><a href="students.html" class="parent">Students</a>    </li>
+	
+	<li><a href="faculty.html" class="parent">faculty</a></li>
+            <li><a href="education.html" class="parent">Education</a></li>
+            <li><a href="research.html" class="parent">Research</a></li>
+            <li><a href="enterprise.html" class="parent">Enterprise</a></li>
+            <li class="netWork"><a href="engagement01.html" class="parent">Engagement</a>            </li>
+            <li><a href="benchmarking.html" class="parent">benchmarking</a></li>
+            <li><a href="alumni.html" class="parent">alumni</a></li>
+
+        </ul>
+  </div>
+       
+        <!-- Navigation Section End -->
+	
+        <div id = "separator" height="1px"></div>
+    <!-- Banner Section End -->
+    <div id="content-area">
+    	<!-- InstanceBeginEditable name="NestedTemplateRegion" -->
+        <div id="content">
+            <!--flash map-->
+          <div style="z-index: 10; position: relative; height: 403px" >
+                
+                <p>
+                  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
+                        width="961" height="403" border="0">
+                    <param name="movie" value="swf/nusMap.swf" />
+                    <param name="quality" value="high" />
+                    <param name="wmode" value="transparent" />
+                    <embed src="swf/nusMap.swf" quality="high" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer"
+                            type="application/x-shockwave-flash" width="961" height="403"></embed>
+                  </object>
+                </p>
+          </div>
+            <!--main content-->
+            <table width="950" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="215" rowspan="2" valign="top" bgcolor="#FFFFFF">
+                        <table width="190" border="0" align="center" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td height="15" bgcolor="#FFFFFF">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="35" bgcolor="#FFFFFF" id="home-intro">
+                                    <span id="home-intro-title">Introduction</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#FFFFFF" style="padding: 8px 0px 0px 5px; font-size:12px;" id="home-intro">
+                                    <p>
+                                        Through strategic collaborations with our global partners and active participation
+                                        in global networks, NUS offers enriching global education, research and entrepreneurial
+                                        programmes.                                     </p>
+                                    <p>
+                                        Students have the opportunity to gain valuable cross-cultural experience and develop
+                                        a strong appreciation of global issues alongside perspectives from Asia.                                    </p>
+                                    <p>
+                                         Faculty are well-connected with other globally-oriented colleagues around the world,
+                                        collaborating in educational and research activities that cannot be achieved with
+                              the same effects in one location.
+                              </p>
+                              <p>&nbsp;</p></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td width="732" height="20" valign="top" bgcolor="#FFFFFF">&nbsp;
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" >
+                        <table border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr>
+								
+                                <td width="100%">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr bgcolor="#FFFFFF">
+                                          <td width="415" align="left" valign="top" bgcolor="#FFFFFF">
+                                          
+<!-- Featured Story Start --->                                          
+        <div id="slider"> 
+    <img src="images/story/1.jpg" alt="" title="#htmlcaption1"/>
+     
+    <img src="images/story/2.jpg" alt="" title="#htmlcaption2"/> 
+   	
+    <img src="images/story/3.jpg" alt="" title="#htmlcaption3"/> 
+    
+    <img src="images/story/4.jpg" alt="" title="#htmlcaption4"/> 
+    
+    <img src="images/story/5.jpg" alt="" title="#htmlcaption5"/> 
+        </div>
+
+        <div id="htmlcaption1" class="nivo-html-caption" style="display:none"> 
+        <a href="CIS/index.html">
+        <h3>China-India-Singapore Dialogue on Higher Education</h3>
+        <p class="caption-desc">
+          The NUS China-India-Singapore Dialogue on Higher Education provides a platform for policy and thought leaders on higher education development and planning in China, India and Singapore to come together, to discuss issues and exchange views.
+          </p>
+        </a></div>
+                   
+   
+        <div id="htmlcaption2" class="nivo-html-caption" style="display:none"> 
+        <a href="feature_stories_01.html">
+        <h3>Transformed in Washington DC</h3>
+        <p class="caption-desc">
+          My seven months on SEP was a transformative time for me. As I met people from many different cultures and countries . . .
+          </p>
+        </a></div>
+        
+       
+        
+     	<div id="htmlcaption3" class="nivo-html-caption" style="display:none">
+        <a href="http://www.nus.edu.sg/iro/events/ied/index.html">
+        <h3>International Exchange Day</h3>
+        <p class="caption-desc">
+         International Exchange Day (IED) 2012, organised by the International Relations Office, was held amidst much vibrancy and fanfare on 6 September at the University Town Plaza . . .
+         </p>
+        </a></div>        
+        
+           
+        <div id="htmlcaption4" class="nivo-html-caption" style="display:none">
+        <a href="feature_stories_02.html">
+        <h3>STEER Vietnam 2011</h3>
+        <p class="caption-desc">
+        Who is an entrepreneur and what makes an entrepreneur? It was timely when I found out about STEER Vietnam 2011- the programme's theme centred on community development and social entrepreneurship . . .
+         </p>
+        </a></div>        
+        
+        <div id="htmlcaption5" class="nivo-html-caption" style="display:none">
+        <a href="feature_stories_03.html">
+        <h3>SEP at Lund University</h3>
+        <p class="caption-desc">
+        Lund is a beautiful university steeped in tradition. The Gothic architecture and sprawling greens around campus presented me with an ideal ground to appreciate knowledge . . .
+        </p>
+        </a></div>                                              
+                                          
+<!-- Featured Story End --->     
+                                                                        
+										  </td>
+                                            <td align="left" valign="top">
+                                                <img src="images/blank.gif" width="15" />                                            </td>
+                                            <td width="270" align="centre" valign="top" bgcolor="#FFFFFF" height="242.5">
+                                                <div class="expandable-box theLinks">
+                                                    <div class="inner">
+                                                        <a href="#">
+                                                            <img src="images/campaign.png" width="114" height="28" /></a>
+                                                        <ul style="padding-left: 35px">
+                                                            <li><a href="http://www.nus.edu.sg/global/CIS" target="_blank">China-India-Singapore Dialogue on Higher Education</a></li>
+                                                            <li><a href="http://www.nus.edu.sg/iro/" target="_blank">International Relations Office</a></li>
+                                                            <li><a href="http://www.nus.edu.sg/iro/sep/out/index.html" target="_blank">Student Exchange
+                                                                Programmes
+                                                                <br />
+                                                                (for NUS Students)</a></li>
+                                                            <li><a href="http://www.nus.edu.sg/iro/sep/in/index.html" target="_blank">Student Exchange
+                                                                Programmes
+                                                                <br />
+                                                                (for International Students)</a></li>
+                                                            <li><a href="http://www.nus.edu.sg/global/steer.html">STEER Programmes</a></li>
+                                                            <li><a href="http://www.nus.edu.sg/iro/opps/intern/index.html" target="_blank">International
+                                                                Internships</a></li>
+                                                            <li><a href="http://www.nus.edu.sg/iro/opps/irap/index.html" target="_blank">International
+                                                                Research Attachment Programmes</a></li>
+                                                            <li><a href="http://www.nus.edu.sg/iro/opps/summer/index.html" target="_blank">Summer
+                                                                Programmes</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <!--/inner-->
+                                                <p class="tab">                                                </div>                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:6px;">
+                                   <table cellpadding="0">
+                                   <tr><td>
+                                     <p style="font-size:13px;">国大与世界各地伙伴进行战略合作，并积极参与各种全球性组织和联盟的活动，从而提供一系列富有意义的全球化教育、研究与创业项目。</p>
+                                     
+                                   </td></tr>
+                                   </table>
+                                    
+                              </td>
+                            </tr>
+                                                        
+                            <tr>
+                              <td style="padding:0 8px; font-size:13px;">
+                                    
+                                    <div>通过这些项目，国大学生有机会获得宝贵的跨文化体验，一方面能够通过亚洲的视角，另一方面也能够从多文化的角度来深入了解、分析各种全球性课题。 </div>
+                              </td>
+                            </tr>
+                            
+                            <tr>
+                              <td  style="padding:8px;">
+                                 <span>同时，为了突破新加坡的地域局限，国大教授积极与世界各地具有国际视野的学者们展开研究与教学方面的合作，达到了比较好的效果。</span>
+                              </td>
+                            </tr>                           
+                        </table>
+                 </tr>
+            </table>
+        </div>
+      <!-- InstanceEndEditable -->    </div>
+     <!-- Carousel Section Start -->
+     <!-- Carousel Section End -->
+<div class="clear"></div>
+	</div>
+	
+  </div>
+  <div class="bottom_curve">&nbsp;</div>
+    	<!-- Footer Section Start -->
+        	<div id="footer">
+                <div class="left_sec">
+                  <p>&copy; Copyright 2001-2012<strong> National University of Singapore.</strong> All Rights Reserved.</p>
+                  <ul>
+                    <li><a href="http://www.nus.edu.sg/terms-of-use">Terms&nbsp;of&nbsp;Use</a></li>
+                    <li><a href="http://www.nus.edu.sg/privacy">Privacy</a></li>
+                    <li class="last"><a href="http://www.nus.edu.sg/non-discrimination">Non-discrimination</a></li>
+                  </ul>
+                </div>
+              <div class="right_sec">
+                <ul>
+                    <li> <a href="http://www.nus.edu.sg/">Home</a> </li>
+                    <li> <a href="http://www.nus.edu.sg/sitemap.php">Site&nbsp;Map</a> </li>
+                    <li class="last"> <a href="http://www.nus.edu.sg/campusmap/">Contact us</a> </li>
+                </ul>
+                <p>Last modified on <!-- #BeginDate format:Am1 -->February 1, 2013<!-- #EndDate --> by <a href="mailto:ugrbox2@nus.edu.sg">Office of the Vice President (University & Global Relations)</a></p>
+                </div>
+  </div>
+        <!-- Footer Section End -->
+</div>
+</body>
+<!-- InstanceEnd --></html>
