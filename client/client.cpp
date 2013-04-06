@@ -12,13 +12,12 @@
 #include <fstream>
 #include <pthread.h>
 
-#define FILE "url.txt"
-
 using namespace std;
 
 string gethostaddr(string url);
 string getHostUrl(string url);
 string getLocationUrl(string url);
+bool findValid(string toplevel);
 void* spider_thread ( void *args );
 
 deque <string> all_links;
@@ -33,6 +32,10 @@ int main ()
 	int client_sock;
 	struct sockaddr_in server_addr;
 	struct hostent *server_host;
+	string IP_Address;
+	
+	cout << "Please type server's IP Address: ";
+	cin >> IP_Address;
 	
     /// Create new TCP socket.
     if ( ( client_sock = socket ( AF_INET , SOCK_STREAM , 0 ) ) < 0 ) 
@@ -41,7 +44,7 @@ int main ()
         return -1;
     }
 	
-	server_host = gethostbyname("127.0.0.1");
+	server_host = gethostbyname(IP_Address.c_str());
 	
 	memset( &server_addr , 0 , sizeof ( struct sockaddr_in ) );
     server_addr.sin_family = AF_INET;
@@ -59,35 +62,37 @@ int main ()
 	int net_len = 1000;
 	serverFD = client_sock;
 	
-	//while (recv( client_sock ,&net_len, 4, 0 )) 
-	//{
+	cout << "START" << endl;
+	
+	while (recv( client_sock ,&net_len, 4, 0 )) 
+	{
 		int length;
 		length = ntohl(net_len);
 		
 		if (length != 0)
 		{
+			cout << endl;
+			cout << "Start Crawler" << endl;
+			
 			/// receive url string from server
 			signed char ch;
-			//string url_from_server;
-			string url_from_server = "http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd";
+			string url_from_server;
 			
-			// for (int i = 0;  i < length; ++i) 
-			// {
-				// recv( client_sock , &ch, 1, 0 );
-				// url_from_server += ch;
-			// }
+			for (int i = 0;  i < length; ++i) 
+			{
+				recv( client_sock , &ch, 1, 0 );
+				url_from_server += ch;
+			}
 			
-			cout << length << endl;
-			cout << url_from_server << endl;
+			// cout << url_from_server << endl;
+			// cout << length << endl;
 			
 			string temp = gethostaddr(url_from_server);
+			// cout << temp << endl;
 			
-			cout << temp << endl;
-
-			struct hostent *HOST;
-			HOST = gethostbyname(getHostUrl(temp).c_str());
+			cout << endl;
 			
-			if (HOST != NULL)
+			if (gethostbyname(getHostUrl(temp).c_str()) != NULL)
 			{		
 				/// divide url string into host and location url
 				hostAddress = getHostUrl(temp);
@@ -157,7 +162,7 @@ int main ()
 			}
 		}
 		sleep(3);
-	//}
+	}
 	
 	while (1);
 	
@@ -170,6 +175,7 @@ string gethostaddr(string full_addr)
 {
 	string link = "";
     string http( full_addr.begin(), full_addr.begin()+7 );
+	string https( full_addr.begin(), full_addr.begin()+8 );
 	
     if (!http.compare("http://"))
     {
@@ -180,7 +186,7 @@ string gethostaddr(string full_addr)
     else
     {
 		/// there is no http
-        link = full_addr;
+		link = full_addr;
 	}
     
     return link;
@@ -225,7 +231,46 @@ string getLocationUrl(string full_addr)
 	return link;
 }
 
-
+bool findValid(string temp)
+{
+	if (temp.compare("js") == 0)
+	{
+		return false;
+	}
+	
+	if (temp.compare("dtd") == 0)
+	{
+		return false;
+	}
+	
+	if (temp.compare("gif") == 0)
+	{
+		return false;
+	}
+	
+	if (temp.compare("pdf") == 0)
+	{
+		return false;
+	}
+	
+	if (temp.compare("jpg") == 0)
+	{
+		return false;
+	}
+	
+	if (temp.compare("css") == 0)
+	{
+		return false;
+	}
+	
+	if (temp.compare("ico") == 0)
+	{
+		return false;
+	}
+	
+	return true;
+	
+}
 
 /* Thread process */
 void* spider_thread( void *args )
@@ -246,7 +291,11 @@ void* spider_thread( void *args )
     server.sin_addr = *((struct in_addr *) host_addr->h_addr);
     bzero(&(server.sin_zero),8);
 	
-    if (connect(sockFD, (struct sockaddr *)&server, sizeof(struct sockaddr)) == -1) 
+	int conn = connect(sockFD, (struct sockaddr *)&server, sizeof(struct sockaddr));
+	
+	cout << "Connect: " << conn << endl;
+	
+    if (conn == -1) 
     {
 		cerr << "Error connecting\n";
         close ( sockFD );
@@ -264,6 +313,8 @@ void* spider_thread( void *args )
         pthread_exit(NULL);
     }
 	
+	cout << "send" << endl;
+	
     signed char ch;
     string echo = "";
     
@@ -273,14 +324,25 @@ void* spider_thread( void *args )
         echo += ch;
     }
 	
+	cout << "Received HTTP reply message" << endl;
+	
 	/// HTTP html body
 	unsigned pos = echo.find("\r\n\r\n");
 	string httpbody = echo.substr (pos+4);
-	pos = httpbody.find_first_of("\r\n");
-	string body = httpbody.substr(pos+2);
+	
+	cout << "Editing" << endl;
+	
+	unsigned newpos = httpbody.find_first_of("\r\n");
+	string body = httpbody.substr(newpos+2);
+	
+	cout << "Edited" << endl;
+	
+	//cout << body << endl;
+	
+	deque <string> temp_links;
 	
     /// Extract all URLs from the HTTP response 
-    string regex_pattern = "(http://|https://)([a-zA-Z0-9]+\.[a-zA-Z0-9\-]+|[a-zA-Z0-9\-]+)\.[a-zA-Z\.]{2,25}(/[a-zA-Z0-9\.\?=/#%&\+-]+|/|)";
+    string regex_pattern = "(http://)([a-zA-Z0-9]+\.[a-zA-Z0-9\-]+|[a-zA-Z0-9\-]+)\.[a-zA-Z\.]{2,25}(/[a-zA-Z0-9\.\?=/#%&\+-]+|/|)";
     boost::cmatch match;
     boost::regex rgx (regex_pattern);
     
@@ -289,22 +351,34 @@ void* spider_thread( void *args )
         string host_url = getHostUrl( match.str() );
 		string location_url = getLocationUrl( match.str() );
        
-		string new_url = host_url + location_url;
-	   
+		string url = gethostaddr(host_url + location_url);
+		
+		unsigned found_1 = url.find_last_of("/\\");
+		unsigned found_2 = (url.substr(found_1 + 1)).find_last_of(".");
+		
+		string tld = (url.substr(found_1 + 1)).substr(found_2 + 1);
+		
+		if (!findValid(tld))
+		{
+			echo = match.suffix().str();		
+			continue;
+		}
+		
         pthread_mutex_lock(&lock);
         
 		bool exist = false;
         for (deque<string>::iterator it = all_links.begin(); it!=all_links.end(); ++it)
         {
-			if (*it == new_url)
+			if (*it == url)
             {
 				exist = true;
             }
         }
-        
+		
 		if (!exist)
         {
-            all_links.push_back(new_url);
+            all_links.push_back(url);
+			temp_links.push_back(url);
         }
 		
         pthread_mutex_unlock(&lock);
@@ -334,7 +408,7 @@ void* spider_thread( void *args )
     }
 	
 	string list = "";
-	for (deque<string>::iterator it = all_links.begin(); it != all_links.end(); ++it)
+	for (deque<string>::iterator it = temp_links.begin(); it != temp_links.end(); ++it)
 	{
 		string item = *it;
 		list += (item + ";");
@@ -350,14 +424,16 @@ void* spider_thread( void *args )
 	/// List of URLs
 	if (send(serverFD, list.c_str(), list.length(), 0) < 0) 
 	{
+
 		cerr << "Error on send urls list in string content\n";
     }
 	
-	cout << body_length << endl;
-	cout << quantity << endl;
-	cout << list << endl;
+	// cout << body_length << endl;
+	// cout << quantity << endl;
+	// cout << list << endl;
 	
 	close (sockFD);  
 	
     pthread_exit(NULL);
 }
+///192.168.43.180
