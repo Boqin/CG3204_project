@@ -68,7 +68,7 @@ int main (int argc , char **argv)
     serverAddress.sin_port = htons ( port );
     serverAddress.sin_addr.s_addr = INADDR_ANY;
     if ( bind ( socketFD , (const struct sockaddr*) &serverAddress ,
-                sizeof ( struct sockaddr_in ) ) < 0 )
+    	sizeof ( struct sockaddr_in ) ) < 0 )
 	{
         std :: cerr << "Error on bind()\n";
         close ( socketFD );
@@ -88,13 +88,11 @@ int main (int argc , char **argv)
     cout << "Echo Server Running on Port " << port << endl;
     
 	int newSocketFD;
-	// get the last crawled URL
-	string fn = "www.nus.edu.sg";
-	cout << "Starts from URL: " << fn << endl;
+	// load the two queues
 	load_quested_urls(DB_DIR);
 	load_unquested_urls(URL_DIR);
 	// print_list(quested_urls);
-	unquested_urls.push_back(fn);
+	// print_list(unquested_urls);
 
     while (true)
 	{
@@ -202,7 +200,8 @@ void print_list(list<string> l)
 // print at most 10 URLs from unquested_urls into database
 void print_list_to_file(list<string> l, string dir)
 {
-	ofstream f(dir.c_str());
+	ofstream f;
+	f.open(dir.c_str());
 	if(f.is_open())
 	{
 		list<string>::iterator iter;
