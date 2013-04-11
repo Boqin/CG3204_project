@@ -91,7 +91,7 @@ app = Flask(__name__)
 def index():
   return render_template('template.html')
 
-@app.route('/my-link/')
+@app.route('home/boqin/Dropbox/Year 4/Sem2, AY12-13/CG3204L/CG3204L_project/')
 def my_link():
   print 'I got clicked!'
 
