@@ -93,6 +93,7 @@ for ri in list_ri:
 	for pg in list_pg:
 		if ri == pg.get_ri():
 			ranked_list_pg.append(pg)
+
 if len(ranked_list_pg) <= 10:
 	generate_html(ranked_list_pg, keyword)
 else:
