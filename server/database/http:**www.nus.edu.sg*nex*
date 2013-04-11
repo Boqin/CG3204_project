@@ -1,0 +1,615 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-12831111-8");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>NUS - National University of Singapore</title>
+<link href="includes/style.css" type="text/css" rel="stylesheet" />
+<script src="includes/jquery.min.js" type="text/javascript"></script>
+
+<script language="JavaScript" type="text/javascript">
+var addthis_config = {ui_click: true }
+</script>
+
+<!-- Main Banner Slider Start -->
+<script type="text/javascript" src="includes/banner.js"></script>
+<!-- Main Banner Slider End -->
+
+<!-- Carousel Left Slider Start -->
+<link rel="stylesheet" type="text/css" href="includes/skin.css" />
+<script type="text/javascript" src="includes/jquery.jcarousel.min.js"></script>
+<script language="JavaScript" src="includes/caraousel-left.js" type="text/javascript"></script>
+<!-- Carousel Left Slider End -->
+
+<!-- Menu Fade Start -->
+<script type="text/javascript" src="includes/jquery.hoverIntent.minified.js"></script>
+<script language="JavaScript" src="includes/fade.js" type="text/javascript"></script>
+<!-- Menu Fade End -->
+
+<!-- Searchbar Dropdown Start -->
+<script language="JavaScript" src="includes/searchbar-dropdown.js" type="text/javascript"></script>
+<!-- Searchbar Dropdown End -->
+
+<!-- Searchbar Selector Start -->
+<script language="JavaScript" src="includes/search.js" type="text/javascript"></script>
+<!-- Searchbar Selector End -->
+
+</head>
+
+<body>
+<div class="wrapper">
+  <div id="inner_wrapper">
+  	<div id="wrapper_content">
+		<!-- Header Section Start -->
+        <div id="header"> 
+         <h1> <a href="index.htm"><img src="images/logo.png" alt="NUS Extension" width="109" height="89" title="NUS Extension" border="0" /></a>
+         </h1>
+        <div class="header_right_sec">
+          <div class="top_links">
+            <div class="left_curve">
+              <div class="right_curve">
+                <ul>
+                  <li><a href="http://exchange.nus.edu.sg/" target="_blank">myEmail</a></li>
+                  <li><a href="https://ivle.nus.edu.sg/" target="_blank">IVLE</a></li>
+                  <li><a href="http://www.lib.nus.edu.sg/" target="_blank">Library</a></li>
+                  <li><a href="http://www.nus.edu.sg/campusmap">Map</a></li>
+                  <li><a href="https://aces01.nus.edu.sg/CoE/jsp/coeMain.jsp" target="_blank">Calendar</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="search_area">
+            <form id="frmSearch" name="frmSearch" onsubmit="evalSearch();return false;" action="#">
+            <div id="search-box">
+                        <input type="text"  value="Search by keyword"  onblur="if (this.value == '') {this.value = 'Search by keyword';}"  onfocus="if (this.value == 'Search by keyword') {this.value = '';}" id="txtKeyword" name="txtKeyword" />
+            </div>
+            <div id="search-coloumn">
+                 <select id="source" name="SearchMenu" >
+
+                         <option selected="selected" value="0">NUS Website</option>
+
+                         <option value="1">Internet</option>
+          
+                         <option value="2">Staff Directory</option>
+
+                 </select>
+            </div>
+            <div id="go-coloumn">
+                <input name="" type="button" id="search-btn" value="Go" onclick="evalSearch();return false;"/>
+            </div>
+            </form>
+
+       	  </div>
+   	 	  </div>
+   	  </div>
+         <div class="clear"></div>
+		<!-- Header Section End -->
+        
+     
+       <!-- Navigation Section Start -->
+      <div id="navigation_orange">     
+         
+      <ul id="topnav">
+      <li><a href="index.htm" class="parent">Home</a>
+    	  
+          
+      <!-- About Us -->    
+      <li><a href="#" class="parent">About Us</a>
+    
+      <div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>
+               <li><h2><a href="AboutUs/DirectorsMessage.htm">Director's Message
+</a></h2></li> 
+               <li><h2><a href="AboutUs/VisionAndMission.htm">Vision and Mission
+</a></h2></li>			   
+               <li><h2><a href="AboutUs/CorporateProfile.htm">Corporate Profile</a></h2><br /></li>            
+			   <li><h2><a href="AboutUs/OurTrainers.htm">Our Trainers</a></h2></li>
+               <li><h2><a href="AboutUs/OurCustomers.htm">Our Customers</a></h2></li>
+                               <li><a href="AboutUs/OurCustomers.htm#gov">Government Agencies</a></li>
+                <li><a href="AboutUs/OurCustomers.htm#cor">Corporate Companies</a></li>
+                <li><a href="AboutUs/OurCustomers.htm#club">Embassies, Clubs and Associations</a></li>                
+                <li><a href="AboutUs/EducationalInstitutions.htm">Educational Institutions</a></li>                
+               <li><h2><a href="AboutUs/StudentTestimonials.htm">Students Testimonials</a></h2></li>
+               
+               <li><h2><a href="AboutUs/TermsAndConditions.htm">Terms and Conditions
+</a></h2></li>
+
+			</ul>          
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    
+    <!-- End of About Us --> 
+    
+    
+    <!-- Programmes --> 
+    
+    <li><a href="#" class="parent">Programmes
+</a> 
+     
+       <div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>  
+               
+               <li><h2><a href="Programmes/ProfessionalSkillsTraining/index.htm">Professional Skills Training</a></h2></li>     
+               
+               <li><h2><a href="Programmes/PersonalAndInterpersonalSkills/index.htm">Soft Skills Training</a></h2></li>
+               
+               <li><a href="Programmes/PersonalAndInterpersonalSkills/index.htm">Personal and Interpersonal Skills
+</a></li>
+
+                <li><a href="Programmes/PersonalAndInterpersonalSkills/KoreanLanguageProgramme_index.htm">Korean Language Programme
+</a></li>
+
+               <li><h2><a href="Programmes/CustomisedTrainingProgrammes/index.htm">Customised Training Programmes</a></h2></li>    
+                 
+               <li><h2><a href="Programmes/Full-TimeProgrammes/index.htm">Full-Time Programmes</a></h2><br /></li>
+                <li><a href="Programmes/Full-TimeProgrammes/index-el.htm">English Language Programme
+</a></li>
+                <li><a href="Programmes/Full-TimeProgrammes/index-md.htm">Intensive Mandarin Programme
+</a></li>
+                  
+               <li><h2><a href="Programmes/E-Learning/index.htm">e-Learning</a></h2></li>             
+            
+            </ul>
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li> 
+    <!-- End of Programmes --> 
+    
+    <!-- International Students --> 
+     <li><a href="#" class="parent">International Students</a>
+     
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>
+             <li><h2><a href="InternationalStudents/Sci-TechExplorerCamp.htm">Sci-Tech Explorer Camp
+</a></h2></li>
+               
+             <li><h2><a href="InternationalStudents/NUSScience.htm">NUS Science Summer Camp
+</a></h2></li>
+
+  			 <li><h2><a href="InternationalStudents/NUSComputingCamp.htm">NUS Computing Camp</a></h2></li>
+
+  			 <li><h2><a href="InternationalStudents/EnglishImmersionBusSkillsProg.htm">English Immersion and Cultural Exploration Camp</a></h2></li>
+
+
+ <li><h2><!--<a href="../Programmes/Full-TimeProgrammes/index.htm">-->Asian Perspective Programme</a></h2><br /></li>
+                <li><a href="InternationalStudents/AsianPerspective6weeks.htm">6 weeks
+</a></li>
+                <li><a href="InternationalStudents/AsianPerspective11weeks.htm">11 weeks
+</a></li>
+	 
+ <li><h2><a href="Programmes/Full-TimeProgrammes/index.htm">Full-Time Programmes</a></h2><br /></li>
+                
+                <li><a href="Programmes/Full-TimeProgrammes/index-el.htm">English Language Programme</a></li>
+               
+               
+                <li><a href="Programmes/Full-TimeProgrammes/index-md.htm">Intensive Mandarin Programme</a></li>
+                
+
+<li><h2><a href="InternationalStudents/KoreanLanguageAndCultureStudy.htm">Korean Language & Culture Study Abroad Programme</a></h2></li>
+
+
+            </ul>          
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    
+    <!-- End of International Students --> 
+    
+    
+    <!-- Newsroom --> 
+    
+    <li><a href="#" class="parent">Newsroom
+</a>
+    <div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>
+               <li><h2><a href="Newsroom/News.htm">News</a></h2></li>
+                <li><h2><a href="Newsroom/PhotoGallery.htm">Photo Gallery
+</a></h2></li>
+  
+  <li><h2><a href="Newsroom/VideoGallery.htm">Video Gallery</a></h2></li>
+ 
+ <li><h2><a href="Newsroom/Newsletter.htm">Newsletter</a></h2></li>
+            </ul>          
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    
+    <!-- End of Newsroom --> 
+    
+    
+    <!-- Contact Us --> 
+    <li><a href="#" class="parent">Contact Us
+</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>
+               
+               <li><h2><a href="contact/index.htm">Contact Information</a></h2></li>
+               
+                <li><h2><a href="http://www.websparks.com.sg/nex/enquiry.php" target="_blank">Enquiries and Feedbacks</a></h2></li>
+                
+                <li><h2><a href="http://www.websparks.com.sg/nex/brochurerequest.php" target="_blank">Request for Brochure</a></h2></li>
+                
+                      <li>
+                        <h2><a href="http://www.websparks.com.sg/nex/CTPrequest.php" target="_blank">Request for Customised Training Programme</a></h2></li>
+                
+                 <li><h2><a href="http://www.websparks.com.sg/nex/mailing.php" target="_blank">Sign Up for Mailing List</a></h2></li>
+                
+            </ul>          
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    
+ <!-- End of Contact Us --> 
+  
+    
+</ul>
+  <div class="clear"></div>
+</div>
+       
+        <!-- Navigation Section End -->
+        
+        
+      <div id="clear"></div>
+        
+        
+        <!-- Banner Section Start -->
+        <div id="banner_section">
+        
+        
+        <div id="banner">
+		<!-- InstanceBeginEditable name="banner" -->
+ 
+        <!-- script for banner -->
+
+
+<div id="homepage-rotator">
+
+<!-- First slide -->  
+   
+<div class="home-top-block-container">
+<div class="home-top-block">
+<div class="home-top-intro">
+
+<h1 title="Design Thinking for Creative Innovation">Zheng He's<br />
+Art of Collaboration</h1><br />
+<h2>Learning Trip to Malacca (31 May – 01 Jun)</h2>
+<p>Historical records reveal that Zheng He visited Malacca on more than 5 occasions during his 7 voyages to the Western Ocean.  Embark on a journey to follow the footprints of Zheng He in Malacca and also, learn about his secrets to achieving collaborative success.</p>
+<br />
+  
+</p>
+<p>Click <a href="http://www.nus.edu.sg/nex/Programmes/PersonalAndInterpersonalSkills/Programmes/ZhengHe2D1N.htm"><em>here</em></a> to find out more.</p>
+
+<!--<p class="read_more2 pad2" title="Read More"><a href="#">&nbsp;</a></p>-->
+  
+</div><!--/#home top intro-->
+
+<div class="home-slide-wrapper">
+ <div class="photo-thumb">
+ <!--<img src="images/banner/banner01.jpg" class="imagecache imagecache-home_hero_rotator_thumb" width="124" height="93" />  -->
+ </div>
+  <div class="photo">
+  <!--<img src="images/banner01.jpg" width="741" height="423" class="imagecache imagecache-home_hero_rotator_main borderless" alt="First Banner" />-->
+  <img src="images/banner_ZhengHe MalaccaStudy.jpg" width="741" height="423" class="imagecache imagecache-home_hero_rotator_main borderless" alt="First Banner" />
+  </div><!--/photo-->
+</div><!--/#home slide wrapper-->
+ </div>
+  </div>
+  
+<!-- End of First slide -->    
+  
+
+<!-- Second slide -->    
+
+<div class="home-top-block-container hide">
+<div class="home-top-block">
+<div class="home-top-intro">
+  <!--<h1 title="Slide 2">Essential to differentiate yourself</h1>
+  <h2>Soft Skills Training (Personal & Interpersonal Skills)</h2>
+ 
+<p>NUS Extension’s suite of personal and interpersonal skills training courses is designed to help both executives and senior executives gain the soft skills they need in harnessing the collective capabilities of fellow team members towards achieving set objectives.</p><br />
+<p>Click <a href="Programmes/PersonalAndInterpersonalSkills/index.htm"><em>here</em></a> to find out more.</p>-->
+
+<h1 title="Slide 2">Excel Powerful Financial Functions </h1>
+  <h2>Learn how to make use of the intrinsic functions of Excel and turning spreadsheets into a financial tool.</h2>
+ 
+<p><a href="http://www.nus.edu.sg/nex/Programmes/ProfessionalSkillsTraining/OfficeApplicationsDevelopment/FinancialModelingUsingExcel.htm">Financial Modelling Using Excel (06 – 07 May)</a></p><br />
+<p><a href="http://www.nus.edu.sg/nex/Programmes/ProfessionalSkillsTraining/OfficeApplicationsDevelopment/DataManagementAndAnalysisWithPivotTable.htm">Data Management & Analysis with Pivot Table (08 May) </a></p><br/>
+<!--<p>Click <a href="http://www.nus.edu.sg/nex/Programmes/PersonalAndInterpersonalSkills/Programmes/GetToThePoint.htm"><em>here</em></a> to find out more.</p>  --> 
+
+</div><!--/#home top intro-->
+
+
+<div class="home-slide-wrapper">
+ <div class="photo-thumb">
+ <!--<img src="images/banner/banner01.jpg" class="imagecache imagecache-home_hero_rotator_thumb" width="124" height="93" />-->  
+ </div>
+  <div class="photo">
+  <!--<img src="images/banner02.jpg" width="741" height="423" class="imagecache imagecache-home_hero_rotator_main borderless" alt="Second Banner" />-->
+  <img src="images/banner2_computer.jpg" width="741" height="423" class="imagecache imagecache-home_hero_rotator_main borderless" alt="Second Banner" /> 
+  </div><!--/photo-->
+</div><!--/#home slide wrapper-->
+ </div>
+  </div>
+  
+<!-- End of Second slide -->    
+
+
+<!-- Third slide -->    
+
+<div class="home-top-block-container hide">
+<div class="home-top-block">
+<div class="home-top-intro">
+  <h1 title="Slide 3">Customised Training Programmes</h1>
+  
+<p>NUS Extension offers tailored training solutions that deliver positive cost benefits, maximise employees' potential and increase productivity to organisations.  We work closely with our clients to understand their training objectives and needs during the programme development process.</p>
+<br />
+
+<p>Click <a href="Programmes/CustomisedTrainingProgrammes/index.htm"><em>here</em></a> to find out more.</p>
+
+
+</div><!--/#home top intro-->
+
+
+<div class="home-slide-wrapper">
+ <div class="photo-thumb">
+ <!--<img src="images/banner/banner01.jpg" class="imagecache imagecache-home_hero_rotator_thumb" width="124" height="93" />  -->
+ </div>
+  <div class="photo">
+  <img src="images/banner03.jpg" width="741" height="423" class="imagecache imagecache-home_hero_rotator_main borderless" alt="Third Banner" />  
+  </div><!--/photo-->
+</div><!--/#home slide wrapper-->
+ </div>
+  </div>
+  
+<!-- End of Third slide -->    
+
+
+
+
+<!-- fourth slide -->    
+
+<div class="home-top-block-container hide">
+<div class="home-top-block">
+<div class="home-top-intro">
+  <!--<h1 title="Slide 4">Risk Management</h1>
+<p>Effective identification and management of risk effects allows you to make the best decisions possible and improve your performance, and is quickly becoming a critical management skill as well as a key source of competitive advantage for organisations in today's volatile and global business environment. Check out our wide range of certifications and workshops offered in Feb/Mar 2013.</p>
+<br />
+
+<p>Click <a href="Programmes/ProfessionalSkillsTraining/RiskAnalysisAndManagement/index.htm"><em>here</em></a> to find out more.</p>-->
+
+<h1 title="Slide 4">NUS Science Summer Camp 2013</h1>
+<h2>Calling out to inspiring scientists</h2>
+<p>An opportunity for students from different parts of the world to get a glimpse into the world of science and discover their passion and potential in the field at National University of Singapore. Camp runs from 24 to 28 June.</p>
+<br />
+
+<p>Click <a href="http://www.nus.edu.sg/nex/InternationalStudents/NUSScience.htm"><em>here</em></a> to find out more.</p>
+</div><!--/#home top intro-->
+
+
+<div class="home-slide-wrapper">
+ <div class="photo-thumb">
+ <!--<img src="images/banner/banner01.jpg" class="imagecache imagecache-home_hero_rotator_thumb" width="124" height="93" />  -->
+ </div>
+  <div class="photo">
+  <!--<img src="images/banner04.jpg" width="741" height="423" class="imagecache imagecache-home_hero_rotator_main borderless" alt="Third Banner" /> --> 
+  <img src="images/banner08.jpg" width="741" height="423" class="imagecache imagecache-home_hero_rotator_main borderless" alt="Third Banner" /> 
+  </div><!--/photo-->
+</div><!--/#home slide wrapper-->
+ </div>
+  </div>
+  
+<!-- End of fourth slide -->    
+
+
+
+
+
+<!-- fifth slide -->    
+
+<div class="home-top-block-container hide">
+<div class="home-top-block">
+<div class="home-top-intro">
+<!--<h1 title="Slide 5">Being a Powerful Communicator</h1>-->
+  
+  <h1 title="Design Thinking for Creative Innovation">Staying ahead of competition</h1>
+<h2>Professional Skills Training</h2>
+<p>Our interactive courses help professionals acquire up-to-date occupational knowledge to make good decisions and learn new concepts to embrace change so as to catalyse success in their industries.</p><br />
+
+<p>Click <a href="Programmes/ProfessionalSkillsTraining/index.htm"><em>here</em></a> to find out more.</p>
+  <!--<h2>Mastering your Mind, Listening & Presenting (06 to 08 Mar)</h2>
+<p>Learn the fundamentals of Powerful & Impactful Communication. At the end of the course, you will feel more confident and clear when you deliver your messages, presentations and speeches.</p>
+<!--<h1 title="Slide 5">Course Dates 2013</h1>
+<p>Training helps you stay relevant and employable in your career.  Look up for the courses which suit your learning needs and book your slots now.</p>
+<br />
+
+<p>Click <a href="http://www.nus.edu.sg/nex/Programmes/PersonalAndInterpersonalSkills/Programmes/BeingAPowerfulCommunicator.htm"><em>here</em></a> to find out more.</p>-->
+</div><!--/#home top intro-->
+
+
+<div class="home-slide-wrapper">
+ <div class="photo-thumb">
+ <!--<img src="images/banner/banner01.jpg" class="imagecache imagecache-home_hero_rotator_thumb" width="124" height="93" />  -->
+ </div>
+  <div class="photo">
+  <img src="images/banner01.jpg" width="741" height="423" class="imagecache imagecache-home_hero_rotator_main borderless" alt="Third Banner" />  
+  </div><!--/photo-->
+</div><!--/#home slide wrapper-->
+ </div>
+  </div>
+  
+<!-- End of fifth slide -->    
+
+
+
+
+
+</div>
+<ul id="home-top-num-rotator" class="clearfix">
+<li></li>
+</ul>
+		
+		<!-- InstanceEndEditable -->
+        </div>
+        
+        <div id="latest_news">
+		<!-- InstanceBeginEditable name="news" -->
+      <div class="blackbox"><a href="http://www.nus.edu.sg/nex/flipbook/" target="_blank">Portfolio Calendar 2013</a></div> 
+        
+        <div class="blackbox"><a href="Courses_dates.htm">Course Dates</a></div>
+        
+        <div class="blackbox"><a href="http://www.websparks.com.sg/nex-reg09/reg_step1.php" target="_blank">Course Registration</a></div>
+        
+  <div class="blackbox"><a href="Programme_finder.htm">Programme Finder</a></div>
+        
+       <!-- <p><strong>News &amp; Announcements</strong><br />
+          <br />
+          NUS Extension will be closed on 22 March 2013, Fri (1.30pm onwards) and 23 March 2013, Sat (full day).</p> -->
+       
+        
+		<!--<h1>News and Announcement </h1>
+        <p>NUS Extension will be closed on</p>
+        <p><strong>23 March 2013 (Saturday) </strong>as our building will be conducting an electrical network upgrading exercise.</p>
+        <p>Sorry for any inconvenience caused.</p>-->
+        <!--<p>NUS Extension will be closed from on 9 to 12 Feb 13 (Chinese New Year Eve). </p>
+        <p>We will resume operations on 13 Feb 13 (Wed).</p>
+        <p>NEX wishes everyone a Happy and Prosperous Lunar New Year.</p>-->
+        <!--<p><strong>NUS Science Summer Camp '13</strong></p>        
+        <p><strong>24 - 28 Jun 13</strong></p>        
+        <p>Click <a href="http://nus.edu.sg/nex/InternationalStudents/NUSScience.htm">here</a> to find out more.</p>
+          <p>&nbsp;</p>
+          <p><strong>Sci-Tech Explorer Camp '13</strong></p>        
+        <p><strong>27 - 31 May 13</strong></p>        
+        <p>Click <a href="http://www.nus.edu.sg/nex/InternationalStudents/Sci-TechExplorerCamp.htm">here</a> to find out more.</p>-->
+          <!--<p><strong><a href="#">Creativity: Fuel your mind</a></strong><br/>
+        <em class="grey">26 July 2012</em></p>
+        
+        <p><strong><a href="#">Creativity: Believe in yourself </a></strong><br/>
+        <em class="grey">25 July 2012</em>
+        </p>
+        
+        <p><strong><a href="#">Creativity: Fuel your mind</a></strong><br/>
+        <em class="grey">4 June 2012</em></p>--><!-- InstanceEndEditable -->
+        </div>
+        
+        
+      </div>
+        <!-- Banner Section End -->
+    
+    
+    
+    
+    
+    
+    
+    <div id="content-area">
+    
+    
+    
+    
+    
+     
+    
+    
+    
+       
+    
+    
+    
+    <div class="clear"></div>
+    
+    
+     
+     
+     
+     <!-- sub banners -->
+     <div id="quicklinks_banner">
+      <div id="left_banner">
+	 <!-- InstanceBeginEditable name="left banners" --><div class="banner01"><a href="Programmes/ProfessionalSkillsTraining/index.htm"></a></div>
+	 <div class="banner02"><a href="Programmes/PersonalAndInterpersonalSkills/index.htm"></a></div>
+	 <div class="banner03"><a href="Programmes/CustomisedTrainingProgrammes/index.htm"></a></div>
+	 <div class="banner04"><a href="Programmes/Full-TimeProgrammes/index.htm"></a></div>
+	 
+	 
+<!-- InstanceEndEditable -->
+     </div> 
+      <div id="right_banner">
+	 <!-- InstanceBeginEditable name="right banners" -->	 <div class="ask"><a href="http://www.websparks.com.sg/nex/enquiry.php" target="_blank"></a></div>
+	 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="socialmedia">
+  <tr>
+  <td>Connect with Us!</td>
+    <td><div class="fb"><a href="http://www.facebook.com/NUS.Extension.SG" target="_blank"></a></div></td>
+    <td><div class="tw"><a href="https://twitter.com/nus_extension" target="_blank"></a></div></td>
+    <td><div class="yt"><a href="http://www.youtube.com/user/NUSext" target="_blank"></a></div></td>
+  </tr>
+</table>
+<!-- InstanceEndEditable -->
+     </div>
+     </div>
+     <!-- sub banners -->
+     
+     
+     
+<div class="clear"></div>
+
+	  </div>
+  </div> 
+</div>
+  
+  
+  <div class="bottom_curve">&nbsp;</div>
+    	<!-- Footer Section Start -->
+        	<div id="footer">
+                <div class="left_sec">
+                  <p>&copy; Copyright 2001- 
+                        <!-- This is to get the current year -->
+                        <SCRIPT TYPE="text/javascript">
+                        <!--
+                        var da = new Date();
+                        document.write(da.getFullYear());
+                        //-->
+                        </SCRIPT> 
+                        <!--/ end -->
+<strong>National University of Singapore.</strong> All Rights Reserved.</p>
+                  <ul>
+                    <li><a href="http://www.nus.edu.sg/terms-of-use">Terms&nbsp;of&nbsp;Use</a></li>
+                    <li><a href="http://www.nus.edu.sg/privacy">Privacy</a></li>
+                    <li class="last"><a href="http://www.nus.edu.sg/non-discrimination">Non-&nbsp;discrimination</a></li>
+                  </ul>
+                </div>
+            <div class="right_sec">
+                <ul>
+                    <li> <a href="index.htm">Home</a> </li>
+                    <li> <a href="http://www.nus.edu.sg/careers/" target="_blank">Careers</a> </li>
+                    <li> <a href="Sitemap.htm">Site&nbsp;Map</a> </li>
+                    <li class="last"> <a href="contact/index.htm">Contact</a> </li>
+                </ul>
+                <p>Last modified on <!-- #BeginDate format:Am1 -->April 1, 2013<!-- #EndDate --> by <a href="mailto:nexquery@nus.edu.sg">NUS Extension</a></p>
+                </div>
+  </div>
+        <!-- Footer Section End -->
+</div>
+</body>
+<!-- InstanceEnd --></html>

@@ -1,6 +1,6 @@
 /* Server for search engine
  * Module: CG3204L
- * Author: Wan Wenli, Qiu Boqin, ...
+ * Author: Wan Wenli
  * Last updated: 9:09PM 27 Mar 2013
  */
 #include <unistd.h>

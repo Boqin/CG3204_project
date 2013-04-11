@@ -1,0 +1,569 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html  lang="en" >
+	<head>
+        <title>Home &raquo; University Town</title>
+		<base href="http://utown.nus.edu.sg/"><!--[if lte IE 6]></base><![endif]-->
+		
+            <meta name="copyright" content="National University of Singapore" >
+            <meta name="coding" content="Moving Mouse Studio" >
+            <meta name="design" content="National University of Singapore" >
+            <meta name="country" content="Singapore" >
+            <meta http-equiv="imagetoolbar" content="no" >
+            <link rel="icon" href="/favicon.ico" type="image/x-icon" >
+            <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" >
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8" >
+		
+		
+		
+		
+		
+		
+		
+		
+        
+		
+                
+        
+	<link rel="stylesheet" type="text/css" href="http://utown.nus.edu.sg/themes/utown/css/layout.css?m=1334296583" >
+<link rel="stylesheet" type="text/css" href="http://utown.nus.edu.sg/themes/utown/css/typography.css?m=1331530285" >
+<link rel="stylesheet" type="text/css" href="http://utown.nus.edu.sg/themes/utown/css/form.css?m=1331530286" >
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Francois+One" >
+<link rel="stylesheet" type="text/css" href="http://utown.nus.edu.sg/themes/utown/css/slideshow.css?m=1332150770" >
+<link rel="stylesheet" type="text/css" media="print" href="http://utown.nus.edu.sg/themes/utown/css/print.css?m=1331530285" >
+</head>
+	<body class="HomePage" 
+	    
+	       style="background-color:#575757; background-image:url('/assets/Uploads/Wallpaper01.jpg');"
+        
+	>
+	
+		<div id="Main">
+		
+            <div id="Header">
+	<a href="http://www.nus.edu.sg/" title="National University of Singapore" id="LogoNUS"><img src="themes/utown/images/logo_nus.gif" width="130" height="62" alt="National University of Singapore" ></a>
+	<a href="/" title="University Town" id="LogoUtown"><img src="themes/utown/images/logo_utown.gif" width="140" height="66" alt="University Town" ></a>
+	
+		<ul id="TopNav">
+		    
+		        
+		        <li class="link"><a href="/about-university-town/" title="About">About</a>
+                    
+                        <ul
+                        
+                            
+                                style="background-image:url(/assets/Uploads/_resampled/SetWidth164-menu-thumb-about.jpg); padding-right:208px; min-height:136px;"
+                            
+                        
+                        >
+                    
+                    
+                        
+                            <li class="link"><a href="/about-university-town/overview/" title="Overview">Overview</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/about-university-town/residential-colleges/" title="Residential Colleges">Residential Colleges</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/about-university-town/utown-residence/" title="UTown Residence">UTown Residence</a></li>
+                        
+                    
+                        
+                            
+                                <li class="link"><a href="/about-university-town/education-resource-centre/" title="Education Resource Centre">Education Resource Centre</a></li>
+                            
+                        
+                    
+                        
+                            <li class="link"><a href="/about-university-town/stephen-riady-centre/" title="Stephen Riady Centre">Stephen Riady Centre</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/about-university-town/town-green/" title="Town Green">Town Green</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/about-university-town/town-plaza/" title="Town Plaza">Town Plaza</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/about-university-town/create-2/" title="CREATE">CREATE</a></li>
+                        
+                    
+                    </ul>
+                </li>
+		        
+		    
+		        
+		        <li class="link"><a href="/programmes/" title="Programmes">Programmes</a>
+                    
+                        <ul
+                        
+                            
+                                style="background-image:url(/assets/Uploads/_resampled/SetWidth164-menu-thumb-programmes.jpg); padding-right:208px; min-height:136px;"
+                            
+                        
+                        >
+                    
+                    
+                        
+                            <li class="link"><a href="/programmes/overview/" title="Overview">Overview</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/programmes/university-scholars-programme-usp/" title="University Scholars Programme (USP)">University Scholars Programme (USP)</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/programmes/university-town-residential-programme-utrp/" title="University Town Residential Programme (UTRP)">University Town Residential Programme (UTRP)</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/programmes/chua-thian-poh-community-leadership-programme/" title="Chua Thian Poh Community Leadership Programme">Chua Thian Poh Community Leadership Programme</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/programmes/nuss-utown-mentorship-programme/" title="NUSS-UTown Mentorship Programme">NUSS-UTown Mentorship Programme</a></li>
+                        
+                    
+                    </ul>
+                </li>
+		        
+		    
+		        
+		        <li class="link"><a href="/apply/" title="Apply">Apply</a>
+                    
+                        <ul
+                        
+                            
+                                style="background-image:url(/assets/Uploads/_resampled/SetWidth164-menu-thumb-apply.jpg); padding-right:208px; min-height:136px;"
+                            
+                        
+                        >
+                    
+                    
+                        
+                            <li class="link"><a href="/apply/residential-colleges/" title="Residential Colleges">Residential Colleges</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/apply/utown-residence/" title="UTown Residence">UTown Residence</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/apply/financial-aid-and-scholarships/" title="Financial Aid and Scholarships">Financial Aid and Scholarships</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/apply/employment-opportunities/" title="Employment Opportunities">Employment Opportunities</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/apply/employment-opportunities-capt/" title="Employment Opportunities @CAPT">Employment Opportunities @CAPT</a></li>
+                        
+                    
+                    </ul>
+                </li>
+		        
+		    
+		        
+		        <li class="link"><a href="/happenings/" title="Happenings">Happenings</a>
+                    
+                        <ul
+                        
+                            
+                                style="background-image:url(/assets/Uploads/_resampled/SetWidth164-menu-thumb-happenings.jpg); padding-right:208px; min-height:136px;"
+                            
+                        
+                        >
+                    
+                    
+                        
+                            <li class="link"><a href="/happenings/events/" title="Events">Events</a></li>
+                        
+                    
+                        
+                            
+                                <li class="link"><a href="/happenings/utown-trivia/" title="UTown Trivia">UTown Trivia</a></li>
+                            
+                        
+                    
+                    </ul>
+                </li>
+		        
+		    
+		        
+		    
+		        
+		        <li class="link"><a href="/giving/" title="Giving">Giving</a>
+                    
+                        <ul class="HangLeft" 
+                        
+                            
+                                style="background-image:url(/assets/Uploads/_resampled/SetWidth164-menu-thumb-giving.jpg); padding-left:208px; min-height:136px;"
+                            
+                        
+                        >
+                    
+                    
+                        
+                            <li class="link"><a href="/giving/overview/" title="Overview">Overview</a></li>
+                        
+                    
+                    </ul>
+                </li>
+		        
+		    
+		        
+		        <li class="link"><a href="/faq/" title="FAQ">FAQ</a>
+                    
+                        <ul class="HangLeft" 
+                        
+                            
+                                style="background-image:url(/assets/Uploads/_resampled/SetWidth164-menu-thumb-faq.jpg); padding-left:208px; min-height:136px;"
+                            
+                        
+                        >
+                    
+                    
+                        
+                            <li class="link"><a href="/faq/general-information-about-utown/" title="General Information about UTown">General Information about UTown</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/faq/general-information-about-the-residential-colleges/" title="General Information about the Residential Colleges">General Information about the Residential Colleges</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/faq/admission-to-the-residential-colleges/" title="Admission to the Residential Colleges">Admission to the Residential Colleges</a></li>
+                        
+                    
+                    </ul>
+                </li>
+		        
+		    
+		        
+		        <li class="link"><a href="/contact/" title="Contact">Contact</a>
+                    
+                        <ul class="HangLeft" 
+                        
+                            
+                                style="background-image:url(/assets/Uploads/_resampled/SetWidth164-menu-thumb-contact.jpg); padding-left:208px; min-height:136px;"
+                            
+                        
+                        >
+                    
+                    
+                        
+                            <li class="link"><a href="/contact/enquiry-form/" title="Enquiry Form">Enquiry Form</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/contact/facilities-booking/" title="Facilities Booking ">Facilities Booking </a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/contact/getting-here/" title="Getting Here">Getting Here</a></li>
+                        
+                    
+                        
+                            <li class="link"><a href="/contact/list-of-contacts/" title="List of Contacts">List of Contacts</a></li>
+                        
+                    
+                    </ul>
+                </li>
+		        
+		    
+		</ul>
+	
+</div>
+            
+            <div id="ColLeft">
+	
+        
+            
+                <div class="box"
+                
+                >
+                    <span class="title">UTown Scholarships *new*</span>
+                    <p style="line-height: 13.5pt"><span style="color: #f7fe2e; font-size: small;">Application for UTown <a href="http://utown/apply/financial-aid-and-scholarships/#scholarships">Scholarships</a> and <a href="http://utown/apply/financial-aid-and-scholarships/#bursaries">Bursaries</a> is now open! Submit your application by 18 June 2013.&nbsp;</span></p>
+                </div>
+            
+                <div class="box"
+                
+                >
+                    <span class="title">UTown Self-Guided Tour</span>
+                    <p style="line-height: 14.5pt"><span style="color: #FA5882;font-size: 10pt">Download these useful guides* (<a href="assets/Uploads/Documents/Brochure for Walking Tour (front) - Flattened.jpg" target="_blank">page 1</a>/<a href="assets/Uploads/Documents/Brochure for Walking Tour (back) - Flattened.jpg" target="_blank">page 2</a>) for a self-guided tour of University Town! <br >*Best viewed in Google Chrome and optimised for A3 </span></p>
+                </div>
+            
+        
+        
+        
+        
+	    
+        
+    	    
+    	       <div class="box" id="RandomFunFactBox">
+                    <span class="title">Did you know?</span>
+                    Pick up a new language!  This semester, UTown is home to a diverse resident population from over 60 countries.
+                    <br><br>
+                    <a href="/happenings/utown-trivia/submit-your-fun-fact/" title="Read more">Submit your fun fact ►</a>
+                </div>
+    	    
+        
+	
+</div>
+            
+            <div id="ContentContainer">
+    
+    
+        <div id="HomeBanner">
+            <ul>
+                
+                    <li>
+                        <a href="/#tabs-1" class="tabs-1"></a>
+                    </li>
+                
+                    <li>
+                        <a href="/#tabs-2" class="tabs-2"></a>
+                    </li>
+                
+                    <li>
+                        <a href="/#tabs-3" class="tabs-3"></a>
+                    </li>
+                
+                    <li>
+                        <a href="/#tabs-4" class="tabs-4"></a>
+                    </li>
+                
+                    <li>
+                        <a href="/#tabs-5" class="tabs-5"></a>
+                    </li>
+                
+            </ul>
+                        
+                <div id="tabs-1">
+                    
+                        <a href="http://utown.nus.edu.sg/happenings/events/experience-energy-series-2013/"><img src="/assets/Uploads/_resampled/paddedimage615270-Home-Banner-Energy-Carta-edited.jpg" alt="Home Banner Energy Carta edited" ></a>
+                    
+                </div>
+                        
+                <div id="tabs-2">
+                    
+                        <a href="http://utown.nus.edu.sg/happenings/events/the-letter/"><img src="/assets/Uploads/_resampled/paddedimage615270-Home-Banner-The-Letter.jpg" alt="Home Banner The Letter" ></a>
+                    
+                </div>
+                        
+                <div id="tabs-3">
+                    
+                        <a href="http://utown.nus.edu.sg/apply/residential-colleges/#incoming"><img src="/assets/Uploads/_resampled/paddedimage615270-Home-Banner-UTRP-admissions.jpg" alt="Home Banner UTRP admissions" ></a>
+                    
+                </div>
+                        
+                <div id="tabs-4">
+                    
+                        <a href="http://utown.nus.edu.sg/programmes/overview/"><img src="/assets/Uploads/_resampled/paddedimage615270-home-banner-utown2.jpg" alt="home banner utown2" ></a>
+                    
+                </div>
+                        
+                <div id="tabs-5">
+                    
+                        <a href="http://utown.nus.edu.sg/programmes/university-town-residential-programme-utrp/"><img src="/assets/Uploads/_resampled/paddedimage615270-home-banner-utown1.jpg" alt="home banner utown1" ></a>
+                    
+                </div>
+            
+        </div>
+    
+    <div id="Happenings">
+        <span class="title">Happenings</span>
+        <ul>
+            
+                
+                    
+                        <li class="first">
+                            
+                                <a href="/happenings/events/experience-energy-series-2013/" class="link"><img src="/assets/Uploads/_resampled/SetWidth112-Energy-Carta-Thumbnail.jpg" alt="Energy Carta Thumbnail" ></a>
+    			            
+                            <div class="details">
+                                <strong><a href="/happenings/events/experience-energy-series-2013/" class="link">Experience Energy Series 2013</a></strong>
+                                <br>
+                                Energy Carta is back with its annual Speaker Series and this year’s theme is ‘Towards a Sustainable Singapore: Challenges, Practices and Opportunities’.
+                                <br><br>
+                                <a href="/happenings/events/experience-energy-series-2013/" class="link">Read more ►</a>
+                            </div>
+                        </li>
+                    
+                        <li class="">
+                            
+                                <a href="/happenings/events/the-letter/" class="link"><img src="/assets/Uploads/_resampled/SetWidth112-The-Letter-Thumbnail.jpg" alt="The Letter Thumbnail" ></a>
+    			            
+                            <div class="details">
+                                <strong><a href="/happenings/events/the-letter/" class="link">The Letter</a></strong>
+                                <br>
+                                The Malaya Black and White film screening series comes to The Ngee Ann Kongsi Auditorium for the first time with the screening of The Letter, a 1940 film starring Bette Davis.
+                                <br><br>
+                                <a href="/happenings/events/the-letter/" class="link">Read more ►</a>
+                            </div>
+                        </li>
+                    
+                        <li class="last">
+                            
+                                <a href="/happenings/events/asean-forum-2013/" class="link"><img src="/assets/Uploads/_resampled/SetWidth112-ASEAN-Forum-2013-Thumbnail.jpg" alt="ASEAN Forum 2013 Thumbnail" ></a>
+    			            
+                            <div class="details">
+                                <strong><a href="/happenings/events/asean-forum-2013/" class="link">ASEAN Forum 2013</a></strong>
+                                <br>
+                                In the globalised world today, it would be interesting to discuss the relevance and purpose of ASEAN and by extension the ASEAN community project in the international stage.
+                                <br><br>
+                                <a href="/happenings/events/asean-forum-2013/" class="link">Read more ►</a>
+                            </div>
+                        </li>
+                    
+                
+            
+            <li class="clear"></li>
+        </ul>
+    </div>
+	
+</div>
+			
+			<div id="Footer">
+    <ul id="FooterNav">
+        
+            <li>
+                
+                    
+                        <a href="/about-university-town/" class="link title">About</a><br>
+                        
+                            <a href="/about-university-town/overview/" class="link">Overview</a><br>
+                        
+                            <a href="/about-university-town/residential-colleges/" class="link">Residential Colleges</a><br>
+                        
+                            <a href="/about-university-town/utown-residence/" class="link">UTown Residence</a><br>
+                        
+                            <a href="/about-university-town/education-resource-centre/" class="link">Education Resource Centre</a><br>
+                        
+                            <a href="/about-university-town/stephen-riady-centre/" class="link">Stephen Riady Centre</a><br>
+                        
+                            <a href="/about-university-town/town-green/" class="link">Town Green</a><br>
+                        
+                            <a href="/about-university-town/town-plaza/" class="link">Town Plaza</a><br>
+                        
+                            <a href="/about-university-town/create-2/" class="link">CREATE</a><br>
+                        
+                        <br>
+                    
+                
+                    
+                        <a href="/programmes/" class="link title">Programmes</a><br>
+                        
+                            <a href="/programmes/overview/" class="link">Overview</a><br>
+                        
+                            <a href="/programmes/university-scholars-programme-usp/" class="link">University Scholars Programme (USP)</a><br>
+                        
+                            <a href="/programmes/university-town-residential-programme-utrp/" class="link">University Town Residential Programme (UTRP)</a><br>
+                        
+                            <a href="/programmes/chua-thian-poh-community-leadership-programme/" class="link">Chua Thian Poh Community Leadership Programme</a><br>
+                        
+                            <a href="/programmes/nuss-utown-mentorship-programme/" class="link">NUSS-UTown Mentorship Programme</a><br>
+                        
+                        <br>
+                    
+                
+            </li>
+        
+        
+            <li>
+                
+                    
+                        <a href="/apply/" class="link title">Apply</a><br>
+                        
+                            <a href="/apply/residential-colleges/" class="link">Residential Colleges</a><br>
+                        
+                            <a href="/apply/utown-residence/" class="link">UTown Residence</a><br>
+                        
+                            <a href="/apply/financial-aid-and-scholarships/" class="link">Financial Aid and Scholarships</a><br>
+                        
+                            <a href="/apply/employment-opportunities/" class="link">Employment Opportunities</a><br>
+                        
+                            <a href="/apply/employment-opportunities-capt/" class="link">Employment Opportunities @CAPT</a><br>
+                        
+                        <br>
+                    
+                
+                    
+                        <a href="/happenings/" class="link title">Happenings</a><br>
+                        
+                            <a href="/happenings/events/" class="link">Events</a><br>
+                        
+                            <a href="/happenings/utown-trivia/" class="link">UTown Trivia</a><br>
+                        
+                        <br>
+                    
+                
+                    
+                
+            </li>
+        
+        
+            <li class="last">
+                
+                    
+                        <a href="/giving/" class="link title">Giving</a><br>
+                        
+                            <a href="/giving/overview/" class="link">Overview</a><br>
+                        
+                        <br>
+                    
+                
+                    
+                        <a href="/faq/" class="link title">FAQ</a><br>
+                        
+                            <a href="/faq/general-information-about-utown/" class="link">General Information about UTown</a><br>
+                        
+                            <a href="/faq/general-information-about-the-residential-colleges/" class="link">General Information about the Residential Colleges</a><br>
+                        
+                            <a href="/faq/admission-to-the-residential-colleges/" class="link">Admission to the Residential Colleges</a><br>
+                        
+                        <br>
+                    
+                
+                    
+                        <a href="/contact/" class="link title">Contact</a><br>
+                        
+                            <a href="/contact/enquiry-form/" class="link">Enquiry Form</a><br>
+                        
+                            <a href="/contact/facilities-booking/" class="link">Facilities Booking </a><br>
+                        
+                            <a href="/contact/getting-here/" class="link">Getting Here</a><br>
+                        
+                            <a href="/contact/list-of-contacts/" class="link">List of Contacts</a><br>
+                        
+                        <br>
+                    
+                
+            </li>
+        
+        <li class="clear"></li>
+    </ul>
+
+    &copy; Copyright 2001-2013 National University of Singapore. All Rights Reserved.
+</div>
+
+
+		</div>
+		
+        <script type="text/javascript" src="http://utown.nus.edu.sg/mysite/javascript/jquery-1.7.1.min.js?m=1332150464"></script><script type="text/javascript" src="http://utown.nus.edu.sg/mysite/javascript/jquery-ui-1.8.18.custom.min.js?m=1332150464"></script><script type="text/javascript" src="http://utown.nus.edu.sg/mysite/javascript/init.slideshow-1.7.js?m=1332150464"></script><script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-30352888-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+	</body>
+</html>

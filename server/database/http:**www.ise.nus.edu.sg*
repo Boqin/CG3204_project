@@ -1,0 +1,742 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Department of Industrial & Systems Engineering</title>
+<link rel="http://www.ise.nus.edu.sg/favicon.ico" />
+<link href="includes/style-ise.css" type="text/css" rel="stylesheet" />
+<script src="includes/jquery.min.js" type="text/javascript"></script>
+<link href="includes/qscroller.css" rel="stylesheet" type="text/css" />
+
+
+
+<script language="JavaScript" type="text/javascript">
+var addthis_config = {ui_click: true }
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+
+<!-- Right SpryAccordion  Start -->
+<link rel="stylesheet" type="text/css" href="includes/spry-accordion/SpryAccordion.css" />
+<script src="includes/spry-accordion/SpryAccordion.js" type="text/javascript"></script>
+<!--  Right SpryAccordion End -->
+
+
+<!-- Accordion menu Start -->
+<link href="js/SpryAccordion1.css" rel="stylesheet" type="text/css" />
+<!--height for the spryaccordion content body must be adjusted in SpryAccordion.css line 74 file-->
+<script src="js/SpryAccordion.js" type="text/javascript"></script>
+<!-- Accordion menu end -->
+
+
+<!-- Main Banner Slider Start -->
+<link rel="stylesheet" href="includes/slider/nivo-slider-blueshape.css" type="text/css" media="screen" />
+<script src="includes/slider/jquery.nivo.slider.2.1.modif.js" type="text/javascript"></script>
+<script language="JavaScript" src="includes/slider.js" type="text/javascript"></script>
+<!-- Main Banner Slider End -->
+
+<link rel="stylesheet" type="text/css" href="includes/jcarousel/skin5.css" />
+<script type="text/javascript" src="includes/jcarousel/jquery.jcarousel.min.js"></script>
+
+<!-- Carousel Left Slider Start -->
+<script language="JavaScript" src="includes/caraousel-left.js" type="text/javascript"></script>
+<!-- Carousel Left Slider End -->
+
+<!-- Carousel Right Slider Start -->
+<script language="JavaScript" src="includes/caraousel-right.js" type="text/javascript"></script>
+<!-- Carousel Right Slider End -->
+
+<!-- Menu Fade Start -->
+<script type="text/javascript" src="includes/fade/jquery.hoverIntent.minified.js"></script>
+<script language="JavaScript" src="includes/fade.js" type="text/javascript"></script>
+<!-- Menu Fade End -->
+
+<!-- Tabs Start -->
+<script language="JavaScript" src="includes/tabs.js" type="text/javascript"></script>
+<!-- Tabs End -->
+
+<!-- Searchbar Dropdown Start -->
+<script language="JavaScript" src="includes/searchbar-dropdown.js" type="text/javascript"></script>
+<!-- Searchbar Dropdown End -->
+
+<!-- Academic Dropdown Start -->
+<script language="JavaScript" src="includes/academic-dropdown.js" type="text/javascript"></script>
+<!-- Academic Dropdown Start -->
+
+<!-- Student Login Dropdown Start -->
+<script language="JavaScript" src="includes/student-login-dropdown.js" type="text/javascript"></script>
+<!-- Student Login Dropdown Start -->
+
+
+<!-- Searchbar Selector Start -->
+<script language="JavaScript" src="includes/search.js" type="text/javascript"></script>
+<!-- Searchbar Selector End -->
+
+
+<!-- Display real time clock Start -->
+<script type="text/javascript" src="js/date_time.js"></script>
+<!-- Display real time clock End -->
+
+
+<style type="text/css">
+<!--
+.style15 {color: #FF8040}
+.style16 {color: #FFFFFF}
+-->
+</style>
+</head>
+
+<body onload="MM_preloadImages('images/adv2-tenureTrack1.jpg','images/adv2-financial1.jpg','images/adv2-whatisise1.jpg','images/adv2-whyise1.jpg','images/register-icon1.gif','images/bottom-nav/bottom-navigator_r1_c2B.jpg','images/bottom-nav/bottom-navigator_r1_c3B.jpg','images/bottom-nav/bottom-navigator_r1_c4B.jpg','images/bottom-nav/bottom-navigator_r1_c5B.jpg','images/bottom-nav/bottom-navigator_r1_c6B.jpg')">
+<div class="wrapper">
+  <div id="inner_wrapper">
+  	<div id="wrapper_content">
+		<!-- Header Section Start -->
+        <div id="header">
+        <h1> <a href="http://www.nus.edu.sg" border="0"><img src="images/logo.png" alt="nus" width="140" height="64" title="nus" /></a> </h1>
+        <div id="faculty-logo"><a href=http://www.ise.nus.edu.sg/index.php><img src="images/ise-text.jpg" alt="Department of Industrial &amp; Systems Engineering" width="320" height="60" / border="0"></a></div>
+        <div class="header_right_sec">
+          <div class="top_links">
+            <div class="right_curve">
+                <ul>
+                  <li><a href="http://exchange.nus.edu.sg/" target="_blank">myEmail</a></li>
+                  <li><a href="https://ivle.nus.edu.sg/" target="_blank">IVLE</a></li>
+                  <li><a href="http://www.lib.nus.edu.sg/" target="_blank">Library</a></li>
+                  <li><a href="http://www.nus.edu.sg/campusmap">Map</a></li>
+                  <li><a href="https://aces01.nus.edu.sg/CoE/jsp/coeMain.jsp" target="_blank">Calendar</a></li>
+                </ul>
+                  <a href="http://cn.nus.edu.sg" class="language">中文</a>            </div>
+          </div>
+          <div class="search_area">
+            <form id="frmSearch" name="frmSearch" onsubmit="evalSearch();return false;" action="#">
+            <div id="search-box">
+                        <input type="text"  value="Search by keyword"  onblur="if (this.value == '') {this.value = 'Search by keyword';}"  onfocus="if (this.value == 'Search by keyword') {this.value = '';}" id="txtKeyword" name="txtKeyword" />
+            </div>
+            <div id="search-coloumn">
+                 <select id="source" name="SearchMenu" >
+
+                         <option selected="selected" value="0">NUS Website</option>
+
+                         <option value="1">Internet</option>
+          
+                         <option value="2">Staff Directory</option>
+                 </select>
+            </div>
+            <div id="go-coloumn">
+              <input name="search-btn" type="button" id="search-btn" value="Go" onclick="evalSearch();return false;"/>
+            </div>
+            </form>
+       	  </div>
+   	 	  </div>
+   	  </div>
+         <div class="clear"></div>
+		<!-- Header Section End -->
+        
+        <!-- Navigation Section Start -->
+      <script type="text/javascript" src="js/mainnavi-blueshade.js" ></script>
+      <script type="text/javascript">
+
+        <!--
+
+        document.write(BuildMainNavigation(1));	
+
+       //-->
+
+  </script>
+       
+       
+        <!-- Navigation Section End -->
+        
+        
+      
+        
+        
+  <!-- Banner Section Start -->
+  <div id="latest_slider_right">
+ 
+  <center>
+  
+  
+  
+  <table width="230" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td colspan="2" scope="col">
+          <tr>
+            <td><span id="date_time"></span>
+            <font color=#ffffff><script type="text/javascript">window.onload = date_time('date_time');</script></font></td>
+           </tr>
+		
+          </table></td>
+      </tr>
+      
+    
+      
+      
+      <tr>
+        <td width="11%" scope="col">&nbsp;</td>
+        <td width="89%" scope="col">&nbsp;</td>
+      </tr>
+    </table>
+  
+  
+
+  <img src="images/banner-latest-ise.png" alt="Latest at ISE" />
+  
+  <br />
+  
+  
+  
+  
+  
+  <table width="230" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td colspan="2" scope="col">
+        
+        
+                   <tr>
+            <td>&nbsp;</td>
+            <td><div align="left">
+               
+           
+                        </span></div></td>
+          </tr>
+        </table></td>
+      </tr>
+      
+      
+      
+      
+     
+    </table>
+  
+  
+  
+    <table width="230" border="0" cellspacing="0" cellpadding="0">
+      
+      <tr>
+        <td width="11%" valign="top"><div align="center"><span class="style16"><img src="images/arrow-orange-right.gif" width="15" height="15" /></span></div></td>
+        <td width="89%"><div align="left"><strong class="style15" ><a href="news/iie-vice-president-asia-tanglc.html" target="_blank">Prof LC Tang has been elected Regional Vice President (Asia) of IIE</a></strong></div></td>
+      </tr>
+      
+      <tr>
+        <td valign="top">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="11%" valign="top"><div align="center"><span class="style16"><img src="images/arrow-orange-right.gif" width="15" height="15" /></span></div></td>
+        <td width="89%"><div align="left"><strong class="style15" ><a href="http://www.eng.nus.edu.sg/ero/announcement/web-lmdi11-12.pdf" target="_blank">ISE Department's Index Decomposition Analysis technique widely adopted internationally</a></strong></div></td>
+      </tr>
+      
+       <tr>
+        <td>&nbsp;</td>
+        <td >&nbsp;</td>
+      </tr>
+      
+      
+      <tr>
+        <td valign="top""><div align="center"><img src="images/arrow-orange-right.gif" width="15" height="15" /></div></td>
+        <td><div align="left"><strong class="style15" ><a href="awards_won/staff/gohtn-asq-el-award.html" target="_blank">Prof T N Goh receives highest honour from American Society for Quality 
+</a></strong></div></td>
+      </tr>
+      
+      <tr>
+        <td>&nbsp;</td>
+        <td >&nbsp;</td>
+      </tr>
+    </table>
+</center>
+  </div>
+  <div id="slider">
+ 
+  <a href=http://www.ise.nus.edu.sg/sye/index.html border=0><img src="images/display/sye8.png"></a>
+  <a href=http://www.ise.nus.edu.sg/beng/index.html border=0><img src="images/display/success2.png"></a>
+  <a href=http://www.ise.nus.edu.sg/beng/sdp/index.html border=0><img src="images/display/sdp5.png"></a>
+  <img src="images/display/worldclass1.png">
+  </div>
+       
+       
+ <div id="htmlcaption" class="nivo-html-caption" style="display:none">
+ <strong>Cost effective utilization of resources for world-class product and service</strong>
+ </div>
+       
+  <div id="htmlcaption1" class="nivo-html-caption" style="display:none">
+  <strong><font size=+1>Launching a brand new EXECUTIVE MASTER program ...</font><br /><br /> A program that allows you to bake theory into practices and be one of the first few to use systems thinking to help you deal with today's complexities and tomorrow's challenges.<br /><b>Join the Executive Master in Systems Engineering and Management today!</b></font></strong>
+</div>
+    
+ <div id="htmlcaption2" class="nivo-html-caption" style="display:none">
+<strong><font size=+1>SDP</font><br /><br />To impart fundamental knowledge and skill sets required in the Industrial and Systems Engineering profession, which include the ability to apply basic knowledge of mathematics and science, and the domain knowledge of Industrial and Systems Engineering.</b></font></strong>
+</div>
+    
+     <!-- Banner Section End -->
+       <div class="clear"></div> 
+      
+   
+    <div class="clear"></div>
+   
+   <div id="content-continer">
+
+     
+     <div id="container-left">
+      <div align="left">
+        <div id="accordion_container">
+          <div id="Accordion1" class="Accordion" tabindex="0">
+            <div class="AccordionPanel">
+              <div class="AccordionPanelTab"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Upcoming Events</strong> </div>
+                <div class="AccordionPanelContent">
+             
+                 <table width="220" >
+                  <tr><td><div align="center"><a href="http://www.logms2013.org"><img src="images/LOGMS.jpg" alt="The International Conference on Logistics and Maritime Systems, Date: 12-14 Sep 2013" /></a></div></td></tr>
+            
+              
+                 <tr><td><div align="center"><a href="beng_students/events/registration.php"><img src="images/adv8-SDP.jpg" alt="SDP Students Showcase 2013" width="190" height="130" /></a></div></td></tr>
+               </table>    
+        </div>
+     </div>   
+     
+     
+     
+      <div class="AccordionPanel">
+              <div class="AccordionPanelTab"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ISE Staff & Students </strong> </div>
+                <div class="AccordionPanelContent">
+               <div align="center">
+                 <table width="190" >
+                 <tr><td><div align="center"></div></td></tr>
+      
+                 <tr><td><div align="center"><a href="http://iseinfosys.nus.edu.sg/intra.htm"><img src="images/adv8-login-staff.jpg" alt="ISE Staff Intranet" / ></a></div></td></tr>
+      
+                <tr><td><div align="center"><a href="http://iseinfosys.nus.edu.sg/iseug/index2.aspx"><img src="images/adv8-login-students-beng.jpg" alt="ISE Student Intranet" /></a></div></td></tr>
+         
+       
+      
+               </table>   
+               </div> 
+        </div>
+     </div>   
+     
+     
+     
+      
+    <div class="AccordionPanel">
+     <div class="AccordionPanelTab"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspProspective Students</strong></div>
+      <div class="AccordionPanelContent">
+        <div align="center">
+           <table width="190" >
+           <tr><td><div align="center"><a href="information/whatisise.html"><img src="images/adv8-whatisise.jpg" alt="what is ISE?" /></a></div></td></tr>
+                  
+        
+          <tr><td><div align="center"><a href="apply/index.html"><img src="images/adv8-whyise.jpg" alt="Why ISE?" /></a></div></td></tr>
+          
+           <tr><td><div align="center"><a href="MEng&PhD/benefits.html"><img src="images/adv8-financialsupport.jpg" alt="Financial Support for PhD Students" /></a></div></td></tr>
+      
+         <tr>
+        <td valign="top"><div align="center"><img src="images/adv8-brochures-download.jpg"  alt="Brochures Download" /></div></td>
+        </tr>
+        
+        <tr><td><table><tr>
+        <td><div align="center"><a href="beng_students/pdf/BEngBrochure.pdf" target="_blank" >BEng</a> | <a href="msc_students/pdf/MScBrochure.pdf" target="_blank">MSc</a> | <a href="research_students/pdf/Research_Brochure.pdf" target="_blank">MEng&PhD</a> | <a href="SYE/pdf/emsem-brochure.pdf" target="_blank">EMSEM</a></div></td></tr></table>
+        </td></tr>
+          
+      
+      
+             <tr><td>&nbsp; </td></tr>
+           </table>
+           </div>
+           
+         </div>
+     </div>   
+      
+      
+      
+      
+             
+    <div class="AccordionPanel">
+     <div class="AccordionPanelTab"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;News Hub</strong></div>
+      <div class="AccordionPanelContent">
+      <div align="center">
+       <table width="190" >
+           <tr><td><div align="center"><a href="awards_won/staff/index.html"><img src="images/adv7C-staff-achievements.jpg" alt="Staff Achievements" width="175"/></a></div></td></tr>
+                  
+               
+                  <tr><td><div align="center"><a href="awards_won/student/index.html"><img src="images/adv7C-student-achievements.jpg" alt="Student Achievements" width="175" /></a></div></td></tr>
+      
+      
+       <tr><td><div align="center"><a href="book_publications/index.html"><img src="images/adv7C-books.jpg" alt="Books By ISE Staff" width="175" /></a></div></td></tr>
+      
+ 
+      
+             <tr><td>&nbsp; </td></tr>
+           </table>
+           </div>
+      
+         </div>
+     </div>   
+      
+      
+      
+      
+        <div class="AccordionPanel">
+         <div class="AccordionPanelTab"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Careers @ ISE</strong> </div>
+          <div class="AccordionPanelContent">
+          <div align="center">
+          <table width="190" >
+          <tr><td><div align="center"><a href="jobs/faculty-positions.html"><img src="images/adv8-careers-tenure.jpg" alt="Tenure Track Asst/Assoc/Full Professor Positions" /></a></div></td></tr>
+       <tr><td><div align="center"><a href="jobs/research_positions/index.php"><img src="images/adv8-research-positions.jpg" alt="Research Engineer/Fellow positions" /></a></div></td></tr>
+       
+      
+      
+        </table>    
+     </div>
+    
+              
+       
+     
+     
+      
+      
+      
+       
+      <script type="text/javascript">
+<!--
+var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+//-->
+</script> 
+           
+             </div>
+     </div>   
+             
+       
+   </div>
+   </div>    
+        
+      </div> 
+          </div> <!--container-left-->
+    
+     
+   <div class="clear"></div>
+   
+   <div id="container-right">
+   
+   
+      <script language="JavaScript1.2">
+         /*Cross browser Marquee script- © Dynamic Drive (www.dynamicdrive.com)
+          For full source code, 100's more DHTML scripts, and Terms Of Use, visit http://www.dynamicdrive.com
+          Credit MUST stay intact */
+
+       //Specify the marquee's width (in pixels)
+
+          var marqueewidth="650px"
+
+          //Specify the marquee's height
+
+           var marqueeheight="16px"
+
+          //Specify the marquee's marquee speed (larger is faster 1-10)
+
+           var marqueespeed=1
+
+           //configure background color:
+
+          var marqueebgcolor="#f4f7f7c"
+
+        //Pause marquee onMousever (0=no. 1=yes)?
+
+          var pauseit=1
+
+   
+
+          //Specify the marquee's content (don't delete <nobr> tag)
+
+         //Keep all content on ONE line, and backslash any single quotations (ie: that\'s great):
+          
+          var marqueecontent='<nobr><font color="1b818e"><strong>VISION: A department with thought-leadership in ISE education and research &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;     Our mission is to advance transformative and rigorous education and industry-inspired research in the field of ISE</strong></font></nobr>'
+
+
+        ////NO NEED TO EDIT BELOW THIS LINE////////////
+
+         marqueespeed=(document.all)? marqueespeed : Math.max(1, marqueespeed-1) //slow speed down by 1 for NS
+
+         var copyspeed=marqueespeed
+
+        var pausespeed=(pauseit==0)? copyspeed: 0
+
+       var iedom=document.all||document.getElementById
+
+        if (iedom)
+
+      document.write('<span id="temp" style="visibility:hidden;position:absolute;top:-10px;left:-9000px">'+marqueecontent+'</span>')
+
+     var actualwidth=''
+
+     var cross_marquee, ns_marquee
+
+
+
+    function populate(){
+
+    if (iedom){
+
+    cross_marquee=document.getElementById? document.getElementById("iemarquee") : document.all.iemarquee
+
+    cross_marquee.style.left=parseInt(marqueewidth)+8+"px"
+
+    cross_marquee.innerHTML=marqueecontent
+
+    actualwidth=document.all? temp.offsetWidth : document.getElementById("temp").offsetWidth
+
+    }
+
+    else if (document.layers){
+
+    ns_marquee=document.ns_marquee.document.ns_marquee2
+
+    ns_marquee.left=parseInt(marqueewidth)+8
+
+    ns_marquee.document.write(marqueecontent)
+
+    ns_marquee.document.close()
+
+   actualwidth=ns_marquee.document.width
+
+    }
+
+   lefttime=setInterval("scrollmarquee()",20)
+
+   }
+
+    window.onload=populate
+
+
+
+    function scrollmarquee(){
+
+    if (iedom){
+
+    if (parseInt(cross_marquee.style.left)>(actualwidth*(-1)+8))
+
+    cross_marquee.style.left=parseInt(cross_marquee.style.left)-copyspeed+"px"
+
+    else
+
+   cross_marquee.style.left=parseInt(marqueewidth)+8+"px"
+
+    }
+
+   else if (document.layers){
+
+   if (ns_marquee.left>(actualwidth*(-1)+8))
+
+   ns_marquee.left-=copyspeed
+
+   else
+
+   ns_marquee.left=parseInt(marqueewidth)+8
+
+   }
+
+   }
+
+
+
+   if (iedom||document.layers){
+
+   with (document){
+
+   document.write('<table border="0" cellspacing="0" cellpadding="0"><td>')
+
+   if (iedom){
+
+    write('<div style="position:relative;width:'+marqueewidth+';height:'+marqueeheight+';overflow:hidden">')
+
+   write('<div style="position:absolute;width:'+marqueewidth+';height:'+marqueeheight+';background-color:'+marqueebgcolor+'" onMouseover="copyspeed=pausespeed" onMouseout="copyspeed=marqueespeed">')
+
+   write('<div id="iemarquee" style="position:absolute;left:0px;top:0px"></div>')
+
+    write('</div></div>')
+
+}
+
+else if (document.layers){
+
+write('<ilayer width='+marqueewidth+' height='+marqueeheight+' name="ns_marquee" bgColor='+marqueebgcolor+'>')
+
+write('<layer name="ns_marquee2" left=0 top=0 onMouseover="copyspeed=pausespeed" onMouseout="copyspeed=marqueespeed"></layer>')
+
+write('</ilayer>')
+
+}
+
+document.write('</td></table>')
+
+}
+
+}
+
+          </script>
+        
+   
+   
+   
+    <table width="650">
+    <tr><td colspan="2"><img src="images/border-curve-brown.jpg" /></td>
+    </tr>
+  
+    <tr><td height=200  colspan="2"><div align="justify" >The ISE department has come a long way since its formation in 1972. Today, ISE is a comprehensive department offering <a href="BEng/" target="_blank"><strong>BEng</strong></a>, <a href="https://btech.eng.nus.edu.sg/btech/index.aspx" target="_blank"><strong>BTech</strong></a>, <a href="programs/MSc.html" target="_blank"><strong>MSc</strong></a>, <a href="SyE/" target="_blank"><strong>EMSEM</strong></a>, <a href="MEng&amp;PhD/" target="_blank"><strong>MEng</strong></a>, and <a href="MEng&amp;PhD/"><strong>PhD</strong></a> degree programs. As the only ISE department in Singapore, we offer a rigorous and yet flexible curriculum full of exciting possibilities ranging from industry-inspired design projects to overseas attachments. In the coming years, ISE will actively <a href="jobs/faculty-positions.html" target="_blank"><strong>recruit</strong></a>, <a href="programs/" target="_blank"><strong>develop</strong></a> and <a href="people/index.html" target="_blank"><strong>retain</strong></a> talents with the passion to bring out a new breed of engineers who possess the analytical skill to deal with problems holistically. Together, we shall reinforce NUS's leadership in quality <a href="programs/" target="_blank"><strong>education</strong></a> and <a href="research/" target="_blank"><strong>research</strong></a> and develop international visibility for research in industrial systems.</div></td></tr>
+ 
+  <tr><td colspan="2">&nbsp;</td></tr>
+
+ 
+ <tr><td colspan="2"><img src="images/feature-news.jpg" alt="Featured News" /></td></tr>
+ 
+
+ 
+ <tr>
+     <td valign="top" width="130"><img src="images/news/global-reach-adv.jpg" width="120" height="80" /></td>
+     <td valign="top" width="520" ><span class="content-sub-title-orange">The Global Reach of NUS/ISE</span><br />
+       True to the mission that NUS is a <em>Leading Global University</em>, the ISE Department’s influence is felt this year in Latin America – Prof T N Goh was an invited Plenary Speaker at an international Quality conference in Santiago, Chile, in August this year.<br />
+       <a href="news/global_reach.html"><img src="images/arrow-readmore.jpg" alt="Read more" width="75" height="20"  target="_blank"/></a></td>
+   </tr>
+   <tr>
+     <td valign="top">&nbsp;</td>
+     <td valign="top"  >&nbsp;</td>
+   </tr>
+   <tr>
+     <td valign="top" width="130"><img src="awards_won/student/images/ira-award-adv.jpg" width="120" height="80" /></td>
+     <td valign="top" width="520" ><span class="content-sub-title-orange">ISE student won Merit Award in FOE’s 26<sup>th</sup> Innovation and Research Award</span><br />In the 26th year since its initialization in 1987, the faculty seeks to encourage and recognize innovation and creativity in students’ projects through the annual Innovation and Research Award.<br /><a href="awards_won/student/IRA-ChuaXinQian.html"><img src="images/arrow-readmore.jpg" alt="Read more" width="75" height="20"  target="_blank"/></a> </td>
+   </tr>
+   <tr>
+     <td valign="top">&nbsp;</td>
+     <td valign="top" >&nbsp;</td>
+   </tr>
+   <tr>
+   <td width="130" valign="top"><img src="images/news/2012-Rams-award.jpg" width="120" height="80" alt="" /></td>
+     <td width="520" valign="top" ><span class="content-sub-title-orange">The 2012 E.A.Evans/P.K.McElroy Award</span><br />
+       <span class="content-sub-title-black">Prof LC Tang and his former PhD student, Dr Liu Xiao, have been presented the above award at the 2012 Reliability and Maintainability Symposium (RAMS) for their paper entitled “Spare Provision for Repairable Systems under Fleet Expansion”, presented at the 2011 RAMS.<br />
+       <a href="news/award-RAMS2012-TangLC.html"><img src="images/arrow-readmore.jpg" alt="Read more" width="75" height="20"  target="_blank"/></a><br>
+       <br />
+       </span></td>
+   </tr>
+   <tr>
+     <td valign="top"><a href="news/index.php"><img src="images/arrow-more-news.jpg" width="75" height="20" alt="More News" /></a></td>
+     <td valign="top" >&nbsp;</td>
+   </tr>
+   <tr>
+     <td colspan="2" valign="top">&nbsp;</td>
+   </tr>
+ 
+   <tr>
+     <td colspan="2" valign="top">&nbsp;</td>
+   </tr>
+   
+    <tr>
+     <td colspan="2" valign="top">&nbsp;</td>
+   </tr>
+  
+ 
+  <tr>
+     <td colspan="2" valign="top">
+     <table border="0" cellpadding="0" >
+      <tr>
+     <td><img name="bottomnavigator_r1_c1" src="images/bottom-nav/bottom-navigator_r1_c1.jpg" width="334" height="50" border="0" id="bottomnavigator_r1_c1" alt="" /></td>
+   <td><a href="http://www.facebook.com/ise.nus" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image40','','images/bottom-nav/bottom-navigator_r1_c2B.jpg',1)"><img src="images/bottom-nav/bottom-navigator_r1_c2.jpg" alt="ISE Face Book" name="Image40" width="56" height="50" border="0" id="Image40" /></a></td>
+   <td><a href="http://www.youtube.com/isenus" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image41','','images/bottom-nav/bottom-navigator_r1_c3B.jpg',1)"><img src="images/bottom-nav/bottom-navigator_r1_c3.jpg" alt="ISE YouTube" name="Image41" width="59" height="50" border="0" id="Image41" /></a></td>
+   <td><a href="http://enterprise.ise.nus.edu.sg/~iseclub/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image42','','images/bottom-nav/bottom-navigator_r1_c4B.jpg',1)"><img src="images/bottom-nav/bottom-navigator_r1_c4.jpg" alt="ISE Student's Club" name="Image42" width="62" height="50" border="0" id="Image42" /></a></td>
+   <td><a href="photos/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image43','','images/bottom-nav/bottom-navigator_r1_c5B.jpg',1)"><img src="images/bottom-nav/bottom-navigator_r1_c5.jpg" alt="Photo Gallery" name="Image43" width="62" height="50" border="0" id="Image43" /></a></td>
+   <td><a href="videos/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image44','','images/bottom-nav/bottom-navigator_r1_c6B.jpg',1)"><img src="images/bottom-nav/bottom-navigator_r1_c6.jpg" alt="ISE Video" name="Image44" width="77" height="50" border="0" id="Image44" /></a></td>
+   <td><img src="images/bottom-nav/spacer.gif" width="1" height="50" border="0" alt="" /></td>
+  </tr>
+</table>
+     
+     </td>
+   </tr>
+ 
+   
+ 
+    </table>
+   
+    
+      
+
+    
+
+   
+    
+   
+   </div>  <!-- "container-right -->
+   
+   
+    <div class="clear"></div>
+   
+
+    </div>
+   
+   
+    </div>
+    
+    
+ 
+    
+    
+         
+  </div>
+  <div class="bottom_curve">&nbsp;</div>
+    	<!-- Footer Section Start -->
+        	<div id="footer">
+                <div class="left_sec">
+                  <p>&copy; Copyright 2001- 
+                        <!-- This is to get the current year -->
+                        <SCRIPT TYPE="text/javascript">
+                        <!--
+                        var da = new Date();
+                        document.write(da.getFullYear());
+                        //-->
+                        </SCRIPT> 
+                        <!--/ end -->
+<strong>National University of Singapore.</strong> All Rights Reserved.</p>
+                  <ul>
+                    <li><a href="http://www.nus.edu.sg/terms-of-use">Terms&nbsp;of&nbsp;Use</a></li>
+                    <li><a href="http://www.nus.edu.sg/privacy">Privacy</a></li>
+                    <li class="last"><a href="http://www.nus.edu.sg/non-discrimination">Non-&nbsp;discrimination</a></li>
+                  </ul>
+                </div>
+              <div class="right_sec">
+                <ul>
+                    <li> <a href="index.php">Home</a> </li>
+                    <li> <a href="jobs/index.php">Careers</a> </li>
+                    <li> <a href="sitemap/index.php">Site&nbsp;Map</a> </li>
+                    <li class="last"> <a href="contact_us/index.html">Contact</a> </li>
+                </ul>
+              
+                 <p>Last modified on
+                   <!-- #BeginDate format:Am1 -->March 14, 2013<!-- #EndDate -->
+                 <script type="text/javascript" src="js/by-webmaster.js" ></script>
+                    <script type="text/javascript">
+                     <!--
+                    document.write(BuildEmail());	
+                   //-->
+			     </script>
+              
+              
+                </div>
+  </div>
+        <!-- Footer Section End -->
+</div>
+</body>
+</html>

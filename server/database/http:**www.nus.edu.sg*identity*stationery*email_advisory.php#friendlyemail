@@ -1,0 +1,446 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- SEO PHP tags to go here -->
+
+<meta name="keywords" content="National University of Singapore, NUS, Singapore Universities"><meta name="description" content="A research-intensive university with an entrepreneurial dimension, NUS is ranked consistently as one of the world's top universities. We offer the most extensive selection of academic programmes in Singapore, collaborating with leading universities worldwide to provide our students with diverse opportunities for overseas exposure."><title>National University of Singapore (NUS) - A global university centred in Asia</title>			<META NAME="refresh" CONTENT="0">
+			<META NAME="language" CONTENT="english">
+			<META NAME="revisit-after" CONTENT="1">
+			<META NAME="robot" CONTENT="index,follow">
+<!-- SEO PHP tags end -->
+
+<link rel="stylesheet" type="text/css" href="http://www.nus.edu.sg/iw/resources/global/styles/base.css" media="screen, print, projection, handheld" />
+<link rel="stylesheet" type="text/css" href="http://www.nus.edu.sg/iw/resources/global/styles/screen.css" media="screen, projection, print" />
+<link rel="stylesheet" type="text/css" href="http://www.nus.edu.sg/iw/resources/global/styles/js.css" media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="http://www.nus.edu.sg/iw/resources/global/styles/print.css" media="print" />
+
+<link rel="stylesheet" type="text/css" href="http://www.nus.edu.sg/iw/resources/global/styles/identitynav.css" media="screen, projection, print" />
+<link rel="stylesheet" type="text/css" href="http://www.nus.edu.sg/iw/resources/global/styles/left-menu.css" />
+<link rel="stylesheet" type="text/css" href="http://www.nus.edu.sg/iw/resources/global/styles/handheld.css" media="handheld" />
+<link rel="stylesheet" type="text/css" href="http://www.nus.edu.sg/iw/resources/global/styles/innerpage.css" media="screen, print, projection" />
+<link rel="stylesheet" type="text/css" href="http://www.nus.edu.sg/iw/resources/global/styles/homepanel.css" media="screen, print, projection" />
+
+<!--[if lte IE 6]>
+ <link rel="stylesheet" type="text/css" href="ie.css" media="screen, projection" />
+<![endif]-->
+<!--[if IE 7.0]>
+ <link rel="stylesheet" type="text/css" href="ie7.css" media="screen, projection" />
+<![endif]-->
+<script type="text/javascript" src="http://www.nus.edu.sg/iw/resources/global/js/jquery.js"></script>
+<script type="text/javascript" src="http://www.nus.edu.sg/iw/resources/global/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="http://www.nus.edu.sg/iw/resources/global/js/jquery.dimensions.js"></script>
+<script type="text/javascript" src="http://www.nus.edu.sg/iw/resources/global/js/ui.base.js"></script>
+<script type="text/javascript" src="http://www.nus.edu.sg/iw/resources/global/js/ui.accordion.js"></script>
+<script type="text/javascript" src="http://www.nus.edu.sg/iw/resources/global/js/ui.sortable.min.js"></script>
+<script type="text/javascript" src="http://www.nus.edu.sg/iw/resources/global/js/main.js" ></script>
+<script type="text/javascript" src="http://www.nus.edu.sg/iw/resources/global/js/swfobject.js" ></script>
+<script type="text/javascript" src="http://www.nus.edu.sg/iw/resources/global/js/prefs.js" ></script>
+<script type="text/javascript" src="http://www.nus.edu.sg/iw/resources/global/js/detect.js" ></script>
+<script type="text/javascript" src="http://www.nus.edu.sg/iw/resources/global/js/left-menu.js"></script>
+<script language="javascript" src="http://www.nus.edu.sg/iw/resources/global/js/decoder.js"></script>
+</head>
+<body>
+<div id="wrapper">
+
+            <!-- header -->
+              <div id="header">
+<!--<h1 class="ir"><a href="http://www.nus.edu.sg/">National University of Singapore<span></span></a></h1>-->
+        <div style="float:left; padding:15px 0px 0px 20px"><a href="http://www.nus.edu.sg/"><img src="http://www.nus.edu.sg/iw/resources/global/images/logo.gif"  alt="National University of Singapore" border="0"/></a></div>        
+<div id="pointermenu2">
+<ul>
+<li><a href="http://exchange.nus.edu.sg/" target="_blank"><span style="text-transform:none">myEMAIL</span></a></li>
+<li><a href="https://ivle.nus.edu.sg" target="_blank">ivle</a></li>
+<li><a href="http://www.lib.nus.edu.sg/" target="_blank">library</a></li>
+<li><a href="http://www.nus.edu.sg/campusmap/" >maps</a></li>
+<li><a href="https://aces01.nus.edu.sg/CoE/jsp/coeMain.jsp">calendar</a></li>
+<li><a href="http://www.nus.edu.sg/site-map">sitemap</a></li>
+<!--<li><a href="#">a-z index</a></li>-->
+<li><a href="http://www.nus.edu.sg/contact">contact</a></li>
+<!--<li><a href="" style="margin-top:0px;"><img src="http://www.nus.edu.sg/iw/resources/global/images/chinese.gif" /></a></li>-->
+
+<!--<li><a href="#"><font color="#FFFF00">&#20013;&#25991;&#29256;</font></a></li>-->
+
+<li><a href="#" id="rightcorner">&nbsp;</a></li>
+</ul>
+<br style="clear: left" />
+</div>    
+    
+<div id="searchform">
+<script src="http://www.nus.edu.sg/search/search.js" type="text/javascript"></script>
+
+
+<FORM id="frmSearch" name="frmSearch" onSubmit="evalSearch();return false">
+		 <a href="http://www.nus.edu.sg/search/" style="text-decoration:none; font-size:11px; font-weight:bold; color:#666666">Search </a> 
+         <input id=txtKeyword name=txtKeyword type="Text" value="search for..." onfocus="value=''" class="equal" size="18">
+		 in
+		 <SELECT id="SearchMenu" name="SearchMenu" class="equal">
+         <OPTION selected value="0">NUS Websites</OPTION>
+         <OPTION value="1">Internet</OPTION>					  
+         <OPTION value="2">Staff Directory</OPTION>
+		 <OPTION value="3">Advanced Search</OPTION>
+		 </SELECT>
+         		    <input class="equal" id="Go" src="http://www.nus.edu.sg/iw/resources/global/images/go.jpg" type="image">
+         </FORM>
+         	</div>
+  </div>
+  
+            <!--/header-->
+
+
+            <!-- main navigation -->
+            <div id="menu">
+<ul>
+<!-- About NUS -->
+<li><a href="http://www.nus.edu.sg/identity/">HOME</a></li>
+
+
+<li><a href="http://www.nus.edu.sg/identity/logo/idspecs.php">logo &amp; typefaces</a>
+</li>
+
+<!-- Admissions -->
+<li><a href="http://www.nus.edu.sg/identity/stationery/busscard.php">stationery</a>
+	
+	</li>
+
+<li><a href="http://www.nus.edu.sg/identity/collaterals/invitecard.php">collaterals</a>
+	
+	</li>
+
+<li><a href="http://www.nus.edu.sg/identity/publication/">publications</a>
+	</li>  
+    
+<li><a href="http://www.nus.edu.sg/identity/ads/">Ad Templates</a>
+</li>
+
+<!--
+<li><a href="http://www.nus.edu.sg/identity/logo/subbrand.php">sub-Brands</a>
+</li>
+-->
+
+<!--
+<li><a href="http://www.nus.edu.sg/identity/logo/startup-logo.php">Start up logo</a>
+</li>
+-->
+
+<!--<li><a href="#">web</a>
+</li>-->
+	</li>  
+</ul>
+
+</div><!-- /main navigation -->
+
+<div id="content">
+      <div id="title" class="title">
+          <h1>The NUS Identity</h1>
+      </div>
+                
+                <div id=sidebar>
+          <!--identity sidebar -->
+          <script type="text/javascript">
+	// <![CDATA[
+	var myMenu;
+	window.onload = function() {
+		myMenu = new SDMenu("my_menu");
+		myMenu.init();
+		myMenu.toggleMenu(myMenu.submenus[0]);	
+		myMenu.toggleMenu(myMenu.submenus[1]);	
+		myMenu.toggleMenu(myMenu.submenus[2]);	
+		myMenu.toggleMenu(myMenu.submenus[3]);	
+		myMenu.toggleMenu(myMenu.submenus[4]);	
+		myMenu.toggleMenu(myMenu.submenus[5]);	
+		myMenu.toggleMenu(myMenu.submenus[6]);	
+		myMenu.toggleMenu(myMenu.submenus[7]);	
+	};
+	// ]]>
+	</script>
+
+      <div id="sidebar">
+        <div id="my_menu" class="sdmenu">
+        
+        <div>
+		<span class="title"><img src="http://www.nus.edu.sg/iw/resources/global/images/expanded.gif" class="arrow" alt="-" />Overview</span>
+        <a href="http://www.nus.edu.sg/identity/intromsg.php">Background</a>
+        <a href="http://www.nus.edu.sg/identity/rationale.php">The Identity</a>
+        <a href="http://www.nus.edu.sg/identity/elements.php">Elements</a>
+        <a href="http://www.nus.edu.sg/identity/evolution.php">Evolution</a>
+        <a href="http://www.nus.edu.sg/identity/logo/subbrand.php">Sub-Brands</a>
+		</div>
+
+        <div>
+		<span><img src="http://www.nus.edu.sg/iw/resources/global/images/expanded.gif" class="arrow" alt="-" />logo & typefaces</span>
+        <a href="http://www.nus.edu.sg/identity/logo/idspecs.php">Full-colour Logo</a>
+        <a href="http://www.nus.edu.sg/identity/logo/idspecs7.php">Logo in Different Colour Applications</a>
+        <a href="http://www.nus.edu.sg/identity/logo/idspecs2.php">Minimum Size and Clear Space</a>
+        <a href="http://www.nus.edu.sg/identity/logo/idspecs4.php">Incorrect Usage</a>
+        <a href="http://www.nus.edu.sg/identity/logo/idspecs3.php">Corporate Colours</a>
+        <a href="http://www.nus.edu.sg/identity/logo/idspecs6.php">Corporate Typefaces</a>
+		</div>
+
+        <div>
+	<span><img src="http://www.nus.edu.sg/iw/resources/global/images/expanded.gif" class="arrow" alt="-" />Stationery</span>
+        <a href="http://www.nus.edu.sg/identity/stationery/busscard.php">Business Card</a>
+        <a href="http://www.nus.edu.sg/identity/stationery/withcom.php">Complimentary Slip</a>
+        <a href="http://www.nus.edu.sg/identity/stationery/envelop.php">Envelope</a>  
+        <a href="http://www.nus.edu.sg/identity/stationery/forms.php">Forms</a>
+        <a href="http://www.nus.edu.sg/identity/stationery/lhead.php">Letterhead</a>
+        <a href="http://www.nus.edu.sg/identity/stationery/memo.php">Memo Sheet</a>
+        <a href="http://www.nus.edu.sg/identity/stationery/facsimile.php">Facsimile</a>
+        <a href="http://www.nus.edu.sg/identity/stationery/email_advisory.php">Email Signature</a>
+        <a href="http://www.nus.edu.sg/identity/stationery/email_advisory.php#friendlyemail">Friendly Email Address</a>        
+        <a href="http://www.nus.edu.sg/identity/stationery/overseasstf.php">For Overseas Staff</a>
+        <a href="http://www.nus.edu.sg/identity/stationery/order.php">Ordering Details</a>
+        </div>  
+
+        <div>
+		<span><img src="http://www.nus.edu.sg/iw/resources/global/images/expanded.gif" class="arrow" alt="-" />Collaterals</span>
+        <a href="http://www.nus.edu.sg/identity/collaterals/invitecard.php">Inivitation Card and Envelope</a>
+        <a href="http://www.nus.edu.sg/identity/collaterals/nametag.php">Paper Name Tag</a>
+        <a href="http://www.nus.edu.sg/identity/collaterals/tablecard.php">Table Place Card</a>
+        <a href="http://www.nus.edu.sg/identity/collaterals/program.php">Visit Programme Sheet</a>
+        <a href="http://www.nus.edu.sg/identity/collaterals/folder.php">Visitor Folder</a>
+		</div>
+
+        <div>
+		<span><img src="http://www.nus.edu.sg/iw/resources/global/images/expanded.gif" class="arrow" alt="-" />Publications</span>
+        <a href="http://www.nus.edu.sg/identity/publication/">Overview</a>
+        <a href="http://www.nus.edu.sg/identity/publication/litsystem3.php">Front Cover Guidelines</a>
+        <a href="http://www.nus.edu.sg/identity/publication/litsystem4.php">Inside Page Guidelines</a>
+        <!--<a href="http://www.nus.edu.sg/identity/publication/litsystem5.php">Publication Bearing Co-brands</a>-->
+		</div>
+
+        <div>
+		<span><img src="http://www.nus.edu.sg/iw/resources/global/images/expanded.gif" class="arrow" alt="-" />Ad Templates</span>
+        <a href="http://www.nus.edu.sg/identity/ads/">Introduction</a>
+        <a href="http://www.nus.edu.sg/identity/ads/templates.php">Templates</a>
+        <a href="http://www.nus.edu.sg/identity/ads/examples.php">Examples</a>
+		</div>
+		
+		<!--
+        <div>
+		<span><img src="http://www.nus.edu.sg/iw/resources/global/images/expanded.gif" class="arrow" alt="-" />Sub-brands</span>
+        <a href="http://www.nus.edu.sg/identity/logo/subbrand.php">Sub-brands</a>
+        <a href="http://www.nus.edu.sg/identity/logo/subbrand1.php">Sub-brands with NUS Name &nbsp;&nbsp;&nbsp;&nbsp;Descriptor</a>
+		</div>
+		-->
+
+		<!--
+        <div>
+		<span><img src="http://www.nus.edu.sg/iw/resources/global/images/expanded.gif" class="arrow" alt="-" />Start-up Logo</span>
+        <a href="http://www.nus.edu.sg/identity/logo/startup-logo.php">NUS Start-up Logo Bar</a>
+        <a href="http://www.nus.edu.sg/identity/logo/startup-logo2.php">Proportions</a>
+        <a href="http://www.nus.edu.sg/identity/logo/startup-logo3.php">Examples</a>
+		</div>
+		-->
+	
+	</div>
+</div>
+          <!--/identity sidebar -->
+		  
+<div id="sitemap-container-left" >
+      <div id="campus-left-content">Downloads</div>
+      <div align="left"><img src="http://www.nus.edu.sg/iw/resources/global/images/bird-flu/dotted-line-big.jpg" width="237" height="14" /></div>
+ 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+				<td style="padding:0px 10px 0px 10px" valign="top"><img src="http://www.nus.edu.sg/iw/resources/global/images/download_icon.gif" /></td>
+				<td valign="top"><a href="https://staffportal.nus.edu.sg/staffportal/iw/resources/staffportal/corporate-relations/docs/email-advisory.pdf" target="_blank">Email Signature Template and Friendly Email Address</a> <img src="http://www.nus.edu.sg/iw/resources/global/images/pdf-icon.gif" /> (562Kb)</td>
+			  </tr>
+			</table>
+			<br><br>
+<div align="center"><!--a href="https://wws.nus.edu.sg/identity/download/index.html" target="_blank"-->
+<a href="https://staffportal.nus.edu.sg/staffportal/portal/legal-and-corporate-relations.html" target="_blank"><img src="http://www.nus.edu.sg/iw/resources/global/images/identity/downloadlogo.jpg" border="0"></a></div>
+			
+			
+      <img src="http://www.nus.edu.sg/iw/resources/global/images/shim.gif" width="1" height="1" /><br />
+</div>
+		  </div>
+
+<div id="right-content">
+        <!--braadcrumbs -->
+<div id="breadcrumbs"><b><a href="http://www.nus.edu.sg/">NUS Home</a> &gt; <a href="http://www.nus.edu.sg/identity/">NUS Identity</a> &gt; <a href="http://www.nus.edu.sg/identity/stationery/busscard.php" >Stationery</a> &gt; Email Signature Templates</b>
+</div> 
+       <!--/breadcrumbs -->
+
+
+
+<div id="box">
+                  <!--- box border -->
+                  <div id="lb">
+                    <div id="rb">
+                      <div id="bb">
+                        <div id="blc">
+                          <div id="brc">
+                            <div id="tb">
+                              <div id="tlc">
+                                <div id="trc">
+                                  <!--  -->
+
+                                  <div id="main-content">
+                                    <div style="float:left;padding-bottom:10px;border-bottom:dotted 1px">
+                                    <h1>Email Signature Templates<a name="top"></a></h1>
+                                    <br>
+                                    
+                                    <div style="float:left;margin-bottom:30px">
+                                        <div style="float:left;width:500px"><h6>Template A (Academic staff/faculty)</h6></div>
+                                        <div style="width:450px;float:left;color:#003399;font-family:Arial, Helvetica, sans-serif;font-size:9pt;margin-bottom:10px">
+	                                        <strong>Associate Professor CHEN Mui Ho</strong> :: Director, Centre for Advanced Chemical Engineering  ::  Department of Chemical &amp; Biomolecular Engineering  ::  Faculty of Engineering  ::  National University of Singapore :: 9 Engineering Drive 1, Singapore 117576:: 65-6516 2101(DID) :: 65-6777 3847 (Fax) :: chen.muiho@nus.edu.sg (E) :: www.nus.edu.sg (W) :: <em>Company Registration No: 200604346E</em>
+                                        </div>
+                                        <div style="float:left"><img src="images/bracket_large.jpg" /></div>
+                                        <div style="float:left;margin-top:35px">Text in Arial, 9 pt, <br>NUS blue (R0, G51, B153)</div>
+                                        <div style="float:left;width:450px;color:#FF6600;font-family:Arial, Helvetica, sans-serif;font-size:8pt;line-height:15px">
+                                        	Important: This email is confidential and may be privileged. If you are not the intended recipient, please delete it and notify us immediately; you should not copy or use it for any purpose, nor disclose its contents to any other person. Thank you.
+                                        </div>
+                                        <div style="float:left"><img src="images/bracket_small.jpg" /></div>
+                                        <div style="float:left;margin-top:7px">Text in Arial, 8 pt, <br>NUS orange (R255, G102, B0)</div>
+                                    </div>      
+                                    
+                                    <div style="float:left;margin-bottom:30px">
+                                        <div style="float:left;width:500px"><h6>Template B (Professional/admin/non-academic staff)</h6></div>
+                                        <div style="width:450px;float:left;color:#003399;font-family:Arial, Helvetica, sans-serif;font-size:9pt;margin-bottom:10px">
+                                        	<strong>Richard TAN (Mr)</strong> :: Manager, Office of Corporate Relations :: National University of Singapore :: University Hall, Tan Chin Tuan Wing, UHT #02-02, 21 Lower Kent Ridge Road, Singapore 119077 :: 65-6516 2000 (DID) :: 65-6777 3847 (Fax) :: richard.tan@nus.edu.sg (E) :: www.nus.edu.sg (W) :: <em>Company Registration No: 200604346E</em>
+                                        </div>
+                                        <div style="float:left"><img src="images/bracket_large.jpg" /></div>
+                                        <div style="float:left;margin-top:35px">Text in Arial, 9 pt, <br>NUS blue (R0, G51, B153)</div>
+                                        <div style="float:left;width:450px;color:#FF6600;font-family:Arial, Helvetica, sans-serif;font-size:8pt;line-height:15px">
+                                        	Important: This email is confidential and may be privileged. If you are not the intended recipient, please delete it and notify us immediately; you should not copy or use it for any purpose, nor disclose its contents to any other person. Thank you.
+                                        </div>
+                                        <div style="float:left"><img src="images/bracket_small.jpg" /></div>
+                                        <div style="float:left;margin-top:7px">Text in Arial, 8 pt, <br>NUS orange (R255, G102, B0)</div>
+                                    </div>      
+                                                                      
+                                    <div style="float:left;margin-bottom:30px">
+                                        <div style="float:left;width:500px"><h6>Template C (Chinese text)</h6></div>
+                                        <div style="width:450px;float:left;color:#003399;font-family:Arial, Helvetica, sans-serif;font-size:9pt;margin-bottom:10px">
+                                        	<strong>Associate Professor LEE Wen Bin 李文彬副教授</strong>  :: Deputy Head  副主任, Centre for Language Studies  语言中心 :: Faculty of Arts &amp; Social Sciences  文学暨社会科学院 :: National University of Singapore 新加坡囯立大学 :: Block AS4, #02-03, 9 Arts Link, Singapore 117570:: 65-6516 6339 (DID) :: 65-6777 3848 (Fax) :: lee.wenbin@nus.edu.sg (E) :: www.nus.edu.sg (W) :: <em>Company Registration No: 200604346E</em>
+                                        </div>
+                                        <div style="float:left"><img src="images/bracket_large.jpg" /></div>
+                                        <div style="float:left;margin-top:15px">English text in Arial, 9 pt; <br>Chinese text in<br /> Times New Roman, 9 pt;<br>NUS blue (R0, G51, B153)</div>
+                                        <div style="float:left;width:450px;color:#FF6600;font-family:Arial, Helvetica, sans-serif;font-size:8pt;line-height:15px">
+                                        	Important: This email is confidential and may be privileged. If you are not the intended recipient, please delete it and notify us immediately; you should not copy or use it for any purpose, nor disclose its contents to any other person. Thank you.
+                                        </div>
+                                        <div style="float:left"><img src="images/bracket_small.jpg" /></div>
+                                        <div style="float:left;margin-top:7px">Text in Arial, 8 pt, <br>NUS orange (R255, G102, B0)</div>
+                                    </div>                                    
+                                    
+
+                                    
+                                
+                                
+                                    </div>
+                                    
+                                    <div style="padding-bottom:50px;padding-top:30px;border-bottom:dotted 1px">
+                                    
+									<div style="float:left;margin-bottom:30px">
+                                        <div style="float:left;width:500px;margin-top:30px"><h6>Optional Elements:</h6></div>
+                                        <div style="width:450px;float:left;color:#003399;font-family:Arial, Helvetica, sans-serif;font-size:9pt;margin-bottom:10px">
+	                                        <strong>Name with SURNAME in Caps (Salutation)</strong> :: Designation, Department / Faculty / Centre / Institute :: National University of Singapore ::  Address :: 65-6516 xxxx (DID) :: 65-6777 xxxx (Fax) :: Email address (E) ::  www.nus.edu.sg (W) :: Company Registration No: 200604346E
+                                        </div>
+                                        <div style="float:left"><img src="images/bracket_large.jpg" height="70" width="17" /></div>
+                                        <div style="float:left;margin-top:15px">Text in Arial, 9 pt, <br>NUS blue (R0, G51, B153)</div>
+                                        
+                                        <div style="width:450px;float:left;color:#003399;font-family:Arial, Helvetica, sans-serif;font-size:9pt;margin-bottom:0px">
+	                                        <div style="color:#003399;font-family:Arial, Helvetica, sans-serif;font-size:9pt;margin-bottom:10px">
+                                            	<span style="color:#F00;font-size:18px">*</span>facebook.com/nus.singapore  ::  twitter.com/NUSingapore
+                                            </div>
+                                        </div>
+                                        <div style="float:left"><img src="images/bracket_small.jpg" height="30" width="17" /></div>
+                                        <div style="float:left;margin-top:0px">Text in Arial, 9 pt, <br>NUS blue (R0, G51, B153)</div>
+                                        
+                                        <div style="float:left;width:450px;color:#FF6600;font-family:Arial, Helvetica, sans-serif;font-size:8pt;line-height:15px;margin-bottom:7px">
+                                        	Important: This email is confidential and may be privileged. If you are not the intended recipient, please delete it and notify us immediately; you should not copy or use it for any purpose, nor disclose its contents to any other person. Thank you.
+                                        </div>
+                                        <div style="float:left"><img src="images/bracket_small.jpg" /></div>
+                                        <div style="float:left;margin-top:7px">Text in Arial, 8 pt, <br>NUS orange (R255, G102, B0)</div>
+                                        
+                                        <div style="float:left;width:450px;color:#FF6600;font-family:Arial, Helvetica, sans-serif;font-size:8pt;line-height:15px">
+                                        	<span style="color:#F00;font-size:18px">*</span><img src="images/eco_image.jpg" />
+                                                <span style="color:#006600;font-family:Arial, Helvetica, sans-serif;font-size:8pt;">SAVE PAPER - Think before you print.</span>
+                                        </div>
+                                        <div style="float:left"><img src="images/bracket_small.jpg" /></div>
+                                        <div style="float:left;margin-top:7px;margin-bottom:20px">Text in Arial, 8 pt, <br>Green (R0, G102, B0)</div>
+                                        
+                                        <div style="float:left;width:450px;color:#FF6600;font-family:Arial, Helvetica, sans-serif;font-size:8pt;line-height:15px">
+                                        	<span style="color:#F00;font-size:18px">*</span>
+                                            <img src="images/email_banner.jpg" width="430" />
+                                        </div>
+                                        <div style="float:left"><img src="images/bracket_small.jpg" height="55" width="17" /></div>
+                                        <div style="float:left;width:170px">Only banners publicising NUS events/conferences are permitted as part of the email signature.<br>Max size: 640 x 100 pixels</div>
+                                    </div>
+                                                                        
+                                    
+                                    <br><br>
+                                    <strong>Note:</strong>
+                                    <br>
+                                    1) A maximum of two optional elements (<span style="color:#F00;">*</span>) is permitted with the standard email signature.
+                                    <br>
+                                    2) Only corporate or official faculty/school/department url, FB and Twitter links are permitted in the email signature.
+                                    </div>
+                                    <a id="friendlyemail"></a>   
+                                    <div style="padding-bottom:50px;padding-top:30px;border-bottom:dotted 1px">
+                                        <h1>Friendly Email Address</h1>
+                                        <br>
+                                        <h6>Recommended formats:</h6>
+                                        <h3 style="margin-left:200px;font-family:Arial, Helvetica, sans-serif;color:#003399">
+                                            <br>richard.tan@nus.edu.sg	
+                                            <br><br>chua.weihong@nus.edu.sg
+                                            <br><br>saadiah.abdullah@nus.edu.sg
+                                            <br><br>barsha.govindasvamy@nus.edu.sg
+                                        </h3>
+                                        <br>To set up your friendly email address, please follow the steps at: 
+                                        <br><a href="http://www.nus.edu.sg/comcen/nusmail/friendlysetup.html" target="_blank">http://www.nus.edu.sg/comcen/nusmail/friendlysetup.html</a>
+                                        <br><br>
+                                        <strong>Note:</strong>
+                                        <br>
+                                        1) First and last names should be used together as the friendly email address for your official NUS email account.
+                                        <br>
+                                        2) Staff members who have already created their friendly email addresses are not required to change them. The recommended formats are only applicable to those who have yet to create their friendly email addresses.
+                                    </div>		
+			                        
+                                  <div id="top">
+                                      <div align="right"><a href="#top"><img src="http://www.nus.edu.sg/iw/resources/global/images/top.gif" alt="top" width="32" height="12" /></a></div>
+          </div>
+
+                                  </div>
+                                  <!--- end of box border -->
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+    </div>
+  </div>
+</div>
+
+<!--footer-->
+    <div id="footer">
+        <div class="inner">
+            <div class="left">
+                <p>© Copyright 2001-2013 National University of Singapore. All Rights Reserved.</p>
+                <p><a href="http://www.nus.edu.sg/terms-of-use">Terms of Use</a> | <a href="http://www.nus.edu.sg/privacy">Privacy</a> | <a href="http://www.nus.edu.sg/non-discrimination">Non-discrimination</a><!-- | <a href="#">Using this site</a>--></p>
+          </div>
+            <div class="right">
+              <p class="copy"><a href="http://www.nus.edu.sg/">Home</a> | <a href="http://www.nus.edu.sg/search/">Search</a> | <a href="http://www.nus.edu.sg/site-map">Site Map</a> | <a href="http://www.nus.edu.sg/contact">Feedback</a> |<a href="http://www.nus.edu.sg/campusmap/">Campus Map</a></p>
+                Last modified on 28 February, 2013 by <script>EmailLink('bolwk57o3@x95.on9.5q','Office of Corporate Relations')</script></div>
+      </div>
+    </div>
+<!-- End Footer -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1546804-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+    <!--/footer-->
+</div>
+<!--/wrapper-->
+</body>
+</html>

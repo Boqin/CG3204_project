@@ -1,0 +1,545 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/iro_main_testing.dwt" codeOutsideHTMLIsLocked="false" --><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- SEO PHP tags to go here -->
+<meta name="keywords" content="National University of Singapore, NUS, Singapore Universities">
+<meta name="description" content="A research-intensive university with an entrepreneurial dimension, NUS is ranked consistently as one of the world's top universities. We offer the most extensive selection of academic programmes in Singapore, collaborating with leading universities worldwide to provide our students with diverse opportunities for overseas exposure.">
+<title>International Relations Office</title>
+<!-- SEO PHP tags end -->
+
+<!--IE7 - IE8 Compatibility-->
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<!--IE7 - IE8 Compatibility end -->
+
+<link rel="stylesheet" type="text/css" href="styles/base.css" media="screen, print, projection, handheld" />
+<link rel="stylesheet" type="text/css" href="styles/print.css"  media="print" />
+<link rel="stylesheet" type="text/css" href="styles/screen.css"  media="screen, projection, print" />
+<link rel="stylesheet" type="text/css" href="styles/js.css"  media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="styles/mainnav.css"  media="screen, projection, print" />
+<link rel="stylesheet" type="text/css" href="styles/handheld.css"  media="handheld" />
+<link rel="stylesheet" type="text/css" href="styles/innerpage.css"  media="screen, print, projection" />
+<script language="javascript" src="js/decoder.js"></script>
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script type="text/javascript" src="js/jquery.cookie.js" ></script>
+<script type="text/javascript" src="js/jquery.dimensions.js" ></script>
+<script type="text/javascript" src="js/ui.base.js" ></script>
+<script type="text/javascript" src="js/ui.accordion.js"></script>
+<script type="text/javascript" src="js/ui.sortable.min.js" ></script>
+<script type="text/javascript" src="js/main.js" ></script>
+<script src="includes/ice/ice.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+<!--
+var _gaq = _gaq || [];
+var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-37743264-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+//-->
+</script>
+<link href="styles/irostylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="wrapper">
+  <!-- header -->
+  <div id="header">
+    <h1 class="ir"><a href="http://www.nus.edu.sg/" >National University of Singapore<span></span></a></h1>
+    <div id="pointermenu2">
+      <ul>
+        <li><a href="http://exchange.nus.edu.sg/" target="_blank"><span style="text-transform:none">myEMAIL</span></a></li>
+        <li><a href="https://ivle.nus.edu.sg/lms/default.aspx" target="_blank">ivle</a></li>
+        <li><a href="http://www.lib.nus.edu.sg/" target="_blank">library</a></li>
+        <li><a href="http://www.nus.edu.sg/campusmap/" >maps</a></li>
+        <li><a href="https://aces01.nus.edu.sg/CoE/jsp/coeMain.jsp" >calendar</a></li>
+        <li><a href="http://www.nus.edu.sg/sitemap.php" >sitemap</a></li>
+        <!--<li><a href="#">a-z index</a></li>-->
+        <li><a href="http://www.nus.edu.sg/contactus.php" >contact</a></li>
+        <!--<li><a href="#"><font color="#FFFF00">&#20013;&#25991;&#29256;</font></a></li>-->
+        <li><a href="#" id="rightcorner">&nbsp;</a></li>
+      </ul>
+      <br style="clear: left" />
+    </div>
+    
+    <div id="searchform">
+    <script src="http://www.nus.edu.sg/search/search.js" type="text/javascript"></script>
+
+      <FORM id="frmSearch" name="frmSearch" onSubmit="evalSearch();return false">
+        <a href="http://www.nus.edu.sg/search/" style="text-decoration:none; font-size:11px; font-weight:bold; color:#666666">Search </a>
+        <input id=txtKeyword name=txtKeyword type="Text" value="search for..." onfocus="value=''" class="equal" size="18">
+        in
+        <SELECT id="SearchMenu" name="SearchMenu" class="equal">
+          <OPTION selected value="0">NUS Websites</OPTION>
+          <OPTION value="1">Internet</OPTION>
+          <OPTION value="2">Staff Directory</OPTION>
+          <OPTION value="3">Advanced Search</OPTION>
+        </SELECT>
+        <input class="equal" id="Go" src="images/go.jpg"  type="image">
+      </FORM>
+    </div>
+  </div>
+  <!--/header-->
+  <!-- main navigation -->
+  <div id="menu">
+    <ul>
+      <!-- Home -->
+      <li><a href="index.html">Home
+<!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a class="drop" href="home/aboutiro.html">About IRO
+<!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li><a href="home/message.html">Director's Message</a></li>
+              <li><a href="home/mission.html" >Mission, Vision, Core Values & Strategic Thrusts</a></li>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->     
+          </li>
+          <li><a class="drop" href="#">Publications
+<!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li><a href="home/newsletter.html">Step Out Newsletter</a></li>
+              <li><a href="home/ar.html" >Annual Report</a></li>
+              <li><a href="home/essguide.html" >Essential Guide to International Programmes</a></li>
+              <li><a href="home/featurestories1.html" >Feature Stories</a></li>
+              <li><a href="home/jbys.html" >Journey Beyond Your Shores</a></li>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->     
+          </li>
+          <li><a href="home/contact.html">Contact Us</a></li>
+          
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- Student Exchange -->
+      <li><a href="#">Student Exchange
+<!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a class="drop" href="sep/in/index.html">Incoming Exchange Students
+<!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li><a href="sep/in/before/index.html">Before Applying</a></li>
+              <li><a href="sep/in/after/index.html">After Applying</a></li>
+              <li><a href="sep/in/inSG/index.html">While in Singapore</a></li>
+              <li><a href="sep/in/testimonial/index.html">Student Testimonials</a></li>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->     
+          </li>
+          <li><a class="drop" href="sep/out/index.html">Outgoing Exchange Students
+<!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li><a href="sep/out/before/index.html">Before Exchange</a></li>
+              <li><a href="sep/out/prepare/index.html">Preparing For Exchange</a></li>
+              <li><a href="sep/out/lpp/index.html">Language Preparation Programme</a></li>
+              <li><a href="sep/out/sepambass/index.html">SEP Ambassador Programme</a></li>
+              <li><a href="sep/out/testimonial/index.html">Student Testimonials</a></li>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->     
+          </li>
+          <li><a class="drop" href="sep/return/index.html">Returning Exchange Students
+<!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li><a href="sep/return/after/index.html">After Exchange</a></li>
+              <li><a href="sep/pals/index.html">Peer Advising Programme</a></li>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->     
+          </li>
+          <li><a class="drop" href="sep/partners/index.html">Partner Universities
+<!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li><a href="sep/partners/pu/index.html">Where Can I Go?</a></li>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->     
+          </li>
+          <li><a class="drop" href="sep/pals/index.html">Peer Advising Programme
+<!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li><a href="sep/pals/in.html">Incoming Exchange Students</a></li>
+              <li><a href="sep/pals/out.html">Outgoing Exchange Students</a></li>
+              <li><a href="sep/pals/return.html">Returning Exchange Students</a></li>
+              <li><a href="sep/pals/pals.html">Become a Peer Advisor!</a></li>
+              <li><a href="sep/pals/events.html">Upcoming Events</a></li>
+              <li><a href="sep/pals/contact.html">Contact Your PALs</a></li>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->     
+          </li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- Other Opportunities -->
+      <li><a href="#">Global Opportunities
+<!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a href="opps/intern/index.html">International Internships</a></li>
+          <li><a href="opps/irap/index.html">International Research <br />Attachment Programmes</a></li>
+          <li><a href="opps/summer/index.html">International Summer <br />Programmes</a></li>
+          <li><a href="opps/steer/index.html">STEER Programmes</a></li>
+          <li><a class="drop" href="#">Special Programmes
+<!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+            	<li><a href="opps/others/in/index.html">Incoming Students</a></li>
+              	<li><a href="opps/others/out/index.html">Outgoing Students</a></li>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->     
+          </li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- Global Networks -->
+      <li><a href="#">Global Networks
+<!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a class="drop" href="networks/alliances/index.html">Alliances and Networks
+<!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li><a href="networks/alliances/aun.html">ASEAN University Network (AUN)</a></li>
+              <li><a href="networks/alliances/apaie.html">Asia-Pacific Association for International Education (APAIE)</a></li>
+              <li><a href="networks/alliances/acu.html">Association of Commonwealth Universities (ACU)</a></li>
+              <li><a href="networks/alliances/apru.html">Association of Pacific Rim Universities (APRU)</a></li>
+              <li><a href="networks/alliances/asaihl.html">Association of Southeast Asian Institutions of Higher Learning (ASAIHL)</a></li>
+              <li><a href="networks/alliances/iaru.html">International Alliance of Research Universities (IARU)</a></li>
+              <li><a href="networks/alliances/satu.html">Southeast and South Asia & Taiwan Universities (SATU)</a></li>
+              <li><a href="networks/alliances/u21.html">Universitas 21 (U21)</a></li>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->     
+          </li>
+          <li><a href="networks/prog/index.html">Network Programmes</a></li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- Financial Aid -->
+      <li><a href="#">Financial Aid
+<!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+        	<li><a href="financial/in/index.html">Incoming Students</a></li>
+         	<li><a class="drop" href="#">Outgoing Students
+<!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li><a href="financial/out/nasa/index.html">NUS Awards for Study Abroad - NASA</a></li>
+              <li><a href="financial/out/loans/index.html">Loans</a></li>
+              <li><a href="financial/out/others/index.html">Other Awards & Scholarships</a></li>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->     
+          </li>
+          <li><a href="financial/alumni/index.html">Alumni</a></li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- Events -->
+      <li><a href="#">Events
+<!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a href="events/ihome/index.html">Internationalisation @ Home</a></li>
+          <li><a href="events/ied/index.html">International Exchange Day</a></li>
+          <li><a class="drop" href="#">Information Sessions
+<!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li><a href="events/infosession/in.html">Incoming Students</a></li>
+              <li><a href="events/infosession/out.html">Outgoing Students</a></li>
+            </ul>
+            <!--[if lte IE 6]></td></tr></table></a><![endif]-->     
+          </li>
+          <li><a href="events/predepart/index.html">Pre-Departure Briefings</a></li>
+          <li><a href="sep/pals/events.html">Peer Advising Events</a></li>
+          <li><a href="events/welcomefarewell/index.html">Welcome/Farewell Parties</a></li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- Join Us -->
+      <li><a href="#">Join Us
+<!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a href="joinus/ep/index.html">Executives &amp; Professionals</a></li>
+          <li><a href="joinus/ma/index.html">Management Support</a></li>
+          <li><a href="joinus/sa/index.html">Student Associates</a></li>
+          <li><a href="sep/pals/pals.html">Peer Advising Leaders</a></li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- Contact Us -->
+      <li><a href="home/contact.html">Contact Us
+<!--[if IE 7]><!--></a><!--<![endif]-->
+      </li>
+      </li>
+    </ul>
+  </div>
+  <!-- /main navigation -->
+  <div id="content">
+    <div id="title1" class="title">
+      <h1>International Relations Office</h1>
+    </div>
+    <div id="full-content">
+      <!--- box border -->
+      <a id="top" name="top"></a>
+      <!--  -->
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><!-- InstanceBeginEditable name="Main Banner" -->
+            <div align="center"><a href="ied/index.html"><img src="mainbanner1.jpg" width="950" height="290" border="0" /></a></div>
+          <!-- InstanceEndEditable --></td>
+        </tr>
+        <tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td valign="top"><!-- InstanceBeginEditable name="Left Navigation" -->
+                <table width="284" border="0">
+                  <tr>
+                    <td>&nbsp;
+                      <p><a href="http://nusiro.custhelp.com/" target="_blank"><img src="images/askIROmain.jpg" width="279" height="102" /></a></p>
+                      <div class="expandable-box theLinks">
+                        <div class="inner">
+                          <p align="center"><a href="#"><img src="images/applndates.gif"  width="219" height="42" /></a></p>
+                          <p align="left"><a href="opps/summer/ku/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 20 May  2013</span><br />
+                            <span class="heading3">Korea University (KU) International Summer Campus Programme</span></a></p>
+                          <p align="left"><a href="opps/summer/snu/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 10 May  2013</span><br />
+                            <span class="heading3">Seoul National University (SNU) International Summer Institute</span></a><a href="opps/summer/csss/index.html" ><span class="heading3"></span></a></p>
+                          <p align="left"><a href="opps/summer/yiss/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 25 April  2013</span><br />
+                            <span class="heading3">Yonsei International Summer School</span></a><a href="opps/summer/csss/index.html" ><span class="heading3"></span></a></p>
+                          <p align="left"><a href="opps/summer/lead/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 10 April  2013</span><br />
+                            <span class="heading3">Explore Taiwan @ NTU: <br />
+                            Life Empowerment and Academic Development Global LEAD <br />
+                            Summer Program</span></a></p>
+                          <p align="left"><a href="opps/intern/neiko/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 5 April  2013</span><br />
+                              <span class="heading3">Italy: NUS - NEIKO New Media International Internship Programme</span></a><a href="opps/summer/csss/index.html" ><span class="heading3"></span></a></p>
+                          <p align="left"><a href="opps/intern/racer/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 5 April  2013</span><br />
+                            <span class="heading3">China &amp; Indonesia: Internship Programme at Racer Technology</span></a></p>
+                          <p align="left"><a href="opps/intern/lippo/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 5 April  2013</span><br />
+                            <span class="heading3">Indonesia: Internship Programme <br />
+                            at PT. LIPPO Karawaci</span></a></p>
+                          <p align="left"><a href="opps/intern/learningapp/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 1 April  2013</span><br />
+                              <span class="heading3">Italy: NUS - LearningApp International Internship Programme</span></a><a href="opps/summer/csss/index.html" ><span class="heading3"></span></a></p>
+                          <p align="left"><a href="opps/summer/pku/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 1 April  2013</span><br />
+                            <span class="heading3">Peking University (PKU) <br />
+                            Summer School International</span></a><a href="opps/summer/csss/index.html" ><span class="heading3"></span></a></p>
+                          <p align="left"><a href="opps/summer/fudan/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 1 April  2013</span><br />
+                              <span class="heading3">Fudan University International<br />
+                              Summer Session
+                              </span></a><a href="opps/summer/csss/index.html" ><span class="heading3"></span></a></p>
+                          <p align="left"><a href="opps/summer/sipclc/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 1 April  2013</span><br />
+                            <span class="heading3">Explore Taiwan @ NTU: Summer Intensive Program for Chinese Language and Culture</span></a><a href="opps/summer/csss/index.html" ><span class="heading3"></span></a></p>
+                          <p align="left"><a href="opps/intern/geopron/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 1 April  2013</span><br />
+                            <span class="heading3">Italy: NUS - GeoPron S.R.L International Internship Programme</span></a><a href="opps/summer/csss/index.html" ><span class="heading3"></span></a></p>
+                          <p align="left"><a href="opps/intern/neosistec/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 28 March 2013</span><br />
+                            <span class="heading3">Spain: NUS - UCAM/NEOSISTEC International Internship Programme</span></a></p>
+                          <p align="left"><a href="opps/summer/columbia/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 25 March 2013</span><br />
+                              <span class="heading3">USA: Columbia University Summer Sessions 2013</span></a></p>
+                          <p align="left"><a href="networks/prog/iaru-gipeth/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 15 March 2013</span><br />
+                              <span class="heading3">IARU Global Internship Program <br />
+@ ETH Zurich</span></a></p>
+                          <p align="left"><a href="networks/prog/iaru-giptokyo/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 15 March 2013</span><br />
+                            <span class="heading3">IARU Global Internship Program <br />
+                            @ The University of Tokyo</span></a></p>
+                          <p align="left"><a href="opps/summer/nankai/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 13 March 2013</span><br />
+                            <span class="heading3">Nankai University Summer Sessions</span></a></p>
+                          <p align="left"><a href="networks/prog/iaru-ssf/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 12 March 2013</span><br />
+                              <span class="heading3">IARU Student Sustainability Fellowship</span></a></p>
+                          <p align="left"></p>
+                          <p align="left"><a href="networks/prog/u21-ss/index.html" ><span style="font-weight: bold; color: #FF693A">Now till 7 March 2013</span><br />
+                            <span class="heading3">U21 Summer School</span></a><a href="opps/others/out/innovate/index.html" ><span style="color: #022C82"><br />
+                            </span></a></p>
+<p></p>
+                        </div>
+                        <!--/inner-->
+                        <p class="tab"><a href="#" class="ir">Toggle<span></span></a></p>
+                      </div></td>
+                  </tr>
+                  <tr>
+                    <td><div align="center">
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td width="39%"><span style="font-weight: bold">School / Faculty</span></td>
+                          <td width="61%"><form action="javascript:alert('Internal forms can not be handled by generated pages.');" enctype="application/x-www-form-urlencoded" id="form" method="post">
+                            <div align="right">
+                              <select id="jumpMenu" name="jumpMenu" style="border:#003399 1 solid; width:170px" onchange="MM_jumpMenu('parent',this,1)" size="0">
+                                <option selected="selected">Please Select: </option>
+                                <option value="http://www.fas.nus.edu.sg/">Arts &amp; Social Sciences </option>
+                                <option value="http://www.bschool.nus.edu.sg/">Business </option>
+                                <option value="http://www.comp.nus.edu.sg/">Computing </option>
+                                <option value="http://www.dentistry.nus.edu.sg/">Dentistry </option>
+                                <option value="http://www.sde.nus.edu.sg/">Design &amp; Environment</option>
+                                <option value="http://www.eng.nus.edu.sg/ero/">Engineering </option>
+                                <option value="http://law.nus.edu.sg/">Law </option>
+                                <option value="http://www.med.nus.edu.sg/">Medicine </option>
+                                <option value="http://music.nus.edu.sg/">Music </option>
+                                <option value="http://www.science.nus.edu.sg/">Science </option>
+                                <option value="http://www.usp.nus.edu.sg/">University Scholars Programme</option>
+                              </select>
+                            </div>
+                          </form></td>
+                        </tr>
+                        <tr>
+                          <td colspan="2"><img src="images/transparent.gif" alt="" width="10" height="10" /></td>
+                        </tr>
+                        <tr>
+                          <td><span style="font-weight: bold"> Online Application</span></td>
+                          <td><form action="javascript:alert('Internal forms can not be handled by generated pages.');" enctype="application/x-www-form-urlencoded" id="form" method="post">
+                            <div align="right">
+                              <select id="jumpMenu" name="jumpMenu" style="border:#003399 1 solid; width:170px" onchange="MM_jumpMenu('parent',this,1)" size="0">
+                                <option selected="selected">Please Select:</option>
+                                <option value="https://aces01.nus.edu.sg/VOPSEP/Login">SEP for NUS Students</option>
+                                <option value="https://aces01.nus.edu.sg/VOPSUM">Summer Programmes for NUS Students</option>
+                                <option value="https://aces01.nus.edu.sg/ngAdmForm/index.jsp">SEP for Incoming Students</option>
+                                <option value="https://aces01.nus.edu.sg/lpp/index.jsp">French/German/Korean LPP</option>
+                              </select>
+                            </div>
+                          </form></td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </div>
+                      <p>&nbsp;</p>
+                      <p>&nbsp;</p></td>
+                  </tr>
+                </table>
+              <!-- InstanceEndEditable --></td>
+              <td><img src="images/transparent.gif" width="15" height="5" /></td>
+              <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>
+                  <!-- InstanceBeginEditable name="main descriptions" -->
+                  <table width="100%" border="0" cellspacing="0" cellpadding="3">
+                    <tr>
+                      <th width="98%" scope="col"><p align="justify">The <strong><span class="heading3">International Relations Office (IRO)</span></strong> fosters international partnerships for transformative global   opportunities and programmes.  As part of NUS’ commitment to global education,   IRO offers the Student Exchange Programme (SEP) and other global opportunities   such as international summer programmes (i-SP), international internships   (i-Intern) and international research attachment programmes (i-RAP).  Embark on   a journey to get exposed to the best of international community, cultures and   practices beyond your boundaries.<br />
+                      </p>
+<p align="justify">Your overseas experience is an investment in your future and it   requires careful planning, management and commitment. Underlining this   importance, NUS believes that all students should have the opportunity to   participate in our programmes, and has adopted a “needs blind” policy for   student acceptance. This means that IRO will support you in identifying a   suitable programme and funding for your overseas experience, subject to your   meeting the programme’s criteria for participation, and flexibility for other   considerations.</p></th>
+                      <th width="2%" scope="col"><img src="images/transparent.gif" width="5" height="5" /></th>
+                    </tr>
+                  </table>
+                  <!-- InstanceEndEditable -->
+                  </td>
+                </tr>
+
+                <tr>
+                  <td valign="top" bgcolor="#042A7B"><table width="16%" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="2%"><img src="images/main_headerbullet.jpg" width="13" height="19" /></td>
+                      <td width="2%"><img src="images/transparent.gif" width="1" height="1" /></td>
+                      <td width="96%"><span style="font-size: 1.2em; font-weight: bold; color: #FFFFFF">IRO Spotlights</span></td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td valign="bottom"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="2%"><img src="images/transparent.gif" width="15" height="5" /></td>
+                      <td width="97%" valign="top"><p><br />
+                      </p>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+                          <!-- InstanceBeginRepeat name="news/events" --><!-- InstanceBeginRepeatEntry --><!-- InstanceBeginEditable name="news/events" -->
+                          <tr>
+                            <th width="25%" valign="top" scope="col"><div align="center">
+                              <p><a href="sep/in/sepamb/index.html"><img src="images/indexmain/sepamb.jpg" alt="" width="150" height="80" /></a></p>
+                            </div></th>
+                            <th width="3%" scope="col"><img src="images/transparent.gif" width="10" height="10" /></th>
+                            <th width="72%" scope="col"><p align="justify"><strong><span style="color: #FF695E"> 9 or 12 April 2013</span></strong><br />
+                              <strong class="heading2">SEP Ambassador Training Programme for Incoming SEP Students</strong><br />
+                              <strong>9 April - Time: 2.00 pm to 4.00 pm<br />
+                              12 April - Time: 10.00 am to 12.00 nn<br />
+                              Venue: Central Library Theatrette 1</strong><br />
+                              Click <a href="sep/in/sepamb/index.html">here</a> to find out more information on the training programme.. </p></th>
+                          </tr>
+                          <!-- InstanceEndEditable --><!-- InstanceEndRepeatEntry --><!-- InstanceBeginRepeatEntry --><!-- InstanceBeginEditable name="news/events" -->
+                          <tr>
+                            <th width="25%" valign="top" scope="col"><div align="center">
+                              <p><a href="sep/in/feedback/index.html"><img src="images/indexmain/GEFeedbackSession.jpg" alt="" width="150" height="80" border="0" /></a></p>
+                            </div></th>
+                            <th width="3%" scope="col"><img src="images/transparent.gif" width="10" height="10" /></th>
+                            <th width="72%" valign="top" scope="col"><p align="justify"><strong><span style="color: #FF695E">16 or 17  April 2013</span></strong><br />
+                                <span class="heading2"><strong>Feedback Sessions for Incoming Exchange Students</strong></span><strong><br />
+                              </strong>Time: 3.00 pm to 4.00 pm<br />
+                              16 April - Venue: Starbucks @ U-Town<br />
+                              17 April - Venue: Level 1, Shaw Foundation Alumni House<br />
+                              Click <a href="sep/in/feedback/index.html">here</a> to find out more information on the feedback session. <br />
+                            </p></th>
+                          </tr>
+                          <!-- InstanceEndEditable --><!-- InstanceEndRepeatEntry --><!-- InstanceBeginRepeatEntry --><!-- InstanceBeginEditable name="news/events" -->
+                          <tr>
+                            <th width="25%" valign="top" scope="col"><div align="center"><a href="events/predepart/index.html"><img src="images/indexmain/predepart logo.jpg" alt="" width="150" height="80" /></a></div></th>
+                            <th width="3%" valign="top" scope="col"><img src="images/transparent.gif" width="10" height="10" /></th>
+                            <th width="72%" valign="top" scope="col"><p align="justify"><strong><span style="color: #FF695E">19 April to 14 May 2013</span><br />
+                              </strong><strong class="heading2">SEP Pre-Departure Briefings for Outgoing SEP Students</strong><br />
+                              <strong>Venue: Central Library Theatrette 1<br />
+                              </strong>Click <a href="events/predepart/index.html">here</a> to find  out the exact date and time for the different Pre-Departure Briefings.</p></th>
+                          </tr>
+                          <!-- InstanceEndEditable --><!-- InstanceEndRepeatEntry --><!-- InstanceEndRepeat -->
+                        </table>
+                        <p>&nbsp; </p></td>
+                      <td width="1%"><img src="images/transparent.gif" width="15" height="5" /></td>
+                    </tr>
+                  </table>
+                    <div align="right"><img src="images/top.gif" width="32" height="12" />&nbsp;&nbsp;</div></td>
+                </tr>
+              </table></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table>
+      <!--- end of box border -->
+    </div>
+  </div>
+<!--footer-->
+  <div id="footer">
+    <div class="inner">
+      <div class="left"> © Copyright 2001-2011 National University of Singapore. All Rights Reserved.        <br />
+        <a href="http://www.nus.edu.sg/terms.php" >Terms of Use</a> | <a href="http://www.nus.edu.sg/policy.php" >Privacy</a> | <a href="http://www.nus.edu.sg/nondiscrim.php" >Non-discrimination</a>
+        <!-- | <a href="#">Using this site</a>-->
+      </div>
+      <div class="right"> <a href="sitemap/index.html" >Site Map</a> | <a href="home/contact.html" >Feedback</a> |<a href="http://www.nus.edu.sg/campusmap/" > Campus Map</a>
+        <br />
+        Last modified on
+<!—#BeginDate format:Sw1—>24 September 2011<!—#EndDate—> by <a href="http://nusiro.custhelp.com/" target="_blank">International Relations Office</a></div>
+    </div>
+  </div>
+  <!-- End Footer -->
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "http://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+  <script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1546804-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+  <!--/footer-->
+</div>
+<!--/wrapper-->
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- InstanceBegin template="/Templates/sample_nus_tier1.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>NUS Institutional Review Board (NUS-IRB)</title>
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="style/nusstyles.css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+-->
+</style>
+</head>
+
+<body bgcolor="#F2F2F2" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script language="JavaScript" type="text/javascript">
+function Go(){return}
+</script>
+<script type="text/javascript" src="menu_var.js"></script>
+<script type="text/javascript" src="menu_com.js"></script>
+<table width="750" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="750" height="18" align="center">
+    <table width="750" border="0" cellspacing="0" cellpadding="0" bgcolor="#F2F2F2">
+      <tr>
+        <td width="1" height="1" background="images/grey_onepx.gif"></td>
+        <td align="left" bgcolor="#FF6600" width="402" height="18"></td>
+        <td align="left" height="18">
+        <img src="images/orangecurve.gif" width="38" height="18"></td>
+        <td align="left" height="18">
+        <table width="307" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
+          <tr>
+            <td width="316" align="center">
+            <form style="margin:0" method="GET" action="http://www.google.com/u/nusall" target="_parent">
+              <input type="hidden" name="domains" value="nus.edu.sg">
+              <input type="hidden" name="sitesearch" value="nus.edu.sg">
+              <a href="http://www.nus.edu.sg" class="hdertoplink">NUS Home</a>
+              <font color="#666666">|</font>
+              <a href="http://exchange.nus.edu.sg/" target="_blank" class="hdertoplink">
+              <em>my</em>Email</a> <font color="#666666">|</font><a href="http://www.nus.edu.sg/search/index.html" class="hdertoplink">Search</a>:<nobr>
+              <input name="q" type="Text" class="searchbox" style="border:1px solid relative;left:0;width:90;height:15;top:0" size="15" maxlength="200">
+              <input name="sa" value="Go" alt="Search NUS" type="image" src="images/btn_search.gif" border="0" align="middle" width="12" height="12">
+            </form>
+            </nobr></td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+
+<table width="750" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="1" background="images/grey_onepx.gif"></td>
+    <td width="139" height="63"><a href="http://www.nus.edu.sg">
+    <img src="images/nuslogo.gif" alt="Back to NUS homepage" border="0" width="139" height="63"></a></td>
+    <td width="601" height="63">
+    <img src="images/top_banner.gif" alt="NUS Institutional Review Board" width="601" height="63"></td>
+    <td width="9" background="images/bg_right.gif">&nbsp;</td>
+  </tr>
+</table>
+
+<table width="750" height="19" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr><td width="1" background="images/grey_onepx.gif"></td>
+    <td width="740" height="19" background="images/Navi_btn/bg_navi.gif"></td>
+        <td width="9" height="1" background="images/bg_right.gif"></td>
+  </tr>
+</table>
+
+<table width="750" height="99" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+ <tr>
+    <td width="1" height="99" background="images/grey_onepx.gif" rowspan="2"></td>
+    <!-- InstanceBeginEditable name="Page Header Graphics" -->
+    <td width="740" height="80" bgcolor="#003399">
+    <img src="images/img_homepage.gif" width="720" height="80"></td>
+    <!-- InstanceEndEditable -->
+    <td width="9" height="19" background="images/bg_right.gif" rowspan="2"></td>
+  </tr>
+  <tr>
+    <td width="740" height="19" bgcolor="#E2E2E2"><p class="breadcrumbs">&nbsp;</p></td>
+  </tr>
+ </table>
+
+<!-- InstanceBeginEditable name="Main Body" -->
+<table width="750" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr><td width="1" background="images/grey_onepx.gif"></td>
+    <td width="191">
+     <P  class="hderorange" style="margin-left: 10; margin-top: 5; margin-bottom: 0">&nbsp;</P>
+     <P  class="hderorange" style="margin-left: 10; margin-top: 5; margin-bottom: 0">Investigators</P>
+     <p class="hdersmall" style="margin-left: 30; margin-top: 0; margin-bottom: 6">
+     <img border="0" src="images/btn_arrow.gif" width="13" height="14">
+     <a href="IRB%20Forms.htm">Forms</a></p>
+      <p class="hdersmall" style="margin-left: 30; margin-top: 0; margin-bottom: 6">
+      <img border="0" src="images/btn_arrow.gif" width="13" height="14">
+      <a href="Guide.htm">Guidelines</a></p>
+     <p class="hdersmall" style="margin-left: 30; margin-top: 0; margin-bottom: 0">
+      <img border="0" src="images/btn_arrow.gif" width="13" height="14">
+      <a href="References.htm#Online Training">Online Training</a></p>
+      <P class="hderorange" style="margin-top: 0; margin-bottom: 0; margin-left:10" align="left">&nbsp;
+     </P>
+      <P class="hderorange" style="margin-top: 0; margin-bottom: 0; margin-left:10" align="left">&nbsp;
+     </P>
+      <P class="hderorange" style="margin-top: 0; margin-bottom: 0; margin-left:10" align="left">
+     Visitors</P>
+      <P style="margin-top: 0; margin-bottom: 0; margin-left:10" align="left">
+      Find out more <u><a href="About%20IRB.htm" style="text-decoration: none">About
+		NUS-IRB</a></u></font></P>
+      <P style="margin-top: 0; margin-bottom: 0; margin-left:10" align="left"><font face="Verdana">
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <img border="0" src="images/irb%20human%20rights.jpg" width="112" height="74"></font></P>
+		<div class="Section1" style="text-align:center;">
+<p class="MsoNormal"><b><span style="FONT-SIZE: 11pt; COLOR: #1f497d; FONT-FAMILY: 'Calibri','sans-serif'">Please participate in our </span></b></p>
+<p class="MsoNormal"><b><a href="http://www.surveymonkey.com/s/J9338CD"><span style="FONT-SIZE: 11pt; COLOR: #1f497d; FONT-FAMILY: 'Calibri','sans-serif'">NUS-IRB survey</span></a></b>
+<p class="MsoNormal"></p>
+</div>
+      <P style="margin-top: 0; margin-bottom: 0; margin-left:10" align="left">&nbsp;</P>
+    </td>
+    <td width="549">
+           <p class="txtlarge" align="justify" style="margin-top: 3; margin-bottom: 3; margin-right:20">
+           NUS Institutional Review Board
+      (NUS-IRB) was established on 1<sup>st</sup> September 2003. This Board (also
+           referred to as the Research Ethics Committee in some countries) will
+			review, approve and monitor the ethical aspects of all NUS
+           research projects that involve human subjects and human tissues/cells/data.</p>
+           <p class="txtlarge" align="justify" style="margin-top: 3; margin-bottom: 3; margin-right:20">&nbsp;</p>
+           <p class="txtlarge" align="justify" style="margin-top: 3; margin-bottom: 3; margin-right:20">
+			Its main objective is to protect the rights and welfare of human
+			research subjects in research activities conducted by NUS
+			students and researchers.</p>
+           <p class="txtlarge" align="justify" style="margin-top: 3; margin-bottom: 3; margin-right:20">&nbsp;</p>
+            </td>
+        <td width="9" height="1" background="images/bg_right.gif"></td>
+  </tr>
+</table>
+<!-- InstanceEndEditable -->
+
+<table width="750" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+ <tr>
+    <td width="1" background="images/grey_onepx.gif" rowspan="3"></td>
+    <!-- InstanceBeginEditable name="Footerlink" -->
+    <td width="740" bgcolor="#999999" align="center">
+    <p class="footerlink"><strong>NUS-IRB:</strong>
+        <a class="footerlinkhome" href="index.htm">Home </a>|
+        <a href="http://www.nus.edu.sg/search/index.html" class="footerlinkhome"> Search</a>
+         | <a class="footerlinkhome" href="Contact%20Us.htm">Contact Us</a></p>
+    </td>
+    <!-- InstanceEndEditable -->
+    <td width="9" background="images/bg_right.gif" rowspan="3"></td>
+  </tr>
+  <tr>
+    <td width="740">
+    <div align="center" class="footertext">
+    <!-- InstanceBeginEditable name="Footer Date and Owner" -->
+      <p>© Copyright 2001-04 National University of Singapore. All Rights Reserved.<br>
+      <a href="http://www.nus.edu.sg/corporate/terms.htm">Terms of Use</a> |
+      <a href="http://www.nus.edu.sg/corporate/privacy.htm">Privacy</a> | |
+      <a href="http://www.nus.edu.sg/corporate/nondiscrim.htm">Non-discrimination</a><br>
+      Last modified on 04 May, 2009 by <a href="mailto:irb@nus.edu.sg">NUS Institutional Review Board</a></p>
+      <p>&nbsp;</p>
+   <!-- InstanceEndEditable -->
+    </div>
+    </td>
+  </tr>
+<tr><td height="1" background="images/grey_onepx.gif"></td></tr>
+ </table>
+</body>
+<!-- InstanceEnd -->
+</html>

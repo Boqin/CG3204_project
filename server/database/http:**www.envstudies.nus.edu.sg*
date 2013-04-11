@@ -1,0 +1,514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+    <head>
+          <base href="http://www.envstudies.nus.edu.sg/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Environmental, Programmes" />
+  <meta name="author" content="Koh Li Ling" />
+  <meta name="description" content="Environmental Studies Programmes" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Home</title>
+  <link href="/templates/nus/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="http://www.envstudies.nus.edu.sg/component/search/?format=opensearch" rel="search" title="Search Environmental Studies Programmes" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="/components/com_k2/css/k2.css" type="text/css" />
+  <link rel="stylesheet" href="/libraries/gantry/css/grid-12.css" type="text/css" />
+  <link rel="stylesheet" href="/libraries/gantry/css/gantry.css" type="text/css" />
+  <link rel="stylesheet" href="/libraries/gantry/css/joomla.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/nus/css/joomla.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/nus/css/fusionmenu.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.envstudies.nus.edu.sg/modules/mod_accordeonck/themes/default/mod_accordeonck_css.php?cssid=accordeonck76839" type="text/css" />
+  <style type="text/css">
+body {background:transparent;}body a {color:#547dc9;}#rt-header .rt-container {background:transparent;}#rt-bottom .rt-container {background:transparent;}#rt-footer .rt-container, #rt-copyright .rt-container, #rt-menu .rt-container {background:transparent;}#accordeonck76839 li a.toggler { background: url(http://www.envstudies.nus.edu.sg/modules/mod_accordeonck/assets/plus.png) right center no-repeat !important; }
+	#accordeonck76839 li a.toggler.open { background: url(http://www.envstudies.nus.edu.sg/modules/mod_accordeonck/assets/minus.png) right center no-repeat !important; }#accordeonck76839 li ul li ul li ul { border:none !important; padding-top:0px !important; padding-bottom:0px !important; }#accordeonck76839 { padding: 5px;background: #F0F0F0;background: -moz-linear-gradient(top,  #F0F0F0 0%, #E3E3E3 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F0F0F0), color-stop(100%,#E3E3E3)); background: -webkit-linear-gradient(top,  #F0F0F0 0%,#E3E3E3 100%);background: -o-linear-gradient(top,  #F0F0F0 0%,#E3E3E3 100%);background: -ms-linear-gradient(top,  #F0F0F0 0%,#E3E3E3 100%);background: linear-gradient(top,  #F0F0F0 0%,#E3E3E3 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0F0F0', endColorstr='#E3E3E3',GradientType=0 );-moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;border-radius: 5px 5px 5px 5px;-moz-box-shadow: 0px 0px 3px 0px #444444;-webkit-box-shadow: 0px 0px 3px 0px #444444;box-shadow: 0px 0px 3px 0px #444444;border: #EFEFEF 1px solid; } #accordeonck76839 li.level1 { -moz-border-radius: 0px 0px 0px 0px;-webkit-border-radius: 0px 0px 0px 0px;border-radius: 0px 0px 0px 0px; } #accordeonck76839 li.level1 > a { font-size: 12px; } #accordeonck76839 li.level1 > a:hover {  } #accordeonck76839 li.level1 > a span.accordeonckdesc { font-size: 10px; } #accordeonck76839 li.level2 { -moz-border-radius: 0px 0px 0px 0px;-webkit-border-radius: 0px 0px 0px 0px;border-radius: 0px 0px 0px 0px; } #accordeonck76839 li.level2 > a { font-size: 12px; } #accordeonck76839 li.level2 > a:hover {  } #accordeonck76839 li.level2 > a span.accordeonckdesc { font-size: 10px; } #accordeonck76839 li.level3 { -moz-border-radius: 0px 0px 0px 0px;-webkit-border-radius: 0px 0px 0px 0px;border-radius: 0px 0px 0px 0px; } #accordeonck76839 li.level3 a { font-size: 12px; } #accordeonck76839 li.level3 a:hover {  } #accordeonck76839 li.level3 a span.accordeonckdesc { font-size: 10px; } 
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/modal.js" type="text/javascript"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/k2/assets/js/k2.noconflict.js" type="text/javascript"></script>
+  <script src="/components/com_k2/js/k2.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/libraries/gantry/js/gantry-totop.js" type="text/javascript"></script>
+  <script src="/libraries/gantry/js/browser-engines.js" type="text/javascript"></script>
+  <script src="/modules/mod_roknavmenu/themes/fusion/js/fusion.js" type="text/javascript"></script>
+  <script src="http://www.envstudies.nus.edu.sg/modules/mod_accordeonck/assets/mod_accordeonck.js" type="text/javascript"></script>
+  <script src="/templates/nus/js/search.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($$('a.modal'), {
+				parse: 'rel'
+			});
+		});var K2SitePath = '/';window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});window.addEvent('domready', function() {                new Fusion('ul.menutop', {
+                    pill: 0,
+                    effect: 'slide and fade',
+                    opacity:  1,
+                    hideDelay:  500,
+                    centered:  0,
+                    tweakInitial: {'x': -10, 'y': -13},
+                    tweakSubsequent: {'x':  0, 'y':  0},
+                    tweakSizes: {'width': 20, 'height': 20},
+                    menuFx: {duration:  300, transition: Fx.Transitions.Circ.easeOut},
+                    pillFx: {duration:  400, transition: Fx.Transitions.Back.easeOut}
+                });
+            
+});
+window.addEvent('domready', function() {new accordeonMenuCK(document.getElement('#accordeonck76839'),{fadetransition : false,eventtype : 'click',mooTransition : 'linear',menuID : 'accordeonck76839',imagePlus : 'http://www.envstudies.nus.edu.sg/modules/mod_accordeonck/assets/plus.png',imageMinus : 'http://www.envstudies.nus.edu.sg/modules/mod_accordeonck/assets/minus.png',mooDuree : 500});});
+  </script>
+    </head>
+    <body  class="cssstyle-style1 font-family-helvetica font-size-is-default menu-type-fusionmenu col12 option-com-content menu-home ">
+		<div id="rt-main-surround">
+												<div id="rt-header">
+				<div class="rt-container">
+					<div class="rt-grid-6 rt-alpha">
+    			<div class="rt-block">
+    	    	<div id="rt-logo-block"><a href="http://www.nus.edu.sg" id="rt-logo"></a></div>
+				
+				    		</div>
+	    
+</div>
+<div class="rt-grid-6 rt-omega">
+                    <div class="topmenu">
+                    <div class="rt-block">
+				<div class="wrapper1"><div class="wrapper2"><div class="wrapper3"><div class="wrapper4">
+										
+<ul class="menu">
+<li id="item-147"><a href="http://exchange.nus.edu.sg" ><span>myEmail</span></a></li><li id="item-148"><a href="https://ivle.nus.edu.sg" ><span>IVLE</span></a></li><li id="item-149"><a href="http://www.lib.nus.edu.sg" ><span>Library</span></a></li><li id="item-150"><a href="http://www.nus.edu.sg/campusmap" ><span>Map</span></a></li><li id="item-151"><a href="http://www.nus.edu.sg/careers" ><span>Careers</span></a></li><li id="item-152"><a href="https://aces01.nus.edu.sg/CoE/jsp/coeMain.jsp" ><span>Calendar</span></a></li></ul>				</div></div></div></div>
+            </div>
+                </div>
+		                    <div class="rt-block">
+				<div class="wrapper1"><div class="wrapper2"><div class="wrapper3"><div class="wrapper4">
+										
+<form onSubmit="evalSearch();return false" id="frmSearch" name="frmSearch">
+	<div class="search dropdown-search">
+		<ul>
+		<li><input name="q" id="mod-search-searchword" class="inputbox" type="text" size="20" value="Search..."  onblur="if (this.value=='') this.value='Search...';" onfocus="if (this.value=='Search...') this.value='';" /></li><li class="selectlist">
+							<div>
+								<select name="SearchMenu" class="selectbox" onchange="selectChange(this);">
+									<option value="1">NUS Websites</option>
+									<option value="2">Staff Directory</option>
+								</select>
+								<span id="select-span" class="selectspan">NUS Websites</span>
+							</div>
+						</li>	</div>
+</form>
+				</div></div></div></div>
+            </div>
+        	
+</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+									<div id="rt-menu">
+				<div class="rt-container">
+					<div class="rt-fusionmenu">
+<div class="nopill">
+<div class="rt-menubar">
+    <ul class="menutop level1 " >
+                        <li class="item56 parent active root" >
+                            <a class="daddy item bullet" href="/"  >
+                    <span>
+                                        Home                                                            </span>
+                </a>
+            
+                                                <div class="fusion-submenu-wrapper level2" style="width:320px;">
+                        
+                        <ul class="level2" style="width:320px;">
+                                                                                                        <li class="item20" >
+                            <a class="orphan item bullet" href="/home/about-the-programme"  >
+                    <span>
+                                        Why choose Bachelor of Environmental Studies?                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item38" >
+                            <a class="orphan item bullet" href="/home/the-nus-advantage"  >
+                    <span>
+                                        The NUS Advantage                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item21" >
+                            <a class="orphan item bullet" href="/home/people"  >
+                    <span>
+                                        People                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item39" >
+                            <a class="orphan item bullet" href="/home/contact-us"  >
+                    <span>
+                                        Contact Us                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item41" >
+                            <a class="orphan item bullet" href="/home/quotes-from-environmental-luminaries"  >
+                    <span>
+                                        Quotes from Environmental Luminaries                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                            </ul>
+
+                                                <div class="drop-bot"></div>
+                    </div>
+                                    </li>
+                                <li class="item22 parent root" >
+                            <span class="daddy item bullet nolink">
+                    <span>
+                                            Academic                                                            </span>
+                </span>
+            
+                                                <div class="fusion-submenu-wrapper level2" style="width:250px;">
+                        
+                        <ul class="level2" style="width:250px;">
+                                                                                                        <li class="item23 parent" >
+                            <a class="daddy item bullet" href="/academic/programme-requirements"  >
+                    <span>
+                                        Programme Requirements                                                            </span>
+                </a>
+            
+                                                <div class="fusion-submenu-wrapper level3" style="width:320px;">
+                        
+                        <ul class="level3" style="width:320px;">
+                                                                                                        <li class="item33" >
+                            <a class="orphan item bullet" href="/academic/programme-requirements/environmental-biology-specialization"  >
+                    <span>
+                                        Environmental Biology Specialization                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item34" >
+                            <a class="orphan item bullet" href="/academic/programme-requirements/environmental-geography-specialization"  >
+                    <span>
+                                        Environmental Geography Specialization                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item37" >
+                            <a class="orphan item bullet" href="/academic/programme-requirements/specially-designed-environmental-studies-modules"  >
+                    <span>
+                                        Specially-Designed Environmental Studies Modules                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                            </ul>
+
+                                                <div class="drop-bot"></div>
+                    </div>
+                                    </li>
+                                                                                                                                                <li class="item24 parent" >
+                            <span class="daddy item bullet nolink">
+                    <span>
+                                            Curriculum Requirements                                                            </span>
+                </span>
+            
+                                                <div class="fusion-submenu-wrapper level3" style="width:320px;">
+                        
+                        <ul class="level3" style="width:320px;">
+                                                                                                        <li class="item27" >
+                            <a class="orphan item bullet" href="http://www.nus.edu.sg/registrar/edu/UG/graduation.html#MCsExcluded"  >
+                    <span>
+                                        MCs excluded from CAP computation                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item35" >
+                            <a class="orphan item bullet" href="http://www.nus.edu.sg/registrar/edu/UG/graduation.html#ResidencyRequirement"  >
+                    <span>
+                                        Residency Requirement &amp; Maximum Candidature                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item44" >
+                            <a class="orphan item bullet" href="/academic/curriculum-requirements/deans-list"  >
+                    <span>
+                                        Dean&#039;s List                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                            </ul>
+
+                                                <div class="drop-bot"></div>
+                    </div>
+                                    </li>
+                                                                                                                                                <li class="item25 parent" >
+                            <span class="daddy item bullet nolink">
+                    <span>
+                                            Special Programmes                                                            </span>
+                </span>
+            
+                                                <div class="fusion-submenu-wrapper level3" style="width:220px;">
+                        
+                        <ul class="level3" style="width:220px;">
+                                                                                                        <li class="item36" >
+                            <a class="orphan item bullet" href="/academic/special-programmes/university-scholars-programme"  >
+                    <span>
+                                        University Scholars Programme                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                            </ul>
+
+                                                <div class="drop-bot"></div>
+                    </div>
+                                    </li>
+                                                                                            </ul>
+
+                                                <div class="drop-bot"></div>
+                    </div>
+                                    </li>
+                                <li class="item28 root" >
+                            <a class="orphan item bullet" href="/admissions"  >
+                    <span>
+                                        Admissions                                                            </span>
+                </a>
+            
+                    </li>
+                                <li class="item29 parent root" >
+                            <span class="daddy item bullet nolink">
+                    <span>
+                                            Students                                                            </span>
+                </span>
+            
+                                                <div class="fusion-submenu-wrapper level2" style="width:180px;">
+                        
+                        <ul class="level2" style="width:180px;">
+                                                                                                        <li class="item43" >
+                            <a class="orphan item bullet" href="/students/students-testimonials"  >
+                    <span>
+                                        Students&#039; Testimonials                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item47 parent" >
+                            <a class="daddy item bullet" href="/"  >
+                    <span>
+                                        Accolades                                                            </span>
+                </a>
+            
+                                                <div class="fusion-submenu-wrapper level3" style="width:180px;">
+                        
+                        <ul class="level3" style="width:180px;">
+                                                                                                        <li class="item49" >
+                            <a class="orphan item bullet" href="/students/accolades/deans-list"  >
+                    <span>
+                                        Dean&#039;s List                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item50" >
+                            <a class="orphan item bullet" href="/students/accolades/other-achievements"  >
+                    <span>
+                                        Other Achievements                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                            </ul>
+
+                                                <div class="drop-bot"></div>
+                    </div>
+                                    </li>
+                                                                                                                                                <li class="item48" >
+                            <a class="orphan item bullet" href="/students/bes-student-committee"  >
+                    <span>
+                                        BES Student Committee                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item51" >
+                            <a class="orphan item bullet" href="/students/bes-fop-committee"  >
+                    <span>
+                                        BES FOP                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item42" >
+                            <a class="orphan item bullet" href="/students/scholarship"  >
+                    <span>
+                                        Scholarship                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item52" >
+                            <a class="orphan item bullet" href="/students/bursary"  >
+                    <span>
+                                        Bursary                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item31" >
+                            <a class="orphan item bullet" href="/students/campus-resources"  >
+                    <span>
+                                        Campus Resources                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item32" >
+                            <a class="orphan item bullet" href="/students/faqs"  >
+                    <span>
+                                        FAQs                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                            </ul>
+
+                                                <div class="drop-bot"></div>
+                    </div>
+                                    </li>
+                                <li class="item55 root" >
+                            <a class="orphan item bullet" href="/bes-seminar-series"  >
+                    <span>
+                                        BES Seminar Series                                                            </span>
+                </a>
+            
+                    </li>
+                    </ul>
+</div>
+</div>
+</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+												<div id="rt-feature">
+				<div class="rt-container">
+										<div class="clear"></div>
+				</div>
+			</div>
+																		          
+<div id="rt-main" class="sa3-mb9">
+                <div class="rt-container">
+                    <div class="rt-grid-9 rt-push-3">
+                                                						<div class="rt-block">
+	                        <div id="rt-mainbody">
+								<div class="component-content">
+	                            	<div class="rt-article"><div class="rt-article-bg">
+	<div class="item-page">
+				
+		
+		
+		
+		
+															
+				
+		
+					<table style="width: 600px; float: left; height: 590px;" align="left" border="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a href="http://www.science.nus.edu.sg/openhouse/" target="_blank"><img src="/images/stories/banner.jpg" alt="banner" border="0" height="168" width="664" /></a></td>
+</tr>
+<tr>
+<td>
+<table style="width: 636px; height: 629px;" border="0" cellpadding="8">
+<tbody>
+<tr>
+<td colspan="2">
+<p><span style="font-size: 20pt; font-family: georgia,palatino; color: #ff6600;">A 4-year direct Honours programme launched in</span></p>
+<p><span style="font-size: 20pt; font-family: georgia,palatino; color: #ff6600;">&nbsp;</span></p>
+<p><span style="font-size: 20pt; font-family: georgia,palatino; color: #ff6600;">Academic Year 2011/2012</span><strong><br /></strong></p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<ul>
+<li><span style="font-size: 12pt;">A truly <strong>interdisciplinary programme</strong> offered jointly by the <em>Faculty of Science (FoS)</em> and <em>Faculty of Arts and Social Sciences (FASS)</em> with participation from the <em>Faculty of Engineering</em>, <em>Faculty of Law</em>, <em>School of Design and Environment</em>, <em>NUS Business School</em>, <em>Yong Loo Lin School of Medicine, Saw Swee Hock School of Public Health </em>and the <em>Lee Kuan Yew School of Public Policy</em></span></li>
+</ul>
+<p style="margin-left: 0.25in; text-align: justify; line-height: normal;">&nbsp;</p>
+<ul>
+<li><strong><span style="font-size: 12pt;">One-of-its kind</span></strong><span style="font-size: 12pt;"> programme in NUS and Singapore, and is internationally unique</span></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><span style="font-size: 12pt;">Designed for <strong>top students</strong> with a passion for the environment</span></li>
+</ul>
+<p style="margin-left: 0.25in; text-align: justify; line-height: normal;">&nbsp;</p>
+<ul>
+<li><span style="font-size: 12pt;">Adopts a <strong>broad-based</strong> and <strong>interdisciplinary approach</strong> to effectively address the societal and scientific needs for understanding complex, modern environmental issues such as climate change, land use, water usage, alternative energy and the building of liveable high-density cities</span></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><span style="font-size: 12pt;">Harnesses the <strong>synergies of domain experts</strong> from the participating faculties and schools</span></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><span style="font-size: 12pt;">Adopts <strong>new pedagogies</strong> in ensuring that our students receive the best in environmental education</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 10pt;">To&nbsp;view&nbsp;the programme brochure, please click <a href="/images/stories/bes%20brochure%202012.pdf" target="_blank">here</a>.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 10pt;">To view&nbsp;quotes by environmental luminaries, please click&nbsp;<a target="_blank" href="/images/stories/quotes%20by%20environmental%20luminaries.pdf">here</a>.</span></p>
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; font-family: Arial; color: #ff6600;">&nbsp;</span></p>			
+				
+			</div>
+</div></div>
+								</div>
+	                        </div>
+						</div>
+                                                                    </div>
+                                <div class="rt-grid-3 rt-pull-9">
+                <div id="rt-sidebar-a">
+                                        <div class="rt-block">
+                                <div class="accordeonck ">
+<ul class="menu" id="accordeonck76839">
+<li id="item-138" class="item-138 level1"><a href="http://www.science.nus.edu.sg" >Faculty of Science</a></li><li id="item-139" class="item-139 level1"><a href="javascript:void(0);"><span class="separator">Faculty of Arts and Social Sciences</span></a></li><li id="item-140" class="item-140 level1"><a href="http://www.eng.nus.edu.sg/" >Faculty of Engineering</a></li><li id="item-141" class="item-141 level1"><a href="http://law.nus.edu.sg/" >Faculty of Law</a></li><li id="item-142" class="item-142 level1"><a href="http://www.sde.nus.edu.sg/" >School of Design &amp; Environment</a></li><li id="item-143" class="item-143 level1"><a href="http://www.bschool.nus.edu.sg/" >NUS Business School</a></li><li id="item-144" class="item-144 level1"><a href="http://www.spp.nus.edu.sg/" >Lee Kuan Yew School of Public Policy</a></li><li id="item-145" class="item-145 level1"><a href="http://www.med.nus.edu.sg/" >Yong Loo Lin School of Medicine</a></li><li id="item-146" class="item-146 level1"><a href="http://www.sph.nus.edu.sg/" >Saw Swee Hock School of Public Health</a></li></ul></div>
+            </div>
+        	
+                </div>
+            </div>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+												<div id="rt-scroller">
+				<div class="rt-container">
+					<div class="rt-grid-12 rt-alpha rt-omega">
+    	<div class="clear"></div>
+	<div class="rt-block">
+		<a href="#" id="gantry-totop" rel="nofollow">Back to Top</a>
+	</div>
+	
+</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+					</div>
+		
+		<div id="rt-bottom-surround"></div>
+				<div id="rt-bottom">
+			<div class="rt-container">
+				<div class="rt-grid-12 rt-alpha rt-omega">
+    		<div class="rt-block">
+			&copy; Copyright 2001-2013 National University of Singapore. All Rights Reserved.		</div>
+		
+</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+						<div id="rt-footer">
+			<div class="rt-container">
+				<div class="rt-grid-12 rt-alpha rt-omega">
+    		<div class="rt-block">
+			Last modified on 09 April 2013 by <a href="mailto:keith@nus.edu.sg">Environmental Studies</a>		</div>
+		
+</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+									</body>
+</html>

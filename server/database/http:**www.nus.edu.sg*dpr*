@@ -1,0 +1,384 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/dpr-hompage.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>NUS - Office of Deputy President (Research &amp; Technology)</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<link href="includes/style.css" type="text/css" rel="stylesheet" />
+<script src="includes/jquery.min.js" type="text/javascript"></script>
+
+<script language="JavaScript" type="text/javascript">
+var addthis_config = {ui_click: true }
+</script>
+
+<!-- Main Banner Slider Start -->
+<link rel="stylesheet" href="includes/slider/nivo-slider.css" type="text/css" media="screen" />
+<script src="includes/slider/jquery.nivo.slider.2.1.modif.js" type="text/javascript"></script>
+<script language="JavaScript" src="includes/slider.js" type="text/javascript"></script>
+<!-- Main Banner Slider End -->
+
+<link rel="stylesheet" type="text/css" href="includes/jcarousel/skin.css" />
+<script type="text/javascript" src="includes/jcarousel/jquery.jcarousel.min.js"></script>
+
+<!-- Carousel Left Slider Start -->
+<script language="JavaScript" src="includes/caraousel-left.js" type="text/javascript"></script>
+<!-- Carousel Left Slider End -->
+
+<!-- Carousel Right Slider Start -->
+<script language="JavaScript" src="includes/caraousel-right.js" type="text/javascript"></script>
+<!-- Carousel Right Slider End -->
+
+<!-- Menu Fade Start -->
+<script type="text/javascript" src="includes/fade/jquery.hoverIntent.minified.js"></script>
+<script language="JavaScript" src="includes/fade.js" type="text/javascript"></script>
+<!-- Menu Fade End -->
+
+<!-- Tabs Start -->
+<script language="JavaScript" src="includes/tabs.js" type="text/javascript"></script>
+<!-- Tabs End -->
+
+<!-- Searchbar Dropdown Start -->
+<script language="JavaScript" src="includes/searchbar-dropdown.js" type="text/javascript"></script>
+<!-- Searchbar Dropdown End -->
+
+<!-- Academic Dropdown Start -->
+<script language="JavaScript" src="includes/academic-dropdown.js" type="text/javascript"></script>
+<!-- Academic Dropdown Start -->
+
+<!-- Searchbar Selector Start -->
+<script language="JavaScript" src="includes/search.js" type="text/javascript"></script>
+<!-- Searchbar Selector End -->
+<!-- InstanceEndEditable -->
+<!-- Google Analytics code snippet Start -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23035906-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- Google Analytics code snippet End -->
+</head>
+
+<body>
+<div class="wrapper">
+  <div id="inner_wrapper">
+  	<div id="wrapper_content">
+		<!-- Header Section Start -->
+        <div id="header">
+        <h1> <a href="http://www.nus.edu.sg/"><img src="images/logo-nus.png" alt="nus" width="140" height="64" title="nus" /></a> </h1>
+        <div id="faculty-logo"><a href="index.html"><img src="images/subbrand-dpr.png" width="293" height="64" alt="odprt" /></a></div>
+        <div class="header_right_sec">
+          <div class="top_links">
+            <div class="left_curve">
+              <div class="right_curve">
+                <ul>
+                  <li><a href="http://exchange.nus.edu.sg/" target="_blank">myEmail</a></li>
+                  <li><a href="https://ivle.nus.edu.sg/" target="_blank">IVLE</a></li>
+                  <li><a href="http://www.lib.nus.edu.sg/" target="_blank">Library</a></li>
+                  <li><a href="http://www.nus.edu.sg/campusmap">Map</a></li>
+                  <li><a href="https://aces01.nus.edu.sg/CoE/jsp/coeMain.jsp" target="_blank">Calendar</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="search_area">
+            <form id="frmSearch" name="frmSearch" onsubmit="evalSearch();return false;" action="#">
+            <div id="search-box">
+                        <input type="text"  value="Search by keyword"  onblur="if (this.value == '') {this.value = 'Search by keyword';}"  onfocus="if (this.value == 'Search by keyword') {this.value = '';}" id="txtKeyword" name="txtKeyword" />
+            </div>
+            <div id="search-coloumn">
+                 <select id="source" name="SearchMenu" >
+
+                         <option selected="selected" value="0">NUS Website</option>
+
+                         <option value="1">Internet</option>
+          
+                         <option value="2">Staff Directory</option>
+
+                 </select>
+            </div>
+            <div id="go-coloumn">
+                <input name="" type="button" id="search-btn" value="Go" onclick="evalSearch();return false;"/>
+            </div>
+            </form>
+
+       	  </div>
+   	 	  </div>
+     	 </div>
+         <div class="clear"></div>
+		<!-- Header Section End -->
+        
+        <!-- Navigation Section Start -->
+       <!-- InstanceBeginEditable name="Skin" --><div id="navigation"><!-- InstanceEndEditable -->     
+         
+       <ul id="topnav">
+    <li><a href="index.html" class="parent">Home</a>
+    </li>
+    <li><a href="#" class="parent">About Us</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>
+                <li><h2>ODPRT Management</h2></li>
+                <li class="sublink"><a href="http://nus.edu.sg/about-nus/nus-structure/management/item/3-professor-barry-halliwell">Professor Barry HALLIWELL</a></li>
+                <li><a href="http://nus.edu.sg/about-nus/nus-structure/management/item/11-professor-ho-teck-hua">Professor HO Teck Hua</a></li>
+                <li><a href="aboutus/management_lim.html">Professor LIM Hock</a></li>
+                <li><a href="aboutus/management_duara.html">Professor Prasenjit DUARA</a></li>
+                <li><a href="aboutus/management_moore.html">Professor Philip MOORE</a></li>
+                
+                <li><h2><a href="aboutus/structure.html">Organisation Structure</a></h2></li>
+                <li><h2><a href="aboutus/contact.html">Contact Us</a></h2></li>
+             </ul>
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    <li><a href="#" class="parent">NUS Research</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul style="width:150px;">
+                <li><h2><a href="research/overview.html">Overview</a></h2></li>
+                <li><h2><a href="research/institute.html">Research Institutes</a></h2></li>
+                <li><h2><a href="research/statistics.html">Research Statistics</a></h2></li>
+                <li><h2><a href="research/news.html">Research Gallery</a></h2></li>
+                <li><h2><a href="research/feedback.html">Researchers Feedback</a></h2></li>
+             </ul>           
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    <li><a href="#" class="parent">Governance</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul style="width:270px;">
+               <li style="width:270px;"><h2><a href="governance/research_integrity.html">Research Integrity</a></h2></li>
+               <li style="width:270px;"><h2><a href="governance/animalcare.html">Research Involving Animals</a></h2></li>
+               <li style="width:270px;"><h2><a href="governance/human.html">Research Involving Human Subjects</a></h2></li>
+               <li style="width:270px;"><h2><a href="https://inetapps.nus.edu.sg/osh/portal/ra_submission.html">Project Risk Management</a></h2></li>
+               <li style="width:270px;"><h2><a href="http://www.nus.edu.sg/ilo/">Intellectual Property and Technology Transfer</a></h2></li>
+               <li style="width:270px;"><h2><a href="http://www.epu.gov.my/undertaking">Conducting Research in Malaysia</a></h2></li>
+               <li style="width:270px;"><h2><a href="http://www.nrct-foreignresearcher.org/">Conducting Research in Thailand</a></h2></li>
+             </ul>
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    <li><a href="#" class="parent">Awards</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul style="width:400px;">
+               <li style="width:400px;"><h2><a href="http://www.nus.edu.sg/uawards/ora/">Outstanding Researcher / Young Researcher Awards</a></h2></li>
+               <li style="width:400px;"><h2><a href="http://www.nus.edu.sg/uawards/opr/">Outstanding Partner in Research / Young Partner in Research Awards</a></h2></li>
+            </ul>
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    <li><a href="#" class="parent">Research Funding</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul style="width:260px";>
+               <li style="width:260px";><h2><a href="funding/fellowship.html">Fellowship and Manpower Programmes</a></h2></li>
+               <li style="width:260px";><h2><a href="funding/exchange.html">Exchange and Internship Programmes</a></h2></li>
+               <li style="width:260px";><h2><a href="funding/hss.html">Humanities and Social Sciences Reading Group</a></h2></li>
+            </ul>          
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    <li><a href="#" class="parent">Resources</a>
+    	<div class="sub">
+        <div class="sub-top"></div>
+        	<div class="sub-middle">
+        	 <ul style="width:170px";>
+               <li style="width:170px";><h2><a href="http://www.innovationmagazine.com/">Innovation Magazine</a></h2></li>
+               <li style="width:170px";><h2><a href="resources/hpc.html">High Performance Computing</a></h2></li>
+               <li style="width:170px";><h2>Special Programmes</h2></li>
+               <li class="sublink"><a href="resources/iri.html">IRI</a></li>
+            </ul>
+            <div class="clear"></div>
+            </div>
+            <div class="sub-bottom"></div>
+        </div>
+    </li>
+</ul>
+  <div class="clear"></div>
+</div>
+       
+        <!-- Navigation Section End -->
+        
+		<!-- InstanceBeginEditable name="Content" -->
+        <!-- Banner Section Start -->
+        <!-- Banner Section End -->
+        <div id="content-area">
+          <div id="dpr-home-content-area-left">
+          <div id="dpr-home-tagline">&quot;High-impact research that advances the boundaries of knowlege and contributes to the betterment of society&quot;</div>
+          <div class="clear"></div>
+        <p>&nbsp;</p>
+        <p><img style="display:inline; float:left; padding:5px 20px 10px 0;" src="images/barry-halliwell.jpg" width="129" height="172" alt="Prof Barry Halliwell" />Welcome to NUS! The University performs cutting-edge research over a range of disciplinary and  cross-disciplinary areas. The ODPRT mission is to facilitate research at NUS, and establish world-leading research programmes. ODPRT oversees the 23 <a href="research/university.html">NUS university-level research institutes and centres</a> and 3 <a href="research/centre.html">Research Centres of Excellence</a>, sets policies for  research, oversees the allocation of strategic research funds, and works to expand research funding. ODPRT also maintains the <a href="governance/research_integrity.html">NUS Research Integrity Code</a>, oversees the <a href="http://www.nus.edu.sg/irb/" target="_blank">NUS Institutional Review Board (IRB)</a>, the <a href="http://www.nus.edu.sg/iacuc/" target="_blank">NUS  Institutional Animal Care &amp; Use Committee (IACUC)</a> and the <a href="http://www.nus.edu.sg/ngs/" target="_blank">NUS Graduate School for Integrative Sciences and  Engineering (NGS)</a>.<br />
+          <br />
+          ODPRT aims to support researchers in every way possible. Direct <a href="research/feedback.html">feedback</a> from researchers to the ODPRT is always welcome.<br />
+          <br />
+          Professor Barry Halliwell<br />
+Deputy President (Research and Technology)</p>
+        <p>&nbsp;</p>
+<p>&nbsp;</p>
+          </div>
+<div id="dpr-home-content-area-right">
+            	<!-- Tabs Section Start -->
+                	<ul class="dpr-home-tabs" >
+                        <li style="border-left:none !important;"><a href="#highlights">Research Highlights</a></li>
+                        <li><a href="#news">Research News</a></li>
+                    </ul>
+                    
+<div class="dpr-home-tab_container">
+
+                    	<div id="highlights" class="dpr-home-tab_content">
+                       	  
+                          <div class="news-row">
+                            <div class="dpr-home-news">
+                           	  <h2>April 2013</h2>
+                               <p> <a target="_blank" href="files/research_highlights/2013_04Apr_PragmaticResistanceLaw&amp;SocialMovementsAuthoritarianStates.pdf">&quot;Pragmatic Resistance, Law, and Social Movements in Authoritarian States: The Case of Gay Collective Action in Singapore&quot;</a><br />(Law & Society Association Honorable Mention for Article Prize, 2013)                   </p>
+                              <p><a href="http://law.nus.edu.sg/about_us/faculty/staff/profileview.asp?UserID=lawljcks" target="_blank">Asst Prof Chua Lynette J.</a><br />
+                     Faculty of Law</p>
+                            </div>
+                            <div class="clear"></div>
+                          </div>
+                          
+                          <div class="news-row">
+                            <div class="dpr-home-news">
+                           	  <h2>March 2013</h2>
+                               <p> <a target="_blank" href="files/research_highlights/2013_03Mar_PrivateLives-An_expose_of_Singapore_rainforests.pdf">&quot;Private Lives: An Exposé of Singapore's Rainforests&quot;</a></p>
+                             
+                   <p><a href="http://rmbr.nus.edu.sg/dna/people/details/77" target="_blank">Ms Wang Luan Keng</a>, <a href="http://rmbr.nus.edu.sg/dna/people/details/39" target="_blank">Asst Prof Darren C.J. Yeo</a> and <a href="http://rmbr.nus.edu.sg/dna/people/details/34" target="_blank">Mr Kelvin K.P.Lim</a><br />Raffles Museum of Biodiversity Research</p>
+                            </div>
+                            <div class="clear"></div>
+                          </div>
+                          <div class="news-row">
+                            <div class="dpr-home-news">
+                            	
+                                <h2>February 2013</h2>
+                               <p> <a target="_blank" href="files/research_highlights/2013_02Feb_In_vivo_photodynamic_therapy_using_upconversion_nanoparticles_as_remote-controlled_nanotransducers.pdf">&quot;In vivo photodynamic therapy using upconversion nanoparticles as remote-controlled nanotransducers&quot;</a></p>
+                             
+                   <p> <a href="http://www.bioeng.nus.edu.sg/people/PI/zhangyong/default.htm" target="_blank">Assoc Prof Zhang Yong</a><br />Dept of Bioengineering<br /> 
+Faculty of Engineering</p>
+                            </div>
+                            <div class="clear"></div>
+                          </div>
+                          
+                          <div class="news-row">
+                            <div class="dpr-home-news-read-more">
+                                <p><a href="research/highlights.html">archived</a></p></div>
+                            <div class="clear"></div>
+                          </div>                          
+</div>
+                    	<div id="news" class="dpr-home-tab_content">
+                        	 <div class="news-row">
+                            <div class="dpr-home-news-read-more">
+                            	<h2>First in Singapore to make the Nature Publishing Index Global Top 100 list, 21 March 2013</h2>
+                                <p><a href="http://newshub.nus.edu.sg/headlines/1303/nature_21Mar13.php" target="_blank">read more</a></p>
+                            </div>
+                            <div class="clear"></div>
+                          </div>
+                          <div class="news-row">
+                            <div class="dpr-home-news-read-more">
+                            	<h2>Quantum physics caught on film, 14 February 2013</h2>
+                                <p><a href="http://newshub.nus.edu.sg/headlines/1302/quantum_14Feb13.php" target="_blank">read more</a></p>
+                            </div>
+                            <div class="clear"></div>
+                          </div>
+                          <div class="news-row">
+                            <div class="dpr-home-news-read-more">
+                            	<h2>Water ecosystems research gets industry boost, 28 January 2013</h2>
+                                <p><a href="http://newshub.nus.edu.sg/headlines/1301/water_28Jan13.php" target="_blank">read more</a></p>
+                            </div>
+                            <div class="clear"></div>
+                          </div>
+                          <div class="news-row">
+                            <div class="dpr-home-news-read-more">
+                                <p><a href="research/news.html">archived</a></p>
+                            </div>
+                            <div class="clear"></div>
+                          </div>                          
+</div>
+                   	 </div>
+                <!-- Tabs Section End -->
+        </div>
+        <div class="clear"></div>
+        </div>
+
+		<!-- Divider for integrative research cluster Start -->
+		<div style="">
+			<img width="960" height="12" src="images/divider.jpg" />
+		</div>        
+		<!-- Divider for integrative research cluster End -->
+        
+         <!-- Carousel Section Start -->
+        <div id="research-cluster">
+        <div id="research-cluster-container">
+		  <div style="color:#0C4685;padding:10px 0 10px 10px;font-size:17px;">Integrative Research Clusters</div>
+          	<div class="cluster-item"><a href="research-cluster/finance.html"><img src="images/research_cluster/cluster-finance-risk.jpg" width="80" height="80" /></a></div>
+			<div class="cluster-item"><a href="research-cluster/biomedical.html"><img src="images/research_cluster/cluster-biomed-sci.jpg" width="81" height="81" /></a></div>
+			<div class="cluster-item"><a href="research-cluster/ageing.html"><img src="images/research_cluster/cluster-ageing.jpg" width="80" height="80" /></a></div>
+			<div class="cluster-item"><a href="research-cluster/sustainability.html"><img src="images/research_cluster/cluster-sustainability.JPG" width="80" height="80" /></a></div>
+			<div class="cluster-item"><a href="research-cluster/asian.html"><img src="images/research_cluster/cluster-asian-studies.jpg" width="80" height="80" /></a></div>
+			<div class="cluster-item"><a href="research-cluster/materials-science.html"><img src="images/research_cluster/cluster-materials-sci.jpg" width="80" height="80" /></a></div>
+            <div class="clear"></div>
+			<div class="cluster-item-text"><a href="research-cluster/finance.html">Finance &amp; Risk Management</a></div>
+			<div class="cluster-item-text"><a href="research-cluster/biomedical.html">Biomedical Science <br />
+		    &amp; Translational<br />
+		    Medicine</a></div>
+			<div class="cluster-item-text"><a href="research-cluster/ageing.html">Ageing</a></div>
+			<div class="cluster-item-text"><a href="research-cluster/sustainability.html">Integrative <br />
+		    Sustainability<br />
+		    Solutions</a></div>
+			<div class="cluster-item-text"><a href="research-cluster/asian.html">Asian Studies</a></div>
+			<div class="cluster-item-text"><a href="research-cluster/materials-science.html">Materials Science</a></div>
+			<div class="clear"></div>
+           </div>
+         </div>
+         <!-- Carousel Section End -->
+         <!-- InstanceEndEditable -->
+         <div class="clear"></div>
+		</div>
+  </div>
+  <div class="bottom_curve">&nbsp;</div>
+    	<!-- Footer Section Start -->
+        	<div id="footer">
+                <div class="left_sec">
+                  <p>&copy; Copyright 2001- 
+                        <!-- This is to get the current year -->
+                        <SCRIPT TYPE="text/javascript">
+                        <!--
+                        var da = new Date();
+                        document.write(da.getFullYear());
+                        //-->
+                        </SCRIPT> 
+                        <!--/ end -->
+<strong>National University of Singapore.</strong> All Rights Reserved.</p>
+                  <ul>
+                    <li><a href="http://www.nus.edu.sg/terms-of-use">Terms&nbsp;of&nbsp;Use</a></li>
+                    <li><a href="http://www.nus.edu.sg/privacy">Privacy</a></li>
+                    <li class="last"><a href="http://www.nus.edu.sg/non-discrimination">Non-&nbsp;discrimination</a></li>
+                  </ul>
+                </div>
+              <div class="right_sec">
+                <ul>
+                    <li> <a href="index.html">Home</a> </li>
+                    <li class="last"> <a href="aboutus/contact.html">Contact</a> </li>
+                </ul>
+                <p>Last modified on <!-- #BeginDate format:Am1 -->April 4, 2013<!-- #EndDate --> by <a href="mailto:dprmw@nus.edu.sg">Office of Deputy President (R&amp;T)</a></p>
+                </div>
+  </div>
+        <!-- Footer Section End -->
+</div>
+</body>
+<!-- InstanceEnd --></html>

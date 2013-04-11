@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- SEO PHP tags to go here -->
+<title>Office of Environmental Sustainability (OES), National University of Singapore</title>
+<META name="description" content="The Office of Environmental Sustainability (OES) is based in the National University of Singapore and is set up with the aim to promote, coordinate and implement the most effective sustainability practices possible by developing positive solutions for today’s ecological challenges.">
+<META name="keywords" content="Office of Environmental Sustainability, Environment, Sustainability, green contacts, climate change strategy, waste, energy, natural spaces, environmental education, environmental awards, take action, green events, green alerts, sustainability tools, carbon footprint calculator, greentips on sustainable lifestyle, footprint tracking, facebook, twitter, rss">
+<!-- SEO PHP tags end -->
+<link rel="stylesheet" type="text/css" href="styles/base.css" media="screen, print, projection, handheld" />
+<link rel="stylesheet" type="text/css" href="styles/print.css"  media="print" />
+<link rel="stylesheet" type="text/css" href="styles/screen.css"  media="screen, projection, print" />
+<link rel="stylesheet" type="text/css" href="styles/mainnav.css"  media="screen, projection, print" />
+<link rel="stylesheet" type="text/css" href="styles/handheld.css"  media="handheld" />
+<link rel="stylesheet" type="text/css" href="styles/innerpage.css"  media="screen, print, projection" />
+<link rel="stylesheet" type="text/css" href="styles/orangepanel.css"  media="screen, print, projection" />
+<link rel="stylesheet" type="text/css" href="styles/js.css"  media="screen, projection" />
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script type="text/javascript" src="js/jquery.cookie.js" ></script>
+<script type="text/javascript" src="js/jquery.dimensions.js" ></script>
+<script type="text/javascript" src="js/ui.base.js" ></script>
+<script type="text/javascript" src="js/ui.accordion.js" ></script>
+<script type="text/javascript" src="js/ui.sortable.min.js" ></script>
+<script type="text/javascript" src="js/main.js" ></script>
+<script type="text/javascript" src="js/form.js" ></script>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="wrapper">
+  <!-- header -->
+  <div id="header">
+    <h1 class="ir"><a href="http://www.nus.edu.sg/" >National University of Singapore<span></span></a></h1>
+    <div id="pointermenu2">
+      <ul>
+        <li><a href="http://exchange.nus.edu.sg/" target="_blank"><span style="text-transform:none">myEMAIL</span></a></li>
+        <li><a href="http://ivle.nus.edu.sg/lms/default.aspx" target="_blank">ivle</a></li>
+        <li><a href="http://www.lib.nus.edu.sg/" target="_blank">library</a></li>
+        <li><a href="http://www.nus.edu.sg/campusmap/" >maps</a></li>
+        <li><a href="calendar/calendar.html" >calendar</a></li>
+        <li><a href="sitemap.html" >sitemap</a></li>
+        <!--<li><a href="#">a-z index</a></li>-->
+        <li><a href="locate.html" >contact</a></li>
+        <!--<li><a href="#"><font color="#FFFF00">&#20013;&#25991;&#29256;</font></a></li>-->
+        <li><a href="#" id="rightcorner">&nbsp;</a></li>
+      </ul>
+      <br style="clear: left" />
+    </div>
+    <div id="searchform">
+<script src="http://www.nus.edu.sg/search/search.js" type="text/javascript"></script>
+
+
+<FORM id="frmSearch" name="frmSearch" onSubmit="evalSearch();return false">
+		 <a href="http://www.nus.edu.sg/search/" style="text-decoration:none; font-size:11px; font-weight:bold; color:#666666">Search </a> 
+         <input id=txtKeyword name=txtKeyword type="Text" value="search for..." onfocus="value=''" class="equal" size="18">
+		 in
+		 <SELECT id="SearchMenu" name="SearchMenu">
+
+         <OPTION selected value="0">NUS Websites</OPTION>
+         <OPTION value="1">Internet</OPTION>					  
+         <OPTION value="2">Staff Directory</OPTION>
+		 <OPTION value="3">Advanced Search</OPTION>
+		 </SELECT>
+         		    <input class="equal" id="Go" src="http://www.nus.edu.sg/iw/resources/global/images/go.jpg" type="image">
+      </FORM>
+
+   	</div>
+  </div>
+  <!--/header-->
+  <!-- main navigation -->
+  <div id="menu">
+    <ul>
+      <!-- Home -->
+      <li><a href="index.html">Home
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- Who-->
+      <li><a href="about/about.html">Who
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a href="about/mission_vision.html">Mission & Vision</a></li>
+          <li><a href="about/origins.html">Our Origins</a></li>
+          <li><a href="about/policy_circular/policy.html">Policies</a></li>
+          <li><a href="about/ourteam.html">Our Team</a></li>
+          <li><a href="about/ourinterns.html">Our Interns</a></li>
+          <li><a href="about/policy_circular/circulars.html">Circulars</a></li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- What -->
+      <li><a href="prog/prog.html">What
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a href="prog/climate/climate.html">Greenhouse Gas</a></li>
+          <li><a href="prog/energy/energy.html">Energy</a></li>
+          <li><a href="prog/water/water.html">Water</a></li>
+          <li><a href="prog/waste/waste.html">Waste</a></li>
+          <li><a href="prog/natural/natural.html">Natural Spaces</a></li>
+          <li><a href="prog/envawards/envawards.html">Environmental Awards</a></li>
+          <li><a href="prog/standards/standards.html">Green Standards</a></li>  
+          <li><a href="prog/transport/transport.html">Transportation</a></li>        
+          <li><a href="prog/envedu/envedu.html">Environmental Education</a></li> 
+          <li><a href="prog/do/take_action.html">Take Action!</a></li>         
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- Calendar -->
+      <li><a href="calendar/calendar.html">Calendar
+      <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- Media -->
+      <li><a href="media/media.html" >Media
+      <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- Resources -->
+      <li><a href="javascript:;">Resources
+      <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+      <ul>
+       <li><a href="resources/reports.html">Reports</a></li>
+       <li><a href="resources/materials.html">Materials</a></li>
+       <li><a href="resources/greencontacts.html">Green Contacts</a></li>
+       <li><a href="resources/carbonfootprint_calculator.html">Carbon Footprint Calculator</a></li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- Friends -->
+      <li><a href="javascript:;">Friends
+       <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+      <ul>
+              <li><a href="friends/inside.html" >Inside NUS</a></li>
+          <li><a href="friends/outside.html" >Outside NUS</a></li>
+      </ul>
+      <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- Contact Us -->
+      <li><a href="feedback.php">Contact Us
+<!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+      <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+    </ul>
+  </div>
+  <!-- /main navigation -->
+  <div id="content">
+    <div id="title5" class="title">
+    <div align="center">
+      <h3>      
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="942" height="430">
+      <param name="wmode" value="transparent" />
+        <param name="movie" value="images/index_banner-942x430.swf" />
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="images/index_banner-942x430.swf" width="942" height="430">
+        <!--<![endif]-->
+          <p>Alternative content</p>
+        <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+      </object>
+
+    </h3>
+    </div>    
+    </div>
+    <div id="full-content">
+      <!--- box border -->
+      <img src="images/spacer.gif" width="1" height="1" /><br />
+      <table border="0" cellspacing="0" cellpadding="1">
+        <tr>
+          <td><a href="prog/envawards/interhall/monthly_utilities_results.html"><img src="images/sub_iea11_12.jpg" alt="Interhall Environmental Awards FY11/12" width="237" height="164" border="0" /></a></td>
+          <td><a href="prog/do/double_sided.html"><img src="images/sub_double_printing.jpg" width="237" height="164" border="0" /></a></td>
+          <td><a href="prog/do/take_action.html"><img src="images/sub_01234.jpg" width="237" height="164" border="0" /></a></td>
+          <td><div align="center">
+            <object width="232" height="158">
+              <embed src="http://www.youtube.com/v/npjf9XMizMI" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="232" height="158" wmode="transparent"></embed>
+            </object>
+          </div>          
+          </td>
+        </tr>
+      </table>
+      <!--  -->
+<!--- end of box border -->
+    </div>
+  </div> 
+ <!--footer-->
+  <div id="footer">
+    <div class="inner">
+      <div class="left">
+        <p>© Copyright 2001-2009 National University of Singapore. All Rights Reserved.</p>
+        <p><a href="http://www.nus.edu.sg/terms.php" >Terms of Use</a> | <a href="http://www.nus.edu.sg/policy.php" >Privacy</a> | <a href="http://www.nus.edu.sg/nondiscrim.php" >Non-discrimination</a> | <a href="sitemap.html" >Sitemap</a>
+          <!-- | <a href="#">Using this site</a>-->
+        </p>
+      </div>
+      <div class="right">
+        <p><strong class="english-text3">Follow us at:</strong><a href="http://twitter.com/OESustainable" target="_blank"><img src="images/twitter.gif" width="56" height="13" class="copy" /></a><a href="http://www.facebook.com/business/dashboard/#/pages/Office-Of-Environmental-Sustainability/99729597268" target="_blank"><img src="images/facebook.gif" width="53" height="14" class="copy" /></a><a href="http://feeds.rapidfeeds.com/23743/" target="_blank"><img src="images/rss.gif" width="35" height="13" border="0" class="copy" /></a></p>
+Found any missing links or wrong info, please email to <a href="mailto:oessec@nus.edu.sg">oessec@nus.edu.sg</a>  
+      </div>
+    </div>
+  </div><br /><br />
+  <!-- End Footer -->
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "http://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+  <script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1546804-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+  <!--/footer-->
+</div>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="403,209,490,229" href="prog/waste/printer_cartridges.html" target="_top" />
+</map>
+<script src="http://cdn.wibiya.com/Toolbars/dir_0022/Toolbar_22775/Loader_22775.js" type="text/javascript"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-12480732-1");
+pageTracker._trackPageview();
+} catch(err) {}
+swfobject.registerObject("FlashID");
+</script>
+
+</body>
+</html>

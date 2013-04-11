@@ -1,0 +1,514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DOHaD 2013</title>
+<style type="text/css">
+body {
+	background-image: url(images/pagebkgrd.fw.png);
+	background-repeat: repeat-x;
+	background-color: #000;
+}
+#mainbodycontainer {
+	position: relative;
+	width: 1100px;
+	height: 1050px;
+	z-index: 1;
+	margin: 0 auto;
+	top: -8px;
+}
+#apDiv1 {
+	position: absolute;
+	width: 1100px;
+	height: 400px;
+	z-index: 1;
+}
+</style>
+<link rel="stylesheet" href="rotater/css/ajximagerotator.css" type="text/css" />
+<style type="text/css">
+#linkarea {
+	position: absolute;
+	width: 435px;
+	height: 20px;
+	z-index: 2;
+	left: 644px;
+	top: 32px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 14px;
+}
+#apDiv2 {
+	position: absolute;
+	width: 1100px;
+	height: 685px;
+	z-index: 3;
+	top: 400px;
+	background-color: #FFFFFF;
+	left: 0px;
+}
+#buttonmenu {
+	position: absolute;
+	width: 992px;
+	height: 49px;
+	z-index: 4;
+	top: 375px;
+	left: 64px;
+}
+</style>
+<script src="rotater/css/ajximagerotator.js" type="text/javascript"></script>
+<style type="text/css">
+#supportedlogo {
+	position: absolute;
+	width: 1100px;
+	height: 77px;
+	z-index: 1;
+	top: 601px;
+}
+#apDiv3 {
+	position: absolute;
+	width: 100px;
+	height: 67px;
+	z-index: 1;
+	left: 25px;
+	top: 10px;
+}
+#apDiv4 {
+	position: absolute;
+	width: 123px;
+	height: 64px;
+	z-index: 2;
+	left: 161px;
+	top: 11px;
+}
+#apDiv5 {
+	position: absolute;
+	width: 134px;
+	height: 63px;
+	z-index: 3;
+	left: 323px;
+	top: 11px;
+}
+#apDiv6 {
+	position: absolute;
+	width: 120px;
+	height: 55px;
+	z-index: 4;
+	left: 493px;
+	top: 13px;
+}
+#apDiv7 {
+	position: absolute;
+	width: 144px;
+	height: 59px;
+	z-index: 5;
+	left: 650px;
+	top: 11px;
+}
+#apDiv8 {
+	position: absolute;
+	width: 115px;
+	height: 60px;
+	z-index: 6;
+	left: 829px;
+	top: 9px;
+}
+#apDiv9 {
+	position: absolute;
+	width: 102px;
+	height: 68px;
+	z-index: 7;
+	left: 972px;
+	top: 9px;
+}
+</style>
+<style type="text/css">
+#apDiv10 {
+	position: absolute;
+	width: 163px;
+	height: 565px;
+	z-index: 2;
+	left: 937px;
+	top: 0px;
+}
+#apDiv11 {
+	position: absolute;
+	width: 1px;
+	height: 431px;
+	z-index: 1;
+	background-color: #18363E;
+}
+</style>
+<script src="images/button/ajxmenu.js" type="text/javascript"></script>
+<script src="images/sponsor/ajximagerotator.js" type="text/javascript"></script>
+<link rel="stylesheet" href="images/button/ajxmenu.css" type="text/css" />
+<style type="text/css">
+#apDiv12 {
+	position: absolute;
+	width: 2061px;
+	height: 255px;
+	z-index: 2;
+	left: 0px;
+	top: 1px;
+	background-color: #FFFFFF;
+}
+#apDiv13 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 2;
+}
+#apDiv14 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 2;
+	left: -200px;
+	top: 1px;
+	background-color: #FFFFFF;
+}
+#apDiv15 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 2;
+}
+#apDiv16 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 2;
+	left: -179px;
+	top: 89px;
+	background-color: #CCCCCC;
+}
+#apDiv17 {
+	position: absolute;
+	width: 279px;
+	height: 521px;
+	z-index: 2;
+	left: -279px;
+	top: -400px;
+}
+#apDiv18 {
+	position: absolute;
+	width: 279px;
+	height: 521px;
+	z-index: 3;
+	left: 1100px;
+	top: -400px;
+}
+#apDiv19 {
+	position: absolute;
+	width: 655px;
+	height: 564px;
+	z-index: 4;
+	left: 201px;
+	top: 40px;
+	font-family: "century gothic";
+}
+text {
+	font-size: 16px;
+}
+#mainbodycontainer #apDiv2 #apDiv19 p {
+	font-size: 16px;
+}
+a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFFF00;
+}
+a:active {
+	text-decoration: none;
+	color: #FFF;
+	font-family: "century gothic";
+}
+#apDiv20 {
+	position: absolute;
+	width: 280px;
+	height: 435px;
+	z-index: 4;
+	left: 806px;
+	top: 64px;
+}
+#apDiv21 {
+	position: absolute;
+	width: 243px;
+	height: 26px;
+	z-index: 1;
+	left: 16px;
+	top: 17px;
+	font-family: "century gothic";
+	font-size: 16px;
+	color: #FF0;
+	font-weight: bold;
+	text-align: center;
+}
+#apDiv22 {
+	position: absolute;
+	width: 165px;
+	height: 75px;
+	z-index: 2;
+	left: 56px;
+	top: 72px;
+}
+#apDiv23 {
+	position: absolute;
+	width: 243px;
+	height: 26px;
+	z-index: 3;
+	left: 16px;
+	top: 194px;
+	text-align: center;
+	font-family: "century gothic";
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+}
+#apDiv24 {
+	position: absolute;
+	width: 146px;
+	height: 102px;
+	z-index: 4;
+	left: 64px;
+	top: 316px;
+}
+#apDiv25 {
+	position: absolute;
+	width: 196px;
+	height: 36px;
+	z-index: 5;
+	left: 42px;
+	top: 252px;
+}
+#apDiv26 {
+	position: absolute;
+	width: 712px;
+	height: 517px;
+	z-index: 5;
+	left: 191px;
+	top: 63px;
+	font-family: "century gothic";
+	text-align: justify;
+}
+text {
+	font-size: 16px;
+}
+#mainbodycontainer #apDiv2 #apDiv26 p {
+	font-size: 16px;
+	color: #0F2C32;
+}
+#mainbodycontainer #apDiv2 #apDiv26 table tr td {
+	font-size: 16px;
+	font-family: "century gothic";
+}
+#apDiv27 {
+	position: absolute;
+	width: 318px;
+	height: 46px;
+	z-index: 2;
+	left: 1px;
+	top: 346px;
+}
+#apDiv28 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 2;
+	left: 172px;
+	top: 417px;
+}
+#apDiv29 {
+	position: absolute;
+	width: 128px;
+	height: 86px;
+	z-index: 6;
+	left: 507px;
+	top: 478px;
+}
+#mainbodycontainer #apDiv2 #apDiv26 ul li {
+	font-size: 13px;
+}
+a {
+	font-family: "Century Gothic";
+}
+#mainbodycontainer #linkarea a {
+	font-family: Arial;
+}
+smalltext {
+	font-size: 12px;
+}
+li {
+	font-size: 12px;
+}
+#mainbodycontainer #apDiv2 #apDiv26 ul li span {
+	font-size: 14px;
+}
+#mainbodycontainer #apDiv2 #apDiv26 p strong {
+	color: #000099;
+	font-size: 14px;
+}
+#mainbodycontainer #apDiv2 #apDiv26 ul li strong {
+	font-size: 14px;
+}
+#apDiv30 {
+	position: absolute;
+	width: 275px;
+	height: 41px;
+	z-index: 6;
+	left: 191px;
+	top: 27px;
+	color: #16313C;
+	font-size: 24px;
+	font-family: "century gothic";
+}
+#apDiv31 {
+	position: absolute;
+	width: 131px;
+	height: 88px;
+	z-index: 7;
+	left: 950px;
+	top: 57px;
+}
+#apDiv32 {
+	position: absolute;
+	width: 4px;
+	height: 498px;
+	z-index: 8;
+	left: 930px;
+	top: 53px;
+}
+#apDiv33 {
+	position: absolute;
+	width: 131px;
+	height: 88px;
+	z-index: 9;
+	left: 950px;
+	top: 184px;
+}
+</style>
+<script type="text/javascript">
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37584935-1']);
+  _gaq.push(['_setDomainName', 'dohad2013.org']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div id="mainbodycontainer">
+  <div id="apDiv1"><div class="AJXIReaHCZQC"><!-- AJXFILE:rotater/css/ajximagerotator.css -->
+<div class="AJXIReaHCZQCpics">
+ <ul class="AJXIReaHCZQCul">
+  <li class="AJXIReaHCZQCli"><img class="AJXIReaHCZQCimg" src="rotater/sources/banner1.fw.png" alt="banner1.fw.png" /></a></li>
+  <li class="AJXIReaHCZQClihide"><img class="AJXIReaHCZQCimg" src="rotater/sources/banner2.fw.png" alt="banner2.fw.png" /></a></li>
+  <li class="AJXIReaHCZQClihide"><img class="AJXIReaHCZQCimg" src="rotater/sources/banner3.fw.png" alt="banner3.fw.png" /></a></li>
+  <li class="AJXIReaHCZQClihide"><img class="AJXIReaHCZQCimg" src="rotater/sources/banner4.fw.png" alt="banner4.fw.png" /></a></li>
+ </ul>
+</div>
+<br />
+</div></div>
+  <div id="linkarea"><a href="http://www.mrc.soton.ac.uk/dohad/index.asp" target="_blank">ABOUT DOHaD</a> | <a href="#" onclick="MM_openBrWindow('http://www.dohad2013.org/register.php','','width=468,height=585')">JOIN MAILING LIST</a> | <a href="contact.html">CONTACT US</a> | SITE MAP</div>
+  <div id="apDiv2">
+    <div id="supportedlogo">
+      <div id="apDiv3"><a href="http://www.moh.gov.sg" target="_blank"><img src="images/supportedlogo/supportedlogo1.png" width="98" height="60" border="0" /></a></div>
+      <div id="apDiv4"><a href="http://www.hpb.gov.sg/HOPPortal/ " target="_blank"><img src="images/supportedlogo/supportedlogo2.png" width="113" height="60" border="0" /></a></div>
+      <div id="apDiv5"><a href="http://www.nus.edu.sg/" target="_blank"><img src="images/supportedlogo/supportedlogo3.png" width="128" height="60" border="0" /></a></div>
+      <div id="apDiv6"><a href="http://www.nuhs.edu.sg/" target="_blank"><img src="images/supportedlogo/supportedlogo4.png" width="112" height="55" border="0" /></a></div>
+      <div id="apDiv7"><a href="http://www.nuh.com.sg/" target="_blank"><img src="images/supportedlogo/supportedlogo5.png" width="138" height="55" border="0" /></a></div>
+      <div id="apDiv8"><a href="http://www.a-star.edu.sg/" target="_blank"><img src="images/supportedlogo/supportedlogo6.png" width="110" height="60" border="0" /></a></div>
+      <div id="apDiv9"><a href="http://www.yoursingapore.com/content/traveller/en/experience.html" target="_blank"><img src="images/supportedlogo/supportedlogo7.png" width="92" height="60" border="0" /></a></div>
+    </div>
+    <div id="apDiv17"><img src="images/backgroundleft.png" width="279" height="521" /></div>
+    <div id="apDiv18"><img src="images/backgroundright.png" width="279" height="521" /></div>
+    <div id="apDiv26">
+      <p><strong>Welcome  Message from the DOHaD 2013 Congress Chair and Chair of the Programme Committee</strong> <span style="font-size: 14px"><br />
+        <span style="text-align: justify; font-size: 13px;">Themed  &ldquo;From Science to Policy and Action&rdquo;, the conference will attract researchers,  academia, policy makers and health care providers worldwide to converge and  present the latest science and developments on        &lt;<a href="home/welcome.html" style="color: #000"><strong style="text-decoration: underline; color: #0033FF">Read more</strong></a>&gt;</span></span><br />
+        <br />
+        <strong>Online Registration opens 24 January 2013. Save up to SGD100 when you register now.</strong><br />
+      <span style="font-size: 13px; text-align: justify;">Register  by 31 May 2013 to enjoy the Early bird rate. Find out more about Registration  fees and Deadlines <strong><u><a href="registration/registration.html" style="text-decoration: underline; font-family: 'century gothic'; color: #03F;">here</a></u></strong>.</span></p>
+      <p><strong>Submit your abstract now!</strong><br />
+      <span style="font-size: 13px">For  full details about Abstract Submission Guidelines click <strong><u><a href="abstracts/abstracts.html" style="text-decoration: underline; font-family: 'century gothic'; color: #03F;">here</a></u></strong>. </span></p>
+      <p><strong>Congratulations to our Winners!</strong><br />
+      <span style="font-size: 13px">The DOHaD Society would like to congratulate  the 5 winners of our &ldquo;DOHaD 2013:&nbsp; Lucky Draw for champagne&rdquo;. The DOHaD  2013 committee looks forward to presenting the winners with a bottle of champagne each  at the DOHaD 2013 meeting this November in Singapore. </span></p>
+<ul>
+        <li><strong>Professor Claire Roberts<br />
+        </strong>School of Paediatrics and Reproductive Health, University  of Adelaide, AUSTRALIA        </li>
+        <li><strong>Professor Zheng Xiaoying <br />
+        </strong>Yang Zi Professor and Director of Population  Research at the Peking University of China, CHINA</li>
+        <li><strong>Dr Charlotte Brøns<br />
+        </strong>Postdoctoral Researcher at the Diabetes and  Metabolism Department, University of Copenhagen, DENMARK</li>
+        <li><strong>Dr Petteri Hovi<br />
+        </strong>Postdoctoral Researcher for National Institute  for Health and Welfare, Helsinki, FINLAND</li>
+        <li><strong>Associate Professor Barbara T. Alexander<br />
+        </strong>Department of Physiology, University of  Mississippi Medical Center, UNITED STATES OF AMERICA</li>
+</ul>
+    </div>
+    <div id="apDiv30"><strong>News and Updates</strong></div>
+    <div id="apDiv31"><a href="https://b-com.mci-group.com/registration/DOHAD2013.aspx " target="_blank"><img src="images/buttonreg.fw.png" width="128" height="86" border="0" /></a></div>
+    <div id="apDiv32"><img src="images/lines.fw.png" width="2" height="499" /></div>
+    <div id="apDiv33"><a href="https://b-com.mci-group.com/AbstractSubmission/DOHAD2013.aspx" target="_blank"><img src="abstracts/image/buttonabstract.fw.png" width="128" height="86" border="0" /></a></div>
+  <img src="images/background.jpg" width="1100" height="664" /></div>
+  <div id="buttonmenu"><div class="AJXCSSMenuNHSXUDB"><!-- AJXFILE:images/button/ajxmenu.css -->
+ <div class="ajxmw">
+  <div class="ajxmw2">
+<ul>
+ <li class="tsub"><a class="ajxsub" id="AJXCSSMenuNHSXUDBitem_0" href="index.html"></a>
+  <ul>
+   <li><a href="home/committee.html"><b>2013 Organising Committee</b></a></li>
+   <li><a href="home/welcome.html"><b>Welcome Message</b></a></li>
+  </ul>
+ </li>
+ <li class="tsub"><a class="ajxsub" id="AJXCSSMenuNHSXUDBitem_1" href="#"></a>
+  <ul>
+   <li><a href="programme/programme.html"><b>General Information</b></a></li>
+   <li><a href="programme/scientific.html"><b>Scientific Programme</b></a></li>
+   <li><a href="programme/speakers.html"><b>Speakers</b></a></li>
+   <li><a href="programme/social.html"><b>Social Programme</b></a></li>
+  </ul>
+ </li>
+ <li><a id="AJXCSSMenuNHSXUDBitem_2" href="registration/registration.html"></a></li>
+ <li><a id="AJXCSSMenuNHSXUDBitem_3" href="abstracts/abstracts.html"></a></li>
+ <li class="tsub"><a class="ajxsub" id="AJXCSSMenuNHSXUDBitem_4" href="#"></a>
+  <ul>
+   <li><a href="sponsorship/opportunities.html"><b>Sponsorship &amp; Exhibition Opportunities</b></a></li>
+   <li><a href="sponsorship/sponsorship.html"><b>Sponsors' and Exhibitors' Profile</b></a></li>
+   <li><a href="sponsorship/media.html"><b>Media Partners</b></a></li>
+  </ul>
+ </li>
+ <li><a id="AJXCSSMenuNHSXUDBitem_5" href="grants/grants.html"></a></li>
+ <li class="tlast tsub"><a class="ajxsub" id="AJXCSSMenuNHSXUDBitem_6" href="singapore/singapore.html"></a>
+  <ul>
+   <li><a href="singapore/accommodation.html"><b>Accommodation</b></a></li>
+  </ul>
+ </li>
+ <li><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""/></li>
+</ul>
+  </div>
+ </div>
+ <br />
+</div></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
+		<title>Global-is-Asian #15</title>
+		<meta name="description" content="The Magazine of the LKY School of Public Policy">
+        <link rel="canonical" href="http://issuu.com/nuslkyschool/docs/gia15" >
+
+		<!-- JAVASCRIPT INCLUDES -->
+
+		<script type="text/javascript">
+			var __htmlcontainer_domain = "issuu.com";
+		</script>
+
+		<script src='http://static.issuu.com/static/2131/w/global.js' type='text/javascript'></script>
+		<script src='http://static.issuu.com/static/2131/w/viewer/v2/standalone/index.js' type='text/javascript'></script>
+
+		<!--[if IE]>
+		<script type="text/javascript">
+			function fixOutOfMemoryError() {   //Fix IE memory leak from using External Interface
+				__flash_unloadHandler = function() {};
+				__flash_savedUnloadHandler = function() {};
+			}
+			window.attachEvent("onbeforeunload", fixOutOfMemoryError);
+		</script>
+		<![endif]-->
+
+		<script type="text/javascript">
+			//=== SERVER SIDE OVERRIDES 
+
+			//---Carrier protocol
+			var __protocol = "http://";
+
+			/*
+			//domain 
+			var __domain = "issuu.com";
+			*/
+
+			//---Specifies the minimum required version of flash for this page to show
+			var __req_flash = "9.0.0";
+			
+			// Document ID
+			var documentId = "121129075018-1f37537200b74609a8960504abe7b244";
+
+			//=== REDIRECT TO AJAX VIEWER IF FLASH VERSION IS BELOW REQUIRED VERSION
+
+            
+			if (!swfobject.hasFlashPlayerVersion(__req_flash)) {
+				var breakdown = window.location.href.split('?')
+				var ajv_url = breakdown[0] + "?mode=a_p";
+				window.location.href= ajv_url;
+			}
+
+			//=== Insert flash
+
+			var bl_swfUrl		= "http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf";
+			var bl_domId		= "flashcontent";
+			var bl_width		= "100%";
+			var bl_height		= "100%";
+			var bl_flashver		= __req_flash;  //flex publishing version
+			var bl_flashvars	= {
+					mode:"window",backgroundColor:"#222222",documentId: "121129075018-1f37537200b74609a8960504abe7b244",
+					pageNumber: 1,
+					bl_domain: "issuu.com",
+					bl_resource: "http://issuu.com/nuslkyschool/docs/gia15",
+					bl_query: "mode=window&backgroundColor=%23222222",
+					bl_referrer: encodeURIComponent(window.location.href),
+					bl_viewuser: "",
+					userAgent: "Python-urllib/1.17"
+			};
+			var bl_params		= {
+					allowfullscreen: "true",
+					menu: "false",
+					salign: "tl",
+					scale: "noscale",
+					wmode: 'transparent',
+					allowscriptaccess: "always"
+			};
+			var bl_attr			= {
+					id: bl_domId,
+					name: bl_domId
+			};
+
+			swfobject.embedSWF(bl_swfUrl, bl_domId, bl_width, bl_height, bl_flashver, {}, bl_flashvars, bl_params, bl_attr);
+
+		</script> 
+
+		<style type="text/css">
+			/* hide from ie on mac \*/
+			html {
+				height: 100%;
+				overflow: hidden;
+			}
+			#flashcontent {
+				height: 100%;
+			}
+			/* end hide */
+			body {
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				background-color: #fff;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="flashcontent">
+			
+		</div>
+
+        <script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+        <script type="text/javascript" >
+            ISSUU.web.GoogleTracker.track();
+        </script>
+
+				<!-- Start Quantcast tag -->
+		<script type="text/javascript"> _qoptions={ qacct:"p-5cvC4NOeGmtNA" }; </script>
+		<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+		<noscript><img src="http://pixel.quantserve.com/pixel/p-5cvC4NOeGmtNA.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></noscript>
+		<!-- End Quantcast tag -->
+		
+	</body>
+</html>

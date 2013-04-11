@@ -1,0 +1,656 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html  lang="en-US">
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke� - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2008                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<meta id="MetaDescription" name="DESCRIPTION" content="National University of Singapore is a leading university in the global arena. A vibrant knowledge community, NUS provides quality undergraduate and graduate education, conducts high-impact research and engages in entrepreneurship.NUS research and education focus on pure, applied and life sciences, engineering, business, computer science, architecture, design, arts and humanities, building and real estate, dentistry, law, medicine and music." /><meta id="MetaKeywords" name="KEYWORDS" content="National, University, Singapore, NUS, global, knowledge, enterprise, education, research, entrepreneurship,DotNetNuke,DNN" /><meta id="MetaCopyright" name="COPYRIGHT" content="© Copyright 2001-08 National University of Singapore. All Rights Reserved." /><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " /><meta id="MetaAuthor" name="AUTHOR" content="National University of Singapore (NUS) - Towards a Global Knowledge Enterprise" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" />
+	<script type="text/javascript" src="//dcg05bhnao2zn.cloudfront.net/js/jquery-1.4.2.min.js"></script>
+    <style id="StylePlaceholder" type="text/css"></style><link id="_Portals__default_" rel="stylesheet" type="text/css" href="/Portals/_default/default.css" /><link id="_Portals_0_Skins_Bschool_Homepage_css" rel="stylesheet" type="text/css" href="/Portals/0/Skins/Bschool/Homepage.css" /><link id="_Portals_0_Containers_new_nus_container_home_latest_news_css" rel="stylesheet" type="text/css" href="/Portals/0/Containers/new_nus_container/home-latest_news.css" /><link id="_Portals_0_" rel="stylesheet" type="text/css" href="/Portals/0/portal.css" />
+	<script type="text/javascript" src="//dcg05bhnao2zn.cloudfront.net/js/EO_decoder.js"></script>
+<script type="text/javascript" src="//dcg05bhnao2zn.cloudfront.net/js/overlib.js"></script>
+<script type="text/javascript" src="//dcg05bhnao2zn.cloudfront.net/js/swfobject.js"></script>
+<script type="text/javascript" src="//dcg05bhnao2zn.cloudfront.net/js/flowplayer-3.1.4.min.js"></script>
+<script type="text/javascript" src="//dcg05bhnao2zn.cloudfront.net/js/load.js"></script>
+<!-- Custom Left Nav start -->
+<script src="//dcg05bhnao2zn.cloudfront.net/js/LeftNav/jquery.treeview.js" type="text/javascript"></script>
+<script src="//dcg05bhnao2zn.cloudfront.net/js/LeftNav/leftNav-treeview.js" type="text/javascript"></script>
+<link rel="stylesheet" href="//dcg05bhnao2zn.cloudfront.net/CSS/jquery.treeview.css" type="text/css" media="screen" />
+<!-- Custom Left Nav End -->
+<!--[if IE 9]>
+<style>
+.ddsmoothmenu > ul > li > a {
+	padding: 0 7px !important;
+}
+</style>
+<![EndIf]-->
+<!--[if IE 6]>
+<link rel="stylesheet" href="/CSS/jquery.treeviewIE6.css" type="text/css" media="screen" />
+<![EndIf]-->
+<!--[if IE 7]>
+
+<style>
+ul#nusNav li a {
+	display:block;
+	background-image:url(/images/spacer.gif);
+}
+ul#nusNav li ul#nusNav{
+margin-left:173px !important;
+}
+</style>
+
+<![EndIf]-->
+<script>
+jQuery(document).ready(function() {
+	jQuery(".ddsmoothmenu ul li ul").find("a:last").css("border-bottom","0");
+})
+</script>
+
+<style>
+.ajax__tab_default .ajax__tab_tab  {
+height:20px !important;
+}
+</style>
+<title>
+	National University of Singapore- NUS Business School
+</title></head>
+<body id="Body">
+    <noscript></noscript>
+    <form name="Form" method="post" action="/default.aspx" id="Form" enctype="multipart/form-data" style="height: 100%;" autocomplete="off">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTM4NDUyNzMxOQ9kFgZmDxYCHgRUZXh0BWY8IURPQ1RZUEUgSFRNTCBQVUJMSUMgIi0vL1czQy8vRFREIEhUTUwgNC4wMSBUcmFuc2l0aW9uYWwvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvVFIvaHRtbDQvbG9vc2UuZHRkIj5kAgEPZBYMAgEPFgIeB1Zpc2libGVoZAICDxYCHgdjb250ZW50BbwDTmF0aW9uYWwgVW5pdmVyc2l0eSBvZiBTaW5nYXBvcmUgaXMgYSBsZWFkaW5nIHVuaXZlcnNpdHkgaW4gdGhlIGdsb2JhbCBhcmVuYS4gQSB2aWJyYW50IGtub3dsZWRnZSBjb21tdW5pdHksIE5VUyBwcm92aWRlcyBxdWFsaXR5IHVuZGVyZ3JhZHVhdGUgYW5kIGdyYWR1YXRlIGVkdWNhdGlvbiwgY29uZHVjdHMgaGlnaC1pbXBhY3QgcmVzZWFyY2ggYW5kIGVuZ2FnZXMgaW4gZW50cmVwcmVuZXVyc2hpcC5OVVMgcmVzZWFyY2ggYW5kIGVkdWNhdGlvbiBmb2N1cyBvbiBwdXJlLCBhcHBsaWVkIGFuZCBsaWZlIHNjaWVuY2VzLCBlbmdpbmVlcmluZywgYnVzaW5lc3MsIGNvbXB1dGVyIHNjaWVuY2UsIGFyY2hpdGVjdHVyZSwgZGVzaWduLCBhcnRzIGFuZCBodW1hbml0aWVzLCBidWlsZGluZyBhbmQgcmVhbCBlc3RhdGUsIGRlbnRpc3RyeSwgbGF3LCBtZWRpY2luZSBhbmQgbXVzaWMuZAIDDxYCHwIFeU5hdGlvbmFsLCBVbml2ZXJzaXR5LCBTaW5nYXBvcmUsIE5VUywgZ2xvYmFsLCBrbm93bGVkZ2UsIGVudGVycHJpc2UsIGVkdWNhdGlvbiwgcmVzZWFyY2gsIGVudHJlcHJlbmV1cnNoaXAsRG90TmV0TnVrZSxETk5kAgQPFgIfAgVLwqkgQ29weXJpZ2h0IDIwMDEtMDggTmF0aW9uYWwgVW5pdmVyc2l0eSBvZiBTaW5nYXBvcmUuIEFsbCBSaWdodHMgUmVzZXJ2ZWQuZAIFDxYCHwIFC0RvdE5ldE51a2UgZAIGDxYCHwIFTk5hdGlvbmFsIFVuaXZlcnNpdHkgb2YgU2luZ2Fwb3JlIChOVVMpIC0gVG93YXJkcyBhIEdsb2JhbCBLbm93bGVkZ2UgRW50ZXJwcmlzZWQCAg9kFgICAQ9kFgICBA9kFgJmD2QWDgIBD2QWAgIBD2QWAgIBDxYCHwAF1I4BPHVsPjwhLS0gQWJvdXQgVXMgLS0+ICAgIDxsaT48YSBocmVmPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS9BYm91dFVzL3RhYmlkLzIzMi9kZWZhdWx0LmFzcHgiIGNsYXNzPSJwYXJlbnQiIHN0eWxlPSJwYWRkaW5nLXJpZ2h0OiAxMHB4OyIgc2hhcGU9InJlY3QiPjxpbWcgYWx0PSIiIGNsYXNzPSJkb3duYXJyb3djbGFzcyIgc3R5bGU9ImJvcmRlcjogMHB0OyIgc3JjPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS9pbWFnZXMvc3BhY2VyLmdpZiIgLz4gPHNwYW4+QWJvdXQgVXM8L3NwYW4+PC9hPiAgICA8dWw+ICAgICAgICA8bGk+PGEgaHJlZj0iIyIgY2xhc3M9InBhcmVudCIgc2hhcGU9InJlY3QiPjxzcGFuPkRlYW4ncyBNZXNzYWdlczwvc3Bhbj48L2E+ICAgICAgICA8dWw+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0Fib3V0VXMvRGVhbnNNZXNzYWdlcy9EZWFuc1dlbGNvbWUvdGFiaWQvMjYxNS9kZWZhdWx0LmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5EZWFuJ3MgV2VsY29tZTwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0Fib3V0VXMvRGVhbnNNZXNzYWdlcy9EZWFuc05vdGVzL3RhYmlkLzI2MTQvZGVmYXVsdC5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+RGVhbidzIE5vdGVzPC9zcGFuPjwvYT4gPC9saT4gICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvQWJvdXRVcy9EZWFuc01lc3NhZ2VzL0RlYW5zU3BlZWNoZXMvdGFiaWQvMjYxMy9kZWZhdWx0LmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5EZWFuJ3MgU3BlZWNoZXM8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgPC91bD4gICAgICAgIDwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iIyIgY2xhc3M9InBhcmVudCIgc2hhcGU9InJlY3QiPjxzcGFuPkFib3V0IE5VUyBCdXNpbmVzcyBTY2hvb2w8L3NwYW4+PC9hPiAgICAgICAgPHVsPiAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS9BYm91dFVzL1Byb2ZpbGUvT3ZlcnZpZXcvdGFiaWQvOTcvZGVmYXVsdC5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+T3ZlcnZpZXc8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS9BYm91dFVzL1Byb2ZpbGUvUXVpY2tGYWN0cy90YWJpZC8xOTUvZGVmYXVsdC5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+UXVpY2sgRmFjdHM8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS9BYm91dFVzL1Byb2ZpbGUvSGlzdG9yeU1pbGVzdG9uZXMvdGFiaWQvMTA0L2RlZmF1bHQuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPkhpc3RvcnkgJmFtcDsgTWlsZXN0b25lczwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0Fib3V0VXMvQWJvdXROVVNCdXNpbmVzc1NjaG9vbC9WaXNpb25NaXNzaW9uLmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5WaXNpb24gJmFtcDsgTWlzc2lvbjwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICA8L3VsPiAgICAgICAgPC9saT4gICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS9BYm91dFVzL0Fkdmlzb3J5Qm9hcmRzL3RhYmlkLzExMi9kZWZhdWx0LmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5BZHZpc29yeSBCb2FyZHM8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0Fib3V0VXMvU2Nob29sUmFua2luZ3MvdGFiaWQvMzczL2RlZmF1bHQuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPlNjaG9vbCBSYW5raW5nczwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvQWJvdXRVcy9BY2NyZWRpdGF0aW9ucy90YWJpZC8zMTk5L2RlZmF1bHQuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPkFjY3JlZGl0YXRpb25zPC9zcGFuPjwvYT4gPC9saT4gICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS91bml2ZXJzaXR5cGFydG5lcnMuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPlVuaXZlcnNpdHkgUGFydG5lcnM8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgPGxpPjxhIGhyZWY9IiMiIGNsYXNzPSJwYXJlbnQiIHRhcmdldD0iX2JsYW5rIiBzaGFwZT0icmVjdCI+PHNwYW4+UHVibGljYXRpb25zPC9zcGFuPjwvYT4gICAgICAgIDx1bD4gICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL2lzc3V1LmNvbS9udXNleGVjZWQvZG9jcy9udXNiaXphcjIwMTI/bW9kZT13aW5kb3cmYW1wO2JhY2tncm91bmRDb2xvcj0lMjMyMjIyMjIiIHRhcmdldD0iX2JsYW5rIiBzaGFwZT0icmVjdCI+PHNwYW4+QW5udWFsIFJlcG9ydDwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9pc3N1dS5jb20vbnVzZXhlY2VkL2RvY3MvbnVzYnNjaG9vbGNvZmZlZXRhYmxlP21vZGU9d2luZG93JmFtcDtiYWNrZ3JvdW5kQ29sb3I9JTIzMjIyMjIyIiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPkEgTmV3IENoYXB0ZXI8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vd3d3Mi5ic2Nob29sLm51cy5lZHUuc2cvY29ycGRldi9CaXpsZWFkcy9hcmNoaXZlLmh0bSIgdGFyZ2V0PSJfYmxhbmsiIHNoYXBlPSJyZWN0Ij48c3Bhbj5CdXNpbmVzcyBMZWFkczwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9iaXphbHVtLm51cy5lZHUvZW5ld3NsZXR0ZXJzL2VuZXdzbGV0dGVyLmFzcHgiIHRhcmdldD0iX2JsYW5rIiBzaGFwZT0icmVjdCI+PHNwYW4+TlVTIEJpeiBBbHVtPC9zcGFuPjwvYT4gPC9saT4gICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL2V4ZWN1dGl2ZS1lZHVjYXRpb24ubnVzLmVkdS9ORVdTRVZFTlRTL05ld3NsZXR0ZXIvdGFiaWQvMTM1L0RlZmF1bHQuYXNweCIgdGFyZ2V0PSJfYmxhbmsiIHNoYXBlPSJyZWN0Ij48c3Bhbj5FeGVjdXRpdmUgRWR1Y2F0aW9uPC9zcGFuPjwvYT4gPC9saT4gICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvYWx1bW5pL21hbmRhcmluL3d0bS8iIHRhcmdldD0iX2JsYW5rIiBzaGFwZT0icmVjdCI+PHNwYW4+V2luZG93IHRvIE1hbmFnZW1lbnQ8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgPC91bD4gICAgICAgIDwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvQWJvdXRVcy9OZXdNb2NodGFyUmlhZHlCdWlsZGluZy90YWJpZC82MjEvZGVmYXVsdC5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+TW9jaHRhciBSaWFkeSBCdWlsZGluZzwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvc3BlYWtlcnNlcmllcy5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+U3BlYWtlciBTZXJpZXM8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0Fib3V0VXMvSm9iT3BlbmluZ3MvdGFiaWQvMTE1L2RlZmF1bHQuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPkpvYiBPcGVuaW5nczwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iIyIgY2xhc3M9InBhcmVudCIgc2hhcGU9InJlY3QiPjxzcGFuPkRpcmVjdG9yeTwvc3Bhbj48L2E+ICAgICAgICA8dWw+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0Fib3V0VXMvRGlyZWN0b3J5L0ZhY3VsdHlCeU5hbWUvdGFiaWQvMTM4Ni9kZWZhdWx0LmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5GYWN1bHR5IC0gQnkgTmFtZTwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0Fib3V0VXMvRGlyZWN0b3J5L0ZhY3VsdHlCeURlcGFydG1lbnQvdGFiaWQvMTA5MS9kZWZhdWx0LmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5GYWN1bHR5IC0gQnkgRGVwYXJ0bWVudDwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0Fib3V0VXMvRGlyZWN0b3J5L1N0YWZmL3RhYmlkLzExMy9kZWZhdWx0LmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5TdGFmZiA8L3NwYW4+PC9hPjwvbGk+ICAgICAgICA8L3VsPiAgICAgICAgPC9saT4gICAgICAgIDxsaT48YSBocmVmPSIjIiBjbGFzcz0icGFyZW50IiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPkxvY2F0ZSBVczwvc3Bhbj48L2E+ICAgICAgICA8dWw+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0Fib3V0VXMvTG9jYXRlVXMvR2V0dGluZ1RvQnVzaW5lc3NTY2hvb2wvdGFiaWQvMjYwNC9kZWZhdWx0LmFzcHgvIiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPkdldHRpbmcgdG8gQnVzaW5lc3MgU2Nob29sPC9zcGFuPjwvYT4gPC9saT4gICAgICAgIDwvdWw+ICAgICAgICA8L2xpPiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0Fib3V0VXMvQ29udGFjdFVzL3RhYmlkLzk4MC9kZWZhdWx0LmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5Db250YWN0IFVzPC9zcGFuPjwvYT4gPC9saT4gICAgPC91bD4gICAgPCEtLSBBYm91dCBVcyBFbmQgLS0+PCEtLSBGYWN1bHR5IC0tPjwvbGk+ICAgIDxsaT48YSBocmVmPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS9GYWN1bHR5RGVwYXJ0bWVudHMvdGFiaWQvMTIyL2RlZmF1bHQuYXNweCIgY2xhc3M9InBhcmVudCIgc3R5bGU9InBhZGRpbmctcmlnaHQ6IDVweDsiIHNoYXBlPSJyZWN0Ij48aW1nIGFsdD0iIiBjbGFzcz0iZG93bmFycm93Y2xhc3MiIHN0eWxlPSJib3JkZXI6IDBwdDsiIHNyYz0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvaW1hZ2VzL3NwYWNlci5naWYiIC8+PHNwYW4+T3VyIEZhY3VsdHk8L3NwYW4+PC9hPiAgICA8dWw+ICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvRmFjdWx0eURlcGFydG1lbnRzL0FjYWRlbWljRGVwYXJ0bWVudHMvdGFiaWQvNTkxL2RlZmF1bHQuYXNweCIgY2xhc3M9InBhcmVudCIgc2hhcGU9InJlY3QiPjxzcGFuPkFjYWRlbWljIERlcGFydG1lbnRzPC9zcGFuPjwvYT4gICAgICAgIDx1bD4gICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvRmFjdWx0eURlcGFydG1lbnRzL0FjYWRlbWljRGVwYXJ0bWVudHMvQWNjb3VudGluZy90YWJpZC80MDAvZGVmYXVsdC5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+QWNjb3VudGluZzwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0ZhY3VsdHlEZXBhcnRtZW50cy9BY2FkZW1pY0RlcGFydG1lbnRzL0RlY2lzaW9uU2NpZW5jZXMvdGFiaWQvMjI0L2RlZmF1bHQuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPkRlY2lzaW9uIFNjaWVuY2VzPC9zcGFuPjwvYT4gPC9saT4gICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvRmFjdWx0eURlcGFydG1lbnRzL0FjYWRlbWljRGVwYXJ0bWVudHMvRmluYW5jZS90YWJpZC8yNzgvZGVmYXVsdC5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+RmluYW5jZTwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0ZhY3VsdHlEZXBhcnRtZW50cy9BY2FkZW1pY0RlcGFydG1lbnRzL01hbmFnZW1lbnRPcmdhbmlzYXRpb24vdGFiaWQvNTQzL2RlZmF1bHQuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPk1hbmFnZW1lbnQgJmFtcDsgT3JnYW5pc2F0aW9uPC9zcGFuPjwvYT4gPC9saT4gICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvRmFjdWx0eURlcGFydG1lbnRzL0FjYWRlbWljRGVwYXJ0bWVudHMvTWFya2V0aW5nL3RhYmlkLzQ1Ni9kZWZhdWx0LmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5NYXJrZXRpbmc8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS9GYWN1bHR5RGVwYXJ0bWVudHMvQWNhZGVtaWNEZXBhcnRtZW50cy9TdHJhdGVneWFuZFBvbGljeS90YWJpZC8yMTMvZGVmYXVsdC5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+U3RyYXRlZ3kgJmFtcDsgUG9saWN5PC9zcGFuPjwvYT4gPC9saT4gICAgICAgIDwvdWw+ICAgICAgICA8L2xpPiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0ZhY3VsdHlEZXBhcnRtZW50cy9FeHBlcnRpc2VHdWlkZS90YWJpZC81ODkvZGVmYXVsdC5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+RXhwZXJ0aXNlIEd1aWRlPC9zcGFuPjwvYT4gPC9saT4gICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vcmVzZWFyY2gubnVzLmJpei9Bd2FyZHMvZGVmYXVsdC5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+RmFjdWx0eSBSZWNvZ25pdGlvbjwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iIyIgc2hhcGU9InJlY3QiPjxzcGFuPkZhY3VsdHkgRGlyZWN0b3J5PC9zcGFuPjwvYT4gICAgICAgIDx1bD4gICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvRmFjdWx0eURlcGFydG1lbnRzL0ZhY3VsdHlEaXJlY3RvcnkvRmFjdWx0eURpcmVjdG9yeUJ5TmFtZS90YWJpZC8yNjE5L2RlZmF1bHQuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPkZhY3VsdHkgRGlyZWN0b3J5IC0gQnkgTmFtZTwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0ZhY3VsdHlEZXBhcnRtZW50cy9GYWN1bHR5RGlyZWN0b3J5L0ZhY3VsdHlEaXJlY3RvcnlCeURlcGFydG1lbnQvdGFiaWQvMjYyMC9kZWZhdWx0LmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5GYWN1bHR5IERpcmVjdG9yeSAtIEJ5IERlcGFydG1lbnQ8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS9GYWN1bHR5RGVwYXJ0bWVudHMvRmFjdWx0eURpcmVjdG9yeS9TdGFmZi90YWJpZC8yNjIxL2RlZmF1bHQuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPlN0YWZmPC9zcGFuPjwvYT4gPC9saT4gICAgICAgIDwvdWw+ICAgICAgICA8L2xpPiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0ZhY3VsdHlEZXBhcnRtZW50cy9GYWN1bHR5c1BoRHMvdGFiaWQvMTYwL2RlZmF1bHQuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPkZhY3VsdHkncyBQaERzPC9zcGFuPjwvYT4gPC9saT4gICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS9GYWN1bHR5RGVwYXJ0bWVudHMvRmFjdWx0eXNOYXRpb25hbGl0aWVzL3RhYmlkLzE5NzIvZGVmYXVsdC5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+RmFjdWx0eSdzIE5hdGlvbmFsaXRpZXM8L3NwYW4+PC9hPiA8L2xpPiAgICA8L3VsPiAgICA8IS0tIEZhY3VsdHkgRW5kIC0tPjwhLS0gUmVzZWFyY2ggLS0+PC9saT4gICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9yZXNlYXJjaC5udXMuYml6L1BhZ2VzL0RlZmF1bHQuYXNweCIgY2xhc3M9InBhcmVudCIgc3R5bGU9InBhZGRpbmctcmlnaHQ6IDVweDsiIHRhcmdldD0iX2JsYW5rIiBzaGFwZT0icmVjdCI+PGltZyBhbHQ9IiIgY2xhc3M9ImRvd25hcnJvd2NsYXNzIiBzdHlsZT0iYm9yZGVyOiAwcHQ7IiBzcmM9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L2ltYWdlcy9zcGFjZXIuZ2lmIiAvPjxzcGFuPlJlc2VhcmNoICZhbXA7IFB1YmxpY2F0aW9uczwvc3Bhbj48L2E+ICAgIDx1bD4gICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vcmVzZWFyY2gubnVzLmJpei9JQUMvUGFnZXMvSW5zaWdodHNDb21tZW50YXJpZXMuYXNweCIgdGFyZ2V0PSJfYmxhbmsiIHNoYXBlPSJyZWN0Ij48c3Bhbj5JbnNpZ2h0cyAmYW1wOyBDb21tZW50YXJpZXM8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9yZXNlYXJjaC5udXMuYml6L2FzaWEvUGFnZXMvZGVmYXVsdC5hc3B4IiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPlJlc2VhcmNoIGluIEFzaWE8L3NwYW4+PC9hPjwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL3Jlc2VhcmNoLm51cy5iaXovUkMvZGVmYXVsdC5hc3B4IiBjbGFzcz0icGFyZW50IiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPlJlc2VhcmNoIENlbnRyZXM8L3NwYW4+PC9hPiAgICAgICAgPHVsPiAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS9SZXNlYXJjaFB1YmxpY2F0aW9ucy9SZXNlYXJjaENlbnRyZXMvQUNTRVAvdGFiaWQvMjA1OC9EZWZhdWx0LmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5Bc2lhIENlbnRyZSBmb3IgU29jaWFsIEVudHJlcHJlbmV1cnNoaXAgJmFtcDsgUGhpbGFudGhyb3B5PC9zcGFuPjwvYT4gPC9saT4gICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvUmVzZWFyY2hQdWJsaWNhdGlvbnMvUmVzZWFyY2hDZW50ZXJzL0NBTVJJL3RhYmlkLzIyMDMvRGVmYXVsdC5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+Q2VudHJlIGZvciBBc3NldCBNYW5hZ2VtZW50IFJlc2VhcmNoICZhbXA7IEludmVzdG1lbnRzPC9zcGFuPjwvYT4gPC9saT4gICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvQ0JFLmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5DZW50cmUgZm9yIEJlaGF2aW91cmFsIEVjb25vbWljczwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0NHSU8uYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPkNlbnRyZSBmb3IgR292ZXJuYW5jZSwgSW5zdGl0dXRpb25zICZhbXA7IE9yZ2FuaXphdGlvbnM8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vYnNjaG9vbC5udXMuZWR1LnNnL0NTTC5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+Q2VudHJlIGZvciBTdHJhdGVnaWMgTGVhZGVyc2hpcDwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICA8L3VsPiAgICAgICAgPC9saT4gICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vcmVzZWFyY2gubnVzLmJpei9Bd2FyZHMvZGVmYXVsdC5hc3B4IiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPkF3YXJkcyAmYW1wOyBSZWNvZ25pdGlvbjwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL3Jlc2VhcmNoLm51cy5iaXovb3RoZXJfd29ya3MvZGVmYXVsdC5hc3B4IiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPk90aGVyIFdvcmtzPC9zcGFuPjwvYT4gPC9saT4gICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vcmVzZWFyY2gubnVzLmJpei9wYWdlcy9ndWlkZWxpbmVzLmFzcHgiIHRhcmdldD0iX2JsYW5rIiBzaGFwZT0icmVjdCI+PHNwYW4+R3VpZGVsaW5lczwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL3Jlc2VhcmNoLm51cy5iaXovdXNlZnVsbGlua3MvZGVmYXVsdC5hc3B4IiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPlVzZWZ1bCBMaW5rczwvc3Bhbj48L2E+IDwvbGk+ICAgIDwvdWw+ICAgIDwhLS0gUmVzZWFyY2ggRW5kIC0tPjwhLS0gQWNhZGVtaWMgLS0+PC9saT4gICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0FjYWRlbWljUHJvZ3JhbW1lcy90YWJpZC83MzgvZGVmYXVsdC5hc3B4IiBjbGFzcz0icGFyZW50IiBzdHlsZT0icGFkZGluZy1yaWdodDogNXB4OyIgc2hhcGU9InJlY3QiPjxpbWcgYWx0PSIiIGNsYXNzPSJkb3duYXJyb3djbGFzcyIgc3R5bGU9ImJvcmRlcjogMHB0OyIgc3JjPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS9pbWFnZXMvc3BhY2VyLmdpZiIgLz48c3Bhbj5BY2FkZW1pYyBQcm9ncmFtbWVzPC9zcGFuPjwvYT4gICAgPHVsPiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9iYmEubnVzLmVkdS8iIHRhcmdldD0iX2JsYW5rIiBzaGFwZT0icmVjdCI+PHNwYW4+QkJBPC9zcGFuPjwvYT4gPC9saT4gICAgICAgIDxsaT48YSBocmVmPSIjIiBjbGFzcz0icGFyZW50IiBzaGFwZT0icmVjdCI+PHNwYW4+RG91YmxlIERlZ3JlZSBCQkE8L3NwYW4+PC9hPiAgICAgICAgPHVsPiAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vbnVzLmVkdS9wcm9nL2JpemNubS8iIHRhcmdldD0iX2JsYW5rIiBzaGFwZT0icmVjdCI+PHNwYW4+QkJBICsgQ29tbXMgJmFtcDsgTmV3IE1lZGlhPC9zcGFuPjwvYT4gPC9saT4gICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL251cy5lZHUvcHJvZy9iaXpzb2MvIiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPkJCQSArIENvbXB1dGluZyA8L3NwYW4+PC9hPjwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly93d3cubnVzLmVkdS5zZy9wcm9nL2JpemVjb24vaW5kZXguaHRtbCIgdGFyZ2V0PSJfYmxhbmsiIHNoYXBlPSJyZWN0Ij48c3Bhbj5CQkEgKyBFY29ub21pY3M8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vbnVzLmVkdS9wcm9nL2VuZ2Jpei9vdmVydmlldy5odG1sIiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPkJCQSArIEVuZ2luZWVyaW5nPC9zcGFuPjwvYT4gPC9saT4gICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL251cy5lZHUvcHJvZy9iYmFsYXcvb3ZlcnZpZXcuaHRtbCIgdGFyZ2V0PSJfYmxhbmsiIHNoYXBlPSJyZWN0Ij48c3Bhbj5CQkEgKyBMYXc8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vYmJhLm51cy5lZHUvZHVhbGRlZ3JlZV9iYmEtbXBwLW1wYS5odG1sIiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPkJCQSArIE1QUDwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9iYmEubnVzLmVkdS9kdWFsZGVncmVlX2RvdWJsZW1hc3Rlci5odG1sIiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPkJCQSArIERvdWJsZSBNU2M8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vYmJhLm51cy5lZHUvZHVhbGRlZ3JlZV9hZGhvYy5odG1sIiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPkFkLWhvYyBEb3VibGUgRGVncmVlPC9zcGFuPjwvYT4gPC9saT4gICAgICAgIDwvdWw+ICAgICAgICA8L2xpPiAgICAgICAgPGxpIHN0eWxlPSJ6LWluZGV4OiAyMTsiPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0FjYWRlbWljUHJvZ3JhbW1lcy9UaGVOVVNNQkEvdGFiaWQvMjM0OS9kZWZhdWx0LmFzcHgiIGNsYXNzPSJwYXJlbnQiIHNoYXBlPSJyZWN0Ij48c3Bhbj5NQkE8L3NwYW4+PC9hPiAgICAgICAgPHVsPiAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS9BY2FkZW1pY1Byb2dyYW1tZXMvVGhlTlVTTUJBL1Byb3NwZWN0aXZlU3R1ZGVudHMvdGFiaWQvMjI1NC9kZWZhdWx0LmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5Qcm9zcGVjdGl2ZSBTdHVkZW50czwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0FjYWRlbWljUHJvZ3JhbW1lcy9UaGVOVVNNQkEvQ3VycmVudFN0dWRlbnRzL3RhYmlkLzIzNTUvZGVmYXVsdC5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+Q3VycmVudCBTdHVkZW50czwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0FjYWRlbWljUHJvZ3JhbW1lcy9UaGVOVVNNQkEvU3RhZmZQb3J0YWwvdGFiaWQvMjM1Ni9kZWZhdWx0LmFzcHgiIHRhcmdldD0iX2JsYW5rIiBzaGFwZT0icmVjdCI+PHNwYW4+U3RhZmYgUG9ydGFsPC9zcGFuPjwvYT4gPC9saT4gICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvQWNhZGVtaWNQcm9ncmFtbWVzL1RoZU5VU01CQS9OZXdzRXZlbnRzL3RhYmlkLzE2ODkvZGVmYXVsdC5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+TmV3cyAmYW1wOyBFdmVudHM8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgPC91bD4gICAgICAgIDwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvQWNhZGVtaWNQcm9ncmFtbWVzL0RvdWJsZURlZ3JlZU1CQXMvdGFiaWQvMTYzNC9kZWZhdWx0LmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5Eb3VibGUgRGVncmVlIE1CQTwvc3Bhbj48L2E+ICAgICAgICA8dWw+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L1RoZU5VU01CQS9Qcm9zcGVjdGl2ZVN0dWRlbnRzL0RvdWJsZURlZ3JlZVByb2dyYW1tZXMvVGhlTlVTUEtVTUJBLmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5OVVMtUEtVIE1CQTwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L1RoZU5VU01CQS9Qcm9zcGVjdGl2ZVN0dWRlbnRzL0RvdWJsZURlZ3JlZVByb2dyYW1tZXMvVGhlTlVTSEVDUGFyaXNNQkEuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPk5VUy1IRUMgUGFyaXMgTUJBPC9zcGFuPjwvYT4gPC9saT4gICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvVGhlTlVTTUJBL1Byb3NwZWN0aXZlU3R1ZGVudHMvRG91YmxlRGVncmVlUHJvZ3JhbW1lcy9UaGVOVVNMS1kuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPk5VUyBNQkEgKyBNUFAvTVBBIChMS1kgU1BQKTwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L1RoZU5VU01CQS9Qcm9zcGVjdGl2ZVN0dWRlbnRzL0RvdWJsZURlZ3JlZVByb2dyYW1tZXMvUzNBc2lhTUJBLmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5OVVMgUzMgQXNpYSBNQkE8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vcGhkLW1iYS5udXMuZWR1LnNnLyIgc2hhcGU9InJlY3QiPjxzcGFuPk5VUyBQaEQtTUJBPC9zcGFuPjwvYT4gPC9saT4gICAgICAgIDwvdWw+ICAgICAgICA8L2xpPiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0FjYWRlbWljUHJvZ3JhbW1lcy9FeGNlY3V0aXZlTUJBcy90YWJpZC8xNjM2L2RlZmF1bHQuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPkV4ZWN1dGl2ZSBNQkE8L3NwYW4+PC9hPiAgICAgICAgPHVsPiAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vYXBleGUubnVzLmVkdS8iIHRhcmdldD0iX2JsYW5rIiBzaGFwZT0icmVjdCI+PHNwYW4+QVBFWCBNQkEgKEVuZ2xpc2gpPC9zcGFuPjwvYT4gPC9saT4gICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL2FwZXhjLm51cy5lZHUvIiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPkFQRVggTUJBIChDaGluZXNlKTwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly91Y2xhLm51cy5lZHUvIiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPlVDTEEtTlVTIEVNQkE8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgPC91bD4gICAgICAgIDwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL2JzY2hvb2wubnVzLmVkdS5zZy9NYXN0ZXJpblB1YmxpY0FkbWluaXN0cmF0aW9uYW5kTWFuYWdlbWVudC8lRTglQUYlQkUlRTclQTglOEIlRTQlQkIlOEIlRTclQkIlOEQuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPumrmOe6p+WFrOWFseihjOaUv+S4jueuoeeQhuehleWjqyhNUEFNKTwvc3Bhbj48L2E+IDwhLS08bGk+PGE+PHNwYW4+VW5kZXJncmFkdWF0ZTwvc3Bhbj48L2E+CQkJPHVsPgkJCQk8bGk+PGEgaHJlZj0iaHR0cDovL2JiYS5udXMuZWR1L21ham9ybWlub3JfbWFqb3JfbWdtdHRlY2guaHRtbCIgdGFyZ2V0PSJfYmxhbmsiPk1ham9yIGluIE1hbmFnZW1lbnQgKFRlY2hub2xvZ3kpPC9hPjwvbGk+CQkJCTxsaT48YSBocmVmPSJodHRwOi8vYmJhLm51cy5lZHUvbWFqb3JtaW5vcl90ZWNobm9wcmVuZXVyc2hpcC5odG1sIiB0YXJnZXQ9Il9ibGFuayI+TWlub3IgaW4gVGVjaG5vcHJlbmV1cnNoaXA8L2E+PC9saT4JCQkJPGxpPjxhIGhyZWY9Imh0dHA6Ly9iYmEubnVzLmVkdS9tYWpvcm1pbm9yX21ham9yX21nbXQuaHRtbCIgdGFyZ2V0PSJfYmxhbmsiPk1ham9yIGluIE1hbmFnZW1lbnQ8L2E+PC9saT4JCQkJPGxpPjxhIGhyZWY9Imh0dHA6Ly9iYmEubnVzLmVkdS9tYWpvcm1pbm9yX21pbm9yX21nbXQuaHRtbCIgdGFyZ2V0PSJfYmxhbmsiPk1pbm9yIGluIE1hbmFnZW1lbnQ8L2E+PC9saT4JCQk8L3VsPgkJCTwvbGk+CQkJPGxpPjxhPjxzcGFuPk1TYyAoTWFuYWdlbWVudCk8L3NwYW4+PC9hPgkJCTx1bD4JCQkJPGxpPjxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vYmJhLm51cy5lZHUvY29uY3VycmVudF9ub25iYmEtbXNjLmh0bWwiPk5VUyBOb24tQml6IEJhY2hlbG9y4oCZcyArIE1TYyAoTWd0KTwvYT48L2xpPgkJCQk8bGk+PGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHA6Ly9iYmEubnVzLmVkdS9jb25jdXJyZW50X2JiYS1tc2MuaHRtbCI+QkJBIChIb25zKSArIE1TYyAoTWd0KTwvYT48L2xpPgkJCQk8bGk+PGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHA6Ly9iYmEubnVzLmVkdS9jb25jdXJyZW50X21zYy1jZW1zLmh0bWwiPk1TYyAoTWd0KSArIENFTVMgTUlNPC9hPjwvbGk+CQkJPC91bD4JCQk8L2xpPi0tPjwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvQWNhZGVtaWNQcm9ncmFtbWVzL1BIRC90YWJpZC8yNDAvZGVmYXVsdC5hc3B4IiBjbGFzcz0icGFyZW50IiBzaGFwZT0icmVjdCI+PHNwYW4+UGhEPC9zcGFuPjwvYT4gPC9saT4gICAgPC91bD4gICAgPCEtLSBBY2FkZW1pYyBFbmQgLS0+PCEtLSBPRUUgLS0+PC9saT4gICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9leGVjdXRpdmUtZWR1Y2F0aW9uLm51cy5lZHUvIiBjbGFzcz0icGFyZW50IiBzdHlsZT0icGFkZGluZy1yaWdodDogNXB4OyIgdGFyZ2V0PSJfYmxhbmsiIHNoYXBlPSJyZWN0Ij48c3Bhbj5FeGVjdXRpdmUgRWR1Y2F0aW9uPC9zcGFuPjwvYT4gICAgPHVsPiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9leGVjdXRpdmUtZWR1Y2F0aW9uLm51cy5lZHUvUFJPR1JBTVMvdGFiaWQvNjUvRGVmYXVsdC5hc3B4IiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPlByb2dyYW1tZXM8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9leGVjdXRpdmUtZWR1Y2F0aW9uLm51cy5lZHUvRkFDVUxUWS90YWJpZC8xNDIvRGVmYXVsdC5hc3B4IiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPkZhY3VsdHk8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9leGVjdXRpdmUtZWR1Y2F0aW9uLm51cy5lZHUvdGFiaWQvMTQ1L0RlZmF1bHQuYXNweCIgdGFyZ2V0PSJfYmxhbmsiIHNoYXBlPSJyZWN0Ij48c3Bhbj5DaGluZXNlIFdlYnNpdGUgKOS4reaWh+e9kemhtSk8L3NwYW4+PC9hPiA8L2xpPiAgICA8L3VsPiAgICA8IS0tIE9FRSBFbmQgLS0+PCEtLSBDYXJlZXIgU2VydmljZSAtLT48L2xpPiAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvQ2FyZWVyU2VydmljZXMvdGFiaWQvMTA4L2RlZmF1bHQuYXNweCIgY2xhc3M9InBhcmVudCIgc3R5bGU9InBhZGRpbmctcmlnaHQ6IDVweDsiIHNoYXBlPSJyZWN0Ij48c3Bhbj5DYXJlZXIgU2VydmljZXM8L3NwYW4+PC9hPiAgICA8dWw+ICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvQ2FyZWVyU2VydmljZS9SZWNydWl0ZXJzLmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5SZWNydWl0ZXJzPC9zcGFuPjwvYT4gPC9saT4gICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS9DYXJlZXJTZXJ2aWNlL1Byb3NwZWN0aXZlU3R1ZGVudHMuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPlByb3NwZWN0aXZlIFN0dWRlbnRzPC9zcGFuPjwvYT4gPC9saT4gICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL2JzY2hvb2wubnVzLmVkdS9DYXJlZXJTZXJ2aWNlL0N1cnJlbnRTdHVkZW50cy5hc3B4IiBzaGFwZT0icmVjdCI+PHNwYW4+Q3VycmVudCBTdHVkZW50czwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvQ2FyZWVyU2VydmljZS9HcmFkdWF0ZUVtcGxveW1lbnQuYXNweCIgc2hhcGU9InJlY3QiPjxzcGFuPkdyYWR1YXRlIEVtcGxveW1lbnQ8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vYnNjaG9vbC5udXMuZWR1L0NhcmVlclNlcnZpY2UvQ29udGFjdFVzLmFzcHgiIHNoYXBlPSJyZWN0Ij48c3Bhbj5Db250YWN0IFVzPC9zcGFuPjwvYT4gPC9saT4gICAgPC91bD4gICAgPCEtLSBDYXJlZXIgU2VydmljZSBFbmRzIC0tPjwhLS0gQWx1bW5pIC0tPjwvbGk+ICAgIDxsaT48YSBocmVmPSJodHRwOi8vYml6YWx1bS5udXMuZWR1LyIgY2xhc3M9InBhcmVudCIgc3R5bGU9InBhZGRpbmctcmlnaHQ6IDVweDsiIHRhcmdldD0iX2JsYW5rIiBzaGFwZT0icmVjdCI+PHNwYW4+QWx1bW5pPC9zcGFuPjwvYT4gICAgPHVsPiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9iaXphbHVtLm51cy5lZHUuc2cvbWljcm9zaXRlL21pY3Jvc2l0ZWxpc3QuYXNweCIgdGFyZ2V0PSJfYmxhbmsiIHNoYXBlPSJyZWN0Ij48c3Bhbj5BbHVtbmkgT3JnYW5pemF0aW9uczwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL2JpemFsdW0ubnVzLmVkdS5zZy9uYnMvb3ZlcnNlYXMtY2hhcHRlcnMuYXNweCIgdGFyZ2V0PSJfYmxhbmsiIHNoYXBlPSJyZWN0Ij48c3Bhbj5PdmVyc2VhcyBDaGFwdGVyczwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL2JpemFsdW0ubnVzLmVkdS5zZy9tZW1iZXJzaGlwL21lbWJlcnNoaXAuYXNweD9SZXR1cm5Vcmw9JTJmZGlyZWN0b3J5JTJmQWx1bW5pU2VhcmNoLmFzcHgiIHRhcmdldD0iX2JsYW5rIiBzaGFwZT0icmVjdCI+PHNwYW4+QWx1bW5pIERpcmVjdG9yeTwvc3Bhbj48L2E+IDwvbGk+ICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL2JpemFsdW0ubnVzLmVkdS5zZy9ldmVudC91cGNvbWluZ2V2ZW50c2xpc3QuYXNweCIgdGFyZ2V0PSJfYmxhbmsiIHNoYXBlPSJyZWN0Ij48c3Bhbj5VcGNvbWluZyBFdmVudHM8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9iaXphbHVtLm51cy5lZHUuc2cvbmJzL2xpZmVsb25nLmFzcHgiIHRhcmdldD0iX2JsYW5rIiBzaGFwZT0icmVjdCI+PHNwYW4+TGlmZS1sb25nIExlYXJuaW5nPC9zcGFuPjwvYT4gPC9saT4gICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vYml6YWx1bS5udXMuZWR1LnNnL2VuZXdzbGV0dGVycy9lbmV3c2xldHRlci5hc3B4IiB0YXJnZXQ9Il9ibGFuayIgc2hhcGU9InJlY3QiPjxzcGFuPk5ld3NsZXR0ZXI8L3NwYW4+PC9hPiA8L2xpPiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9iaXphbHVtLm51cy5lZHUvbmJzL2Fib3V0dXMuYXNweCIgdGFyZ2V0PSJfYmxhbmsiIHNoYXBlPSJyZWN0Ij48c3Bhbj5BYm91dCBHQU5PPC9zcGFuPjwvYT4gPC9saT4gICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vYml6YWx1bS5udXMuZWR1L25icy90ZWFtLmFzcHgiIHRhcmdldD0iX2JsYW5rIiBzaGFwZT0icmVjdCI+PHNwYW4+Q29udGFjdCBVczwvc3Bhbj48L2E+IDwvbGk+ICAgIDwvdWw+ICAgIDwhLS0gQWx1bW5pIEVuZCAtLT48IS0tIEdpdmluZyAtLT48L2xpPiAgICA8bGk+PGEgaHJlZj0iaHR0cDovL2JzY2hvb2wubnVzLmVkdS9HaXZpbmcuYXNweCIgY2xhc3M9InBhcmVudCIgc2hhcGU9InJlY3QiPjxzcGFuPkdpdmluZzwvc3Bhbj48L2E+IDwvbGk+PC91bD5kAgMPZBYCAgEPZBYCAgEPDxYCHwFoZGQCBw9kFgYCAQ9kFgYCAQ8PFgIfAWhkZAIDDw8WAh8BaGRkAgUPDxYCHwFoZGQCAw9kFgICAQ8PFgIfAWhkZAIFD2QWBgIBDw8WAh8BaGRkAgMPDxYCHwFoZGQCBQ8PFgIfAWhkZAIJD2QWCAIBD2QWAgIBDw8WAh8BaGRkAgMPZBYGAgEPDxYCHwFoZGQCAw8PFgIfAWhkZAIFDw8WAh8BaGRkAgUPZBYCAgEPDxYCHwFoZGQCBw9kFgYCAQ8PFgIfAWhkZAIDDw8WAh8BaGRkAgUPDxYCHwFoZGQCCw9kFgoCAQ9kFgICAQ8PFgIfAWhkZAIDD2QWBgIBDw8WAh8BaGRkAgMPDxYCHwFoZGQCBQ8PFgIfAWhkZAIFD2QWAgIBDw8WAh8BaGRkAgcPZBYGAgEPDxYCHwFoZGQCAw8PFgIfAWhkZAIFDw8WAh8BaGRkAgkPZBYCAgEPDxYCHwFoZGQCDg9kFgYCAQ8PFgQfAAUGTG9nIEluHgtOYXZpZ2F0ZVVybAU4aHR0cHM6Ly9ic2Nob29sLm51cy5lZHUvbG9naW4uYXNweD9yZXR1cm51cmw9L2luZGV4LmFzcHhkZAIDDxYCHwAFDTA0IEFwcmlsIDIwMTNkAgUPFgIfAAVBPGEgaHJlZj0nbWFpbHRvOmJpemJveDgwQG51cy5lZHUuc2cnPkNvcnBvcmF0ZSBDb21tdW5pY2F0aW9uczwvYT5kAhAPFgIeBWNsYXNzBQxETk5FbXB0eVBhbmVkZF4hS8rAVe2Ct/4Notgf53d0wLL2" />
+</div>
+
+
+<script src="/js/dnncore.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=qdeYi0l6qnf6y3cPd6hC1Ue_m3F3cFYdidubtSGZLmRSi9e9KyqCpHEjzQvqdB3eFrKNqOmG1mSC5iawDrZzzsSAKo-dxFb-GI8fQ3fGyjU6NX4Ajp17_PIG-6M1&amp;t=633380007520000000" type="text/javascript"></script>
+        
+        
+
+    <script type="text/javascript" src="//dcg05bhnao2zn.cloudfront.net/js/accordion/jquery.cookie.js" ></script>
+    <script type="text/javascript" src="//dcg05bhnao2zn.cloudfront.net/js/accordion/jquery.dimensions.js" ></script>
+    <script type="text/javascript" src="//dcg05bhnao2zn.cloudfront.net/js/accordion/ui.base.js" ></script>
+    <script type="text/javascript" src="//dcg05bhnao2zn.cloudfront.net/js/accordion/ui.accordion.js" ></script>
+    <script type="text/javascript" src="//dcg05bhnao2zn.cloudfront.net/js/accordion/ui.sortable.min.js" ></script>
+    <script type="text/javascript" src="//dcg05bhnao2zn.cloudfront.net/js/accordion/main.js" ></script>
+
+
+<!--- Content Slider Animation Starts --->
+
+
+
+<!--- Content Slider Animation Ends --->
+
+<div id="NUSB_wrapper_header">
+
+		<div id="NUSB_header">
+                    <!--<h1 class="ir"><a href="http://www.nus.edu.sg/">National University of Singapore<span></span></a></h1>-->
+                            <div style="padding: 15px 0px 0px 20px; float: left;">
+							<img src="/images/general/logo.gif" width="334" height="67" border="0" usemap="#Map" />
+<map name="Map" id="Map"><area shape="rect" coords="5,2,158,63" href="http://www.nus.edu.sg" target="_blank" alt="click here" />
+<area shape="rect" coords="169,4,330,64" href="http://bschool.nus.edu.sg"  alt="click here" />
+</map>
+							</div>        
+                    <div id="NUSB_pointermenu2">
+                    <ul>
+
+                    <li><a href="http://exchange.nus.edu.sg/" target="_blank">myEmail</li>
+                    <li><a href="https://ivle.nus.edu.sg/">IVLE</a></li>
+                    <li><a href="http://www.lib.nus.edu.sg/">LIBRARY</a></li>
+                    <li><a href="http://www.nus.edu.sg/campusmap/">MAPS</a></li>
+                    <li><a href="/CalendarofEvents/tabid/850/default.aspx">CALENDAR</a></li>
+					<li><a href="/sitemap.aspx">SITEMAP</a></li>
+					<li><a href="/AboutUs/ContactUs/tabid/980/Default.aspx">CONTACT</a></li>
+                    
+                    <li><a href="#" id="NUSB_rightcorner">&nbsp;</a></li>
+                    
+
+                    </ul>
+                    <br style="clear: left;">
+                    </div>    
+                        
+                    <div id="NUSB_searchform">
+                    <script type="text/javascript" src="//dcg05bhnao2zn.cloudfront.net/js/search.js"></script>
+                    <div>
+                    <span style="margin-right:65px"><a href="/cn">中文网站</a></span>
+                             <a href="http://www.nus.edu.sg/search/" style="text-decoration: none; font-size: 11px; font-weight: bold; color: rgb(102, 102, 102);">Search </a> 
+                             <input id="txtKeyword" name="txtKeyword" value="" onfocus="value=''" class="equal" size="18" type="Text" onKeyPress="if (event.keyCode==13) { evalSearch(); return false; }">
+                             in
+                             <select id="SearchMenu" name="SearchMenu" onKeyPress="if (event.keyCode==13) { evalSearch(); return false; }" class="equal">
+
+                             <option selected="selected" value="0">Business School</option>
+                             <option value="1">NUS Websites</option>
+                             <option value="2">Internet</option>					  
+                             <option value="3">Staff Directory</option>
+                             <option value="4">Advanced Search</option>
+                             </select>
+                                                     
+                             <input type="submit" name="searchbutton" value="GO" onclick="javascript:evalSearch(); return false;" id="dnn_searchbutton" style="color:White;background-color:#0E3A82;font-weight:bold;background-image: url(/images/general/go.jpg) no-repeat;border: 0px solid #FFFFFF;" class="equal">
+                             </div>
+
+                                </div>
+		</div> <!--------- end #header -------->
+
+<div class="clearer"></div>
+
+
+<div id="NUSB_mainNavigation">  
+
+    <div id="NUSB_mainmenu">
+    
+        
+        
+<!-- Top Navigation Starts --->
+<link rel="stylesheet" type="text/css" href="//dcg05bhnao2zn.cloudfront.net/css/ddsmoothmenu.css" />
+
+<script type="text/javascript" src="//dcg05bhnao2zn.cloudfront.net/js/ddsmoothmenu.js"></script>
+
+<script type="text/javascript">
+ddsmoothmenu.init({
+	mainmenuid: "smoothmenu1", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+</script>
+
+<!-- Top Navigation Ends --->
+
+<div id="smoothmenu1" class="ddsmoothmenu">
+   <ul><!-- About Us -->    <li><a href="https://bschool.nus.edu/AboutUs/tabid/232/default.aspx" class="parent" style="padding-right: 10px;" shape="rect"><img alt="" class="downarrowclass" style="border: 0pt;" src="https://bschool.nus.edu/images/spacer.gif" /> <span>About Us</span></a>    <ul>        <li><a href="#" class="parent" shape="rect"><span>Dean's Messages</span></a>        <ul>            <li><a href="https://bschool.nus.edu/AboutUs/DeansMessages/DeansWelcome/tabid/2615/default.aspx" shape="rect"><span>Dean's Welcome</span></a> </li>            <li><a href="https://bschool.nus.edu/AboutUs/DeansMessages/DeansNotes/tabid/2614/default.aspx" shape="rect"><span>Dean's Notes</span></a> </li>            <li><a href="https://bschool.nus.edu/AboutUs/DeansMessages/DeansSpeeches/tabid/2613/default.aspx" shape="rect"><span>Dean's Speeches</span></a> </li>        </ul>        </li>        <li><a href="#" class="parent" shape="rect"><span>About NUS Business School</span></a>        <ul>            <li><a href="https://bschool.nus.edu/AboutUs/Profile/Overview/tabid/97/default.aspx" shape="rect"><span>Overview</span></a> </li>            <li><a href="https://bschool.nus.edu/AboutUs/Profile/QuickFacts/tabid/195/default.aspx" shape="rect"><span>Quick Facts</span></a> </li>            <li><a href="https://bschool.nus.edu/AboutUs/Profile/HistoryMilestones/tabid/104/default.aspx" shape="rect"><span>History &amp; Milestones</span></a> </li>            <li><a href="https://bschool.nus.edu/AboutUs/AboutNUSBusinessSchool/VisionMission.aspx" shape="rect"><span>Vision &amp; Mission</span></a> </li>        </ul>        </li>        <li><a href="https://bschool.nus.edu/AboutUs/AdvisoryBoards/tabid/112/default.aspx" shape="rect"><span>Advisory Boards</span></a> </li>        <li><a href="https://bschool.nus.edu/AboutUs/SchoolRankings/tabid/373/default.aspx" shape="rect"><span>School Rankings</span></a> </li>        <li><a href="https://bschool.nus.edu/AboutUs/Accreditations/tabid/3199/default.aspx" shape="rect"><span>Accreditations</span></a> </li>        <li><a href="https://bschool.nus.edu/universitypartners.aspx" shape="rect"><span>University Partners</span></a> </li>        <li><a href="#" class="parent" target="_blank" shape="rect"><span>Publications</span></a>        <ul>            <li><a href="http://issuu.com/nusexeced/docs/nusbizar2012?mode=window&amp;backgroundColor=%23222222" target="_blank" shape="rect"><span>Annual Report</span></a> </li>            <li><a href="http://issuu.com/nusexeced/docs/nusbschoolcoffeetable?mode=window&amp;backgroundColor=%23222222" target="_blank" shape="rect"><span>A New Chapter</span></a> </li>            <li><a href="http://www2.bschool.nus.edu.sg/corpdev/Bizleads/archive.htm" target="_blank" shape="rect"><span>Business Leads</span></a> </li>            <li><a href="http://bizalum.nus.edu/enewsletters/enewsletter.aspx" target="_blank" shape="rect"><span>NUS Biz Alum</span></a> </li>            <li><a href="http://executive-education.nus.edu/NEWSEVENTS/Newsletter/tabid/135/Default.aspx" target="_blank" shape="rect"><span>Executive Education</span></a> </li>            <li><a href="https://bschool.nus.edu/alumni/mandarin/wtm/" target="_blank" shape="rect"><span>Window to Management</span></a> </li>        </ul>        </li>        <li><a href="https://bschool.nus.edu/AboutUs/NewMochtarRiadyBuilding/tabid/621/default.aspx" shape="rect"><span>Mochtar Riady Building</span></a> </li>        <li><a href="https://bschool.nus.edu/speakerseries.aspx" shape="rect"><span>Speaker Series</span></a> </li>        <li><a href="https://bschool.nus.edu/AboutUs/JobOpenings/tabid/115/default.aspx" shape="rect"><span>Job Openings</span></a> </li>        <li><a href="#" class="parent" shape="rect"><span>Directory</span></a>        <ul>            <li><a href="https://bschool.nus.edu/AboutUs/Directory/FacultyByName/tabid/1386/default.aspx" shape="rect"><span>Faculty - By Name</span></a> </li>            <li><a href="https://bschool.nus.edu/AboutUs/Directory/FacultyByDepartment/tabid/1091/default.aspx" shape="rect"><span>Faculty - By Department</span></a> </li>            <li><a href="https://bschool.nus.edu/AboutUs/Directory/Staff/tabid/113/default.aspx" shape="rect"><span>Staff </span></a></li>        </ul>        </li>        <li><a href="#" class="parent" target="_blank" shape="rect"><span>Locate Us</span></a>        <ul>            <li><a href="https://bschool.nus.edu/AboutUs/LocateUs/GettingToBusinessSchool/tabid/2604/default.aspx/" target="_blank" shape="rect"><span>Getting to Business School</span></a> </li>        </ul>        </li>        <li><a href="https://bschool.nus.edu/AboutUs/ContactUs/tabid/980/default.aspx" shape="rect"><span>Contact Us</span></a> </li>    </ul>    <!-- About Us End --><!-- Faculty --></li>    <li><a href="https://bschool.nus.edu/FacultyDepartments/tabid/122/default.aspx" class="parent" style="padding-right: 5px;" shape="rect"><img alt="" class="downarrowclass" style="border: 0pt;" src="https://bschool.nus.edu/images/spacer.gif" /><span>Our Faculty</span></a>    <ul>        <li><a href="https://bschool.nus.edu/FacultyDepartments/AcademicDepartments/tabid/591/default.aspx" class="parent" shape="rect"><span>Academic Departments</span></a>        <ul>            <li><a href="https://bschool.nus.edu/FacultyDepartments/AcademicDepartments/Accounting/tabid/400/default.aspx" shape="rect"><span>Accounting</span></a> </li>            <li><a href="https://bschool.nus.edu/FacultyDepartments/AcademicDepartments/DecisionSciences/tabid/224/default.aspx" shape="rect"><span>Decision Sciences</span></a> </li>            <li><a href="https://bschool.nus.edu/FacultyDepartments/AcademicDepartments/Finance/tabid/278/default.aspx" shape="rect"><span>Finance</span></a> </li>            <li><a href="https://bschool.nus.edu/FacultyDepartments/AcademicDepartments/ManagementOrganisation/tabid/543/default.aspx" shape="rect"><span>Management &amp; Organisation</span></a> </li>            <li><a href="https://bschool.nus.edu/FacultyDepartments/AcademicDepartments/Marketing/tabid/456/default.aspx" shape="rect"><span>Marketing</span></a> </li>            <li><a href="https://bschool.nus.edu/FacultyDepartments/AcademicDepartments/StrategyandPolicy/tabid/213/default.aspx" shape="rect"><span>Strategy &amp; Policy</span></a> </li>        </ul>        </li>        <li><a href="https://bschool.nus.edu/FacultyDepartments/ExpertiseGuide/tabid/589/default.aspx" shape="rect"><span>Expertise Guide</span></a> </li>        <li><a href="http://research.nus.biz/Awards/default.aspx" shape="rect"><span>Faculty Recognition</span></a> </li>        <li><a href="#" shape="rect"><span>Faculty Directory</span></a>        <ul>            <li><a href="https://bschool.nus.edu/FacultyDepartments/FacultyDirectory/FacultyDirectoryByName/tabid/2619/default.aspx" shape="rect"><span>Faculty Directory - By Name</span></a> </li>            <li><a href="https://bschool.nus.edu/FacultyDepartments/FacultyDirectory/FacultyDirectoryByDepartment/tabid/2620/default.aspx" shape="rect"><span>Faculty Directory - By Department</span></a> </li>            <li><a href="https://bschool.nus.edu/FacultyDepartments/FacultyDirectory/Staff/tabid/2621/default.aspx" shape="rect"><span>Staff</span></a> </li>        </ul>        </li>        <li><a href="https://bschool.nus.edu/FacultyDepartments/FacultysPhDs/tabid/160/default.aspx" shape="rect"><span>Faculty's PhDs</span></a> </li>        <li><a href="https://bschool.nus.edu/FacultyDepartments/FacultysNationalities/tabid/1972/default.aspx" shape="rect"><span>Faculty's Nationalities</span></a> </li>    </ul>    <!-- Faculty End --><!-- Research --></li>    <li><a href="http://research.nus.biz/Pages/Default.aspx" class="parent" style="padding-right: 5px;" target="_blank" shape="rect"><img alt="" class="downarrowclass" style="border: 0pt;" src="https://bschool.nus.edu/images/spacer.gif" /><span>Research &amp; Publications</span></a>    <ul>        <li><a href="http://research.nus.biz/IAC/Pages/InsightsCommentaries.aspx" target="_blank" shape="rect"><span>Insights &amp; Commentaries</span></a> </li>        <li><a href="http://research.nus.biz/asia/Pages/default.aspx" target="_blank" shape="rect"><span>Research in Asia</span></a></li>        <li><a href="http://research.nus.biz/RC/default.aspx" class="parent" target="_blank" shape="rect"><span>Research Centres</span></a>        <ul>            <li><a href="https://bschool.nus.edu/ResearchPublications/ResearchCentres/ACSEP/tabid/2058/Default.aspx" shape="rect"><span>Asia Centre for Social Entrepreneurship &amp; Philanthropy</span></a> </li>            <li><a href="https://bschool.nus.edu/ResearchPublications/ResearchCenters/CAMRI/tabid/2203/Default.aspx" shape="rect"><span>Centre for Asset Management Research &amp; Investments</span></a> </li>            <li><a href="https://bschool.nus.edu/CBE.aspx" shape="rect"><span>Centre for Behavioural Economics</span></a> </li>            <li><a href="https://bschool.nus.edu/CGIO.aspx" shape="rect"><span>Centre for Governance, Institutions &amp; Organizations</span></a> </li>            <li><a href="http://bschool.nus.edu.sg/CSL.aspx" shape="rect"><span>Centre for Strategic Leadership</span></a> </li>        </ul>        </li>        <li><a href="http://research.nus.biz/Awards/default.aspx" target="_blank" shape="rect"><span>Awards &amp; Recognition</span></a> </li>        <li><a href="http://research.nus.biz/other_works/default.aspx" target="_blank" shape="rect"><span>Other Works</span></a> </li>        <li><a href="http://research.nus.biz/pages/guidelines.aspx" target="_blank" shape="rect"><span>Guidelines</span></a> </li>        <li><a href="http://research.nus.biz/usefullinks/default.aspx" target="_blank" shape="rect"><span>Useful Links</span></a> </li>    </ul>    <!-- Research End --><!-- Academic --></li>    <li><a href="https://bschool.nus.edu/AcademicProgrammes/tabid/738/default.aspx" class="parent" style="padding-right: 5px;" shape="rect"><img alt="" class="downarrowclass" style="border: 0pt;" src="https://bschool.nus.edu/images/spacer.gif" /><span>Academic Programmes</span></a>    <ul>        <li><a href="http://bba.nus.edu/" target="_blank" shape="rect"><span>BBA</span></a> </li>        <li><a href="#" class="parent" shape="rect"><span>Double Degree BBA</span></a>        <ul>            <li><a href="http://nus.edu/prog/bizcnm/" target="_blank" shape="rect"><span>BBA + Comms &amp; New Media</span></a> </li>            <li><a href="http://nus.edu/prog/bizsoc/" target="_blank" shape="rect"><span>BBA + Computing </span></a></li>            <li><a href="http://www.nus.edu.sg/prog/bizecon/index.html" target="_blank" shape="rect"><span>BBA + Economics</span></a> </li>            <li><a href="http://nus.edu/prog/engbiz/overview.html" target="_blank" shape="rect"><span>BBA + Engineering</span></a> </li>            <li><a href="http://nus.edu/prog/bbalaw/overview.html" target="_blank" shape="rect"><span>BBA + Law</span></a> </li>            <li><a href="http://bba.nus.edu/dualdegree_bba-mpp-mpa.html" target="_blank" shape="rect"><span>BBA + MPP</span></a> </li>            <li><a href="http://bba.nus.edu/dualdegree_doublemaster.html" target="_blank" shape="rect"><span>BBA + Double MSc</span></a> </li>            <li><a href="http://bba.nus.edu/dualdegree_adhoc.html" target="_blank" shape="rect"><span>Ad-hoc Double Degree</span></a> </li>        </ul>        </li>        <li style="z-index: 21;"><a href="https://bschool.nus.edu/AcademicProgrammes/TheNUSMBA/tabid/2349/default.aspx" class="parent" shape="rect"><span>MBA</span></a>        <ul>            <li><a href="https://bschool.nus.edu/AcademicProgrammes/TheNUSMBA/ProspectiveStudents/tabid/2254/default.aspx" shape="rect"><span>Prospective Students</span></a> </li>            <li><a href="https://bschool.nus.edu/AcademicProgrammes/TheNUSMBA/CurrentStudents/tabid/2355/default.aspx" shape="rect"><span>Current Students</span></a> </li>            <li><a href="https://bschool.nus.edu/AcademicProgrammes/TheNUSMBA/StaffPortal/tabid/2356/default.aspx" target="_blank" shape="rect"><span>Staff Portal</span></a> </li>            <li><a href="https://bschool.nus.edu/AcademicProgrammes/TheNUSMBA/NewsEvents/tabid/1689/default.aspx" shape="rect"><span>News &amp; Events</span></a> </li>        </ul>        </li>        <li><a href="https://bschool.nus.edu/AcademicProgrammes/DoubleDegreeMBAs/tabid/1634/default.aspx" shape="rect"><span>Double Degree MBA</span></a>        <ul>            <li><a href="https://bschool.nus.edu/TheNUSMBA/ProspectiveStudents/DoubleDegreeProgrammes/TheNUSPKUMBA.aspx" shape="rect"><span>NUS-PKU MBA</span></a> </li>            <li><a href="https://bschool.nus.edu/TheNUSMBA/ProspectiveStudents/DoubleDegreeProgrammes/TheNUSHECParisMBA.aspx" shape="rect"><span>NUS-HEC Paris MBA</span></a> </li>            <li><a href="https://bschool.nus.edu/TheNUSMBA/ProspectiveStudents/DoubleDegreeProgrammes/TheNUSLKY.aspx" shape="rect"><span>NUS MBA + MPP/MPA (LKY SPP)</span></a> </li>            <li><a href="https://bschool.nus.edu/TheNUSMBA/ProspectiveStudents/DoubleDegreeProgrammes/S3AsiaMBA.aspx" shape="rect"><span>NUS S3 Asia MBA</span></a> </li>            <li><a href="http://phd-mba.nus.edu.sg/" shape="rect"><span>NUS PhD-MBA</span></a> </li>        </ul>        </li>        <li><a href="https://bschool.nus.edu/AcademicProgrammes/ExcecutiveMBAs/tabid/1636/default.aspx" shape="rect"><span>Executive MBA</span></a>        <ul>            <li><a href="http://apexe.nus.edu/" target="_blank" shape="rect"><span>APEX MBA (English)</span></a> </li>            <li><a href="http://apexc.nus.edu/" target="_blank" shape="rect"><span>APEX MBA (Chinese)</span></a> </li>            <li><a href="http://ucla.nus.edu/" target="_blank" shape="rect"><span>UCLA-NUS EMBA</span></a> </li>        </ul>        </li>        <li><a href="http://bschool.nus.edu.sg/MasterinPublicAdministrationandManagement/%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D.aspx" shape="rect"><span>高级公共行政与管理硕士(MPAM)</span></a> <!--<li><a><span>Undergraduate</span></a>			<ul>				<li><a href="http://bba.nus.edu/majorminor_major_mgmttech.html" target="_blank">Major in Management (Technology)</a></li>				<li><a href="http://bba.nus.edu/majorminor_technopreneurship.html" target="_blank">Minor in Technopreneurship</a></li>				<li><a href="http://bba.nus.edu/majorminor_major_mgmt.html" target="_blank">Major in Management</a></li>				<li><a href="http://bba.nus.edu/majorminor_minor_mgmt.html" target="_blank">Minor in Management</a></li>			</ul>			</li>			<li><a><span>MSc (Management)</span></a>			<ul>				<li><a target="_blank" href="http://bba.nus.edu/concurrent_nonbba-msc.html">NUS Non-Biz Bachelor’s + MSc (Mgt)</a></li>				<li><a target="_blank" href="http://bba.nus.edu/concurrent_bba-msc.html">BBA (Hons) + MSc (Mgt)</a></li>				<li><a target="_blank" href="http://bba.nus.edu/concurrent_msc-cems.html">MSc (Mgt) + CEMS MIM</a></li>			</ul>			</li>--></li>        <li><a href="https://bschool.nus.edu/AcademicProgrammes/PHD/tabid/240/default.aspx" class="parent" shape="rect"><span>PhD</span></a> </li>    </ul>    <!-- Academic End --><!-- OEE --></li>    <li><a href="http://executive-education.nus.edu/" class="parent" style="padding-right: 5px;" target="_blank" shape="rect"><span>Executive Education</span></a>    <ul>        <li><a href="http://executive-education.nus.edu/PROGRAMS/tabid/65/Default.aspx" target="_blank" shape="rect"><span>Programmes</span></a> </li>        <li><a href="http://executive-education.nus.edu/FACULTY/tabid/142/Default.aspx" target="_blank" shape="rect"><span>Faculty</span></a> </li>        <li><a href="http://executive-education.nus.edu/tabid/145/Default.aspx" target="_blank" shape="rect"><span>Chinese Website (中文网页)</span></a> </li>    </ul>    <!-- OEE End --><!-- Career Service --></li>    <li><a href="https://bschool.nus.edu/CareerServices/tabid/108/default.aspx" class="parent" style="padding-right: 5px;" shape="rect"><span>Career Services</span></a>    <ul>        <li><a href="https://bschool.nus.edu/CareerService/Recruiters.aspx" shape="rect"><span>Recruiters</span></a> </li>        <li><a href="https://bschool.nus.edu/CareerService/ProspectiveStudents.aspx" shape="rect"><span>Prospective Students</span></a> </li>        <li><a href="https://bschool.nus.edu/CareerService/CurrentStudents.aspx" shape="rect"><span>Current Students</span></a> </li>        <li><a href="https://bschool.nus.edu/CareerService/GraduateEmployment.aspx" shape="rect"><span>Graduate Employment</span></a> </li>        <li><a href="https://bschool.nus.edu/CareerService/ContactUs.aspx" shape="rect"><span>Contact Us</span></a> </li>    </ul>    <!-- Career Service Ends --><!-- Alumni --></li>    <li><a href="http://bizalum.nus.edu/" class="parent" style="padding-right: 5px;" target="_blank" shape="rect"><span>Alumni</span></a>    <ul>        <li><a href="http://bizalum.nus.edu.sg/microsite/micrositelist.aspx" target="_blank" shape="rect"><span>Alumni Organizations</span></a> </li>        <li><a href="http://bizalum.nus.edu.sg/nbs/overseas-chapters.aspx" target="_blank" shape="rect"><span>Overseas Chapters</span></a> </li>        <li><a href="http://bizalum.nus.edu.sg/membership/membership.aspx?ReturnUrl=%2fdirectory%2fAlumniSearch.aspx" target="_blank" shape="rect"><span>Alumni Directory</span></a> </li>        <li><a href="http://bizalum.nus.edu.sg/event/upcomingeventslist.aspx" target="_blank" shape="rect"><span>Upcoming Events</span></a> </li>        <li><a href="http://bizalum.nus.edu.sg/nbs/lifelong.aspx" target="_blank" shape="rect"><span>Life-long Learning</span></a> </li>        <li><a href="http://bizalum.nus.edu.sg/enewsletters/enewsletter.aspx" target="_blank" shape="rect"><span>Newsletter</span></a> </li>        <li><a href="http://bizalum.nus.edu/nbs/aboutus.aspx" target="_blank" shape="rect"><span>About GANO</span></a> </li>        <li><a href="http://bizalum.nus.edu/nbs/team.aspx" target="_blank" shape="rect"><span>Contact Us</span></a> </li>    </ul>    <!-- Alumni End --><!-- Giving --></li>    <li><a href="http://bschool.nus.edu/Giving.aspx" class="parent" shape="rect"><span>Giving</span></a> </li></ul>    
+</div>
+
+    </div>
+
+</div> <!--------- end #mainNavigation -------->
+
+
+<div class="clearer"></div>
+
+</div> <!--------- end #wrapper_header -------->
+
+
+<div class="NUSBSchool_ContentWrapper">
+	<div class="NUSBSchool_FlashBanner"><div id="dnn_FlashPane"><a name="581"></a>
+
+<div align="right">
+
+</div>
+<div id="dnn_ctr581_ContentPane" class="DNNAlignleft"><!-- Start_Module_581 --><span class="Normal"><style>
+#btnnavlist li
+{
+	float:left;
+	display:inline;
+	text-align:center;
+	width: 20px;
+	margin-right: 5px;
+	list-style-type:square;
+	background-color:#000000;
+	opacity:0.75;
+}
+
+#btnnavlist li a, #btnnavlist li a:hover
+{
+	text-decoration:none;
+		color:#FFFFFF;
+	font-weight:bold;
+}
+</style>  
+
+<script type="text/javascript"> 
+	// var jQuery = jQuery.noConflict(); 
+	jQuery(document).ready(function(){
+		var shows = new Array();
+		var imagesCount = 0;
+		var btnhtml='<ul id="btnnavlist">';
+	  jQuery.ajax({
+		type: "GET",
+		url: "/Portals/0/flash/flashBanner/images.xml",
+		dataType: "xml",
+		success: function(xml){
+			var i = 0;
+			jQuery(xml).find("photo").each(function(){
+				shows[i] = new Array(4);
+				shows[i][0] = jQuery(this).attr("image");
+				shows[i][1] = jQuery(this).attr("link");
+				shows[i][2] = jQuery(this).attr("alt");
+				shows[i][3] = jQuery(this).attr("default");
+				i++;
+				imagesCount++;
+				//jQuery('div#BannerDiv img').attr('src', jQuery(this).attr("image"));
+				//alert(jQuery(this).attr("image"));
+				btnhtml = btnhtml+'<li>'+'<a href="#">'+imagesCount+'</a></li>';
+			})
+			btnhtml = btnhtml+'</ul>';
+			
+
+			var j = 0;
+			var start = 0;
+			var timeoutHandle;
+			
+
+			function slidShow()
+			{
+
+				if(shows)
+				{
+	
+					jQuery("<img />").attr('src',shows[j][0]).load(function(){
+					jQuery('div#BannerDiv img').css('padding-left', '0px');
+					jQuery('div#BannerDiv img').css('padding-top', '0px');
+					jQuery('div#BannerDiv img').attr('src', shows[j][0]);	
+					jQuery('div#BannerDiv img').attr('alt', shows[j][2]);	
+					jQuery('div#BannerDiv a').attr('href', shows[j][1]);
+					j++;
+					start++;
+					if(j == imagesCount)
+						j = 0;
+
+					timeoutHandle = setTimeout(slidShow, ((start == 1 && shows[(j-1)][3] == 1) ? 2000 : 5000));
+					});
+				}
+			}
+			
+
+
+
+
+			slidShow();
+			
+
+			jQuery('div#BannerBtn').html(btnhtml);
+			
+
+			jQuery('div#BannerContainer').hover(function(){
+				jQuery('div#BannerBtn').show();
+			},
+			function(){
+				jQuery('div#BannerBtn').hide();
+			});
+			
+
+			jQuery('#btnnavlist > li').click(function(){
+					var gotoVal = jQuery(this).children('a').html();
+					j=gotoVal-1;
+					jQuery("<img />").attr('src',shows[j][0]  + "?ramdom=" + new Date().getTime() ).load(function(){
+					jQuery('div#BannerDiv img').css('padding-left', '0px');
+					jQuery('div#BannerDiv img').css('padding-top', '0px');
+					jQuery('div#BannerDiv img').attr('src', shows[j][0]);	
+					jQuery('div#BannerDiv img').attr('alt', shows[j][2]);	
+					jQuery('div#BannerDiv a').attr('href', shows[j][1]);
+					j++;
+					if(gotoVal == imagesCount)
+						j = 0;
+
+					clearTimeout(timeoutHandle);
+					timeoutHandle = setTimeout(slidShow, ((start == 1 && shows[(j-1)][3] == 1) ? 2000 : 5000));
+				});
+return false;
+					
+
+			});
+		}
+
+	  });
+	});
+</script>
+</span><div id="dnn_ctr581_ModuleContent">
+	<!-- End_Module_581 -->
+</div></div>
+
+
+
+</div></div>
+	<div class="NUSBSchool_Banner"></div>
+    <div class="clearfloat">&nbsp;</div>
+	
+
+    <!-- START NAV SECOND LEVEL -->
+    <div class="NUSBSchool_Nav2ndLevelWrapper">  
+        <ul id="NUSBSchool_Nav2ndLevel"> 
+            <li id="topnav-1"><a href="/tabid/1705/Default.aspx" title="PROSPECTIVE STUDENTS"></a></li>
+            <li id="topnav-2"><a href="/tabid/1732/Default.aspx" title="CURRENT STUDENTS"></a></li> 
+            <li id="topnav-3"><a target='_blank' href="/CareerService.aspx" title="RECRUITERS"></a></li>
+            <li id="topnav-4"><a target='_blank' href="http://bizalum.nus.edu" title="ALUMNI"></a></li> 
+            <li id="topnav-5"><a target='_blank' href="/Giving.aspx" title="DONORS"></a></li>         
+            <li id="topnav-6"><a target='_blank' href="https://mybiz.nus.biz/" title="STAFF"></a></li>                 
+        </ul>         
+    </div>
+	<!-- END NAV SECOND LEVEL -->
+	<div class="NUSBSchool_homeContentPane"><div id="dnn_ContentPane"><a name="1081"></a>
+
+
+<div align="right">
+
+
+
+
+</div>
+<div class="NUSBSchool_LatestNews">
+<div class="top">&nbsp;</div>
+<div id="dnn_ctr1081_ContentPane" class="DNNAlignleft"><!-- Start_Module_1081 --><div id="dnn_ctr1081_ModuleContent">
+	<!-- End_Module_1081 -->
+</div></div>
+<div class="clearfloat">&nbsp;</div>    
+<div class="bottom">&nbsp;</div>
+</div>
+<a name="8080"></a>
+
+<div align="right">
+
+</div>
+<div id="dnn_ctr8080_ContentPane" class="DNNAlignleft"><!-- Start_Module_8080 --><div id="dnn_ctr8080_ModuleContent">
+	<!-- End_Module_8080 -->
+</div></div>
+
+
+
+<a name="8075"></a>
+
+
+<div align="right">
+
+
+
+
+</div>
+<div class="NUSBSchool_LatestNews">
+<div class="top">&nbsp;</div>
+<div id="dnn_ctr8075_ContentPane" class="DNNAlignleft"><!-- Start_Module_8075 --><div id="dnn_ctr8075_ModuleContent">
+	<!-- End_Module_8075 -->
+</div></div>
+<div class="clearfloat">&nbsp;</div>    
+<div class="bottom">&nbsp;</div>
+</div>
+</div></div>
+    <div class="NUSBSchool_homeMiddlePane"><div id="dnn_MiddlePane"><a name="8071"></a>
+
+<div align="right">
+
+</div>
+<div id="dnn_ctr8071_ContentPane" class="DNNAlignleft"><!-- Start_Module_8071 --><div id="dnn_ctr8071_ModuleContent">
+	<!-- End_Module_8071 -->
+</div></div>
+
+
+
+<a name="8076"></a>
+
+
+<div align="right">
+
+
+
+
+</div>
+<div class="NUSBSchool_LatestNews">
+<div class="top">&nbsp;</div>
+<div id="dnn_ctr8076_ContentPane" class="DNNAlignleft"><!-- Start_Module_8076 --><div id="dnn_ctr8076_ModuleContent">
+	<!-- End_Module_8076 -->
+</div></div>
+<div class="clearfloat">&nbsp;</div>    
+<div class="bottom">&nbsp;</div>
+</div>
+<a name="8081"></a>
+
+<div align="right">
+
+</div>
+<div id="dnn_ctr8081_ContentPane" class="DNNAlignleft"><!-- Start_Module_8081 --><div id="dnn_ctr8081_ModuleContent">
+	<!-- End_Module_8081 -->
+</div></div>
+
+
+
+<a name="8077"></a>
+
+
+<div align="right">
+
+
+
+
+</div>
+<div class="NUSBSchool_LatestNews">
+<div class="top">&nbsp;</div>
+<div id="dnn_ctr8077_ContentPane" class="DNNAlignleft"><!-- Start_Module_8077 --><div id="dnn_ctr8077_ModuleContent">
+	<!-- End_Module_8077 -->
+</div></div>
+<div class="clearfloat">&nbsp;</div>    
+<div class="bottom">&nbsp;</div>
+</div>
+</div></div>
+    <div class="NUSBSchool_homeRightPane"><div id="dnn_rightPane"><a name="6874"></a>
+
+<div align="right">
+
+</div>
+<div id="dnn_ctr6874_ContentPane" class="DNNAlignleft"><!-- Start_Module_6874 --><div id="dnn_ctr6874_ModuleContent">
+	<!-- End_Module_6874 -->
+</div></div>
+
+
+
+<a name="8072"></a>
+
+
+<div align="right">
+
+
+
+
+</div>
+<div class="NUSBSchool_LatestNews">
+<div class="top">&nbsp;</div>
+<div id="dnn_ctr8072_ContentPane" class="DNNAlignleft"><!-- Start_Module_8072 --><span class="Normal"><style type="text/css">
+	.backdrop
+	{
+		position:absolute;
+		top:0px;
+		left:0px;
+		width:100%;
+		height:100%;
+		background:#000;
+		opacity: .0;
+		filter:alpha(opacity=0);
+		z-index:111150;
+		display:none;
+	}
+
+
+	.box
+	{
+		position:absolute;
+		top:25%;
+		left:30%;
+		width:580px;
+		height:355px;
+		background:#ffffff;
+		z-index:111151;
+		padding-left:20px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow:0px 0px 5px #444444;
+		-webkit-box-shadow:0px 0px 5px #444444;
+		box-shadow:0px 0px 5px #444444;
+		display:none;
+		background-color:#333;
+	}
+
+
+.close {
+    background: url("http://bschool.nus.edu/Portals/0/images/close-button.png") no-repeat scroll right top transparent;
+	background-size:20px 20px;
+    cursor: pointer;
+    height: 32px;
+    width: 32px;	
+    opacity: 0.5;
+    overflow: hidden;
+    position: absolute;
+    right: 2px;
+    top: 2px;	
+    text-indent: -99999px;
+}	
+.lightbox{
+	height:160px;
+	width:263px;
+	background-repeat:no-repeat;
+}
+
+.lightbox div {
+    background: url("http://bschool.nus.edu/Portals/0/images/play_off.png") no-repeat;
+	position:relative;
+	top:40%;
+	left:40%;
+	width:46px;
+	height:33px;
+}
+
+.lightbox div:hover {
+    background: url("http://bschool.nus.edu/Portals/0/images/play_on.png") no-repeat;
+}
+
+.lightbox a{
+	display:block;
+	line-height:33px;
+	
+}
+
+</style>
+ 
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.lightbox').css('background-image', 'url(http://img.youtube.com/vi/'+youtubeID+'/mqdefault.jpg)');
+
+		$('.lightbox').click(function(){
+			$('.backdrop, .box').animate({'opacity':'.50'}, 300, 'linear');
+			$('.box').animate({'opacity':'1.00'}, 300, 'linear');
+			$('.backdrop, .box').css('display', 'block');
+			$('#divFrame').html('<br /><iframe width="560" height="315" id="ytplayer" type="text/html" src="http://www.youtube.com/embed/'+youtubeID+'?autoplay=1" frameborder="0"></iframe>');			
+		});
+
+		$('.close').click(function(){
+			close_box();
+		});
+
+		$('.backdrop').click(function(){
+			close_box();
+		});
+
+	});
+
+	function close_box()
+	{
+		$('.backdrop, .box').animate({'opacity':'0'}, 300, 'linear', function(){
+			$('.backdrop, .box').css('display', 'none');
+			$('#divFrame').html('');
+		});
+	}
+	var KEYCODE_ESC = 27;
+	$(document).keyup(function(e) {
+	  if (e.keyCode == KEYCODE_ESC) { close_box(); } 
+	});	
+</script></span><div id="dnn_ctr8072_ModuleContent">
+	<!-- End_Module_8072 -->
+</div></div>
+<div class="clearfloat">&nbsp;</div>    
+<div class="bottom">&nbsp;</div>
+</div>
+<a name="8078"></a>
+
+<div align="right">
+
+</div>
+<div id="dnn_ctr8078_ContentPane" class="DNNAlignleft"><!-- Start_Module_8078 --><div id="dnn_ctr8078_ModuleContent">
+	<!-- End_Module_8078 -->
+</div></div>
+
+
+
+<a name="8073"></a>
+
+
+<div align="right">
+
+
+
+
+</div>
+<div class="NUSBSchool_LatestNews">
+<div class="top">&nbsp;</div>
+<div id="dnn_ctr8073_ContentPane" class="DNNAlignleft"><!-- Start_Module_8073 --><div id="dnn_ctr8073_ModuleContent">
+	<!-- End_Module_8073 -->
+</div></div>
+<div class="clearfloat">&nbsp;</div>    
+<div class="bottom">&nbsp;</div>
+</div>
+<a name="8074"></a>
+
+<div align="right">
+
+</div>
+<div id="dnn_ctr8074_ContentPane" class="DNNAlignleft"><!-- Start_Module_8074 --><div id="dnn_ctr8074_ModuleContent">
+	<!-- End_Module_8074 -->
+</div></div>
+
+
+
+</div>
+
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_tweet"></a>
+<a class="addthis_button_facebook_like"></a>
+<a class="addthis_counter addthis_pill_style"></a>
+</div>
+
+<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=nusbschool"></script>
+<!-- AddThis Button END --> </div>
+	<div class="clearfloat">&nbsp;</div>
+</div>
+
+
+ 
+ 
+ <div id="NUSB_footer">
+        <div class="inner">
+            <div class="left">
+                <p>&copy; Copyright 2001-<script type="text/javascript">
+                        <!--
+                        var da = new Date();
+                        document.write(da.getFullYear());
+                        //-->
+                    </script>
+                    <!--/ end --> National University of Singapore. All Rights Reserved.</p>
+                <p><a href="http://www.nus.edu.sg/terms.php">Terms of Use</a> | <a href="http://www.nus.edu.sg/policy.php">Privacy</a> | <a href="http://www.nus.edu.sg/nondiscrim.php">Non-discrimination</a> </p>
+          </div>
+            <div class="right">
+              <p class="copy"><a href="/">Home</a> | <a href="http://www.nus.edu.sg/search/">Search</a> |<a href="http://www.nus.edu.sg/campusmap/">Campus Map</a> | <a id="dnn_thefooter_link_Login" href="https://bschool.nus.edu/login.aspx?returnurl=/index.aspx">Log In</a></p>
+                Last modified on 04 April 2013 by 
+                <a href='mailto:bizbox80@nus.edu.sg'>Corporate Communications</a></div>
+      </div>
+    </div>
+
+<div style="display:none">
+<div id="dnn_holderpane" class="DNNEmptyPane"></div>
+</div>
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" />
+    </form>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-10309830-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>  
+<!-- Begin: www.iperceptions.com --><script src="http://ips-invite.iperceptions.com/webValidator.aspx?sdfc=7511b3f6-105489-f0c8e1cb-cdbb-4aaf-bf8c-2f0b6cd441fc&lID=1&loc=STUDY&cD=90&rF=False&iType=1&domainname=0" type="text/javascript" defer ></script><!-- End: www.iperceptions.com -->
+</body>
+</html>

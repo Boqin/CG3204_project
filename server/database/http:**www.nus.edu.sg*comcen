@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="X-UA-Compatible" content="IE=7;FF=3;OtherUA=4;text/html;charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- SEO PHP tags to go here -->
+<meta name="keywords" content="National University of Singapore, NUS, Singapore Universities">
+<meta name="description" content="A research-intensive university with an entrepreneurial dimension, NUS is ranked consistently as one of the world's top universities. We offer the most extensive selection of academic programmes in Singapore, collaborating with leading universities worldwide to provide our students with diverse opportunities for overseas exposure.">
+<title>NUS Computer Centre</title>
+<!-- SEO PHP tags end -->
+<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+<link rel="stylesheet" type="text/css" href="styles/base.css" media="screen, print, projection, handheld" />
+<link rel="stylesheet" type="text/css" href="styles/print.css"  media="print" />
+<link rel="stylesheet" type="text/css" href="styles/screen.css"  media="screen, projection, print" />
+<link rel="stylesheet" type="text/css" href="styles/js.css"  media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="styles/mainnav.css"  media="screen, projection, print" />
+<link rel="stylesheet" type="text/css" href="styles/handheld.css"  media="handheld" />
+<link rel="stylesheet" type="text/css" href="styles/innerpage.css"  media="screen, print, projection" />
+<link rel="stylesheet" type="text/css" href="styles/left-menu.css" media="screen, print, projection, handheld" />
+<script type="text/javascript" src="js/left-menu.js" ></script>
+<script type="text/javascript" src="js/breadcrumbs.js"></script>
+<script language="javascript" src="js/decoder.js"></script>
+
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+<style type="text/css">
+<!--
+.style1 {color: #FFFFFF}
+.style2 {color: #FFFFFF; font-weight: bold; }
+.style4 {font-size: 68.7%}
+-->
+</style>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-20460553-1']);
+	_gaq.push(['_trackPageview']);
+</script>
+
+</head>
+<body onload="MM_preloadImages('images/btn-A01.jpg','images/btn-A01.jpg','images/btn-B01.jpg','images/btn-C01.jpg')">
+<div id="wrapper">
+  <!-- header -->
+  <div id="header">
+    <h1 class="ir"><a href="http://www.nus.edu.sg/comcen/" ><img src="images/logo.gif" width="334" height="67" /></a></h1>
+    <div id="pointermenu2">
+      <ul>
+        <li><a href="http://exchange.nus.edu.sg/" target="_blank"><span style="text-transform:none">myEMAIL</span></a></li>
+        <li><a href="http://ivle.nus.edu.sg/lms/default.aspx" target="_blank">ivle</a></li>
+        <li><a href="http://www.lib.nus.edu.sg/" target="_blank">library</a></li>
+        <li><a href="http://www.nus.edu.sg/campusmap/">maps</a></li>
+        <li><a href="https://aces01.nus.edu.sg/CoE/jsp/coeMain.jsp" target="_blank">calendar</a></li>
+        <li><a href="http://www.nus.edu.sg/site-map">sitemap</a></li>
+        <!--<li><a href="#">a-z index</a></li>-->
+        <li><a href="http://www.nus.edu.sg/contact">contact</a></li>
+        <!--<li><a href="#"><font color="#FFFF00">&#20013;&#25991;&#29256;</font></a></li>-->
+        <li><a href="#" id="rightcorner">&nbsp;</a></li>
+      </ul>
+      <br style="clear: left" />
+    </div>
+    <div id="searchform">
+<script src="http://www.nus.edu.sg/search/search.js" type="text/javascript"></script>
+
+
+<FORM id="frmSearch" name="frmSearch" onSubmit="evalSearch();return false">
+		 <a href="http://www.nus.edu.sg/search/" style="text-decoration:none; font-size:11px; font-weight:bold; color:#666666">Search </a>
+     <input id=txtKeyword name=txtKeyword type="Text" value="search for..." onfocus="value=''" class="equal" size="18">
+		 in
+		 <SELECT id="SearchMenu" name="SearchMenu">
+
+         <OPTION selected value="0">NUS Websites</OPTION>
+         <OPTION value="1">Internet</OPTION>
+         <OPTION value="2">Staff Directory</OPTION>
+		 <OPTION value="3">Advanced Search</OPTION>
+		 </SELECT>
+         		    <input class="equal" id="Go" src="http://www.nus.edu.sg/iw/resources/global/images/go.jpg" type="image">
+      </FORM>
+
+   	</div>
+  </div>
+  <!--/header-->
+  <!-- main navigation -->
+  <div id="menu2">
+    <ul>
+      <!-- About NUS -->
+      <li><a href="index.html">Home
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- Global -->
+      <li><a href="aboutus/index.html" >About Us
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a href="aboutus/mission.html" >Vision & Mission</a></li>
+          <li><a href="aboutus/milestones.html" >Milestones</a></li>
+          <li><a href="aboutus/org-default.html" >Organisation</a></li>
+          <li><a href="aboutus/strategy.html" >Strategic Goals</a></li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- Admissions -->
+      <li><a href="#" >News
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a href="itnus/index.html" >IT@NUS</a></li>
+          <li><a href="https://inetapps.nus.edu.sg/comcen/hpc/supportnews/publications.html" >HPC@NUS</a></li>
+          <li><a href="news/events/index.html" >Events</a></li>
+          <li><a href="news/visits/index.html" >Visits</a></li>
+          <li><a href="news/papers/index.html" >Papers & Presentations</a></li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <li><a href="awards/index.html" >Awards
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <li><a href="reports/index.html" >Reports
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <li><a href="contactus/index.html" >Contact Us
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+    </ul>
+  </div>
+  <!-- /main navigation -->
+  <div id="content" style="background-color:#FFFFFF">
+    <div id="title1" class="title">
+	<!-- /text
+      <h1></h1>
+      <h2></h2> on banner -->
+    </div>
+    <!--aboutus sidebar -->
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="28%" height="300" valign="top"><div id="sidebar" style="position:relative">
+          <dl class="indexbox">
+            <dd>
+              <div align="center" style="background-image:url(images/darkgreygrad.jpg); width:120%">
+                <div align="left" class="style1" style="padding:3px"><strong><span style="font-size: small" lang="en-us" xml:lang="en-us">Spotlight</span></strong></div>
+              </div>
+
+
+<ul id="left-menu" style="font-size:11.0px"><br/>
+<a target="_self" href="win8/testdrive.html">Get to test drive Windows 8 in a virtual environment from your computer. <br/><br/>For NUS staff only.</a></li>
+</ul>
+            </dd>
+          </dl>
+          
+          <dl class="indexbox">
+            <dd>
+              <div align="center" style="background-image:url(images/darkgreygrad.jpg); width:120%">
+                <div align="left" class="style2" style="padding:5px"><span class="style5" style="font-size: small">What Others Say About Us</span>&nbsp; &nbsp; <a href="compliments/customerservice.html" style="color: #FFFFFF">[more]</a></div>
+              </div>
+              <p style="padding-top:2px; margin-left:6px; font-size: 11px; font-weight: normal; line-height:normal; font-style: normal;; color: #456975"><i>&quot;Patience and good service is hard to come by in a world that rushes. IT Care is very important, especially for lean outfits like ours. Your team's good support is therefore critical to our efficiency.&quot;</i></p>
+            </dd>
+          </dl>
+          <dl class="indexbox">
+            <dd>
+              <div align="center" style="background-image:url(images/darkgreygrad.jpg); width:122%">
+                <div align="left" class="style2" style="padding:5px"><span class="style5" style="font-size: small">Tips &amp; Tricks</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="gethelp/tips.html" style="color: #FFFFFF">[more]</a></div>
+              </div>
+              <ul id="left-menu" style="font-size:11.0px">
+                <a href="https://inetapps.nus.edu.sg/comcen/news/201101/itnus201101-6.html" target="_blank">Adding Singapore public holidays to your Outlook calendar</a></li>
+                <li><a href="https://inetapps.nus.edu.sg/comcen/news/201011/itnus201011-6.html" target="_blank">Windows Aero Keyboard Shortcuts</a></li>
+              </ul>
+            </dd><a href="https://u.nus.edu.sg/secondlife/default.aspx" target="_blank"><img src="images/button4cce.jpg" width="236" height="90" /></a>
+          </dl>
+        </div></td>
+        <td width="74%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="padding-top:5px; padding-bottom:16px"><a href="http://www.facebook.com/photo.php?fbid=490236421019260&amp;set=a.480207662022136.101732.204362769606628&amp;type=1&amp;theater" target="_blank"><img src="images/banner-foursquare.jpg" width="690" height="200" /></a></td>
+          </tr>
+          <tr>
+            <td><br style="line-height:1;" />
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><a href="getready/index.html"><img src="images/btnA00.jpg" name="Image1" width="234" height="212" id="Image1" onmouseover="MM_swapImage('Image1','','images/btnA01.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+                <td><a href="getservices/index.html"><img src="images/btnB00.jpg" name="Image21" width="227" height="212" id="Image21" onmouseover="MM_swapImage('Image21','','images/btnB01.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+                <td><a href="gethelp/index.html"><img src="images/btnC00.jpg" name="Image31" width="239" height="212" id="Image31" onmouseover="MM_swapImage('Image31','','images/btnC01.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+  </div>
+  <div id="footer">
+    <div class="inner" style="background-color:#FFFFFF">
+      <div class="left">
+        <p><span class="style5">© Copyright 2001-2012 National University of Singapore. All Rights Reserved..</span></p>
+        <p><span class="style5"><a href="http://www.nus.edu.sg/terms-of-use" >Terms of Use</a> | <a href="http://www.nus.edu.sg/privacy" >Privacy</a> | <a href="http://www.nus.edu.sg/non-discrimination" >Non-discrimination</a>
+          <!-- | <a href="#">Using this site</a>-->
+        </span></p>
+      </div>
+      <div class="right">
+        <p class="copy"><span class="style5"><a href="http://www.nus.edu.sg/contact" >Feedback</a> |<a href="http://www.nus.edu.sg/campusmap/" >Campus Map</a></span></p>
+<span class="style5">Last modified on <!—#BeginDate format:Sw1—>28 November 2012<!—#EndDate—> by <script>EmailLink('PPN0NQ@E62.NO6.2L','Computer Centre')</script>
+      </span></div>
+    </div>
+  </div>
+  <span class="style5"><!-- End Footer -->
+
+</span></div>
+<span class="style5"><!--/wrapper-->
+</span>
+
+<script type="text/javascript">  (function() {
+	var ga = document.createElement('script');     ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:'   == document.location.protocol ? 'https://ssl'   : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+ <channel>
+  <title>ISS Events</title>
+  <link>http://www.iss.nus.edu.sg</link>
+  <description>Connecting you to ISS upcoming events….</description>
+  <lastBuildDate>Fri, 16 Apr 2010 08:56:10 GMT</lastBuildDate>
+  <generator>ListGarden Program 1.3.1</generator>
+  <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+  <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/issrss1" /><feedburner:info uri="issrss1" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:emailServiceId>issrss1</feedburner:emailServiceId><feedburner:feedburnerHostname>http://feedburner.google.com</feedburner:feedburnerHostname><item>
+   <title>What's Good for Security is Good for Operations</title>
+   <link>http://feedproxy.google.com/~r/issrss1/~3/Y8p8VdsUI-o/catalyst_display.jsp</link>
+   <description>Why Configuration Assessment Followed by Change Auditing is Key to Operational Stability
+&lt;br&gt;
+&lt;br&gt;Whoever coined the phrase "a small change can make a big difference" probably had no idea how much that phrase would resonate with today's network administrators and IT managers. The ramifications of one small change to a company's critical servers or network devices like routers, switches, and firewalls, depend on whether the change is desired or not. Without a way to know when change occurs and whether it's intentional or accidental, benign or malicious, or originates from inside or outside, IT teams have few options for preventing negative consequences and minimizing damage.
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;What will be covered
+&lt;br&gt;- Establishing a Good, Secure Starting Point
+&lt;br&gt;-The Need for Complete Coverage for Detecting Change in the Data Center
+&lt;br&gt;- Proving Compliance: The Need for Trusted Audit Data
+&lt;br&gt;- Circumventing Attacks
+&lt;br&gt;- Configuration Assessment and Change Auditing for IT Infrastructures
+&lt;br&gt;- Conserving a Valuable IT Resource: People
+&lt;br&gt;- Security and Operations- Fundamental Business Controls
+&lt;br&gt;
+&lt;br&gt;For more information and registration, visit:
+&lt;br&gt;http://www.iss.nus.edu.sg/iss/catalyst_display.jsp?artid=1648&amp;amp;type=9&amp;amp;rid=59&amp;amp;pid=59&amp;amp;cid=70&lt;img src="http://feeds.feedburner.com/~r/issrss1/~4/Y8p8VdsUI-o" height="1" width="1"/&gt;</description>
+   <pubDate>Fri, 16 Apr 2010 08:56:08 GMT</pubDate>
+  <feedburner:origLink>http://www.iss.nus.edu.sg/iss/catalyst_display.jsp?artid=1648&amp;type=9&amp;rid=59&amp;pid=59&amp;cid=70</feedburner:origLink></item>
+  <item>
+   <title>Innovation Update Seminar 2010 - Mega Trends in Service Innovation</title>
+   <link>http://feedproxy.google.com/~r/issrss1/~3/o5YVIBdCSrU/catalyst_display.jsp</link>
+   <description>Service innovation is a new and continuously improving service concept. It manifests itself in new solutions within the customer interface, new distribution methods, novel application of technology in the service process, new forms of operation with the supply chain and new ways to organise or manage services. Service innovation benefits both the service providers and customers and it also improves the developer's competitive edge.
+&lt;br&gt;
+&lt;br&gt;ISS is proud to bring to you Innovation Update Seminar 2010, with specific focuses on Service Innovation and e-Government. We have lined up an exciting list of distinguished speakers and ISS visiting fellows in the respective disciplines for this seminar. We kick off with a sneak preview of a new research discipline at ISS - Decision Making in Uncertain Environments. This will be followed by a morning's sharing on how service innovation can help to improve public services and customer integration by our service innovation experts. The second half of the seminar focuses on Innovation under the broader concept of e-Government. In particular, speakers will discuss how innovation is transforming e-Government enterprise architecture and how it affects research-practice partnerships. The seminar will culminate with an update on the research projects conducted by the Singapore e-Government Leadership Centre.
+&lt;br&gt;&lt;img src="http://feeds.feedburner.com/~r/issrss1/~4/o5YVIBdCSrU" height="1" width="1"/&gt;</description>
+   <pubDate>Mon, 22 Feb 2010 02:23:23 GMT</pubDate>
+  <feedburner:origLink>http://www.iss.nus.edu.sg/iss/catalyst_display.jsp?artid=1620&amp;type=9&amp;rid=59&amp;pid=59&amp;cid=76</feedburner:origLink></item>
+  <item>
+   <title>Looking for Government-funded courses to up-skill yourself in these challenging times?</title>
+   <link>http://feedproxy.google.com/~r/issrss1/~3/RZk9c5iv16E/article_display.jsp</link>
+   <description>ISS offers many programmes subsided under the Skills Programme for Upgrading and Resilience (SPUR) and Critical Infocomm Technology REsource Programme (CITREP). Eligible participants can enjoy up to 90% funding (for SPUR-funded programmes) and 80% funding (for CITREP-endorsed prorgammes). ISS will be rolling out more programmes soon… Keep a look out for them!&lt;img src="http://feeds.feedburner.com/~r/issrss1/~4/RZk9c5iv16E" height="1" width="1"/&gt;</description>
+   <pubDate>Thu, 23 Apr 2009 06:49:51 GMT</pubDate>
+  <feedburner:origLink>http://www.iss.nus.edu.sg/iss/article_display.jsp?link=link_course_funded&amp;artid=1464&amp;name=Course_Funded</feedburner:origLink></item>
+  <item>
+   <title>Thinking of a switch to an Infocomm career?</title>
+   <link>http://feedproxy.google.com/~r/issrss1/~3/iSIfGJhCYtI/1505_330_PCP_Preview3.html</link>
+   <description>Consider either our 
+&lt;br&gt;- 11-month full-time programme ‘Graduate Diploma in Systems Analysis’ or
+&lt;br&gt;-  9-month full-time programme ‘Professional Diploma in Engineering (Java or .NET) Enterprises Applications’ 
+&lt;br&gt;
+&lt;br&gt;As part of WDA’s Professional Conversion Programme, the above graduate and professional diplomas are designed for non-infocomm diploma holders who have little or no infocomm knowledge to craft a new career path in the infocomm industry. Eligible participants can enjoy up to 90% funding as well as a monthly stipend of $1000.
+&lt;br&gt;
+&lt;br&gt;You are welcome to attend our preview talks on 28 Apr 09 and 6 May 09 to find out more about the programmes as well as possible infocomm career opportunities!
+&lt;br&gt;&lt;img src="http://feeds.feedburner.com/~r/issrss1/~4/iSIfGJhCYtI" height="1" width="1"/&gt;</description>
+   <pubDate>Thu, 23 Apr 2009 06:49:23 GMT</pubDate>
+  <feedburner:origLink>http://www.iss.nus.edu.sg/iss/upload/mid24/type9/cat75/1505_330_PCP_Preview3.html</feedburner:origLink></item>
+  <item>
+   <title>ISS – Singapore’s First Infocomm Continuing Education &amp; Training (CET) Centre</title>
+   <link>http://feedproxy.google.com/~r/issrss1/~3/ML7aPDyNloE/article_display.jsp</link>
+   <description>On 9th April 2009, ISS was officially launched as the nation’s first Infocomm CET Centre. The Institute has been appointed by the Singapore Workforce Development Agency (WDA) and the Infocomm Development Authority of Singapore (IDA) to expand the capabilities of infocomm professionals in Singapore by offering them programmes accredited under the National Infocomm Competency Framework (NICF).&lt;img src="http://feeds.feedburner.com/~r/issrss1/~4/ML7aPDyNloE" height="1" width="1"/&gt;</description>
+   <pubDate>Thu, 23 Apr 2009 06:48:50 GMT</pubDate>
+  <feedburner:origLink>http://www.iss.nus.edu.sg/iss/article_display.jsp?artid=1502</feedburner:origLink></item>
+  <item>
+   <title>Innovations in Software Development </title>
+   <link>http://feedproxy.google.com/~r/issrss1/~3/rjU11QhlRHo/catalyst_display.jsp</link>
+   <description>Software systems have become more prevalent with increased automation of our day to day function. As a result, software systems are becoming increasingly complex. Software professionals are now into a frantic search for improved and efficient development process that maximises reusability, productivity and extensibility. There is also a strong need to build lucrative, elegant and maintainable systems in a shorter span of time.
+&lt;br&gt;
+&lt;br&gt;This seminar reveals recent innovations in software engineering and how professionals can leverage on such advanced skills to build and maintain systems more effectively. The speakers will not only share how to effectively automate requirements to platform specific software but also share some insights into rapid development through reusability and innovative extensibility techniques.&lt;img src="http://feeds.feedburner.com/~r/issrss1/~4/rjU11QhlRHo" height="1" width="1"/&gt;</description>
+   <pubDate>Thu, 12 Mar 2009 10:21:15 GMT</pubDate>
+  <feedburner:origLink>http://www.iss.nus.edu.sg/iss/catalyst_display.jsp?artid=1497&amp;type=9&amp;rid=59&amp;pid=59&amp;cid=70</feedburner:origLink></item>
+ </channel>
+</rss>

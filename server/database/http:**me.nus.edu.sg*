@@ -1,0 +1,507 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr" >
+<head>
+  <base href="http://me.nus.edu.sg/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Home</title>
+  <link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/beez_20/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/beez_20/css/position.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/beez_20/css/personal.css" type="text/css" />
+  <link rel="stylesheet" href="http://me.nus.edu.sg/modules/mod_unite_nivoslider/tmpl/css/nivo-slider.css" type="text/css" />
+  <link rel="stylesheet" href="http://me.nus.edu.sg/modules/mod_unite_nivoslider/tmpl/themes/default/default.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_maximenuck/themes/blank/css/moo_maximenuhck.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_maximenuck/themes/blank/css/maximenuhck.php?monid=maximenuck" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_maximenuck/templatelayers/beez_20-position1.css" type="text/css" />
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/modules/mod_maximenuck/assets/moomaximenuck.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});window.addEvent('load', function() {new DropdownMaxiMenu(document.getElement('div#maximenuck'),{mooTransition : 'Quad',mooEase : 'easeOut',useOpacity : '0',dureeIn : 0,dureeOut : 0,menuID : 'maximenuck',testoverflow : '0',orientation : '0',style : 'moomenu',opentype : 'open',direction : 'normal',directionoffset1 : '30',directionoffset2 : '30',mooDureeout : '500',showactivesubitems : '0',ismobile : 0,mooDuree : 300});});
+  </script>
+
+
+<script language="JavaScript" src="/templates/beez_20/javascript/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script language="JavaScript" src="/templates/beez_20/javascript/searchbar-dropdown.js" type="text/javascript"></script>
+<script language="JavaScript" src="/templates/beez_20/javascript/search.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#menu_accordion').mouseenter(function(){
+      $('ul#main_accor > li > ul').css({
+      "float":"left",
+      "clear":"both"
+      })
+      .stop().slideDown(500);
+      $('#menu_accordion').mouseleave(function(){
+        $('ul#main_accor > li > ul').stop().slideUp(500);
+      });
+    });
+
+  });
+</script>
+</head>
+<body>
+<div id="all" class="home">
+  <div id="back">
+    <div id="header">
+      <div id="page_logo">
+        <div class="logo"><a href="http://www.nus.edu.sg"><img src="/images/logo.png" width="126px" height="58px" /></a></div>
+        <div class="faculty-logo"><a href="/"><img src="/images/department.png"/></a></div>
+      </div>
+      
+      <div id="header_link">
+<ul class="menu">
+<li class="item-115 first"><a href="http://exchange.nus.edu.sg" >myEmail</a></li><li class="item-116"><a href="https://ivle.nus.edu.sg/" >IVLE</a></li><li class="item-117"><a href="http://www.lib.nus.edu.sg/" >Library</a></li><li class="item-118"><a href="http://www.nus.edu.sg/campusmap" >Map</a></li><li class="item-119 last"><a href="https://aces01.nus.edu.sg/CoE/jsp/coeMain.jsp" >Calendar</a></li></ul>
+</div>    
+      <div id="search_pos">
+        <form id="frmSearch" name="frmSearch" onsubmit="evalSearch();return false;" action="#">
+          <div id="search-box">
+                <input type="text"  value="Search by keyword"  onblur="if (this.value == '') {this.value = 'Search by keyword';}"  onfocus="if (this.value == 'Search by keyword') {this.value = '';}" id="txtKeyword" name="txtKeyword" />
+          </div>
+          <div id="search-coloumn">
+             <select id="source" name="SearchMenu" >
+                 <option selected="selected" value="0">NUS Website</option>
+                 <option value="1">Internet</option>
+                 <option value="2">Staff Directory</option>
+            </select>
+          </div>
+          <div id="go-coloumn">
+            <input name="" type="button" id="search-btn" value="Go" onclick="evalSearch();return false;"/>
+          </div>
+        </form>
+      </div>
+	  <div class="clear"></div>
+      <div id="main_menu">
+		<!--[if lte IE 7]>
+		<link href="/modules/mod_maximenuck/themes/blank/css/ie7.css" rel="stylesheet" type="text/css" />
+		<![endif]--><!-- debut Maximenu CK, par cedric keiflin -->
+    <div class="maximenuckh" id="maximenuck" style="z-index:10;">
+        <div class="maxiroundedleft"></div>
+        <div class="maxiroundedcenter">
+            
+            <ul class="menu maximenuck" style="">
+                        <li class="maximenuck item101 current active first level1 " style="z-index : 12000;"><a class="maximenuck " href="/"><span class="titreck">Home</span></a>
+		</li>
+<li class="maximenuck item108 parent level1 " style="z-index : 11999;"><a class="maximenuck " href="#"><span class="titreck">About Us</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item132 first level2 " style="z-index : 11998;"><a class="maximenuck " href="/about-us/hod-message"><span class="titreck">HOD Message</span></a>
+		</li>
+<li class="maximenuck item133 level2 " style="z-index : 11997;"><a class="maximenuck " href="/about-us/vision-and-mission"><span class="titreck">Vision and Mission</span></a>
+		</li>
+<li class="maximenuck item134 parent level2 " style="z-index : 11996;"><a class="maximenuck " href="/about-us/people"><span class="titreck">People</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item217 first level3 " style="z-index : 11995;"><a class="maximenuck " href="/about-us/people/department-committees"><span class="titreck">Department Committees</span></a>
+		</li>
+<li class="maximenuck item218 parent level3 " style="z-index : 11994;"><a class="maximenuck " href="/about-us/people/academic-groups/applied-mechanics"><span class="titreck">Academic Groups</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item279 first level4 " style="z-index : 11993;"><a class="maximenuck " href="/about-us/people/academic-groups/applied-mechanics"><span class="titreck">Applied Mechanics</span></a>
+		</li>
+<li class="maximenuck item277 level4 " style="z-index : 11992;"><a class="maximenuck " href="/about-us/people/academic-groups/control-and-mechatronics"><span class="titreck">Control and Mechatronics</span></a>
+		</li>
+<li class="maximenuck item278 level4 " style="z-index : 11991;"><a class="maximenuck " href="/about-us/people/academic-groups/energy-and-bio-thermal-systems"><span class="titreck">Energy and Bio-thermal Systems</span></a>
+		</li>
+<li class="maximenuck item280 level4 " style="z-index : 11990;"><a class="maximenuck " href="/about-us/people/academic-groups/fluid-mechanics"><span class="titreck">Fluid Mechanics</span></a>
+		</li>
+<li class="maximenuck item281 level4 " style="z-index : 11989;"><a class="maximenuck " href="/about-us/people/academic-groups/manufacturing"><span class="titreck">Manufacturing</span></a>
+		</li>
+<li class="maximenuck item282 last level4 " style="z-index : 11988;"><a class="maximenuck " href="/about-us/people/academic-groups/materials"><span class="titreck">Materials</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li><li class="maximenuck item219 level3 " style="z-index : 11987;"><a class="maximenuck " href="/about-us/people/adjunct-staff"><span class="titreck">Adjunct Staff</span></a>
+		</li>
+<li class="maximenuck item220 last level3 " style="z-index : 11986;"><a class="maximenuck " href="/about-us/people/visiting-staff"><span class="titreck">Visiting Staff</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li><li class="maximenuck item135 level2 " style="z-index : 11985;"><a class="maximenuck " href="http://www.nus.edu.sg/careers/" target="_blank" ><span class="titreck">Careers</span></a>
+		</li>
+<li class="maximenuck item136 level2 " style="z-index : 11984;"><a class="maximenuck " href="/about-us/contact-us"><span class="titreck">Contact Us</span></a>
+		</li>
+<li class="maximenuck item137 last level2 " style="z-index : 11983;"><a class="maximenuck " href="/about-us/site-map"><span class="titreck">Site Map</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li><li class="maximenuck item109 parent level1 " style="z-index : 11982;"><a class="maximenuck " href="#"><span class="titreck">Education</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item138 parent first level2 " style="z-index : 11981;"><a class="maximenuck " href="/education/prospective-students/undergraduate/what-is-me"><span class="titreck">Prospective Students</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item173 parent first level3 " style="z-index : 11980;"><a class="maximenuck " href="/education/prospective-students/undergraduate/what-is-me"><span class="titreck">Undergraduate</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item209 first level4 " style="z-index : 11979;"><a class="maximenuck " href="/education/prospective-students/undergraduate/what-is-me"><span class="titreck">What is ME?</span></a>
+		</li>
+<li class="maximenuck item210 parent level4 " style="z-index : 11978;"><a class="maximenuck " href="/education/prospective-students/undergraduate/programme"><span class="titreck">Programme</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item242 first level5 " style="z-index : 11977;"><a class="maximenuck " href="/education/prospective-students/undergraduate/programme/aeronautical-engineering"><span class="titreck">Aeronautical Engineering </span></a>
+		</li>
+<li class="maximenuck item243 level5 " style="z-index : 11976;"><a class="maximenuck " href="/education/prospective-students/undergraduate/programme/automotive-engineering"><span class="titreck">Automotive Engineering</span></a>
+		</li>
+<li class="maximenuck item244 level5 " style="z-index : 11975;"><a class="maximenuck " href="/education/prospective-students/undergraduate/programme/energy-and-sustainability"><span class="titreck">Energy and Sustainability </span></a>
+		</li>
+<li class="maximenuck item245 last level5 " style="z-index : 11974;"><a class="maximenuck " href="/education/prospective-students/undergraduate/programme/offshore-oil-gas-technology"><span class="titreck">Offshore Oil &amp; Gas Technology</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li><li class="maximenuck item211 level4 " style="z-index : 11973;"><a class="maximenuck " href="/education/prospective-students/undergraduate/what-our-students-say"><span class="titreck">What our students say</span></a>
+		</li>
+<li class="maximenuck item212 last level4 " style="z-index : 11972;"><a class="maximenuck " href="http://www.eng.nus.edu.sg/ugrad/prospective/eng_admissions.html " target="_blank" ><span class="titreck">Admissions</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li><li class="maximenuck item206 last level3 " style="z-index : 11971;"><a class="maximenuck " href="http://www.gse.nus.edu.sg/postgradprog.html" target="_blank" ><span class="titreck">Graduate</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li><li class="maximenuck item139 parent last level2 " style="z-index : 11970;"><a class="maximenuck " href="/education/current-students/undergraduate/program-overview"><span class="titreck">Current Students</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item174 parent first level3 " style="z-index : 11969;"><a class="maximenuck " href="/education/current-students/undergraduate/program-overview"><span class="titreck">Undergraduate</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item192 parent first level4 " style="z-index : 11968;"><a class="maximenuck " href="/education/current-students/undergraduate/program-overview"><span class="titreck">Program Overview</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item252 first level5 " style="z-index : 11967;"><a class="maximenuck " href="/education/current-students/undergraduate/program-overview/educational-objectives"><span class="titreck">Educational Objectives</span></a>
+		</li>
+<li class="maximenuck item254 level5 " style="z-index : 11966;"><a class="maximenuck " href="http://www.nus.edu.sg/registrar/nusbulletin/FoE/UG/UGedu.html#3_2_10_2" target="_blank" ><span class="titreck">Degree Requirements</span></a>
+		</li>
+<li class="maximenuck item314 level5 " style="z-index : 11965;"><a class="maximenuck " href="/education/current-students/undergraduate/program-overview/program-structure"><span class="titreck">Program Structure</span></a>
+		</li>
+<li class="maximenuck item255 level5 " style="z-index : 11964;"><a class="maximenuck " href="http://www.nus.edu.sg/registrar/nusbulletin/modulesearch.html" target="_blank" ><span class="titreck">Module Information</span></a>
+		</li>
+<li class="maximenuck item253 level5 " style="z-index : 11963;"><a class="maximenuck " href="/education/current-students/undergraduate/program-overview/recommended-schedules-for-ay12-13"><span class="titreck">Recommended Schedules for AY12/13</span></a>
+		</li>
+<li class="maximenuck item320 level5 " style="z-index : 11962;"><a class="maximenuck " href="/education/current-students/undergraduate/program-overview/timetable-index"><span class="titreck">Timetables</span></a>
+		</li>
+<li class="maximenuck item283 level5 " style="z-index : 11961;"><a class="maximenuck " href="/education/current-students/undergraduate/program-overview/specialisations-before-2012"><span class="titreck">Specialisations before 2012</span></a>
+		</li>
+<li class="maximenuck item284 last level5 " style="z-index : 11960;"><a class="maximenuck " href="/education/current-students/undergraduate/program-overview/specialisations-from-2012"><span class="titreck">Specialisations from 2012</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li><li class="maximenuck item202 level4 " style="z-index : 11959;"><a class="maximenuck " href="/images/files/Design Curriculum Schedule_Revised.doc"><span class="titreck">Design Projects</span></a>
+		</li>
+<li class="maximenuck item182 level4 " style="z-index : 11958;"><a class="maximenuck " href="/education/current-students/undergraduate/final-year-project"><span class="titreck">Final Year Project</span></a>
+		</li>
+<li class="maximenuck item183 parent level4 " style="z-index : 11957;"><a class="maximenuck " href="/education/current-students/undergraduate/special-programmes"><span class="titreck">Special Programmes</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item188 parent first level5 " style="z-index : 11956;"><a class="maximenuck " href="/education/current-students/undergraduate/special-programmes/enhancement-programmes"><span class="titreck">Enhancement Programmes</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item189 first level6 " style="z-index : 11955;"><a class="maximenuck " href="http://www.eng.nus.edu.sg/undergrad/epmc/vip.html" target="_blank" ><span class="titreck">Vacation Internship Programme</span></a>
+		</li>
+<li class="maximenuck item190 level6 " style="z-index : 11954;"><a class="maximenuck " href="http://www.eng.nus.edu.sg/undergrad/epmc/iap.html " target="_blank" ><span class="titreck">Industrial Attachment Programme</span></a>
+		</li>
+<li class="maximenuck item191 last level6 " style="z-index : 11953;"><a class="maximenuck " href="http://www.eng.nus.edu.sg/urop/"><span class="titreck">Undergraduate Research Opportunities Programme</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li><li class="maximenuck item187 level5 " style="z-index : 11952;"><a class="maximenuck " href="/education/current-students/undergraduate/special-programmes/student-exchange-programme"><span class="titreck">Student Exchange Programme</span></a>
+		</li>
+<li class="maximenuck item185 level5 " style="z-index : 11951;"><a class="maximenuck " href="http://www.eng.nus.edu.sg/edic/dcp.html " target="_blank" ><span class="titreck">Design-Centric Programme</span></a>
+		</li>
+<li class="maximenuck item184 level5 " style="z-index : 11950;"><a class="maximenuck " href="http://www.eng.nus.edu.sg/ugrad/SP_gep.html " target="_blank" ><span class="titreck">Global Engineering Programme</span></a>
+		</li>
+<li class="maximenuck item186 last level5 " style="z-index : 11949;"><a class="maximenuck " href="http://www.overseas.nus.edu.sg/ " target="_blank" ><span class="titreck">NUS Overseas Colleges</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li><li class="maximenuck item175 level4 " style="z-index : 11948;"><a class="maximenuck " href="/education/current-students/undergraduate/scholarships"><span class="titreck">Scholarships</span></a>
+		</li>
+<li class="maximenuck item317 last level4 " style="z-index : 11947;"><a class="maximenuck " href="/education/current-students/undergraduate/mentor-lists"><span class="titreck">Mentor Lists</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li><li class="maximenuck item193 last level3 " style="z-index : 11946;"><a class="maximenuck " href="http://www.gse.nus.edu.sg/current_students.html " target="_blank" ><span class="titreck">Graduate</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li><li class="maximenuck item110 parent level1 " style="z-index : 11945;"><a class="maximenuck " href="#"><span class="titreck">Research</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item170 parent first level2 " style="z-index : 11944;"><a class="maximenuck " href="/research/research-themes"><span class="titreck">Research Themes</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item223 first level3 " style="z-index : 11943;"><a class="maximenuck " href="/research/research-themes/adsorption-desalination-cum-cooling-technology"><span class="titreck">Adsorption Desalination cum Cooling Technology</span></a>
+		</li>
+<li class="maximenuck item224 level3 " style="z-index : 11942;"><a class="maximenuck " href="/research/research-themes/bio-inspired-nano-tribology"><span class="titreck">Bio-Inspired Nano-Tribology</span></a>
+		</li>
+<li class="maximenuck item225 level3 " style="z-index : 11941;"><a class="maximenuck " href="/research/research-themes/digital-holography"><span class="titreck">Digital Holography</span></a>
+		</li>
+<li class="maximenuck item226 level3 " style="z-index : 11940;"><a class="maximenuck " href="/research/research-themes/failure-prediction-for-composites"><span class="titreck">Failure Prediction for Composites</span></a>
+		</li>
+<li class="maximenuck item227 level3 " style="z-index : 11939;"><a class="maximenuck " href="/research/research-themes/flapping-wing-aerodynamics"><span class="titreck">Flapping Wing Aerodynamics</span></a>
+		</li>
+<li class="maximenuck item228 level3 " style="z-index : 11938;"><a class="maximenuck " href="/research/research-themes/light-weight-materials"><span class="titreck">Light Weight Materials</span></a>
+		</li>
+<li class="maximenuck item229 level3 " style="z-index : 11937;"><a class="maximenuck " href="/research/research-themes/mobile-robotic-manipulation"><span class="titreck">Mobile Robotic Manipulation</span></a>
+		</li>
+<li class="maximenuck item230 level3 " style="z-index : 11936;"><a class="maximenuck " href="/research/research-themes/nanobiomechanics-study-of-human-diseases"><span class="titreck">Nanobiomechanics Study of Human Diseases</span></a>
+		</li>
+<li class="maximenuck item231 level3 " style="z-index : 11935;"><a class="maximenuck " href="/research/research-themes/neuro-sensors"><span class="titreck">Neuro-sensors</span></a>
+		</li>
+<li class="maximenuck item232 last level3 " style="z-index : 11934;"><a class="maximenuck " href="/research/research-themes/research-on-tool-based-micro-nano-machining"><span class="titreck">Research on Tool-based Micro-Nano-Machining</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li><li class="maximenuck item171 parent level2 " style="z-index : 11933;"><a class="maximenuck " href="/research/laboratories"><span class="titreck">Laboratories</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item287 parent first level3 " style="z-index : 11932;"><a class="maximenuck " href="/research/laboratories/research-labs/control-and-mechatronics"><span class="titreck">Research Labs</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item288 first level4 " style="z-index : 11931;"><a class="maximenuck " href="/research/laboratories/research-labs/control-and-mechatronics"><span class="titreck">Control and Mechatronics</span></a>
+		</li>
+<li class="maximenuck item289 level4 " style="z-index : 11930;"><a class="maximenuck " href="/research/laboratories/research-labs/dynamics"><span class="titreck">Dynamics</span></a>
+		</li>
+<li class="maximenuck item291 level4 " style="z-index : 11929;"><a class="maximenuck " href="/research/laboratories/research-labs/energy-and-bio-thermal-systems"><span class="titreck">Energy and Bio-thermal Systems</span></a>
+		</li>
+<li class="maximenuck item292 level4 " style="z-index : 11928;"><a class="maximenuck " href="/research/laboratories/research-labs/experimental-mechanics"><span class="titreck">Experimental Mechanics</span></a>
+		</li>
+<li class="maximenuck item293 level4 " style="z-index : 11927;"><a class="maximenuck " href="/research/laboratories/research-labs/fabrication-support-center"><span class="titreck">Fabrication Support Center</span></a>
+		</li>
+<li class="maximenuck item294 level4 " style="z-index : 11926;"><a class="maximenuck " href="/research/laboratories/research-labs/fluid-mechanics"><span class="titreck">Fluid Mechanics</span></a>
+		</li>
+<li class="maximenuck item295 level4 " style="z-index : 11925;"><a class="maximenuck " href="/research/laboratories/research-labs/impact-mechanics"><span class="titreck">Impact Mechanics</span></a>
+		</li>
+<li class="maximenuck item296 level4 " style="z-index : 11924;"><a class="maximenuck " href="/research/laboratories/research-labs/manufacturing"><span class="titreck">Manufacturing</span></a>
+		</li>
+<li class="maximenuck item297 level4 " style="z-index : 11923;"><a class="maximenuck " href="/research/laboratories/research-labs/materials"><span class="titreck">Materials</span></a>
+		</li>
+<li class="maximenuck item298 level4 " style="z-index : 11922;"><a class="maximenuck " href="/research/laboratories/research-labs/nano-machining"><span class="titreck">Nano-machining</span></a>
+		</li>
+<li class="maximenuck item299 last level4 " style="z-index : 11921;"><a class="maximenuck " href="/research/laboratories/research-labs/neurosensors"><span class="titreck">Neurosensors</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li><li class="maximenuck item267 parent level3 " style="z-index : 11920;"><a class="maximenuck " href="/research/laboratories/associated-labs"><span class="titreck">Associated Labs</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item268 first level4 " style="z-index : 11919;"><a class="maximenuck " href="http://serve.me.nus.edu.sg/seeram_ramakrishna/" target="_blank" ><span class="titreck">Healthcare and Energy Materials Laboratories</span></a>
+		</li>
+<li class="maximenuck item269 level4 " style="z-index : 11918;"><a class="maximenuck " href="http://www.bioeng.nus.edu.sg/nanolab/nanolab.html" target="_blank" ><span class="titreck">Nano-BioMechanics</span></a>
+		</li>
+<li class="maximenuck item270 last level4 " style="z-index : 11917;"><a class="maximenuck " href="http://serve.me.nus.edu.sg/mnsi/" target="_blank" ><span class="titreck">Micro and Nano Systems Initiative</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li><li class="maximenuck item271 parent level3 " style="z-index : 11916;"><a class="maximenuck " href="/research/laboratories/research-centres"><span class="titreck">Research Centres</span></a>
+	<div class="floatck" ><div class="maxidrop-top"><div class="maxidrop-top2"></div></div><div class="maxidrop-main"><div class="maxidrop-main2"><div class="maximenuck2 first " >
+	<ul class="maximenuck2"><li class="maximenuck item272 first level4 " style="z-index : 11915;"><a class="maximenuck " href="http://www.nus.edu.sg/ACES" target="_blank" ><span class="titreck">ACES</span></a>
+		</li>
+<li class="maximenuck item273 level4 " style="z-index : 11914;"><a class="maximenuck " href="http://www.eng.nus.edu.sg/biomat/biomat.html" target="_blank" ><span class="titreck">BIOMAT</span></a>
+		</li>
+<li class="maximenuck item274 last level4 " style="z-index : 11913;"><a class="maximenuck " href="/" target="_blank" ><span class="titreck">Nano-Wafer Level Packaging Program</span></a>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li>
+	</ul>
+	<div class="clr"></div></div><div class="clr"></div></div></div><div class="maxidrop-bottom"><div class="maxidrop-bottom2"></div></div></div>
+	</li>              
+            </ul>
+        </div>
+        <div class="maxiroundedright"></div>
+        <div style="clear:both;"></div>
+    </div>
+    <div style="clear:both;"></div>
+    <!-- fin maximenuCK -->
+</div>
+    </div><!-- end header -->
+    
+    <div id="contentarea">
+	<div id="head_content">
+            <div id="banner_slide">
+        <!--  Begin "Unite Nivo Slider" -->
+		
+					<script type="text/javascript" src="http://me.nus.edu.sg/modules/mod_unite_nivoslider/tmpl/js/jquery.nivo.slider.pack.js"></script>
+				
+		<div class="nivo-slider-wrapper theme-default" style="max-width:964px;max-height:424px;margin:0px auto;margin-top:0px;margin-bottom:0px;">
+			<div id="nivo_slider_90" class="nivoSlider">
+												
+															<a href="/education/prospective-students/undergraduate/what-is-me"><img src="http://me.nus.edu.sg/images/slideimage/main_banner.jpg" alt="" title="#nivo_desc_1" /></a>
+														
+														
+															<a href="http://www.me.nus.edu.sg/news"><img src="http://me.nus.edu.sg/images/slideimage/mainbanner_caelaunch-01.jpg" alt="" title="#nivo_desc_4" /></a>
+														
+														
+															<a href="http://serve.me.nus.edu.sg/fsae/" target='_blank'><img src="http://me.nus.edu.sg/images/slideimage/main_banner02.jpg" alt="" title="#nivo_desc_2" /></a>
+														
+														
+															<a href="/education/prospective-students/undergraduate/what-our-students-say"><img src="http://me.nus.edu.sg/images/slideimage/main_banner03.jpg" alt="" title="#nivo_desc_3" /></a>
+														
+										</div>		
+									            <div id="nivo_desc_1" class="nivo-html-caption"><span style='text-align:left;'><h2>ME @ NUS</h2>
+<h1>What do we offer?</h1>
+<p><span style="color: #333333;">Click below to find out:</span></p>
+<p style="text-align: left;"><strong><a href="/images/slideimage/brochure_nusme_general.pdf" target="_blank"><span style="color: #333333; font-size: 10pt;"><span style="color: #333333;">ME @ NUS</span></span></a></strong></p>
+<p style="text-align: left;"><strong><a href="/images/slideimage/brochure_nusme_aeronautical-engrg-specialisation.pdf" target="_blank"><span style="color: #333333; font-size: 10pt;"><span style="color: #333333;">Aeronautical Engineering Specialisation</span></span></a></strong></p>
+<p style="text-align: left;"><strong><span style="font-size: 10pt;"><span style="color: #333333;"><a href="/images/slideimage/brochure_nusme_aeronautical-engrg-specialisation.pdf"><span style="color: #333333;"></span></a></span><a href="/images/slideimage/brochure_nusme_energy-sustainability-specialisation.pdf" target="_blank"><span style="color: #333333;"><span style="color: #333333;">Energy and Sustainability Specialisation</span></span></a></span></strong></p>
+<p style="text-align: left;"><strong><span style="font-size: 10pt;"><span style="color: #333333;"><a href="/images/slideimage/brochure_nusme_energy-sustainability-specialisation.pdf"><span style="color: #333333;"></span></a></span><a href="/images/slideimage/brochure_nusme_centre-for-aerospace-engrg.pdf" target="_blank"><span style="color: #333333;"><span style="color: #333333;">Centre for Aerospace Engineering</span></span></a></span></strong></p></span></div>
+											            <div id="nivo_desc_4" class="nivo-html-caption"><span style='text-align:left;'><h2><span style="color: #ff6600;"><a href="/news"><span style="color: #ff6600;">News</span></a></span></h2>
+<h1><span style="color: #333333;"><a href="/news"><span style="color: #333333;">Launch of Centre for Aerospace Engineering (CAE)</span></a></span></h1>
+<p>Launched on 20 March 2013 by Mrs Josephine Teo, Minister of State for Finance and Transport, the CAE offers coordinated and integrated research, education and outreach in aerospace technologies.</p></span></div>
+											            <div id="nivo_desc_2" class="nivo-html-caption"><span style='text-align:left;'><h2>Team NUS Motorsports </h2>
+<h1>NUS FSAE PROJECT</h1>
+<p><span style="line-height: 1.3em;">The NUS FSAE (Formula Society of Automotive Engineering) race car project is spearheaded by the Department of Mechanical Engineering and is strongly supported by the Faculty of Engineering as well as the University.</span></p></span></div>
+											            <div id="nivo_desc_3" class="nivo-html-caption"><span style='text-align:left;'><h2>Department of Mechanical Engineering</h2>
+<h1>What our students say</h1>
+<p>Read what our students have to say about their specialisations.</p></span></div>
+										
+		</div>
+				
+	
+<script type="text/javascript">
+
+
+
+jQuery(document).ready(function() {
+		
+	jQuery('#nivo_slider_90').show().nivoSlider({
+			effect: 'random',
+			slices: 15,
+			boxCols: 8,
+			boxRows: 4,
+			animSpeed: 500,
+			pauseTime: 3000,
+			startSlide: 0,
+			directionNav: false,
+			controlNav: true,
+			controlNavThumbs: false,
+			pauseOnHover: true,
+			manualAdvance: false,
+			prevText: 'Prev',
+			nextText: 'Next',
+			randomStart: false,
+			beforeChange: function(){},
+			afterChange: function(){},
+			slideshowEnd: function(){},
+		    lastSlide: function(){},
+		    afterLoad: function(){}		});
+	});	//ready
+
+</script>
+
+<!--  End "Unite Nivo Slider" -->
+
+
+      </div>
+	                 <div id="top_box">
+
+<div class="custom studentlife"  >
+	<div class="module_content">
+		<p><a href="http://www.nus.edu.sg/osa/this-is-osa" target="_blank"><img src="/images/banners/student_life.png" alt="" /></a></p>	</div>
+</div>
+
+
+<div class="custom"  >
+	<div class="module_content">
+		<p><a href="/news"><img src="/images/banners/news-events.png" alt="" /></a></p>	</div>
+</div>
+
+
+<div class="custom"  >
+	<div class="module_content">
+		<p><a href="/research/research-themes"><img src="/images/banners/research_highlight.png" alt="" /></a></p>	</div>
+</div>
+
+
+<div class="custom fblike"  >
+	<div class="module_content">
+		<p><a href="https://www.facebook.com/NUSMechanicalEngineering" target="_blank"><img src="/images/banners/facebook_like.png" alt="" /></a></p>	</div>
+</div>
+
+              </div>
+                		</div>
+      
+      <div id="wrapper2" class="shownocolumns">
+          <div id="main">
+          
+                                          <div class="main_content" >
+              
+<div id="system-message-container">
+</div>
+              <div class="blog-featuredhome">
+
+
+
+
+</div>
+
+              </div>
+			          
+          
+          </div><!-- end main -->
+      </div><!-- end wrapper -->
+
+      
+            <div class="wrap"></div>
+
+    </div> <!-- end contentarea -->
+  </div><!-- back -->
+  <div class="bottom_curve"></div>
+  <div id="footer-outer">
+            <div id="footer-sub">
+        <div id="footer">
+          <div class="left_footer">
+            <p class="copyright">&copy; Copyright 2001- 
+                        <!-- This is to get the current year -->
+                        <SCRIPT TYPE="text/javascript">
+                        <!--
+                        var da = new Date();
+                        document.write(da.getFullYear());
+                        //-->
+                        </SCRIPT> 
+                        <!--/ end --> <span> National University of Singapore</span>. All Rights Reserved.</p>
+                      <div class="nav">
+<ul class="menu">
+<li class="item-125 first"><a href="http://www.nus.edu.sg/terms-of-use" >Terms of Use</a></li><li class="item-126"><span class="separator">|</span>
+</li><li class="item-127"><a href="http://www.nus.edu.sg/privacy" >Privacy</a></li><li class="item-128"><span class="separator">|</span>
+</li><li class="item-129 last"><a href="http://www.nus.edu.sg/non-discrimination" > Non-discrimination</a></li></ul>
+</div>
+                    
+          </div>
+          <div class="right_footer">
+                      <div class="nav">
+<ul class="menu">
+<li class="item-120 first"><a href="/about-us/site-map" >Site map</a></li><li class="item-121"><span class="separator">|</span>
+</li><li class="item-122"><a href="/about-us/contact-us" >Feedback</a></li><li class="item-123"><span class="separator">|</span>
+</li><li class="item-124 last"><a href="http://www.nus.edu.sg/campusmap/" >Campus Map</a></li></ul>
+</div>
+          		  <div class="clear"></div>
+          <div class="modified"><ul class="db8sitelastmodified">
+    <li>
+         Last modified on April 09, 2013.    </li>
+</ul> by <a href="mailto:mpesec@nus.edu.sg">NUS Mechanical Engineering</a>.</div>
+          </div>
+        </div><!-- end footer -->
+      </div>
+  </div>
+</div><!-- all -->
+
+  <script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37592222-1']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+	
+	var equalH = $('#main').outerHeight();
+	var navH = $('#nav').outerHeight();
+	if(navH < equalH){
+		$('#nav').height(equalH);
+	}
+	
+</script>
+<noscript><strong>JavaScript is currently disabled.</strong>Please enable it for a better experience of <a href="http://2glux.com/projects/jumi">Jumi</a>.</noscript></body>
+</html>

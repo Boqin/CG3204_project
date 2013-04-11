@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+
+
+<script language="JavaScript1.1">
+<!--
+function openWin(url) {
+self.name = "Popper";
+remote = open(url, "", "resizable,scrollbars,width=720,height=400,left=10 ,top=10");
+}
+//-->
+</script>
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>University Health Centre </title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+-->
+</style>
+<link href="img/fonts.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+a:link {
+	color: #547DC9;
+}
+a:visited {
+	color: #547DC9;
+}
+a:hover {
+	color: #547DC9;
+}
+a:active {
+	color: #547DC9;
+}
+a {
+	font-weight: bold;
+}
+-->
+</style>
+
+
+
+</head>
+
+<BODY>
+
+<body onload="openWin('http://www.nus.edu.sg/uhc/healthservice/Notice/uhcapril.jpg');">
+
+
+<iframe src="menu.html" name="menu" frameborder="0" class="sChar" id="menu" style="position:relative; width:951px; height:35px; z-index:3; margin:0px; left: 0px; top: 0px;" target="_blank" allowtransparency="true" scrolling="no">menu</iframe>
+<table width="951" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="160" rowspan="2" align="left" valign="top"><a href="http://www.nus.edu.sg/" target="_top"><img src="img/logo_nus.jpg" width="160" height="90" border="0" align="top"></a></td>
+    <td width="791" height="45" align="right" valign="top"><iframe src="menu_top.html" name="menuTop" frameborder="0" class="sChar" id="menuTop" style="position:relative; width:350px; height:30px; z-index:1; margin:0px; left: 0px; top: 0px;" target="_blank" allowtransparency="true" scrolling="no">top menu </iframe></td>
+  </tr>
+  <tr>
+    <td height="45" align="right" valign="top"><iframe src="search.html" name="search" frameborder="0" class="sChar" id="search" style="position:relative; width:415px; height:27px; z-index:2; margin:0px; left: 0px; top: 0px;" target="_blank" allowtransparency="true" scrolling="no">search</iframe></td>
+  </tr>
+</table>
+<table width="951" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="left" valign="top">&nbsp;</td>
+  </tr>
+</table>
+<table width="951" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="left" valign="top"><img src="img/banner.jpg" width="951" height="85" align="top"></td>
+  </tr>
+</table>
+<table width="951" border="0" align="center" cellpadding="0" cellspacing="0" style="background:url(img/bg_page.jpg) 50% 0% no-repeat;" >
+  <tr>
+    <td width="20" rowspan="2" align="left" valign="top"><img src="img/spacer.gif" width="20" height="450" align="top"></td>
+    <td width="465" align="left" valign="top"><img src="img/spacer.gif" width="465" height="310" align="top"></td>
+    <td width="446" align="left" valign="top"><table width="446" border="0" cellspacing="0" cellpadding="0">
+      <tr align="left" valign="top">
+        <td colspan="2"><img src="img/spacer.gif" width="1" height="10" align="top"></td>
+        </tr>
+      <tr align="left" valign="top">
+        <td width="91"><img src="img/avatar_healthservices.jpg" width="81" height="83" align="top"></td>
+        <td width="355" valign="middle" class="bChar"><span class="shdrChar">Health Service (Clinic)</span><br>
+          Comprehensive health care to staff, students and visitors of NUS<br>
+          <br>
+          <a href="http://www.nus.edu.sg/uhc/healthservice/" target="_top">&raquo; nus.edu.sg/uhc/healthservice</a></td>
+      </tr>
+      <tr align="left" valign="top">
+        <td><img src="img/avatar_wellness.jpg" width="81" height="83" vspace="15" align="top"></td>
+        <td valign="middle"><span class="bChar"><span class="shdrChar">Wellness Division </span><br> 
+          Stay active and lead a healthy lifestyle<br>
+          <br>
+            <a href="http://www.nus.edu.sg/uhc/wellness" target="_top">&raquo; nus.edu.sg/uhc/wellness</a> </span></td>
+      </tr>
+      <tr align="left" valign="top">
+        <td><img src="img/avatar_cps.jpg" width="81" height="83" align="top"></td>
+        <td valign="middle"><span class="bChar"><span class="shdrChar">Counselling and Psychological Services </span><br> 
+          Activate Your Life! <br>
+          <br>
+          <a href="http://www.nus.edu.sg/uhc/cps" target="_top">&raquo; nus.edu.sg/uhc/cps</a> </span></td>
+      </tr>
+    </table></td>
+    <td width="20" rowspan="2" align="left" valign="top"><img src="img/spacer.gif" width="20" height="1" align="top"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="left" valign="top" class="bChar" height="86"><span class="shdrOrange">Announcement</span><br>
+      <table width="911" border="0" cellspacing="0" cellpadding="2">
+        <tr align="left" valign="top" class="bChar">
+          <td width="8"><p>
+			&#8226;<p>
+			<br>
+			&#8226;<p>
+			<br>
+			<br>
+			&#8226;<br>
+			<br>
+			<br>
+&nbsp;<p>
+			&#8226;</td>
+          <td width="895"> 
+	<p style="direction: ltr; unicode-bidi: embed; word-break: normal; punctuation-wrap: hanging; margin-left: 0in; margin-top: 0pt; margin-bottom: 0pt">
+	<span style="font-family: Arial,sans-serif">University Health Centre (UHC) 
+	Satellite Clinic at Bukit Timah Campus (BTC) will be closed permanently with 
+	effect from 31 July 2012. For more information, please refer to the 
+	following
+	<a href="http://www.nus.edu.sg/uhc/healthservice/downloads/BTC%20Closure%20Announcement.pdf">
+	link</a>. For clinics around the area, please click
+	<a href="http://www.nus.edu.sg/uhc/healthservice/downloads/BTC%20clinics.pdf">here</a>.</span></p>
+	<p class="MsoNormal"><span style="font-family: Arial,sans-serif">As 
+	announced last July via circular
+	<a href="https://share.nus.edu.sg/corporate/circulars/hr2_for_staff/benefits/changes-in-staff-insurance-and-healthchoice-plans.pdf" style="color: #547DC9; font-weight: bold; text-decoration: none">
+	<font color="#FF6600"><b>HR040/11</b></font></a>, the new co-payment per 
+	visit will be as follows from 1st April 2012:<br>
+	&gt; GP 
+	visits: SGD10.00 (except polyclinics which will remain at SGD5.00)<br>
+	&gt; 
+	Specialist visits: SGD25.00</span></p>
+			<p><strong>H7N9 UPDATES<br>
+			</strong>For more information, please click on the following links:<strong><br>
+			</strong>&gt;
+			<a href="http://www.pqms.moh.gov.sg/apps/fcd_faqmain.aspx?qst=2fN7e274RAp+bUzLdEL/mJu3ZDKARR3p5Nl92FNtJicxsQ4JJaPAJumzTE7htu22dC1X8X5ea2NiEU8gOAMJbfrqYmBcmLa3kf20Gfkui1//RjRE2lnWKIgxZB3Ouhr6lQI/XeZ+Xm6wJcJ+D4e3ZgpE9JmlIuExRLT2/Thohe1bOMI9mTppNOEJ0sBT/SWDarBs2nISktEMjjYcZKn3LrFvfbCcvEpwK4L9EEW8wBhoslkTY+7pDw==">
+			Ministry of Health</a><br>
+			&gt;<a href="http://www.who.int/csr/don/en/index.html"> World Health 
+			Organization</a></p>
+			<p><strong>Dental Clinic is now OPEN</strong> at University Health Centre, B1. 
+			For appointments, please call 6773 1613.                                    </td>
+          
+
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table width="961" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="60" align="center" valign="top" background="img/bg_copyright.jpg"><iframe src="footer.html" name="footer" frameborder="0" class="sChar" id="footer" style="position:relative; width:930px; height:54px; z-index:5; margin:0px; left: 0px; top: 0px;" target="_blank" allowtransparency="true" scrolling="no">footer</iframe></td>
+  </tr>
+</table>
+
+
+
+
+</body>
+</html>

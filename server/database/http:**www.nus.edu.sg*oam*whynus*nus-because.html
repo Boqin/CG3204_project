@@ -1,0 +1,572 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Innerpage - WhyNUS.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>NUS - National University of Singapore</title>
+<script language="javascript" type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39523139-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- InstanceEndEditable -->
+<link href="../includes/style.css" type="text/css" rel="stylesheet" />
+<script src="../includes/jquery.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+var addthis_config = {ui_click: true }
+</script>
+<!-- Menu Fade Start -->
+<script type="text/javascript" src="../includes/fade/jquery.hoverIntent.minified.js"></script>
+<script language="javascript" src="../includes/fade.js" type="text/javascript"></script>
+<!-- Menu Fade End -->
+<!-- Tabs Start -->
+<script language="javascript" src="../includes/tabs.js" type="text/javascript"></script>
+<!-- Tabs End -->
+<!-- Searchbar Dropdown Start -->
+<script language="javascript" src="../includes/searchbar-dropdown.js" type="text/javascript"></script>
+<!-- Searchbar Dropdown End -->
+<!-- Searchbar Selector Start -->
+<script language="javascript" src="../includes/search.js" type="text/javascript"></script>
+<!-- Searchbar Selector End -->
+<!-- Accordion NUS Because Start -->
+<script language="javascript" src="../includes/js/jquery-ui-1.9.2.custom.js" type="text/javascript"></script>
+<script language="javascript" src="../includes/js/jquery.isotope.min.js" type="text/javascript"></script>
+<!--Accordion NUS Because End -->
+<script language="javascript" src="../includes/js/hover.js" type="text/javascript"></script>
+<script language="javascript" src="../includes/js/checkStatusURL.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="../includes/styles/content.css" />
+
+<script type="text/javascript"> var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); </script>
+<script type="text/javascript"> try { var pageTracker = _gat._getTracker("UA-7277683-1"); pageTracker._trackPageview(); } catch(err) {}</script>
+
+
+<script language="JavaScript" src="../includes/print-right.js" type="text/javascript"></script>
+<!-- InstanceBeginEditable name="innerpage-header" -->
+<script>
+$(function(){
+    
+  var $container = $('#container');
+  
+  $container.isotope({
+    itemSelector: '.photois',
+    masonry: {
+      columnWidth: 305
+    }
+  })
+  
+  $('.photois').click(function(){
+    var $this = $(this);
+    var tileStyle = $this.hasClass('large') ? { width: 305, height: 195} : { width: 305, height: 385};
+    var captionStyle = $this.hasClass('large') ? { 'display': 'block'} : { 'display': 'block'};
+    $this.toggleClass('large');
+    
+    $this.find('.photocontent').stop(true, true).animate( tileStyle );
+    $this.find('.photocaption').css( captionStyle );
+
+    $container.isotope( 'reLayout' );
+    
+  });
+
+  $('.photocontent').on('mouseover', function(){
+    if(!$(this).parent('.photois').hasClass('large')){
+      $(this).find('.photocaption').stop(true, true).fadeIn();
+    }
+  });
+
+  $('.photocontent').on('mouseleave', function(){
+    if(!$(this).parent('.photois').hasClass('large')){
+      $(this).find('.photocaption').stop(true, true).fadeOut();        
+    }
+  });
+
+  $('.item1, .item2, .item3, .photocontent p').hide();
+  $('.item1').fadeIn(1000, function(){
+    $('.item2').fadeIn(1000, function(){
+      $('.item3').fadeIn(1000, function(){
+        $('.photocontent p').show();
+        $('.photocontent').css({'background': '#01386e'})
+      });
+    });
+  });
+
+});
+</script>
+
+<!-- InstanceEndEditable -->
+
+</head>
+<body>
+<div class="wrapper">
+  <div id="inner_wrapper">
+    <div id="wrapper_content">
+      <!-- Header Section Start -->
+      <div id="header">
+        <h1> <a href="http://www.nus.edu.sg/"><img src="../images/logo.png" alt="nus" width="140" height="64" title="nus" /> </a></h1>
+        <div id="faculty-logo"><a href="../index.html"><img src="../images/OAM_cobrand.png" width="100" height="64" alt="" /></a></div>
+        <div class="header_right_sec">
+          <div class="top_links">
+            <div class="left_curve">
+              <div class="right_curve">
+                <ul>
+                  <li><a href="http://exchange.nus.edu.sg/" target="_blank">myEmail</a></li>
+                  <li><a href="https://ivle.nus.edu.sg/lms/default.aspx" target="_blank">IVLE</a></li>
+                  <li><a href="http://libportal.nus.edu.sg/" target="_blank">Library</a></li>
+                  <li><a href="http://www.nus.edu.sg/campusmap/" target="_blank">Map</a></li>
+                  <li><a href="http://www.nus.edu.sg/registrar/calendar.html" target="_blank">Calendar</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="search_area">
+            <form id="frmSearch" name="frmSearch" onsubmit="evalSearch();return false;" action="#">
+              <div id="search-box">
+                <input type="text"  value="Search by keyword"  onblur="if (this.value == '') {this.value = 'Search by keyword';}"  onfocus="if (this.value == 'Search by keyword') {this.value = '';}" id="txtKeyword" name="txtKeyword" />
+              </div>
+              <div id="search-coloumn">
+                <select id="source" name="SearchMenu" >
+                  <option selected="selected" value="0">NUS Website</option>
+                  <option value="1">Internet</option>
+                  <option value="2">Staff Directory</option>
+                </select>
+              </div>
+              <div id="go-coloumn">
+                <input name="" type="button" id="search-btn" value="Go" onclick="evalSearch();return false;"/>
+              </div>
+            </form>
+          </div>
+          <!-- InstanceBeginEditable name="TopButton" --> <!-- InstanceEndEditable -->
+                              <div id="status-check"> <a href="#" onClick="getURL();"  onmouseover="status_check_popup();" onmouseout="status_check_hide();" > <img id="status_check" border="0" alt="" src="../images/icon-app-1.gif" style="width:35px;"> </a> </div>
+          <div id="status-check-desc" style="display:none;">
+          accessible via mobile phone only (applicable only to prospective students) 
+          </div> 
+          <div id="askadmissions"> <a href="http://www.askadmissions.nus.edu.sg" target="_blank"> <img id="Image11" border="0" alt="" src="../images/ask-admin_h1.gif"> </a> </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <!-- Header Section End -->
+      <!-- Navigation Section Start -->
+      <div id="navigation">
+        <ul id="topnav">
+          <li><a href="/oam/index.html" class="parent">Home</a> </li>
+          <li><a class="parent">Why NUS?</a>
+            <div class="sub">
+              <div class="sub-middle">
+                <ul>
+                  <li>
+                    <h2><a href="/oam/whynus/welcome.html">Director's Message</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/whynus/university-rankings.html">University Rankings</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/whynus/global-education.html">Global Education</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/whynus/multiple-pathways.html">Multiple Pathways</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/whynus/students-life.html">Student Life</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/whynus/international-alumni.html">International Alumni</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/whynus/nus-because.html">NUS Because</a></h2>
+                  </li>
+                </ul>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </li>
+          <li><a href="/oam/academic/academic.html" class="parent">Undergraduate Programmes</a>
+            <div class="sub">
+              <div class="sub-middle">
+                <ul>
+                  <li>
+                    <h2><a href="/oam/courses/course.html">Undergraduate Programmes</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="http://admissions.nus.edu.sg/coursefinder.aspx" target="_blank">Course Finder</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/gradeprofile/sprogramme-igp.html">Indicative Grade Profile (IGP)</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/specialprogram/sprogramme.html">Special Programmes</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/researchprogram/urop.html">Research Opportunities</a></h2>
+                  </li>
+                </ul>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </li>
+          <li><a href="/oam/scholarships" class="parent">Scholarships</a>
+            <div class="sub">
+              <div class="sub-middle">
+                <ul ul style="width:180px;">
+                  <li>
+                    <h2><a href="/oam/scholarships/freshmen/scholarship-freshmen.html">Freshmen(Singapore Citizens & PRs)</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/scholarships/freshmen/scholarship-international.html">Freshmen(International Students)</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/scholarships/currentstudent/scholarship-ug-scholar.html">Current Undergraduate Students</a></h2>
+                  </li>
+                </ul>
+                <ul style="width:180px;">
+                  <li>
+                    <h2><a href="/oam/scholarships/scholarship-awards.html">Awards</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/scholarships/scholars/meetourscholars.html">Meet Our Scholars</a></h2>
+                  </li>
+                  <li><a href="/oam/scholarships/scholars/upcloseandpersonal.html">Up Close and Personal</a></li>
+                  <li><a href="/oam/scholarships/scholars/hearourvoices.html">Hear Our Voices</a></li>
+                  <li><a href="/oam/scholarships/scholars/recenthappenings.html">Recent Happenings</a></li>
+                  <li><a href="/oam/scholarships/scholars/dunmissthis.html">Don't Miss This</a></li>
+                </ul>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </li>
+          <li><a href="/oam/financialaid/" class="parent">Financial Aid</a>
+            <div class="sub">
+              <div class="sub-middle">
+                <ul>
+                  <li>
+                    <h2><a href="/oam/financialaid/index.html">Overview</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-eligibility.html">Eligibility </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-application.html">Application </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-aid-package.html">Financial Aid Package</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/loans/financial-loans.html">Loans, Subsidies & PSEA</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/bursaries/financial-bursaries.html">Bursaries</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-studentemp-work.html">Work Study Assistance </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="http://www.nus.edu.sg/admissions/graduate-studies/partime.php" target="_blank">Part-time Appointment Scheme </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial_aid_acceptance_guide.html ">Financial Aid Acceptance Guide</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-financial-calendar.html">Financial Aid Calendar </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-tuition-fees.html">Tuition Fees &amp; Cost of Living </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="https://aces01.nus.edu.sg/webroapsbs/jsp/FinancialNeedsCalculator.jsp" target="_blank">Financial Needs Calculator </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="http://vidcast.nus.edu.sg/camtasiarelay/How_to_Finance_Your_Undergraduate_Education_-_Flash_(Large)_-_20110314_02.50.03PM.html" target="_blank">Webcast </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-donors.html">Donors</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-faq.html">FAQ</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-contact.html">Contact Info </a></h2>
+                  </li>
+                </ul>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </li>
+          <li><a class="parent">Apply To NUS</a>
+            <div class="sub">
+              <div class="sub-middle">
+                <ul>
+                  <li>
+                    <h2><a href="/oam/apply/local/alevel/">Singapore-Cambridge 'A' Levels </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/apply/local/poly/">Polytechnic Diplomas from Singapore</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/apply/local/nushs/">NUS High School Diploma</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/apply/local/ib/">International Baccalaureate (IB) Diploma </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="../apply/ssprs/admissionreq/BYA-admissionreq.html">Singapore Citizens/SPRs with International Qualifications</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="../apply/international/admissionreq/BYA-admissionreq.html">International Qualifications</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="../apply/transfer/admissionreq/BYA-admission.html">Transfer Applicants</a></h2>
+                  </li>
+
+                </ul>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </li>
+          <li><a href="/oam/news/news.html" class="parent">News &amp; Events</a>
+            <div class="sub">
+              <div class="sub-middle">
+                <ul>
+                  <li>
+                    <h2><a href="/oam/news/news.html">News</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/events/events.html">Events</a></h2>
+                  </li>
+                </ul>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </li>
+          <li><a href="/oam/publication/" class="parent">publications</a> </li>
+          <li><a href="/oam/contactus/contact.html" class="parent">Contact</a> </li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <!-- Navigation Section End -->
+      <div id="top-page-content"> 
+        <div id="main">
+            <div id="breadcrumb"><a href="/oam">Home</a> > Why NUS &gt; <!-- InstanceBeginEditable name="Breadcrumb" --> NUS Because<!-- InstanceEndEditable --> </div>
+     
+       <table cellspacing="0" id="page-title-table">
+            <tr >
+              <td width="770px"><h1 class="page-title-no-border"><!-- InstanceBeginEditable name="PageTitle" --> NUS Because<!-- InstanceEndEditable --></h1></td>
+              <td align="right" width="30px"><div class="page-title-no-border"><a onclick="PrintTopContent()" style="cursor:pointer;"   class="function-button"> <img src="../images/content/print.gif"/></a> </div></td>
+              <td align="right"><div class="page-title-no-border"><a onclick="return addthis_sendto()" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" href="http://www.addthis.com/bookmark.php?v=20" class="function-button"><img src="../images/lg-bookmark.gif" alt="Bookmark and Share" /></a>
+                  <script src="http://s7.addthis.com/js/200/addthis_widget.js" type="text/javascript"></script>
+                </div></td>
+            </tr>
+          </table>
+	 <div id="sublanding-content-top">
+      <!-- InstanceBeginEditable name="Top-Content" -->
+            <table cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td style="vertical-align: top">
+                  <p>Find out where an NUS education has taken some of our students.</p>
+
+                  <div id="container" class="clickable clearfix">
+                    <div class="photois">
+                      <div class="photocontent item1">
+                        <img src="../images/excitingjourneys/landing/business.jpg" alt="NUS Business School – Akanksha Batura" />
+
+                        <div class="photocaption">
+                          <strong>NUS Business School</strong><br/>Akanksha Batura
+                        </div>
+                        
+                        <p>Akanksha is always on the go. She is pursuing concurrent and double degrees: a Bachelor of Business Administration (Honours), a Master of Science (Management) and a CEMS Master’s in International Management. Akansha is currently on student exchange attending the London School of Economics (Michaelmas Term 2012)...</p>
+
+                        <p><a class="lnk-read-more" href="profile/akanksha-batura.html">+ read more</a></p>
+                      </div><!-- end .photocontent -->
+                    </div><!-- end .photois -->
+
+                    <div class="photois">
+                      <div class="photocontent item2">
+                        <img src="../images/excitingjourneys/landing/usp.jpg" alt="University Scholars Programme"  />
+
+                        <div class="photocaption">
+                          <strong>University Scholars Programme</strong><br/>Sailing with Random Walks in Science
+                        </div>
+                        
+                        <p>Students Varun and Safiah, along with Associate Professors Martin Henz and Cord Axel Müller, have experienced firsthand how the University Scholars Programme (USP) takes learning beyond the classroom. As members of the USP interest group Random Walks in Science, they have taken the idea...</p>
+
+                        <p><a class="lnk-read-more" href="profile/usp.html">+ read more</a></p>
+                      </div><!-- end .photocontent -->
+                    </div><!-- end .photois -->
+
+                    <div class="photois">
+                      <div class="photocontent item3">
+                        <img src="../images/excitingjourneys/landing/scholar.jpg" alt="Scholarship – Talia Seet" />
+
+                        <div class="photocaption">
+                          <strong>Scholarship</strong><br/>Talia Seet
+                        </div>
+                        
+                        <p>Talia, a Global Merit Scholar, values the freedom to find her own way at NUS. She is concurrently enrolled in the Faculty of Arts and Social Sciences (FASS) and University Scholars Programme (USP), and is still exploring her major and career options.  In her first semester, she has been struck by the vast opportunities available...</p>
+
+                        <p><a class="lnk-read-more" href="profile/talia-seet.html">+ read more</a></p>
+                      </div><!-- end .photocontent -->
+                    </div><!-- end .photois -->
+
+                    <div class="photois">
+                      <div class="photocontent item2">
+                        <img src="../images/excitingjourneys/landing/engineering.jpg" alt="Faculty of Engineering – Muhd Ibnur Rashad"  />
+
+                        <div class="photocaption">
+                          <strong>Faculty of Engineering</strong><br/>Muhd Ibnur Rashad
+                        </div>
+                        
+                        <p>Muhd Ibnur Rashad honed his skills among the best in Engineering at the National University of Singapore (NUS). The dedicated humanitarian and teammates at NUS went on to win global competitions for novel concepts aimed at helping the poor. Upon graduation, Ibnur co-founded the Sustainable Living Lab, a community of creators focused...</p>
+
+                        <p><a class="lnk-read-more" href="profile/muhd-ibnur-rashad.html">+ read more</a></p>
+                      </div><!-- end .photocontent -->
+                    </div><!-- end .photois -->
+
+                    <div class="photois">
+                      <div class="photocontent item3">
+                        <img src="../images/excitingjourneys/landing/science.jpg" alt="Faculty of Science – Marcus Chua"  />
+
+                        <div class="photocaption">
+                          <strong>Faculty of Science</strong><br/>Marcus Chua
+                        </div>
+                        
+                        <p>Marcus has coupled his love of science with a passion for conservation to save Singapore’s endangered leopard cats. An NUS Bachelor of Science (Life Sciences) graduate, he is now pursuing a Master’s degree in Biological Sciences. Between his studies, Marcus worked as a project manager at the Raffles Museum of Biodiversity Research...</p>
+
+                        <p><a class="lnk-read-more" href="profile/marcus-chua.html">+ read more</a></p>
+                      </div><!-- end .photocontent -->
+                    </div><!-- end .photois -->
+
+                    <div class="photois">
+                      <div class="photocontent item1">
+                        <img src="../images/excitingjourneys/landing/law.jpg" alt="Faculty of Law – Daniel Chen" />
+
+                        <div class="photocaption">
+                          <strong>Faculty of Law</strong><br/>Daniel Chen
+                        </div>
+                        
+                        <p>Daniel has a keen interest in the legal system that goes beyond the books. He was inspired by the commitment of seniors who founded the Innocence Project, a student-led initiative that helps those who have been wrongly convicted, and the dedication of professors who guided them. Today, Daniel is Head of the project and an Executive Committee...</p>
+
+                        <p><a class="lnk-read-more" href="profile/daniel-chen.html">+ read more</a></p>
+                      </div><!-- end .photocontent -->
+                    </div><!-- end .photois -->
+
+                    <div class="photois">
+                      <div class="photocontent item3">
+                        <img src="../images/excitingjourneys/landing/medicine.jpg" alt="Yong Loo Lin School of Medicine – Calida Chua"  />
+
+                        <div class="photocaption">
+                          <strong>Yong Loo Lin School of Medicine</strong><br/>Calida Chua
+                        </div>
+                        
+                        <p>Calida’s heart is in medicine. She felt a strong calling to be a doctor when she was younger, and set her sights on studying at NUS’ medical school. Chairing YLLSoM’s Neighbourhood Health Screening project has provided Calida with an opportunity to also give back to society. She believes in breaking down barriers of access to health care...</p>
+
+                        <p><a class="lnk-read-more" href="profile/calida-chua.html">+ read more</a></p>
+                      </div><!-- end .photocontent -->
+                    </div><!-- end .photois -->
+
+                    <div class="photois">
+                      <div class="photocontent item1">
+                        <img src="../images/excitingjourneys/landing/isgloves.jpg" alt="ISGloves/ School of Design and Environment"  />
+
+                        <div class="photocaption">
+                          <strong>School of Design and Environment, Faculty of Engineering, Faculty of Science</strong>
+                        </div>
+                        
+                        <p>While at NOC Stockholm, Charmain came up with an idea for a glove that could be used to access touchscreens in extremely cold temperatures. Together with Zhi Yun from the School of Design and Environment and two other NOC alumni, Fitzkhoon and Yan Liang, ISGLOVES was created and commercialised...</p>
+
+                        <p><a class="lnk-read-more" href="profile/isgloves.html">+ read more</a></p>
+                      </div><!-- end photocontent -->
+                    </div><!-- end photois -->
+
+                    <div class="photois">
+                      <div class="photocontent item2">
+                        <img src="../images/excitingjourneys/landing/fass.jpg" alt="Faculty of Arts and Social Sciences – Isaac Lim" />
+
+                        <div class="photocaption">
+                          <strong>Faculty of Arts and Social Sciences</strong><br/>Isaac Lim
+                        </div>
+                        
+                        <p>An aspiring director, Isaac is a first-year student with plans to pursue theatre studies at the Faculty of Arts and Social Sciences. An active college resident at University Town, Isaac also finds time to participate in student activities and volunteer with local organisations.  Isaac feels that NUS offers a well-balanced university experience...</p>
+
+                        <p><a class="lnk-read-more" href="profile/isaac-lim.html">+ read more</a></p>
+                      </div><!-- end .photocontent -->
+                    </div><!-- end .photois -->
+
+                    <div class="photois">
+                      <div class="photocontent item1">
+                        <img src="../images/excitingjourneys/landing/yst.jpg" alt="Yong Siew Toh Conservatory of Music - Huang Peh Linde"  />
+
+                        <div class="photocaption">
+                          <strong>Yong Siew Toh Conservatory of Music</strong><br/>Huang Peh Linde
+                        </div>
+                        
+                        <p>Peh Linde is a Mandarin pop music songwriter, music arranger and producer. From 2009, she has been a freelance assistant sound engineer with the Singapore Chinese Orchestra. She is also currently a songwriter under Funkie Monkies Productions, headed by A-list Mandarin pop music producer/song-writer Eric Ng, award-winning lyricist...</p>
+
+                        <p><a class="lnk-read-more" href="profile/huang-peh-linde.html">+ read more</a></p>
+                      </div><!-- end .photocontent -->
+                    </div><!-- end .photois -->
+
+                    <div class="photois">
+                      <div class="photocontent item2">
+                        <img src="../images/excitingjourneys/landing/computing.jpg" alt="School of Computing - Ang Jin Hui"  />
+
+                        <div class="photocaption">
+                          <strong>School of Computing</strong><br/>Ang Jin Hui
+                        </div>
+                        
+                        <p>Jin Hui took the unconventional route: After the ‘N’ levels, Jin Hui went on to study at an ITE, a polytechnic and the National University of Singapore. Along the way, he received a Lee Kuan Yew Scholarship to Encourage Upgrading Award and an NUS Undergraduate (Merit) Scholarship. Currently enrolled at the School of Computing...</p>
+
+                        <p><a class="lnk-read-more" href="profile/ang-jin-hui.html">+ read more</a></p>
+                      </div><!-- end .photocontent -->
+                    </div><!-- end .photois -->
+                  
+                  </div>
+                  </td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td><div style="float:right"> <a href="/oam/whynus/university-rankings.html">University Rankings </a>| <a href="/oam/whynus/global-education.html">Global Education</a> | <a href="/oam/whynus/multiple-pathways.html">Multiple Pathways</a> | <a href="/oam/whynus/students-life.html">Student Life</a> | <a href="/oam/whynus/internation-alumni.html">Intemational Alumni</a> | <a href="/oam/whynus/nus-because.html">NUS Because</a> </div></td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- InstanceEndEditable -->
+      </div>  
+    </div>
+       </div>
+      <div class="clear">
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </div>
+  <div class="bottom_curve">&nbsp;</div>
+  <!-- Footer Section Start -->
+  <div id="footer">
+    <div class="left_sec">
+      <p>&copy; Copyright 2001-2010 <strong>National University of Singapore.</strong> All Rights Reserved.</p>
+      <ul>
+        <li><a href="http://www.nus.edu.sg/terms-of-use" target="_blank">Terms&nbsp;of&nbsp;Use</a></li>
+        <li><a href="http://www.nus.edu.sg/privacy" target="_blank">Privacy</a></li>
+        <li class="last"><a href="http://www.nus.edu.sg/non-discrimination" target="_blank">Non-&nbsp;discrimination</a></li>
+      </ul>
+    </div>
+    <div class="right_sec">
+      <ul>
+        <li> <a href="http://www.nus.edu.sg/" target="_blank">Home</a> </li>
+        <li> <a href="http://www.nus.edu.sg/site-map">Site&nbsp;Map</a> </li>
+        <li class="last"> <a href="http://www.nus.edu.sg/campusmap/" target="_blank">Campus Map</a> </li>
+      </ul>
+      <p>Last modified on
+        <!-- #BeginDate format:Am1 -->March 25, 2013<!-- #EndDate -->
+        by <a href="http://www.nus.edu.sg/oam/" style="color: #333333;">Office of Admissions</a></p>
+    </div>
+  </div>
+  <!-- Footer Section End -->
+</div>
+</body>
+<!-- InstanceEnd --></html>

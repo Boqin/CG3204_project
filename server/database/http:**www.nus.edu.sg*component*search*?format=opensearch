@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>NUS</ShortName>
+  <Description>A research-intensive university with an entrepreneurial dimension, NUS is ranked consistently as one of the world's top universities. We offer the most extensive selection of academic programmes in Singapore, collaborating with leading universities worldwide to provide our students with diverse opportunities for overseas exposure.</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image type="image/vnd.microsoft.icon" width="16" height="16">http://www.nus.edu.sg/templates/nus/favicon.ico</Image>
+  <Url type="application/opensearchdescription+xml" rel="self" template="http://www.nus.edu.sg//component/search/?format=opensearch"/>
+  <Url type="text/html" template="http://www.nus.edu.sg/index.php?option=com_search&amp;searchword={searchTerms}"/>
+</OpenSearchDescription>

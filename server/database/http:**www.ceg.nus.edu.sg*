@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- InstanceBegin template="/Templates/ceg.dwt" codeOutsideHTMLIsLocked="false" --><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" />
+<meta name="keywords" content="Computer Engineering, National University of Singapore, NUS, Singapore Universities, Bachelor of Engineering">
+<meta name="description" content="Computer Engineering, National University of Singapore, NUS, Singapore Universities, Bachelor of Engineering"> 
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Computer Engineering @ NUS</title>
+<!-- TemplateEndEditable -->
+<link href="/includes/style.css" type="text/css" rel="stylesheet" />
+<link href="/styles/homepanel.css" type="text/css" rel="stylesheet" />
+<link href="/styles/innerpage.css" type="text/css" rel="stylesheet" />
+<link rel="shortcut icon" href="../favicon.ico"> 
+<link rel="icon" type="images/ico" href="../favicon.ico">
+<script src="/includes/jquery.min.js" type="text/javascript"></script>
+
+<!-- Main Banner Slider Start -->
+<link rel="stylesheet" href="/includes/slider/nivo-slider2.css" type="text/css" media="screen" />
+<script src="/includes/slider/jquery.nivo.slider.2.1.modif.js" type="text/javascript"></script>
+<script language="JavaScript" src="/includes/slider.js" type="text/javascript"></script>
+<!-- Main Banner Slider End -->
+
+<link rel="stylesheet" type="text/css" href="/includes/jcarousel/skin.css" />
+<script type="text/javascript" src="/includes/jcarousel/jquery.jcarousel.min.js"></script>
+
+<!-- Carousel Left Slider Start -->
+<script language="JavaScript" src="/includes/caraousel-left.js" type="text/javascript"></script>
+<!-- Carousel Left Slider End -->
+
+
+<!-- Left Menu Start -->
+<script language="JavaScript" src="/includes/left-menu.js" type="text/javascript"></script>
+<!-- Left Menu End -->
+
+<!-- Menu Fade Start -->
+<script type="text/javascript" src="/includes/fade/jquery.hoverIntent.minified.js"></script>
+<script language="JavaScript" src="/includes/fade.js" type="text/javascript"></script>
+<!-- Menu Fade End -->
+
+<!-- Tabs Start -->
+<script language="JavaScript" src="/includes/tabs.js" type="text/javascript"></script>
+<!-- Tabs End -->
+
+<!-- Searchbar Dropdown Start -->
+<script language="JavaScript" src="/includes/searchbar-dropdown.js" type="text/javascript"></script>
+<!-- Searchbar Dropdown End -->
+
+<!-- Searchbar Selector Start -->
+<script language="JavaScript" src="/includes/search.js" type="text/javascript"></script>
+<!-- Searchbar Selector End -->
+
+<style type="text/css">
+     
+.socialmedia{
+	background-position: 0px 55px
+}
+.socialmedia:hover{
+	cursor:pointer;
+	background-position: 0px 0px
+}	 
+
+</style>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div class="wrapper">
+  <div id="inner_wrapper">
+  	<div id="wrapper_content">
+		<!-- Header Section Start -->
+        <div id="header">
+        <h1><a href="http://nus.edu.sg" target="_blank"><img src="/images/logo.png" alt="nus" width="140" height="64" title="nus" border="0" /></a></h1>
+         <div id="faculty-logo"><a href="http://ceg.nus.edu.sg"><img src="/images/subbrand.jpg" alt="CEG" border="0" width="150" height="70" /></a></div>
+        <div class="header_right_sec">
+          <div class="top_links">
+            <div class="left_curve">
+            <div class="right_curve">
+                <ul>
+                  <li><a href="http://exchange.nus.edu.sg/" target="_blank">myEmail</a></li>
+                  <li><a href="https://ivle.nus.edu.sg/" target="_blank">IVLE</a></li>
+                  <li><a href="http://www.lib.nus.edu.sg/" target="_blank">Library</a></li>
+                  <li><a href="http://www.nus.edu.sg/campusmap" target="_blank">Map</a></li>
+                  <li><a href="https://aces01.nus.edu.sg/CoE/jsp/coeMain.jsp" target="_blank">Calendar</a></li>
+                </ul>
+             </div>
+             </div>
+          </div>
+          <div class="search_area">
+            <form id="frmSearch" name="frmSearch" onsubmit="evalSearch();return false;" action="#">
+            <div id="search-box">
+                        <input type="text"  value="Search by keyword"  onblur="if (this.value == '') {this.value = 'Search by keyword';}"  onfocus="if (this.value == 'Search by keyword') {this.value = '';}" id="txtKeyword" name="txtKeyword" />
+            </div>
+            <div id="search-coloumn">
+                 <select id="source" name="SearchMenu" >
+
+                         <option selected="selected" value="0">NUS Website</option>
+
+                         <option value="1">Internet</option>
+          
+                         <option value="2">Staff Directory</option>
+
+                 </select>
+            </div>
+            <div id="go-coloumn">
+                <input name="" type="button" id="search-btn" value="Go" onclick="evalSearch();return false;"/>
+            </div>
+            </form>
+
+       	  </div>
+   	 	  </div>
+     	 </div>
+         <div class="clear"></div>
+		<!-- Header Section End -->
+        
+        <!-- Navigation Section Start -->
+     <div id="navigation">     
+         
+    <ul id="topnav">
+    <li><a href="/" class="parent">HOME</a></li>
+    <li><a href="/about" class="parent">About CEG</a></li>
+    <li><a href="/curriculum" class="parent">Curriculum</a></li>
+    <li><a href="/admissions" class="parent">Prospective Students</a></li>
+    <li><a href="/students" class="parent">Current Students</a></li>
+	<li><a href="http://www.ece.nus.edu.sg/" class="parent">ECE Home</a></li>
+	<li><a href="http://www.comp.nus.edu.sg/cs" class="parent">CS Home</a></li>
+	</ul>
+  <div class="clear"></div>
+</div>
+       
+    <!-- Navigation Section End -->  
+
+
+
+<!-- InstanceBeginEditable name="MainRegion" -->
+  <!-- Banner Section Start -->
+  <div id="slider">
+        <img src="images/slides/1.jpg" alt="" title="#htmlcaption1"/>
+        <img src="images/slides/2.jpg" alt="" title="#htmlcaption2"/>
+	    <img src="images/slides/3.jpg" alt="" title="#htmlcaption3"/>
+        <img src="images/slides/4.jpg" alt="" title="#htmlcaption4"/>
+    </div>
+    
+    <div id="htmlcaption1" class="nivo-html-caption" style="display:none">
+    Computer Engineering: Designing Intelligence<br><br>Conceiving the future
+    </div>
+    
+    <div id="htmlcaption2" class="nivo-html-caption" style="display:none">
+    Computer Engineering: Designing Intelligence<br><br>Designing innovative solutions
+    </div>
+    
+    <div id="htmlcaption3" class="nivo-html-caption" style="display:none">
+    Computer Engineering: Designing Intelligence<br><br>Implementing a smart world
+    </div>
+    
+    <div id="htmlcaption4" class="nivo-html-caption" style="display:none">
+    Computer Engineering: Designing Intelligence<br><br>Operating in a sustainable environment
+    </div>
+    <div class="nivo-socialmedia" style="opacity:0.8;text-align:center"><a href="documents/NUS-CEG-Brochure-2013.pdf"><img style="padding-top:10px; padding-bottom:10px" src="files/filescreenshot.jpg" width="300"></a>
+      <a href="about/GraduateEmploymentSurvey2012.html"><img src="images/GES-button-2.jpg" alt="" width="142" height="134" border="0" /></a>
+    <div style="padding-top:25px">
+      <a href="https://twitter.com/#!/nusceg"><div class="socialmedia" style="width:60px; height:55px; background-image: url('images/buttons/update_twitter_btn.png'); float:right"></div></a>
+    <a href="https://www.facebook.com/NUSCEG"><div class="socialmedia" style="width:60px; height:55px; background-image: url('images/buttons/update_facebook_btn.png'); float:right"></div></a>
+    <a href="https://www.facebook.com/NUSCEG"><div class="socialmedia" style="width:60px; height:55px; background-image: url('images/buttons/update_RSS_btn.png'); float:right"></div></a>
+    <a href="mailto:askCEG@nus.edu.sg?Subject=NUSCEG Enquiry"><div class="socialmedia" style="width:60px; height:55px; background-image: url('images/buttons/update_mail_btn.png'); float:right"></div></a>
+  </div>
+    </div>
+    <!-- Banner Section End -->
+    <div class="clear"></div>
+     <!-- Carousel Section Start -->
+     <div id="caraousel">
+      <div id="caraousel-left">
+        <div id="carausel-left-top"><img src="images/carousal_top_curve.gif" width="915" height="15" alt="" /></div>
+        <div id="caraousel-left-middle">
+               
+          <ul id="mycarousel" class="jcarousel-skin-tango">
+            <li><a href="/about/" class="parent"><img src="images/bottom-1.jpg" width="169" height="74" alt="Rich Curriculum" /></a></li>
+            <li><a href="/ia/" class="parent"><img src="images/bottom-2.jpg" width="169" height="74" alt="Industry Exposure" /></a></li>
+            <li><a href="/sep/" class="parent" onclick="window.open('http://www.overseas.nus.edu.sg/','Overseas');"><img src="images/bottom-3.jpg" width="169" height="74" alt="Global Experience" /></a></li>
+            <li><a href="http://www.ece.nus.edu.sg/" class="parent"><img src="images/bottom-4.jpg" width="169" height="74" alt="Department of Electrical and Computer Engineering" /></a></li>
+            <li><a href="http://www.comp.nus.edu.sg/" class="parent"><img src="images/bottom-5.jpg" width="169" height="74" alt="Department of Computer Science" /></a></li>
+          </ul>
+              
+        </div>
+        <div id="carausel-left-bottom"><img src="images/carousal_bottom_curve.gif" width="915" height="13" alt="" /></div>
+      </div>
+
+
+     <!-- Carousel Section End -->
+<div class="clear"></div>
+
+     
+<!-- InstanceEndEditable -->
+ </div>
+<div class="clear"></div>
+		</div>
+  </div>
+
+  <div class="bottom_curve">&nbsp;</div>
+    	<!-- Footer Section Start -->
+        	<div id="footer" style="text-decoration:none;">
+                <div class="left_sec">
+                  <p style="text-decoration:none;">&copy; Copyright 2001- 
+                        <!-- This is to get the current year -->
+                        <SCRIPT TYPE="text/javascript">
+                        <!--
+                        var da = new Date();
+                        document.write(da.getFullYear());
+                        //-->
+                        </SCRIPT> 
+                        <!--/ end -->
+<strong>National University of Singapore.</strong> All Rights Reserved.</p>
+                  <ul>
+                    <li><a href="http://www.nus.edu.sg/terms-of-use" target="_blank">Terms&nbsp;of&nbsp;Use</a></li>
+                    <li><a href="http://www.nus.edu.sg/privacy" target="_blank">Privacy</a></li>
+                    <li class="last"><a href="http://www.nus.edu.sg/non-discrimination" target="_blank">Non-&nbsp;discrimination</a></li>
+                  </ul>
+                </div>
+              <div class="right_sec">
+                <ul>
+                    <li> <a href="/">Home</a> </li>
+                    <li class="last"> <a href="/contactus.html">Feedback</a> </li>
+                </ul>
+                <!--<p>Last modified on <script type="text/javascript" src="../includes/lastmodified.js"></script> by SoC</p>-->
+                </div>
+  </div>
+        <!-- Footer Section End -->
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15599782-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+<!-- InstanceEnd -->

@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="UznO_lHQKr7xSzJ0eF822sawIlF3x8djMaSjdXQfVgA" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Centre on Asia and Globalisation, Lee Kuan Yew School of Public Policy, Global Governance, Energy and Climate, Poverty and Development, Public Roles of the Private Sector, Research Projects, Concepts of Global Governance, Global Health Governance, Transparency and Access to Information, Energy Security, Energy Governance, Renewable Energy, Climate" />
+<meta name="description" content="The Centre on Asia and Globalisation is a leading international research centre based at the Lee Kuan Yew School of Public Policy in Singapore." />
+<link rel="shortcut icon" href="/sites/default/files/nuscag2012_favicon.ico" type="image/x-icon" />
+  <title>Centre on Asia and Globalisation | Lee Kuan Yew School of Public Policy</title>
+  <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?z" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?z" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?z" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?z" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/content_multigroup/content_multigroup.css?z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/nuscag2012/style.css?z" />
+  
+<script type="text/javascript">
+	baseURL = "/";
+	baseDirectory = "/sites/all/themes/nuscag2012/";
+</script>
+<script type="text/javascript"> </script>
+<link rel="stylesheet" href="/sites/all/themes/nuscag2012/css/master.css" type="text/css" media="screen" />
+<!-- Jquery scripts -->
+	<script src="/sites/all/themes/nuscag2012/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="/sites/all/themes/nuscag2012/js/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
+		<script src="/sites/all/themes/nuscag2012/js/cufon-yui.js" type="text/javascript"></script>
+	<script src="/sites/all/themes/nuscag2012/js/dinlight_350.font.js" type="text/javascript"></script>
+	<script src="/sites/all/themes/nuscag2012/js/dinreg_400.font.js" type="text/javascript"></script>
+	<script src="/sites/all/themes/nuscag2012/js/dinbd_700.font.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="/sites/all/themes/nuscag2012/css/pepper-grinder/jquery-ui-1.7.2.custom.css" type="text/css" media="screen" />
+	<script src="/sites/all/themes/nuscag2012/js/multimedia.js" type="text/javascript"></script>
+	<script src="/sites/all/themes/nuscag2012/js/common.js" type="text/javascript"></script>
+<!-- End Jquery scripts -->
+<!-- Flash Scripts if Any -->
+<script src="/sites/all/themes/nuscag2012/js/swfobject.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+var flashvars = false;
+var frontff = true;
+var params = {
+  menu: "false",
+  flashvars: "basepath=/"
+};
+var attributes = {
+  id: "flashmasthead",
+  name: "flashmasthead"
+};
+if (swfobject.hasFlashPlayerVersion("9")) {
+	//frontff = false;
+  swfobject.embedSWF("/workFlash/frontpanel.swf", "front-flash", "942", "418", "9.0.0","expressInstall.swf", flashvars, params, attributes);
+}
+else {
+	frontff = false;
+}
+
+$(function(){
+	if (frontff== false){
+		var ppplist = ["EC01.jpg","EC02.jpg","EC03.jpg","EC04.jpg","GG01.jpg","GG02.jpg","GG03.jpg","GG04.jpg","GG05.jpg","GG06.jpg","PD01.jpg","PD02.jpg","PD03.jpg","PR01.jpg","PR02.jpg","PR03.jpg","PR04.jpg"];
+		var ppppos = Math.floor(Math.random()*17);
+		$('#front-flash').append('<img src="/workFlash/banners/'+ppplist[ppppos]+'"/>');
+	}
+});
+
+</script>
+<!-- End Flash scripts -->
+<!-- Google Analystics -->
+<!-- End Google Analystics -->
+</head>
+<body>
+	<div id="wrapper">
+		<!--Header first -->
+		<div id="header">
+			<div id="logo"><div id="logo_cag"><a href="/"><img src="/sites/all/themes/nuscag2012/images/logo_cag.png"/></a></div><div id="logo_lky"><a href="http://www.spp.nus.edu.sg" target="_blank"><img src="/sites/all/themes/nuscag2012/images/logo_lky.png"/></a></div><div id="logo_nus"><a href="http://www.nus.edu.sg" target="_blank"><img src="/sites/all/themes/nuscag2012/images/logo_nus.png"/></a></div></div>
+			<div id="top-navi">
+				<ul><li class="navitext"><a href="/who-we-are/about-cag" class="">Who we are</a><li><li class="verticaldivide"><!-- Divider --></li><li class="navitext"><a href="/content/what-we-do" class="">What we do</a><li><li class="verticaldivide"><!-- Divider --></li><li class="navitext"><a href="/content/books" class="">Publications</a><li><li class="verticaldivide"><!-- Divider --></li><li class="navitext"><a href="/who-we-are/contact-cag" class="">Contact CAG</a><li><li id="searchidform"><form action="/"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="search this site" class="form-text NormalTextBox txtSearch" onfocus="if (this.value == &#039;search this site&#039;) {this.value = &#039;&#039;;}" onblur="if (this.value == &#039;&#039;) {this.value = &#039;search this site&#039;;}" />
+</div>
+<div class="searchbut"><input type="image" name="op" value="Search" id="edit-submit"  class="form-submit" src="/sites/all/themes/nuscag2012/images/button-go.png" />
+</div><input type="hidden" name="form_build_id" id="form-be037057d181462fafe563a2db397302" value="form-be037057d181462fafe563a2db397302"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+
+</div></form>
+</li></ul>				
+			</div>
+		</div>
+		
+
+
+<!-- Body content -->
+		<div id="content-front">
+			<div id="front-masthead">
+				<div id="frontmastheadcontainer">
+					<div id="frontmastheadscroll">
+						<div class="frontmastheadpanel color1"><img src="/sites/default/files/fpanel_1.jpg"/><div class="fmhp_scroll color1">
+								<div class="fmhp_titlebar"><h3>Major Power Relations in the Asia-Pacific</h3></div>
+								<div class="fmhp_menubar">
+									<h3>Major Power Relations in the Asia-Pacific</h3><ul><li><a href="/content/major-power-relations-asia-pacific">Overview</a></li><li><a href="/content/china-india-relations-cooperation-between-two-asian-giants">China-India Relations: Cooperation between the Two Asian Giants</a></li><li><a href="/content/stlee-project-global-governance">S.T.Lee Project on Global Governance</a></li></ul></div></div></div><div class="frontmastheadpanel color2"><img src="/sites/default/files/fpanel_2new.jpg"/><div class="fmhp_scroll color2">
+								<div class="fmhp_titlebar"><h3>Regional Regimes in the Asia-Pacific</h3></div>
+								<div class="fmhp_menubar">
+									<h3>Regional Regimes in the Asia-Pacific</h3><ul><li><a href="/content/regional-regimes-asia-pacific">Overview</a></li><li><a href="/content/project-team">Project Team</a></li></ul></div></div></div><div class="frontmastheadpanel color3"><img src="/sites/default/files/fpanel_3new.jpg"/><div class="fmhp_scroll color3">
+								<div class="fmhp_titlebar"><h3>Public Goods Issues</h3></div>
+								<div class="fmhp_menubar">
+									<h3>Public Goods Issues</h3><ul><li><a href="/content/public-goods-issues">Overview</a></li><li><a href="/content/energy-policies-china-india-and-japan">Energy Policies of China, India and Japan</a></li><li><a href="/content/governing-security-21st-century-emerging-powers-and-strategies-cooperation">Governing Security in the 21st Century: Emerging Powers and Strategies for Cooperation</a></li><li><a href="/content/asia-europe-pilot-project-global-governance-asia-through-looking-glass-european-sovereign-de">Asia-Europe Pilot Project: Global Governance in Asia: Through the Looking Glass of the European Sovereign Debt Crisis</a></li><li><a href="/content/policies-environmentally-sustainable-development-comparative-perspectives-7-asian-countries">Policies for Environmentally Sustainable Development: Comparative Perspectives from 7 Asian Countries</a></li></ul></div></div></div><div class="frontmastheadpanel color4"><img src="/sites/default/files/fpanel_4new.jpg"/><div class="fmhp_scroll color4">
+								<div class="fmhp_titlebar"><h3>New Approaches to Building Markets in Asia</h3></div>
+								<div class="fmhp_menubar">
+									<h3>New Approaches to Building Markets in Asia</h3><ul><li><a href="/content/new-approaches-building-markets-asia">Overview</a></li><li><a href="/content/new-approaches-building-markets-asia-call-papers">Call for Papers</a></li><li><a href="/content/phase-1-workshop-1-public-organisations-and-new-approaches-building-markets-asia">Phase 1: Public organisations and market building </a></li><li><a href="/content/phase-2-workshop-2-regulation-private-sector-authority-and-market-building-asia">Phase 2: Regulation and private sector authority</a></li><li><a href="/content/phase-3-workshop-3-citizens-participation-and-politics-market-building-asia">Phase 3: Citizens, participation and  the politics of market building</a></li><li><a href="/content/new-approaches-building-markets-asia-project-team">Project Team</a></li><li><a href="/content/new-approaches-building-markets-asia-seminar-series">Seminar Series</a></li><li><a href="/content/new-approaches-building-markets-asia-working-paper-series">New Approaches to Building Markets in Asia Working Paper Series</a></li></ul></div></div></div>					</div>
+				</div>
+				<div id="front_mastheadleft" class="front_hoverbuttons"></div>
+				<div id="front_mastheadright" class="front_hoverbuttons"></div>
+			</div>
+			<div id="front-newspanel">
+					 
+<div id="node-171" class="node">
+
+
+
+  
+  <div class="content clear-block">
+    <h3>CAG Spotlight</h3>
+<div id="front-newscontainer">
+<ul>
+<li>
+<h4>Podcast</h4>
+<p><a target="_blank" href="http://english.cri.cn/8706/2013/04/01/2861s757110.htm"> <img width="63" height="62" alt="" class="imgleft" src="/sites/default/files/crjen.jpg" />Prof Huang Jing joins panel discussion on Chinese President Xi&rsquo;s first foreign trip </a></p>
+</li>
+<li>
+<h4>Webcast</h4>
+<p><a target="_blank" href="http://www.youtube.com/watch?v=a4T8LTFrCKg"> <img width="63" height="62" alt="" class="imgleft" src="/sites/default/files/2012_webcast_Hugh-White.jpg" />Keeping the Peace or Courting Conflict? America&rsquo;s Role in the Asian Century</a></p>
+</li>
+<li>
+<h4>News</h4>
+<p class="bigtext"><a href="content/policies-environmentally-sustainable-development-comparative-perspectives-7-asian-countries"><strong>Policies For Environmentally Sustainable Development</strong> </a></p>
+</li>
+<li>
+<h4>News</h4>
+<p class="bigtext"><a href="http://www.spp.nus.edu.sg/docs/publication/HDR2012%20framing%20note--public-rev3.pdf" target="_blank"><strong>Jochen Prantl commissioned to do UNDP Human Development Report 2012 </strong></a></p>
+</li>
+</ul>
+</div>
+  </div>
+
+
+</div>
+
+			</div>
+			<div id="front-eventspanel">
+				<div id="front-eventsleft">
+					<img src="/sites/default/files/ftext_join.jpg"/>				</div>
+				<div id="front-eventsright">
+					<h3>Jobs</h3><h4><a href="http://www.caglkyschool.com/content/join-cag">Academic Research Positions Open</a></h4> <p>For more details, please <a href="http://www.caglkyschool.com/content/join-cag">click here</a>.</p>				</div>
+				
+				
+				
+				
+			</div>
+		
+		
+
+			
+			<div class="emptydivider clearblock"><!-- empty --></div>
+		</div>
+<!-- Footer -->
+		<div id="footer">
+			<div class="footer-left">
+					<div class="bottom-navi">
+					<ul><li><a href="/terms-use" class="">Terms of Use</a></li><li><a href="/privacy-policy" class="">Privacy Policy</a></li><li><a href="/non-discrimination" class="">Non-discrimination</a></li><li><a href="/node/4/" class="">Contact CAG</a></li></ul>				</div>
+			</div>
+			<div class="footer-right">
+				<div id="copyright-text">© Copyright 2010-12 National University of Singapore. All Rights Reserved.</div>
+			</div>
+			<div class="clearblock"><!-- clearblock --></div>
+		</div>
+	
+	</div>
+	<script type="text/javascript">
+
+			//Cufon
+			Cufon.now();
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-16476599-1']);
+
+  _gaq.push(['_trackPageview']);
+
+ 
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+ 
+
+</script>
+</body>
+</html>

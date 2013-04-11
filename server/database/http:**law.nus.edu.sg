@@ -1,0 +1,1042 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- SEO PHP tags to go here -->
+<meta name="keywords" content="National University of Singapore, NUS, Singapore Universities">
+<meta name="description" content="A research-intensive university with an entrepreneurial dimension, NUS is ranked consistently as one of the world's top universities. We offer the most extensive selection of academic programmes in Singapore, collaborating with leading universities worldwide to provide our students with diverse opportunities for overseas exposure.">
+<meta name="google-site-verification" content="lugfEyWujtEX2BZKqXLGNke2f8E32VBVoXsNei3DONM" />
+<title>NUS - Faculty of Law : Asia's Global Law School</title>
+<!-- SEO PHP tags end -->
+
+<!--IE7 - IE8 Compatibility-->
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<!--IE7 - IE8 Compatibility end -->
+
+<link rel="stylesheet" type="text/css" href="styles/base.css" media="screen, print, projection, handheld" />
+<link rel="stylesheet" type="text/css" href="styles/print.css"  media="print" />
+<link rel="stylesheet" type="text/css" href="styles/screen.css"  media="screen, projection, print" />
+<link rel="stylesheet" type="text/css" href="styles/js.css"  media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="styles/mainnav.css"  media="screen, projection, print" />
+<link rel="stylesheet" type="text/css" href="styles/handheld.css"  media="handheld" />
+<link rel="stylesheet" type="text/css" href="styles/innerpage.css"  media="screen, print, projection" />
+<link rel="stylesheet" type="text/css" href="styles/homepage.css"  media="screen, print, projection" />
+
+<!-- Javascripts -->
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script type="text/javascript" src="js/jquery.cookie.js" ></script>
+<script type="text/javascript" src="js/jquery.dimensions.js" ></script>
+<script type="text/javascript" src="js/ui.base.js" ></script>
+<script type="text/javascript" src="js/ui.accordion.js" ></script>
+<script type="text/javascript" src="js/ui.sortable.min.js" ></script>
+<script type="text/javascript" src="js/main.js" ></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/fadeslideshow.js">
+
+/***********************************************
+* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+</script>
+
+<script type="text/javascript">
+var mygallery2=new fadeSlideShow({
+	wrapperid: "slideshow", //ID of blank DIV on page to house Slideshow
+	dimensions: [640, 400], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		//["images/home_slideshow/banner-OH12.jpg", "http://openhouse.nuslawclub.com/", "_new", "Faculty of Law Open House 2012"],
+		//["images/home_slideshow/banner-commencement.jpg", "http://law.nus.edu.sg/alumni/alumni_directory.asp?Year=2012", "_new", "Congratulations to the Class of 2012"],
+		["images/home_slideshow/banner-judiciarylunch.jpg", "http://law.nus.edu.sg/about_us/news/2013/judiciarylunch2013.html", "", "Annual Judiciary Lunch 2013"],		
+		["images/home_slideshow/banner-OH13.jpg", "http://law.nus.edu.sg/about_us/news/2013/openday2013.html", "", "Faculty of Law Open Day"],
+		["images/home_slideshow/CorpVideo.jpg", "http://www.youtube.com/watch?v=xH-pZA3r3R4&gl=SG&hl=en-GB", "_new", "Faculty of Law Corporate Video"],
+		["images/home_slideshow/banner-21.jpg"],		
+        ["images/home_slideshow/banner-22.jpg"],
+		["images/home_slideshow/banner-19.jpg"],
+		["images/home_slideshow/banner-16.jpg"],
+		["images/home_slideshow/banner-15.jpg"],
+		["images/home_slideshow/banner-12.jpg"],
+		["images/home_slideshow/banner-12a.jpg"],
+		["images/home_slideshow/banner-14.jpg"],
+		["images/home_slideshow/banner-9.jpg"],
+		["images/home_slideshow/banner-11.jpg"],		
+		["images/home_slideshow/banner-2.jpg"],		
+		["images/home_slideshow/banner-6.jpg"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:3000, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 800, //transition duration (milliseconds)
+	descreveal: "ondemand",
+	togglerid: ""
+})
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- /Javascripts -->
+
+</head>
+
+<body onload="MM_preloadImages('images/shortcut/nyu_nus_over.jpg','images/shortcut/asli_over.jpg','images/shortcut/asiansil_over.jpg','images/shortcut/cil_over.jpg','images/shortcut/apcel_over.jpg','images/shortcut/ccls_over.jpg')">
+<a id="top" name="top"></a>
+
+<div id="wrapper">
+  <!-- header -->
+  <div id="header">
+    <h1 class="ir"><a href="http://www.nus.edu.sg/" >National University of Singapore<span></span></a></h1>
+    <div id="pointermenu2" >
+     <ul>
+        <li><a href="http://exchange.nus.edu.sg/" target="_blank"><span style="text-transform:none">myEMAIL</span></a></li>
+        <li><a href="http://ivle.nus.edu.sg/lms/default.aspx" target="_blank">ivle</a></li>
+        <li><a href="http://www.lib.nus.edu.sg/" target="_blank">library</a></li>
+        <li><a href="http://www.nus.edu.sg/campusmap/" >maps</a></li>
+        <li><a href="https://aces01.nus.edu.sg/CoE/jsp/coeMain.jsp" >calendar</a></li>
+        <li><a href="/sitemap.html" >sitemap</a></li>
+        <!--<li><a href="#">a-z index</a></li>-->
+        <li><a href="/contactus.html" >contact</a></li>
+        <!--<li><a href="#"><font color="#FFFF00">&#20013;&#25991;&#29256;</font></a></li>-->
+        <li><a href="#" id="rightcorner">&nbsp;</a></li>
+      </ul>
+      <br style="clear: left" />
+    </div>
+    <!--#00000 : search script is added here cos every it
+    must be added to every page.-->
+    <script src="http://www.nus.edu.sg/templates/nus/js/search.js" type="text/javascript"></script>
+    <div id="searchform">
+      <form id="frmSearch" name="frmSearch" onsubmit="evalSearch();return false">
+        <a href="http://www.nus.edu.sg/search/" style="text-decoration:none; font-size:11px; font-weight:bold; color:#666666">Search </a>
+        <!--input id=txtKeyword name=txtKeyword type="Text" value="search for..." onfocus="value=''" class="equal" size="18"-->
+        <input id="q" name="q" type="Text" value="search for..." onfocus="value=''" class="equal" size="18" />
+        in
+        <select id="SearchMenu" name="SearchMenu">
+          <!--OPTION selected value="0">NUS Websites</OPTION-->
+          <option value="1">Internet</option>
+          <option value="2">Staff Directory</option>
+          <!--OPTION value="3">Advanced Search</OPTION-->
+        </select>
+        <input class="equal" id="Go" src="/images/go.jpg"  type="image" />
+      </form>
+    </div>
+  </div>
+
+     <!-- main navigation -->
+  <div id="menu" >
+  <ul>
+      <!-- About NUS -->
+      <li><a href="/index.html">Home
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+         <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+
+      <!-- About us -->
+      <li><a href="/about_us/index.html" >About us
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a href="/about_us/index.html">About the Faculty</a></li>
+          <li><a href="/about_us/deans_welcome.html">Dean's Welcome</a></li>
+          <li><a href="/about_us/history_milestones.html">History & Milestones</a></li>
+          <li><a href="/about_us/benefactors.html">Benefactors</a></li>
+          <li><a href="/about_us/administration.html">Administration</a></li>
+          <li><a href="/about_us/faculty/staff/staffdiv.asp">Academic Profiles</a></li>
+          <li><a href="/about_us/visitor_profile.html">Visiting Faculty</a></li>
+          <li><a href="/about_us/student_profile.html">Student Profile</a></li>
+          <li><a href="/about_us/careers.html">Careers at NUS Law</a></li>
+          <li><a href="/about_us/advisors.html">Advisors</a></li>
+          <li><a href="/about_us/news.html">News & Events</a></li>
+          <li><a href="/about_us/location.html">Location</a></li>
+          <li><a href="/images/NUSLaw.jpg">NUS Law Logo</a></li>
+	    <li><a href="/about_us/curriculum_review/index.html">Curriculum Review</a></li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+
+      <!-- Admissions -->
+      <li><a href="/admissions/index.html" >Admissions
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+           <li><a href="/admissions/llb_prog.html">Undergraduate Programmes</a></li>
+          <li><a href="/admissions/grad_prog.html">Graduate Programmes</a></li>
+          <li><a href="http://www.nus.edu.sg/osa/international/" target="_blank">International Student Services</a></li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+
+
+<!-- Student Matters -->
+      <li><a href="/student_matters/index.html" >Student Matters
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a href="/student_matters/llb_prog.html" >LLB Programmes</a></li>
+          <li><a href="/student_matters/grad_prog.html" >Graduate Programmes</a></li>
+          <li><a href="/student_matters/student_ex.html" >Student Exchange Programmes</a></li>
+          <li><a href="/student_matters/course_listings.html" >Course Listings</a></li>
+          <li><a href="/student_matters/cross_fac_mod.html" >Law Modules for Non-Law Students</a></li>
+          <li><a href="/student_matters/intl_moots.html" >International Moots</a></li>
+          <li><a href="/student_matters/lawcareers.html" >Career Services</a></li>
+          <li><a href="/student_matters/medals_prizes.html" >Medals & Prizes</a></li>
+          <li><a href="/student_matters/stud_feedback_ex.html" >Student Feedback Exercise</a></li>
+          <li><a href="http://nuslawclub.com/" target="_blank" >Law Club</a></li>
+          <li><a href="http://www.singaporelawreview.org/" target="_blank">Singapore Law Review</a></li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+
+      <!-- CLE -->
+      <li><a href="/cle/index.html" >CLE
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a href="/cle/index.html" >Continuing Legal Education</a></li>
+          <li><a href="/cle/courses.html" >Courses</a></li>
+          <li><a href="/cle/partA_bar/partA_bar_course.html">Part A Bar Course</a></li>
+          <li><a href="/cle/cpdseminars.html">CPD Seminars</a></li>
+          <li><a href="/cle/mini_courses.html" >Mini Courses</a></li>
+          <li><a href="/cle/staff_seminars.html" >Staff Seminars</a></li>
+          <li><a href="/cle/public_seminars.html" >Public Seminars</a></li>
+          <li><a href="/cle/past_activities.html" >Past Activites</a></li>
+          <li><a href="/cle/contacts.html" >Contact</a></li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+
+       <!-- Research & Publications -->
+      <li><a href="/research_publications/index.html" >Research & Publications
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a href="/research_publications/research_area.asp" >Faculty Research Interests</a></li>
+          <li><a href="/research_publications/journals.html" >Journals</a></li>
+          <li><a href="/research_publications/visiting_rsh_prog.html">Visiting Researcher Programme</a></li>
+          <li><a href="/alumni/lawlink.html" >Lawlink</a></li>
+          <li><a href="/about_us/faculty/staff/lawpubv2.asp" >Staff Publication Listings</a></li>
+          <li><a href="https://aces01.nus.edu.sg:443/webspb" target="_blank" >Staff Research Publication System</a></li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+
+      <!-- Institutes & Centres -->
+      <li><a href="#" >Institutes &amp; Centres
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+          <li><a href="http://law.nus.edu.sg/asli/" target="_blank">ASLI</a></li>
+            <li><a href="http://law.nus.edu.sg/apcel/" target="_blank" >APCEL</a></li>
+            <li><a href="http://law.nus.edu.sg/clb/" target="_blank" >CLB</a></li>
+            <li><a href="http://www.asiansil.org/" target="_blank" >AsianSIL</a></li>
+            <li><a href="http://cil.nus.edu.sg/" target="_blank" >CIL</a></li>
+            <li><a href="http://law.nus.edu.sg/cals/" target="_blank" >CALS</a></li>
+        </ul>
+        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+
+       <!-- staff intranet -->
+      <li><a href="https://share.nus.edu.sg/law/intranet/default.aspx" target="_blank">Staff Intranet
+        <!--[if IE 7]><!--></a><!--<![endif]-->
+        <!--[if lte IE 6]><table><tr><td><![endif]-->
+         <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+      <!-- staff intranet -->
+
+      <!--/li-->
+    </ul>
+
+  </div>
+  <!-- /main navigation -->
+
+  <div id="content">
+    <div id="title1" class="title">
+
+      <font color="#FFFFFF" face="Arial">
+
+      <br>
+      </font>
+    	<font color="#FFFFFF" face="Georgia" size="5"><i>&nbsp;&nbsp;&nbsp;&nbsp;Asia&#8217s Global Law School</i></font>
+    </div>
+
+    <div id="full-content">
+
+      <!-- content area -->
+
+      <table border="0" cellspacing="0" cellpadding="0" width="951">
+        <tr>
+          <td valign="top" colspan="2">&nbsp;</td>
+          <td width="8"><div id="spacer_8"></div></td>
+          <td width="302">&nbsp;</td>
+        </tr>
+        <tr>
+          <td valign="top" height="320px" colspan="2">
+          <!-- Silde Show -->
+          <div id="slideshow"></div>
+          <!-- /Slide Show -->
+          </td>
+
+          <td width="8"><div id="spacer_"></div></td>
+
+          <td align="center" width="302">
+
+            <!-- Right shortcut links -->
+            <div id="StandardAccordion">
+             <!-- Prospective Students -->
+              <div class="firstTitle">
+
+                <h2><a href="http://www.nus.edu.sg" ><span>
+                  <div class="title">Prospective Students</div>
+                  </span></a></h2>
+                      <div class="inner">
+                        <ul>
+                          <li><a href="about_us/deans_welcome.html" >Dean's Welcome</a></li>
+                          <li><a href="admissions/nuslawadvantage.html">The NUS Advantage</a></li>
+                          <li><a href="admissions/llb_prog.html">LLB Programmes</a></li>
+                          <li><a href="admissions/grad_prog.html" >Graduate Programmes</a></li>
+                          <li><a href="student_matters/student_ex/incoming_exchanges.html" >Exchange Students</a></li>
+                          <li><a href="cle/partA_bar/partA_bar_course.html" >Part A Bar Course</a></li>
+                         </ul>
+
+                        </div>
+              </div>
+              <!-- /Prospective Students -->
+
+                 <!-- Current Students -->
+              <div class="middleTitle">
+
+                <h2><a href="#" class="ir"><span>
+                  <div class="title">Current Students</div>
+                  </span></a></h2>
+                <div class="inner">
+                  <ul>
+                    <li><a href="student_matters/llb_prog.html">LLB Programmes</a></li>
+                    <li><a href="http://www.nus.edu.sg/prog/econlaw/" target="_blank">Double Honours Degree in Economics & Law</a></li>
+                    <li><a href="http://www.nus.edu.sg/prog/bbalaw/overview.html" target="_blank">Double Degree Programme in Business Administration and Law</a></li>
+                    <li><a href="http://www.nus.edu.sg/prog/lawlifesciences/" target="_blank">Double Degree Programme in Law and Life Sciences</a></li>
+                    <li><a href="http://www.nus.edu.sg/prog/mpplaw/" target="_blank">Concurrent Degree Programme in Law and Public Policy</a></li>
+                    <li><a href="student_matters/grad_prog.html">Graduate Programme</a></li>
+                    <li><a href="student_matters/student_ex.html">Student Exchange Programme</a></li>
+                    <li><a href="student_matters/course_listings.html">Course Listings</a></li>
+                    <li><a href="student_matters/cross_fac_mod.html">Cross-Faculty Modules</a></li>
+                    <li><a href="student_matters/intl_moots.html">International Moots</a></li>
+                    <li><a href="student_matters/vac_int_prog.html">Vacation Internship Programme</a></li>
+                    <li><a href="student_matters/medals_prizes.html">Prizes & Medals</a></li>
+                    <li><a href="#" target="_blank">Student Feedback Exercise</a></li>
+                  </ul>
+
+                </div>
+                </div>
+              <!--/Current Students-->
+
+			<!-- About the Faculty -->
+              <div class="middleTitle">
+
+                <h2><a href="#" class="ir"><span>
+                  <div class="title">About the Faculty</div>
+                  </span></a></h2>
+                <div class="inner">
+                  <ul>
+                    <li><a href="about_us/index.html" target="_blank">About the Faculty </a></li>
+                    <li><a href="about_us/history_milestones.html" target="_blank">History & Milestones</a></li>
+                    <li><a href="about_us/administration.html" target="_blank">Administration </a></li>
+                    <li><a href="about_us/faculty/staff/staffdiv.asp" target="_blank">Academic Profiles</a></li>
+                    <li><a href="about_us/visitor_profile.html" target="_blank">Visitor Profiles </a></li>
+                    <li><a href="about_us/student_profile.html" target="_blank">Student Profile </a></li>
+                    <li><a href="about_us/careers.html" target="_blank">Careers at NUS Law</a></li>
+                    <li><a href="cle/index.html" target="_blank">Continuing Legal Education</a></li>
+                    <li><a href="about_us/advisors.html" target="_blank">Advisors</a></li>
+                    <li><a href="about_us/news.html" target="_blank">News & Events </a></li>
+                    <li><a href="about_us/location.html" target="_blank">Location </a></li>
+                  </ul>
+
+                </div>
+              </div>
+
+
+              <!--/About the Faculty -->
+
+              <!-- Alumni -->
+              <div class="middleTitle">
+
+                <h2><a href="http://www.nus.edu.sg/research/rg_index.php" class="ir"><span>
+                  <div class="title">Alumni</div>
+                  </span></a></h2>
+                <div class="inner">
+                  <ul>
+                    <li><a href="alumni/alumni_events.html">Events</a></li>
+                    <li><a href="alumni/lawlink.html">LawLink</a></li>
+                    <li><a href="alumni/alumni_news.html">Alumni in the News</a></li>
+                    <li><a href="alumni/alumni_directory.html">Alumni Directory</a></li>
+                    <li><a href="alumni/alumni_benefactors.html">Benefactors</a></li>
+                    <li><a href="http://giving.nus.edu.sg/give/detail/faculty-of-law/">Make a Gift Online</a></li>
+                    <li><a href="alumni/alumni_donations.html">Make a Donation</a></li>
+                    <li><a href="alumni/alumni_update_particulars.asp" >Update Your Particulars</a></li>
+                    <li><a href="alumni/alumni_reunions.html">Alumni Reunions</a></li>
+                    <li><a href="alumni/services.html">Alumni Services</a></li>
+                    <li><a href="alumni/kathrynworth.html">Kathryn Aguirre Worth Memorial Scholarship</a></li>
+                  </ul>
+
+                </div>
+              </div>
+              <!-- /Alumni -->
+
+
+
+
+                      <!-- Resources -->
+              <div class="middleTitle">
+
+                <h2><a href="#" class="ir"><span>
+                  <div class="title">Resources</div>
+                  </span></a></h2>
+                <div class="inner">
+                  <ul>
+                  <li><a href="https://ivle.nus.edu.sg/" target="_blank" >IVLE</a></li>
+                  <li><a href="http://libportal.nus.edu.sg/frontend/ms/c-j-koh-law-library/about-c-j-koh-law-library" target="_blank">CJ Koh Law Library</a></li>
+                  <li><a href="http://libportal.nus.edu.sg/frontend/index" target="_blank" >Library Portal</a></li>
+                  <li><a href="https://proxylogin.nus.edu.sg/lawproxy1/public/login.asp?logup=false&url=http://edu.lawnet.com.sg" target="_blank">LawNet</a></li>
+                  <li><a href="https://proxylogin.nus.edu.sg/libproxy1/public/login.asp?logup=false&url=http://www.lexisnexis.com/sg" target="_blank">LexisNexis</a></li>
+                  <li><a href="https://proxylogin.nus.edu.sg/lawproxy1/public/login.asp?logup=false&url=http://www.westlaw.com/signon/default.wl?sp=NUS-2009&rs=imp1.0&vr=1.0&cbhf=none" target="_blank" >WestLaw</a></li>
+                  <li><a href="https://proxylogin.nus.edu.sg/lawproxy1/public/login.asp?logup=false&url=http://heinonline.org/" target="_blank">HeinOnline</a></li>
+                  <li><a href="https://proxylogin.nus.edu.sg/lawproxy1/public/login.asp?logup=false&url=http://www.casetrack.com" target="_blank">CaseTrack</a></li>
+                  <li><a href="http://www.cit.nus.edu.sg/nusfacilities/" target="_blank">Facility Bookings</a></li>
+                  <li><a href="http://linc.nus.edu.sg/" target="_blank">Linc</a></li>
+                  <li><a href="http://cil.nus.edu.sg/2009/cil-documents-database/" target="_blank">CIL Documents</a></li>
+                  </ul>
+
+                </div>
+              </div>
+
+
+              <!--/Resources -->
+
+              <!-- Calendar -->
+              <div class="middleTitle">
+
+                <h2><a href="#" class="ir"><span>
+                  <div class="title">Calendar</div>
+                  </span></a></h2>
+                <div class="inner">
+                  <ul>
+                    <li><a href="http://www.nus.edu.sg/registrar/calendar.html">University Academic Calendar</a></li>
+                    <li><a href="about_us/calendar/pdfs/Cal_1213s1.pdf">Academic Calendar Semester 1</a></li>
+                    <li><a href="about_us/calendar/pdfs/Cal_1213s2.pdf">Academic Calendar Semester 2</a></li>
+                    <li><a href="about_us/calendar/events.html">Upcoming Events</a></li>
+                    <li><a href="alumni/alumni_events.html">Alumni Events</a></li>
+                    <li><a href="about_us/calendar/past_events.html">Past Events</a></li>
+                  </ul>
+
+                </div>
+              </div>
+
+
+              <!--/Calendar -->
+
+
+              <!-- Useful links -->
+              <div class="lastTitle">
+                <h2><a href="#" ><span>
+                  <div class="title">Useful Links</div>
+                  </span></a></h2>
+  <div class="inner">
+    <ul>
+
+      <li><a href="about_us/useful_links.html">NUS Links</a></li>
+      <li><a href="about_us/useful_links.html#sing" >Singapore Links</a></li>
+      <li><a href="about_us/useful_links.html#intl" >International Links</a></li>
+      <li><a href="about_us/useful_links.html#std_alm" >Student and Alumni Links</a></li>
+      </ul>
+
+    </div>
+              </div>
+            </div>
+            <!-- /Useful links -->
+
+            <!-- Right shortcut links -->
+          </td>
+        </tr>
+        <tr>
+          <td valign="top" class="table_padding" bgcolor="#eeeeee" width="365">
+			<h6>
+			<a href="NUS_Law_14Jun11-H264_WEB.mov">Law School Corporate Video
+			<font style="font-size: 6pt">(MOV 78.9 MB)</font></a></h6>
+			</td>
+          <td valign="top" class="table_padding" bgcolor="#eeeeee" width="256"><h6 align="right">
+			<a href="about_us/news.html">Featured Faculty News and Announcements</a>&raquo;</h6></td>
+          <td width="8">&nbsp;</td>
+          <td align="center" width="302">&nbsp;</td>
+        </tr>
+        <tr>
+          <td valign="top" colspan="2">&nbsp;</td>
+          <td width="8"><div id="spacer_2"></div></td>
+          <td align="center" width="302">&nbsp;</td>
+        </tr>
+        <tr>
+          <td valign="top" colspan="2">
+            <!-- Events -->
+            <div class="expandable-box new">
+              <div class="inner">
+                  <span class="newHeading">Latest News</span>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding"><strong>
+	<a href="about_us/faculty_news.html">Faculty in the News, Op-Eds, Articles 
+	and Feature Stories</a></strong></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding"><strong>
+	<a href="about_us/faculty/staff/recent_pub_dec12_feb13.html">Recent Staff Publications</a></strong></td>
+  </tr>  
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding"><strong>
+	<a href="about_us/careers.html">Careers at NUS Law</a></strong></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2013/ST300313.pdf">The Ten Cyberspace Commandments: 
+	Op-ed by Assoc Prof David Tan</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2013/judiciarylunch2013.html">Annual Lunch – NUS Law 
+	and Judiciary on 13 March 2013</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2013/ST270313.pdf">NUS Law goes for better student 
+	mix: Straits Times article features interview with Dean Simon Chesterman</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2013/ST160313.pdf">Why Study by Dean Simon Chesterman</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2013/ST030313.pdf">He went from jail to NUS law 
+	school</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2013/ST020213.pdf">Building culture of respect 
+	online: Op-ed by Prof Tan Cheng Han &#39;87</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2013/ST260113.pdf">Climate 
+									change: What do we owe the future- Op-ed by 
+									Dean Simon Chesterman </a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2013/newsGohYihanAmicusCuriae.pdf">Asst Prof Goh 
+	Yihan ‘06 appears as Amicus Curiae before Court of Appeal</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2012/ST081212.pdf">Dean Simon Chesterman on educating 
+	tomorrow&#39;s lawyers</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2012/ST271112.pdf">AG Steven Chong '82 on boosting expertise in arbitration</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2012/newsEMPKohpublication.pdf">New publication- 
+	ASEAN Environmental Law, Policy and Governance: Selected Document</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2012/newsBeckmanpublication.pdf">New publication- 
+	Piracy and International Maritime Crimes in ASEAN: Prospects for Cooperation</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2012/ST131012_1.pdf">A step forward for 
+	self-regulation online: Op-ed by Prof. Tan Cheng Han &#39;87</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2012/ST131012.pdf">Personal data: How best to protect 
+	kids online: Op-ed by Prof. Tan Cheng Han &#39;87</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2012/ST061012.pdf">Who will decide on his behalf-
+	op-ed by Assoc Prof Tang Hang Wu</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2012/newsdavidtan.pdf">David Tan promoted to
+	Associate Professor</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2012/ST051012.pdf">First Alternative Dispute
+	Resolution – Assoc Prof Joel Lee Quoted In Discussion</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2012/ST170912.pdf">Fee guides: Focus on patients,
+	real charges – Op-ed by Assoc Prof Burton Ong </a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2012/ST090912.pdf">Bookends – Interview with Prof
+	Walter Woon’81 from NUS Law on his current reads</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2012/ST110912.pdf">Law schools debate on pro bono
+	work</a></td>
+  </tr>
+  <tr>
+    <td width="3%" align="center" valign="top" class="inner_padding">+</td>
+    <td valign="top"  class="inner_padding">
+	<a href="about_us/news/2012/ST010912.pdf">Is Germany China&#39;s new best
+	friend? - Associate Prof Wang Jiangyu of NUS Law quoted in commentary</a></td>
+  </tr>
+                  </table>
+                  <p><a class="more" href="about_us/news.html">read more</a></p>
+
+                </div>
+                <!--/inner-->
+
+              <p class="tab"><a href="#" class="ir">Toggle<span style="position: absolute; left: -5px; top: 1px; width: 106px; height: 100px"></span></a></p>
+            </div>
+            <!-- /Events-->
+
+          </td>
+          <td width="8"><div id="spacer_3"></div></td>
+          <td align="center" valign="top" width="302">
+            <!-- Quicklinks -->
+            <div id="latest-news">
+              <div class="expandable-box theLinks">
+                 <div class="inner">
+        <span class="newHeading">Students Announcements</span>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+              <tr>
+                <td width="5%" valign="top">+</td>
+                <td valign="top"><strong class="red_text">
+				<a class="red_text" href="pdfs/student_matters/LawNet_Exit_Guide.pdf">Important: Logging Out From LawNet</a></strong></td>
+              </tr>
+              <tr>
+                <td width="5%" valign="top">&nbsp;</td>
+                <td valign="top">
+				&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="5%" valign="top">+</td>
+                <td valign="top">
+				<a href="student_matters/llb_prog/ay1213/summer/info_nyu_nus.html">
+				NYU@NUS Summer Session 2013 - Module Registration</a></td>
+              </tr>
+              <tr>
+                <td width="5%" valign="top">&nbsp;</td>
+                <td valign="top">
+				&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="5%" valign="top">+</td>
+                <td valign="top">
+				<a href="http://nus.edu.sg/iro/ied">iJourney Video Competition</a></td>
+              </tr>
+				<tr>
+                <td width="5%" valign="top">&nbsp;</td>
+                <td valign="top">&nbsp;</td>
+              </tr>
+				<tr>
+                <td width="5%" valign="top">+</td>
+                <td valign="top">
+				<a href="student_matters/grad_prog/curriculum_courses.html">Sem
+				2 Module Registration and Class Information for Graduate
+				Students </a></td>
+              </tr>
+				<tr>
+                <td width="5%" valign="top">&nbsp;</td>
+                <td valign="top">&nbsp;</td>
+              </tr>
+				<tr>
+                <td width="5%" valign="top">+</td>
+                <td valign="top">
+				<a href="student_matters/llb_prog/reg_for_electives.html">Sem 2
+				Module Registration and Class Information for UG and Incoming
+				Exchange Students </a></td>
+              </tr>
+				<tr>
+                <td width="5%" valign="top">&nbsp;</td>
+                <td valign="top">&nbsp;</td>
+              </tr>
+				<tr>
+                <td width="5%" valign="top">+</td>
+                <td valign="top">
+				<a href="http://law.nus.edu.sg/student_matters/llb_prog/non_law_subjects.html">
+				Sem 2 Module Registration for Non-Law Modules </a></td>
+              </tr>
+              <tr>
+                <td width="5%" valign="top">&nbsp;</td>
+                <td valign="top">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="5%" valign="top">+</td>
+                <td valign="top">
+				<a href="http://law.nus.edu.sg/student_matters/student_ex/outgoing_exchanges.html">SEP Application AY2011/2012</a></td>
+              </tr>
+              <tr>
+                <td width="5%" valign="top">&nbsp;</td>
+                <td valign="top">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="5%" valign="top">+</td>
+                <td valign="top">
+				<a href="student_matters/llb_prog/minor_programmes.html">Information on Minor Programmes</a></td>
+              </tr>
+        </table>
+
+        <p>&nbsp;</p>
+
+
+      </div>
+              <!--/inner-->
+                <p class="tab"><a href="#" class="ir">Toggle<span></span></a></p>
+
+              </div>
+
+            </div>
+            <!-- /Quicklinks -->
+          </td>
+        </tr>
+        <tr>
+          <td valign="top" colspan="2">&nbsp;</td>
+          <td width="8">&nbsp;</td>
+          <td align="center" valign="top" width="302">&nbsp;</td>
+        </tr>
+        <tr>
+          <td valign="top" colspan="2">
+            <!-- Student Annoucements -->
+            <div class="expandable-box new">
+    <div class="inner">
+                <span class="newHeading">Events</span>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                  <tr>
+                    <td valign="top">
+                    <h2><b><a href="http://law.nus.edu.sg/cle/cpdseminars.html">
+                    Seminar on Negligence, Duty of Care and The Court of Appeal: A Review of The Spandeck Test and The Way Forward by Associate Professor David Tan<!--170413--></a></b></h2>
+                    Date: 17 April 2013, Wednesday
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">&nbsp;</td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">
+                    <h2><b><a href="http://www.law.nus.edu.sg/cle/public_seminars.html">
+                    CLE Public Seminar on Banking Law and Practice – A Valedictory Lecture by Emeritus Professor Peter Ellinger</a></b></h2>
+                    Date: 22 April 2013
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">&nbsp;</td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">
+                    <h2><b><a href="http://law.nus.edu.sg/pdfs/cals/events/nicholson_vcri.pdf">
+                    Vietnamese Courts: Reform and Identity by Professor Pip Nicholson</a></b></h2>
+                    Date: 22 April 2013
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">&nbsp;</td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">
+                    <h2><b><a href="http://law.nus.edu.sg/cle/cpdseminars.html">
+                    Seminar on Recent Developments in Singapore Contract Law (2012-2013) by Assistant Professor Goh Yihan<!--220513--></a></b></h2>
+                    Date: 22 May 2013, Wednesday
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">&nbsp;</td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">
+                    <h2><b><a href="http://law.nus.edu.sg/asli/10th_asli_conf/">
+                    10th Asian Law Institute Conference 2013 Celebrating Diversity: 10 Years of Asian Law Institute</a></b></h2>
+                    Date: 23 &amp; 24 May 2013
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">&nbsp;</td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">
+                    <h2><b><a href="http://law.nus.edu.sg/cle/cpdseminars.html">
+                    Seminar on Perspectives on the Syariah - Its Development and Interpretations<!--040913--></a></b></h2>
+                    Date: 4 September 2013, Wednesday
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">&nbsp;</td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">
+                    <h2><b><a href="http://www.asiansil.org/index.php?option=com_events&view=detail&task=detail&CurId=150&Itemid=184">
+                    4th Biennial AsianSIL Conference - Call for Papers</a></b></h2>
+                    14-16 November 2013<br />
+                    New Delhi, India
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">&nbsp;</td>
+                  </tr>
+
+                  <!--<tr>-->
+                    <!--<td valign="top">-->
+                    <!--<h2><b><a href="http://law.nus.edu.sg/asli/current_fellows.html">-->
+                    <!--ASLI Fellows’ Seminars</a></b></h2>-->
+                    <!--Date: 20 March 2013<br />-->
+                    <!--<u>Session One</u><br />-->
+                    <!--<a href="http://law.nus.edu.sg/asli/fellows/bio/pdf/Jones_Ridge.pdf">Towards an &quot;Asian&quot; Child Abduction Convention? Singapore and the Hague Treaty by Professor Colin P.A. Jones, Doshisha University in Kyoto, Japan</a>-->
+                    <!--<br /><br />-->
+                    <!--<u>Session Two</u><br />-->
+                    <!--<a href="http://law.nus.edu.sg/asli/fellows/bio/pdf/Jones_Ridge.pdf">Accessorial Liability in Equity by Assoc. Prof. Pauline Ridge, Australian National University, Australia</a>-->
+                    <!--</td>-->
+                  <!--</tr>-->
+
+                  <!--<tr>-->
+                    <!--<td valign="top">&nbsp;</td>-->
+                  <!--</tr>-->
+
+                  <!--<tr>
+                    <td valign="top">
+					<h2><b><a href="http://law.nus.edu.sg/asli/9th_asli_conf/index.html">
+					The 9<sup>th</sup> Asian Law Institute Conference 2012</a></b></h2>
+					Date: 31 May &amp; 1 June 2012
+					</td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">&nbsp;</td>
+                  </tr>-->
+
+                  <!--<tr>
+                    <td valign="top">
+					<h2><font color="#003399"><b><span style="font-size: 0.9em">
+					One Nation Under Surveillance<br>
+					A New Social Contract to Defend Freedom Without Sacrificing
+					Liberty</span></b></font></h2>
+					<p>Speaker : Prof Simon Chesterman<br>
+					Date : 4 March 2011<br>
+					Time : 5.00pm to 7.00pm<br>
+					Venue : Auditorium, Level 3, Blk B, Faculty of Law, NUS
+					(Bukit Timah Campus)<br>
+					<br>
+					Please click
+					<a href="http://law.nus.edu.sg/pdfs/cle/seminars/chesterman_onusnscdfwsl.pdf">
+					<font color="#547DC9"><u>HERE</u></font> </a>to download the
+					full brochure for more details<br>
+					<br>
+					Please click
+					<font color="#547DC9">
+					<a href="http://law.nus.edu.sg/pdfs/cle/seminars/chesterman_onusnscdfwsl_regform.pdf"><u>
+					<font color="#547DC9">HERE</font></u></a></font> to download the
+					registration form</td>
+                  </tr>-->
+
+                  <!--tr>
+                    <td valign="top">
+					<h2><b><a href="about_us/news/2010/Academic_Positions.pdf">
+					Academic Positions at NUS Faculty of Law</a></b></h2>
+					</td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">
+					<a href="about_us/news/2010/Academic_Positions.pdf">
+					Application deadline: 31 Dec 2010 and 1 Jun 2011</a></td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">&nbsp;</td>
+                  </tr-->
+
+                  <!--tr>
+                    <td valign="top">
+					<h2><b><a href="/pdfs/ccls/events/tarbert_frrus.pdf">
+					CCLS SEMINAR ON FINANCIAL REGULATORY REFORM IN THE UNITED STATES</a></b></h2>
+					Speaker : Dr. Heath P. Tarbert, Weil Gotshal &amp; Manges, LLP<br />(formerly Associate Counsel to the President of the United States &amp; Special Counsel to the U.S. Senate Banking Committee)<br />
+					Date: 18 October 2010, Monday
+					</td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">&nbsp;</td>
+                  </tr-->
+
+                  <!--Recurring feature. Do NOT delete.-->
+                  <!--<tr>-->
+                    <!--<td valign="top">-->
+					<!--<h2><b><a href="cle/courses/continuing_legal_education_auditing_programme.html">-->
+					<!--Continuing Legal Education Auditing Programme</a></b></h2></td>-->
+                  <!--</tr>-->
+
+                  <!--<tr>-->
+                    <!--<td valign="top">&nbsp;</td>-->
+                  <!--</tr>-->
+                  
+                  <!--<tr>
+                    <td valign="top">
+					<h2><b><a href="http://www.law.nus.edu.sg/cle/courses/graduate_certificate_in_international_arbitration.html">
+					Graduate Certificate in International Arbitration</a></b></h2>
+					</td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">&nbsp;</td>
+                  </tr>-->
+                  
+                  <tr>
+                    <td valign="top">
+					<h2><b><a href="cle/courses/BARBRI_new_york_bar_review_course.html">
+					BARBRI New York Bar Review Course</a></b></h2></td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top">&nbsp;</td>
+                  </tr>
+                  
+
+
+                  <tr>
+                    <td valign="top"><a href="about_us/calendar/events.html" class="more">read more</a></td>
+                  </tr>
+                </table>
+
+
+
+              </div>
+              <!--/inner-->
+              <p class="tab"><a href="#" class="ir">Toggle<span></span></a></p>
+            </div>
+            <!-- /Student Annoucements-->
+
+          </td>
+          <td width="8">&nbsp;</td>
+          <td align="center" valign="top" width="302"><table border="0" cellspacing="0" cellpadding="0" align="right">
+            <tr>
+              <td align="center" valign="top"><a href="http://www.law.nyu.edu/llmjsd/llmsingapore/index.htm" target="_blank"><img src="images/shortcut/nyu_nus.jpg" alt="nyu_nus" width="146" height="59" id="Image1" onmouseover="MM_swapImage('Image1','','images/shortcut/nyu_nus_over.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+              <td align="right" valign="top"><a href="http://law.nus.edu.sg/asli/" target="_blank"><img src="images/shortcut/asli.jpg" alt="ASLI" width="146" height="59" id="Image2" onmouseover="MM_swapImage('Image2','','images/shortcut/asli_over.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="top" height="5px"></td>
+              </tr>
+            <tr>
+              <td align="center" valign="top"><a href="http://www.asiansil.org/" target="_blank"><img src="images/shortcut/asiansil.jpg" alt="AsianSIL" width="146" height="59" id="Image3" onmouseover="MM_swapImage('Image3','','images/shortcut/asiansil_over.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+              <td align="center" valign="top"><a href="http://cil.nus.edu.sg/" target="_blank"><img src="images/shortcut/cil.jpg" alt="CIL" width="146" height="59" id="Image4" onmouseover="MM_swapImage('Image4','','images/shortcut/cil_over.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="top" height="5px"></td>
+              </tr>
+            <tr>
+              <td align="center" valign="top"><a href="http://law.nus.edu.sg/clb/" target="_blank"><img src="images/shortcut/clb.jpg" alt="Center of Law & Business" width="146" height="59" id="Image6" onmouseover="MM_swapImage('Image6','','images/shortcut/clb_over.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+              <td align="center" valign="top"><a href="http://law.nus.edu.sg/apcel/" target="_blank"><img src="images/shortcut/apcel_normal.jpg" alt="AP" width="146" height="59" id="Image5" onmouseover="MM_swapImage('Image5','','images/shortcut/apcel_rollover.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table>
+      <!-- /content area -->
+
+    </div>
+    <!-- /full content -->
+  </div>
+  <!-- /content -->
+
+  <!--footer-->
+  <div id="footer">
+    <div class="inner">
+      <div class="left">
+        <p>© Copyright 2001-2010 National University of Singapore. All Rights Reserved.</p>
+        <p><a href="http://www.nus.edu.sg/terms.php" >Terms of Use</a> | <a href="http://www.nus.edu.sg/policy.php" >Privacy</a> | <a href="http://www.nus.edu.sg/nondiscrim.php" >Non-discrimination</a>
+          <!-- | <a href="#">Using this site</a>-->
+        </p>
+      </div>
+      <div class="right">
+        <p class="copy"><a href="/sitemap.html" >Site Map</a> | <a href="/contactus.html" >Feedback</a> |<a href="http://www.nus.edu.sg/campusmap/" >Campus Map</a></p>
+Last modified on
+08 April, 2013
+by <a href="mailto:webmaster@nus.edu.sg"> Faculty of Law</a>
+      </div>
+    </div>
+  </div>
+  <!-- End Footer -->
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "http://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+  <script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1546804-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+  <!--/footer-->
+</div>
+<!--/wrapper-->
+</body>
+</html>

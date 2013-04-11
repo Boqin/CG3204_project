@@ -1,0 +1,411 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Nicf Portal
+</title>
+    <script type="text/javascript" src="App_Themes/NICF/js/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="App_Themes/NICF/js/slidedeck.jquery.lite.js"></script>
+<link href="App_Themes/NICF/css/Menu.Nicf.css" type="text/css" rel="stylesheet" /><link href="App_Themes/NICF/css/slidedeck.skin.css" type="text/css" rel="stylesheet" /><link href="App_Themes/NICF/css/style_index.css" type="text/css" rel="stylesheet" /><link href='/custom/controls/site/freetext/searchfreetextpanel.css' rel='stylesheet' type='text/css' /><link href='/custom/controls/home/nicfupdates/nicfupdates.css' rel='stylesheet' type='text/css' /><link href='/custom/controls/home/joinmailinglist/joinmailinglist.css' rel='stylesheet' type='text/css' /><link href='/sitefinity/usercontrols/login/logincontrol.css' rel='stylesheet' type='text/css' /><link href='/custom/controls/home/latestnews/latestnews.css' rel='stylesheet' type='text/css' /><link href='/custom/controls/home/topsearches/topsearches.css' rel='stylesheet' type='text/css' /><link href='/custom/controls/home/upcomingevents/upcomingevents.css' rel='stylesheet' type='text/css' /><link href="/WebResource.axd?d=2KOmD5Fki5wGlRNolhJU48fvjQD1WCfRM6wZbJElXXtSRb9z_QaRMgHBVBbDv1geI6Be8JV5z1BlW6OZo7NmnnSUV7RgQ9mqaFwRb3FWYcQpiDVx8SqO4uJIOh-kNj0jXSmpzw2&amp;t=634221660333454310" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=EJBq65Kjv-XRfTs0mRBtdC8kCheDYxllifiA2kIWONuE0vj-eWO0jMeqgy07uvlqHmIqnlUA0UEpTaQ1bnC3rVzBCCO0qCXgaO9i0iRufpACOj2GqVKgVT_tGig74ZMGrcFH2xS2ohz5TMGy6Cl9-j16dgs1&amp;t=634221660333454310" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=VAP8czJ_0PfjhaNe_PtSpIgteT6rmIeuh16-Oix_L962fnOd3hZKAtXAgONhVjaD-D_t1Ox3Oy5S64o-QeBOOoqcXmBNhd5hWmePYh7gnlj7M1z6WnsaHZ6diXuuptCRhEVQQ5igXVVgYSSt8Mo9M_FSQa39T7W6mp5x5QENdX67ugee0&amp;t=634221660333454310" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><meta name="Generator" content="Sitefinity 3.7.2096.2:0" /></head>
+<body>
+    <form name="aspnetForm" method="post" action="home.aspx" id="aspnetForm">
+<input type="hidden" name="ctl00_RadScriptManager1_TSM" id="ctl00_RadScriptManager1_TSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUENTM4MQ9kFgJmD2QWAgIDEGRkFhACDQ9kFgJmD2QWAgIDDw8WAh4LTmF2aWdhdGVVcmwFFX4vQWR2YW5jZWRTZWFyY2guYXNweGRkAg8PZBYCZg9kFgICAg8UKwACFCsAAg8WBB4LXyFEYXRhQm91bmRnHhdFbmFibGVBamF4U2tpblJlbmRlcmluZ2hkDxQrAAwUKwACDxYMHgRUZXh0BQRIb21lHwAFC34vaG9tZS5hc3B4HgVWYWx1ZQUESG9tZR4HVG9vbFRpcGUeCENzc0NsYXNzBQlybUZvY3VzZWQeBF8hU0ICAmRkFCsAAg8WCB8DBQlKb2IgUm9sZXMfAAUYfi9Kb2JSb2xlcy9PdmVydmlldy5hc3B4HwQFCUpvYiBSb2xlcx8FZWQQFgVmAgECAgIDAgQWBRQrAAIPFggfAwUIT3ZlcnZpZXcfAAUYfi9Kb2JSb2xlcy9PdmVydmlldy5hc3B4HwQFCE92ZXJ2aWV3HwVlZGQUKwACDxYIHwMFD1NlYXJjaCBKb2IgUm9sZR8ABR1+L0pvYlJvbGVzL1NlYXJjaEpvYlJvbGUuYXNweB8EBQ9TZWFyY2ggSm9iIFJvbGUfBWVkZBQrAAIPFggfAwUXU2VhcmNoIENsb3Nlc3QgSm9iIFJvbGUfAAUkfi9Kb2JSb2xlcy9TZWFyY2hDbG9zZXN0Sm9iUm9sZS5hc3B4HwQFF1NlYXJjaCBDbG9zZXN0IEpvYiBSb2xlHwVlZGQUKwACDxYIHwMFHVNlYXJjaCBKb2IgUm9sZSBieSBDb21wZXRlbmN5HwAFKX4vSm9iUm9sZXMvU2VhcmNoSm9iUm9sZUJ5Q29tcGV0ZW5jeS5hc3B4HwQFHVNlYXJjaCBKb2IgUm9sZSBieSBDb21wZXRlbmN5HwVlZGQUKwACDxYIHwMFEUNvbXBhcmUgSm9iIFJvbGVzHwAFKH4vSm9iUm9sZXMvU2VhcmNoQW5kQ29tcGFyZUpvYlJvbGVzLmFzcHgfBAURQ29tcGFyZSBKb2IgUm9sZXMfBWVkZA8WBWZmZmZmFgEFc1RlbGVyaWsuV2ViLlVJLlJhZE1lbnVJdGVtLCBUZWxlcmlrLldlYi5VSSwgVmVyc2lvbj0yMDEwLjEuMzA5LjM1LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDQUKwACDxYIHwMFDENvbXBldGVuY2llcx8ABRN+L0NvbXBldGVuY2llcy5hc3B4HwQFDENvbXBldGVuY2llcx8FZWRkFCsAAg8WCB8DBQdDb3Vyc2VzHwAFDn4vQ291cnNlcy5hc3B4HwQFB0NvdXJzZXMfBWVkZBQrAAIPFggfAwUNUmVhZGluZXNzIEtpdB8ABRN+L1JlYWRpbmVzc0tpdC5hc3B4HwQFDVJlYWRpbmVzcyBLaXQfBWVkZBQrAAIPFggfAwUDRkFRHwAFCn4vRkFRLmFzcHgfBAUDRkFRHwVlZGQUKwACDxYIHwMFCFBhcnRuZXJzHwAFD34vUGFydG5lcnMuYXNweB8EBQhQYXJ0bmVycx8FZWRkFCsAAg8WCB8DBQ1OSUNGIE92ZXJ2aWV3HwAFH34vTmljZk92ZXJ2aWV3L092ZXJ2aWV3TWFwLmFzcHgfBAUNTklDRiBPdmVydmlldx8FZWQQFgVmAgECAgIDAgQWBRQrAAIPFggfAwUMT3ZlcnZpZXcgTWFwHwAFLX4vTGlicmFyaWVzL0RvY3VtZW50cy9OSUNGX0Jyb2NodXJlLnNmbGIuYXNoeB8EBQxPdmVydmlldyBNYXAfBWVkZBQrAAIPFggfAwUMTklDRiBVcGRhdGVzHwAFH34vTmljZk92ZXJ2aWV3L05JQ0ZVcGRhdGVzLmFzcHgfBAUMTklDRiBVcGRhdGVzHwVlZGQUKwACDxYIHwMFDFVzZWZ1bCBMaW5rcx8ABR9+L05pY2ZPdmVydmlldy9Vc2VmdWxMaW5rcy5hc3B4HwQFDFVzZWZ1bCBMaW5rcx8FZWRkFCsAAg8WCB8DBQhBYm91dCBVcx8ABRt+L05pY2ZPdmVydmlldy9BYm91dFVzLmFzcHgfBAUIQWJvdXQgVXMfBWVkZBQrAAIPFggfAwUPSW50ZXJhY3RpdmUgTWFwHwAFIn4vTmljZk92ZXJ2aWV3L0ludGVyYWN0aXZlTWFwLmFzcHgfBAUPSW50ZXJhY3RpdmUgTWFwHwVlZGQPFgVmZmZmZhYBBXNUZWxlcmlrLldlYi5VSS5SYWRNZW51SXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMC4xLjMwOS4zNSwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0xMjFmYWU3ODE2NWJhM2Q0FCsAAg8WCB8DBQZFdmVudHMfAAUNfi9FdmVudHMuYXNweB8EBQZFdmVudHMfBWVkZBQrAAIPFggfAwUETmV3cx8ABQt+L05ld3MuYXNweB8EBQROZXdzHwVlZGQUKwACDxYIHwMFB1NpZ24gSW4fAAUNfi9zaWduaW4uYXNweB8EBQdTaWduIEluHwVlZGQUKwACDxYKHwMFEU1hbmFnZSBNeSBBY2NvdW50HwAFIH4vbWFuYWdlbXlhY2NvdW50L0Rhc2hib2FyZC5hc3B4HwQFEU1hbmFnZSBNeSBBY2NvdW50HwVlHgdWaXNpYmxlaGQQFgVmAgECAgIDAgQWBRQrAAIPFggfAwUJRGFzaGJvYXJkHwAFIH4vbWFuYWdlbXlhY2NvdW50L0Rhc2hib2FyZC5hc3B4HwQFCURhc2hib2FyZB8FZWRkFCsAAg8WCB8DBQhEb3dubG9hZB8ABR9+L21hbmFnZW15YWNjb3VudC9kb3dubG9hZC5hc3B4HwQFCERvd25sb2FkHwVlZGQUKwACDxYIHwMFDEVkaXQgUHJvZmlsZR8ABSJ+L21hbmFnZW15YWNjb3VudC9FZGl0UHJvZmlsZS5hc3B4HwQFDEVkaXQgUHJvZmlsZR8FZWRkFCsAAg8WCB8DBQ9DaGFuZ2UgUGFzc3dvcmQfAAUlfi9tYW5hZ2VteWFjY291bnQvY2hhbmdlcGFzc3dvcmQuYXNweB8EBQ9DaGFuZ2UgUGFzc3dvcmQfBWVkZBQrAAIPFggfAwUHTG9nIE91dB8ABR1+L21hbmFnZW15YWNjb3VudC9sb2dvdXQuYXNweB8EBQdMb2cgT3V0HwVlZGQPFgVmZmZmZhYBBXNUZWxlcmlrLldlYi5VSS5SYWRNZW51SXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMC4xLjMwOS4zNSwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0xMjFmYWU3ODE2NWJhM2Q0DxQrAQxmZmZmZmZmZmZmZmYWAQVzVGVsZXJpay5XZWIuVUkuUmFkTWVudUl0ZW0sIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTAuMS4zMDkuMzUsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNGQWGGYPDxYMHwMFBEhvbWUfAAULfi9ob21lLmFzcHgfBAUESG9tZR8FZR8GBQlybUZvY3VzZWQfBwICZGQCAQ8PFggfAwUJSm9iIFJvbGVzHwAFGH4vSm9iUm9sZXMvT3ZlcnZpZXcuYXNweB8EBQlKb2IgUm9sZXMfBWVkFgpmDw8WCB8DBQhPdmVydmlldx8ABRh+L0pvYlJvbGVzL092ZXJ2aWV3LmFzcHgfBAUIT3ZlcnZpZXcfBWVkZAIBDw8WCB8DBQ9TZWFyY2ggSm9iIFJvbGUfAAUdfi9Kb2JSb2xlcy9TZWFyY2hKb2JSb2xlLmFzcHgfBAUPU2VhcmNoIEpvYiBSb2xlHwVlZGQCAg8PFggfAwUXU2VhcmNoIENsb3Nlc3QgSm9iIFJvbGUfAAUkfi9Kb2JSb2xlcy9TZWFyY2hDbG9zZXN0Sm9iUm9sZS5hc3B4HwQFF1NlYXJjaCBDbG9zZXN0IEpvYiBSb2xlHwVlZGQCAw8PFggfAwUdU2VhcmNoIEpvYiBSb2xlIGJ5IENvbXBldGVuY3kfAAUpfi9Kb2JSb2xlcy9TZWFyY2hKb2JSb2xlQnlDb21wZXRlbmN5LmFzcHgfBAUdU2VhcmNoIEpvYiBSb2xlIGJ5IENvbXBldGVuY3kfBWVkZAIEDw8WCB8DBRFDb21wYXJlIEpvYiBSb2xlcx8ABSh+L0pvYlJvbGVzL1NlYXJjaEFuZENvbXBhcmVKb2JSb2xlcy5hc3B4HwQFEUNvbXBhcmUgSm9iIFJvbGVzHwVlZGQCAg8PFggfAwUMQ29tcGV0ZW5jaWVzHwAFE34vQ29tcGV0ZW5jaWVzLmFzcHgfBAUMQ29tcGV0ZW5jaWVzHwVlZGQCAw8PFggfAwUHQ291cnNlcx8ABQ5+L0NvdXJzZXMuYXNweB8EBQdDb3Vyc2VzHwVlZGQCBA8PFggfAwUNUmVhZGluZXNzIEtpdB8ABRN+L1JlYWRpbmVzc0tpdC5hc3B4HwQFDVJlYWRpbmVzcyBLaXQfBWVkZAIFDw8WCB8DBQNGQVEfAAUKfi9GQVEuYXNweB8EBQNGQVEfBWVkZAIGDw8WCB8DBQhQYXJ0bmVycx8ABQ9+L1BhcnRuZXJzLmFzcHgfBAUIUGFydG5lcnMfBWVkZAIHDw8WCB8DBQ1OSUNGIE92ZXJ2aWV3HwAFH34vTmljZk92ZXJ2aWV3L092ZXJ2aWV3TWFwLmFzcHgfBAUNTklDRiBPdmVydmlldx8FZWQWCmYPDxYIHwMFDE92ZXJ2aWV3IE1hcB8ABS1+L0xpYnJhcmllcy9Eb2N1bWVudHMvTklDRl9Ccm9jaHVyZS5zZmxiLmFzaHgfBAUMT3ZlcnZpZXcgTWFwHwVlZGQCAQ8PFggfAwUMTklDRiBVcGRhdGVzHwAFH34vTmljZk92ZXJ2aWV3L05JQ0ZVcGRhdGVzLmFzcHgfBAUMTklDRiBVcGRhdGVzHwVlZGQCAg8PFggfAwUMVXNlZnVsIExpbmtzHwAFH34vTmljZk92ZXJ2aWV3L1VzZWZ1bExpbmtzLmFzcHgfBAUMVXNlZnVsIExpbmtzHwVlZGQCAw8PFggfAwUIQWJvdXQgVXMfAAUbfi9OaWNmT3ZlcnZpZXcvQWJvdXRVcy5hc3B4HwQFCEFib3V0IFVzHwVlZGQCBA8PFggfAwUPSW50ZXJhY3RpdmUgTWFwHwAFIn4vTmljZk92ZXJ2aWV3L0ludGVyYWN0aXZlTWFwLmFzcHgfBAUPSW50ZXJhY3RpdmUgTWFwHwVlZGQCCA8PFggfAwUGRXZlbnRzHwAFDX4vRXZlbnRzLmFzcHgfBAUGRXZlbnRzHwVlZGQCCQ8PFggfAwUETmV3cx8ABQt+L05ld3MuYXNweB8EBQROZXdzHwVlZGQCCg8PFggfAwUHU2lnbiBJbh8ABQ1+L3NpZ25pbi5hc3B4HwQFB1NpZ24gSW4fBWVkZAILDw8WCh8DBRFNYW5hZ2UgTXkgQWNjb3VudB8ABSB+L21hbmFnZW15YWNjb3VudC9EYXNoYm9hcmQuYXNweB8EBRFNYW5hZ2UgTXkgQWNjb3VudB8FZR8IaGQWCmYPDxYIHwMFCURhc2hib2FyZB8ABSB+L21hbmFnZW15YWNjb3VudC9EYXNoYm9hcmQuYXNweB8EBQlEYXNoYm9hcmQfBWVkZAIBDw8WCB8DBQhEb3dubG9hZB8ABR9+L21hbmFnZW15YWNjb3VudC9kb3dubG9hZC5hc3B4HwQFCERvd25sb2FkHwVlZGQCAg8PFggfAwUMRWRpdCBQcm9maWxlHwAFIn4vbWFuYWdlbXlhY2NvdW50L0VkaXRQcm9maWxlLmFzcHgfBAUMRWRpdCBQcm9maWxlHwVlZGQCAw8PFggfAwUPQ2hhbmdlIFBhc3N3b3JkHwAFJX4vbWFuYWdlbXlhY2NvdW50L2NoYW5nZXBhc3N3b3JkLmFzcHgfBAUPQ2hhbmdlIFBhc3N3b3JkHwVlZGQCBA8PFggfAwUHTG9nIE91dB8ABR1+L21hbmFnZW15YWNjb3VudC9sb2dvdXQuYXNweB8EBQdMb2cgT3V0HwVlZGQCGw9kFgJmD2QWBgIBDw8WAh8DBQowMS4wOS4yMDExZGQCAw8PFgQfAwUnTmV4dCBHZW5lcmF0aW9uIE5ldHdvcmsgKE5HTikgSm9iIFJvbGVzHwAFMGh0dHA6Ly93d3cubmljZi5zZy9OaWNmT3ZlcnZpZXcvTklDRlVwZGF0ZXMuYXNweGRkAgUPDxYEHwMFIUVkdWNhdGlvbmFsIFRlY2hub2xvZ3kgSm9iIFJvbGVzIB8ABTBodHRwOi8vd3d3Lm5pY2Yuc2cvTmljZk92ZXJ2aWV3L05JQ0ZVcGRhdGVzLmFzcHhkZAIdD2QWAmYPZBYCAgEPFCsABg8WBh8BZx4LXyFJdGVtQ291bnQCAR8CaGQUKwACZGQUKwAEDwUIUGFnZVNpemUCAQ8FBl8hRFNJQwIFDwULXyFJdGVtQ291bnQCAQ8FCF8hUENvdW50AgVkFgIeAl9jZmQWAmYPZBYCZg8WAh4OU2F2ZWRPbGRWYWx1ZXMXABYGAgEPDxYCHghJbWFnZVVybGVkZAICDxUBCjA5LjA3LjIwMTNkAgMPDxYCHwAFWH4vRXZlbnRzLzEzLTAzLTIxL0ludGVybmF0aW9uYWxfQ29uZmVyZW5jZV9vbl9CaWdfRGF0YV9hbmRfQW5hbHl0aWNzX2luX0hlYWx0aGNhcmVfLmFzcHhkFgJmDxUBVkludGVybmF0aW9uYWwgQ29uZmVyZW5jZSBvbiBCaWcgRGF0YSBhbmQgQW5hbHl0aWNzIGluIEhlYWx0aGNhcmUgYnkgQ2VudHJlIGZvci4uLi4uLi4uZAIfD2QWAmYPZBYCZg9kFgJmD2QWAgIBDzwrAAoBAA8WAh8IZ2RkAiEPZBYCZg9kFgICAQ8UKwAGDxYGHwFnHwkCAx8CaGQUKwACZGQUKwADDwUGXyFEU0lDAgMPBQtfIUl0ZW1Db3VudAIDDwUIXyFQQ291bnRkZBYCHwpmZBYCZg9kFgZmDxYCHwsXABYEZg8VAQoyMS4wMy4yMDEzZAIBDxYCHgRocmVmBYwBfi9OZXdzLzEzLTAzLTIxL0NvdXJzZXNfZm9yX0hlYWx0aGNhcmVfSUNUX3ByYWN0aXRpb25lcnMsX21hbmFnZXJzX2FuZF9jYXJlX3Byb3ZpZGVycyxfbGF1bmNoZWRfYnlfQ2VudHJlX2Zvcl9IZWFsdGhfSW5mb3JtYXRpY3MsX05VUy5fLmFzcHgWAmYPFQFWQ0hJLCBOVVMgIHNldCB1cCBpbiBwYXJ0bmVyc2hpcCB3aXRoIElEQSBoYXMgbGF1bmNoZWQgIHRyYWluaW5nIGFuZCBkZXZlbG9wbWVudC4uLi4uLi5kAgEPFgIfCxcAFgRmDxUBCjIxLjAzLjIwMTNkAgEPFgIfDQVIfi9OZXdzLzEzLTAzLTIxL0xhdW5jaF9vZl9CdXNpbmVzc19BbmFseXRpY3NfU3BlY2lhbF9JbnRlcmVzdF9Hcm91cC5hc3B4FgJmDxUBVU9uIDEzdGggTWFyIDIwMTMsIFNwZWNpYWwgSW50ZXJlc3QgR3JvdXAgb24gQnVzaW5lc3MgQW5hbHl0aWNzIHdhcyBsYXVuY2hlZCBieS4uLi4uLi5kAgIPFgIfCxcAFgRmDxUBCjEzLjAzLjIwMTNkAgEPFgIfDQVSfi9OZXdzLzEzLTAzLTEzL0xlYXJuX2Fib3V0X2FfbmV3X3N1cGVycG93ZXJfdGhhdF9pc250X3RhdWdodF9pbl9tb3N0X3NjaG9vbHMuYXNweBYCZg8VAURMZWFybiBhYm91dCBhIG5ldyAic3VwZXJwb3dlciIgdGhhdCBpc24ndCAgdGF1Z2h0IGluIG1vc3Qgc2Nob29scyEhIWQCIw9kFgJmD2QWAgIED2QWAmYPZBYEAgUPFCsABg8WCB8BZx4SQWxsb3dDdXN0b21Tb3J0aW5nZx8JAgMfAmhkFCsAAmRkFCsAAw8FBl8hRFNJQwIDDwULXyFJdGVtQ291bnQCAw8FCF8hUENvdW50ZGQWAh8KZmQWAmYPZBYGZg8WAh8LFwAWAgIBDw8WAh8ABTl+L0pvYlJvbGVzL1NlYXJjaEpvYlJvbGUvSm9iRGV0YWlsLmFzcHg/aWQ9TklDRi1PQ0MtMDAwMjZkFgJmDxUBCklUIE1hbmFnZXJkAgEPFgIfCxcAFgICAQ8PFgIfAAU5fi9Kb2JSb2xlcy9TZWFyY2hKb2JSb2xlL0pvYkRldGFpbC5hc3B4P2lkPU5JQ0YtT0NDLTAwMTExZBYCZg8VARZBcHBsaWNhdGlvbiBQcm9ncmFtbWVyZAICDxYCHwsXABYCAgEPDxYCHwAFOX4vSm9iUm9sZXMvU2VhcmNoSm9iUm9sZS9Kb2JEZXRhaWwuYXNweD9pZD1OSUNGLU9DQy0wMDE3MWQWAmYPFQEcSW5mb3JtYXRpb24gU2VjdXJpdHkgT2ZmaWNlcmQCBw8UKwAGDxYCHwhoZBQrAAJkZBQrAABkFgIfCmZkZAIlD2QWAmYPZBYCZg9kFgJmD2QWAgIBDw8WAh8IaGRkGAMFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYJBWZjdGwwMCRGcmVlVGV4dFNlYXJjaFBhbmVsJHRtX2N1c3RvbV9jb250cm9sc19zaXRlX2ZyZWV0ZXh0X3NlYXJjaGZyZWV0ZXh0cGFuZWxfYXNjeDEkQnV0RnJlZVRleHRTZWFyY2gFIGN0bDAwJENvbnRlbnRNZW51JGN0bDAwJFJhZE1lbnUxBSZjdGwwMCRDb250ZW50Um93MUxlZnQkY3RsMDAkSW1iTGlzdEFsbAUpY3RsMDAkQ29udGVudFJvdzFNaWRkbGUkY3RsMDAkUkxpc3RFdmVudHMFKGN0bDAwJENvbnRlbnRSb3cxTWlkZGxlJGN0bDAwJEltYkxpc3RBbGwFMGN0bDAwJENvbnRlbnRSb3cxUmlnaHQkY3RsMDAkTG9naW4xJEltYWdlQnV0dG9uMQUsY3RsMDAkQ29udGVudFJvdzJMZWZ0JGN0bDAwJFJMaXN0TGFzdGVzdE5ld3MFKmN0bDAwJENvbnRlbnRSb3cyTWlkZGxlJGN0bDAwJFJMaXN0VG9wSm9icwUmY3RsMDAkQ29udGVudFJvdzJSaWdodCRjdGwwMCRJbWJTdWJtaXQFJ2N0bDAwJENvbnRlbnRSb3cxUmlnaHQkY3RsMDAkTVZpZXdMb2dpbg8PZGZkBSRjdGwwMCRGb290ZXJMaW5rcyR0bV9HZW5lcmljQ29udGVudDEPFCsAAWRk2ZVtTb1HWN7nDnqgzLPPUKC/EDA=" />
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl00_RadScriptManager1_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d3.5.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3a553a4a13-b3a5-4e6b-a152-b131051f1788%3aea597d4b%3bTelerik.Web.UI%2c+Version%3d2010.1.309.35%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen-US%3ad64a27eb-758e-4c54-ac5f-bdf37d28a8d2%3a16e4e7cd%3af7645509%3a24ee1bba%3ae330518b%3a1e771326%3ac8618e41%3addbfcb67" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWDQKjjZLRCgKvp5moBQLUzIi2CwKC+MOKAwLCyP/BDwK0mILaCgKr8PfKDgLShZSaDgKF/56nCgK2rtDgDQK9xPb3CQKFnMGjDAL4k5zKCnKwOxC385i0BRpCREuoZbU1kawO" />
+    
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-19481340-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+    
+    <div class="main">
+        <div class="header">
+            <div class="header-left">
+                <a href="home.aspx">
+                    <img src="App_Themes/NICF/images/nicf-logo.png" border="0" /></a></div>
+            <div class="header-right">
+                <div class="header-right-links">
+                    <a href="ContactInfo.aspx">Contact Info</a>.
+                    <a href="Feedback.aspx">Feedback</a>.
+                    <a href="SiteMap.aspx">Sitemap</a>
+                </div>
+                
+<div class='header-right-search'>
+    <div id="ctl00_FreeTextSearchPanel_tm_custom_controls_site_freetext_searchfreetextpanel_ascx1_PnlFreeTextSearch">
+	
+        <input name="ctl00$FreeTextSearchPanel$tm_custom_controls_site_freetext_searchfreetextpanel_ascx1$searchQuery" type="text" id="ctl00_FreeTextSearchPanel_tm_custom_controls_site_freetext_searchfreetextpanel_ascx1_searchQuery" type="text" class="searchbox" name="s" />
+        <input type="image" name="ctl00$FreeTextSearchPanel$tm_custom_controls_site_freetext_searchfreetextpanel_ascx1$ButFreeTextSearch" id="ctl00_FreeTextSearchPanel_tm_custom_controls_site_freetext_searchfreetextpanel_ascx1_ButFreeTextSearch" class="searchbox_submit" src="App_Themes/NICF-Inner/Images/search-btn.png" border="0" />
+    
+</div>
+</div>
+<div class="header-right-bottom">
+    <a id="ctl00_FreeTextSearchPanel_tm_custom_controls_site_freetext_searchfreetextpanel_ascx1_LnkAdvancedSearch" href="AdvancedSearch.aspx">Advanced Search</a>   
+</div>
+
+            </div>
+        </div>
+        <div class="main-menu">
+            
+<div id="ctl00_ContentMenu_ctl00_RadMenu1" class="RadMenu RadMenu_Nicf">
+	<!-- 2010.1.309.35 --><ul class="rmHorizontal rmRootGroup">
+		<li class="rmItem rmFirst"><a href="home.aspx" class="rmLink rmFocused"><span class="rmText">Home</span></a></li><li class="rmItem "><a href="JobRoles/Overview.aspx" class="rmLink"><span class="rmText">Job Roles</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a href="JobRoles/Overview.aspx" class="rmLink"><span class="rmText">Overview</span></a></li><li class="rmItem "><a href="JobRoles/SearchJobRole.aspx" class="rmLink"><span class="rmText">Search Job Role</span></a></li><li class="rmItem "><a href="JobRoles/SearchClosestJobRole.aspx" class="rmLink"><span class="rmText">Search Closest Job Role</span></a></li><li class="rmItem "><a href="JobRoles/SearchJobRoleByCompetency.aspx" class="rmLink"><span class="rmText">Search Job Role by Competency</span></a></li><li class="rmItem rmLast"><a href="JobRoles/SearchAndCompareJobRoles.aspx" class="rmLink"><span class="rmText">Compare Job Roles</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="Competencies.aspx" class="rmLink"><span class="rmText">Competencies</span></a></li><li class="rmItem "><a href="Courses.aspx" class="rmLink"><span class="rmText">Courses</span></a></li><li class="rmItem "><a href="ReadinessKit.aspx" class="rmLink"><span class="rmText">Readiness Kit</span></a></li><li class="rmItem "><a href="FAQ.aspx" class="rmLink"><span class="rmText">FAQ</span></a></li><li class="rmItem "><a href="Partners.aspx" class="rmLink"><span class="rmText">Partners</span></a></li><li class="rmItem "><a href="NicfOverview/OverviewMap.aspx" class="rmLink"><span class="rmText">NICF Overview</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a href="Libraries/Documents/NICF_Brochure.sflb.ashx" class="rmLink"><span class="rmText">Overview Map</span></a></li><li class="rmItem "><a href="NicfOverview/NICFUpdates.aspx" class="rmLink"><span class="rmText">NICF Updates</span></a></li><li class="rmItem "><a href="NicfOverview/UsefulLinks.aspx" class="rmLink"><span class="rmText">Useful Links</span></a></li><li class="rmItem "><a href="NicfOverview/AboutUs.aspx" class="rmLink"><span class="rmText">About Us</span></a></li><li class="rmItem rmLast"><a href="NicfOverview/InteractiveMap.aspx" class="rmLink"><span class="rmText">Interactive Map</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="Events.aspx" class="rmLink"><span class="rmText">Events</span></a></li><li class="rmItem "><a href="News.aspx" class="rmLink"><span class="rmText">News</span></a></li><li class="rmItem rmLast"><a href="signin.aspx" class="rmLink"><span class="rmText">Sign In</span></a></li>
+	</ul><input id="ctl00_ContentMenu_ctl00_RadMenu1_ClientState" name="ctl00_ContentMenu_ctl00_RadMenu1_ClientState" type="hidden" />
+</div>
+
+
+        </div>
+        <div class="banner">
+            <div id="slidedeck_frame" class="skin-slidedeck">
+                <dl class="slidedeck">
+                    <dt>About NICF</dt>
+                    <dd>
+                        <a href="NicfOverview/AboutUs.aspx" id="ctl00_A1">
+                        <img src="App_Themes/NICF/images/image1.jpg" border="0" />
+                        </a>
+                    </dd>
+                    <dt>Find Job Fit</dt>
+                    <dd>
+                        <a href="JobRoles/Overview.aspx" id="ctl00_A2">
+                        <img src="App_Themes/NICF/images/image2.jpg" border="0" />
+                        </a>
+                    </dd>
+                    <dt>Compare Job Roles</dt>
+                    <dd>
+                        <a href="JobRoles/SearchAndCompareJobRoles.aspx" id="ctl00_A3">
+                        <img src="App_Themes/NICF/images/image3.jpg" border="0" />
+                        </a>
+                    </dd>
+                    <dt>Search Competencies</dt>
+                    <dd>
+                        <a href="Competencies.aspx" id="ctl00_A4">
+                        <img src="App_Themes/NICF/images/image4.jpg" border="0" />
+                        </a>
+                    </dd>
+                    <dt>Search Courses</dt>
+                    <dd>
+                        <a href="Courses.aspx" id="ctl00_A5">
+                        <img src="App_Themes/NICF/images/image5.jpg" border="0" />
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+
+            <script type="text/javascript">
+                $('.slidedeck').slidedeck({
+                    index: false
+                });
+			
+            </script>
+
+        </div>
+        <div class="clear">
+        </div>
+        <div class="content-row-1">
+            <div class="content-row-1-left">
+                
+<div class="left-header">
+    <h1>
+        NICF Updates</h1>
+</div>
+<div class="content-left">
+    <div class="updates-text">
+        <div class="updates-date">
+            <span id="ctl00_ContentRow1Left_ctl00_LblUpdateDate">01.09.2011</span>
+            </div>
+        <ul class="bullet-item">
+            <li>
+                <a id="ctl00_ContentRow1Left_ctl00_LnkText1" href="http://www.nicf.sg/NicfOverview/NICFUpdates.aspx">Next Generation Network (NGN) Job Roles</a>
+            </li>
+            <li>
+                <a id="ctl00_ContentRow1Left_ctl00_LnkText2" href="http://www.nicf.sg/NicfOverview/NICFUpdates.aspx">Educational Technology Job Roles </a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+<div class="updates-button">
+    <input type="image" name="ctl00$ContentRow1Left$ctl00$ImbListAll" id="ctl00_ContentRow1Left_ctl00_ImbListAll" src="App_Themes/NICF/images/listall-btn.png" border="0" />
+    
+</div>
+
+            </div>
+            <div class="content-row-1-middle">
+                
+<div class="middle-header">
+    <h1>
+        Upcoming Events</h1>
+</div>
+<div class="content-middle">
+    
+            <div class="events-img">
+                <img id="ctl00_ContentRow1Middle_ctl00_RListEvents_ctrl0_ImgEvent" src="" height="50" width="65" border="0" />
+            </div>
+            <div class="events-text">
+                <div class="events-date">
+                    <label>09.07.2013</label>
+                </div>
+            <div>
+                <a id="ctl00_ContentRow1Middle_ctl00_RListEvents_ctrl0_LnkEventContent" href="Events/13-03-21/International_Conference_on_Big_Data_and_Analytics_in_Healthcare_.aspx">International Conference on Big Data and Analytics in Healthcare by Centre for........</a>                
+            </div>
+            </div>
+        <input id="ctl00_ContentRow1Middle_ctl00_RListEvents_ClientState" name="ctl00_ContentRow1Middle_ctl00_RListEvents_ClientState" type="hidden" /><span id="ctl00_ContentRow1Middle_ctl00_RListEvents" style="display:none;"></span>
+</div>
+<div class="events-button">
+    <input type="image" name="ctl00$ContentRow1Middle$ctl00$ImbListAll" id="ctl00_ContentRow1Middle_ctl00_ImbListAll" src="App_Themes/NICF/images/listall-btn.png" border="0" />
+    
+</div>
+
+          
+            </div>
+            <div class="content-row-1-right">
+                
+        <table id="ctl00_ContentRow1Right_ctl00_Login1" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td>
+                <div class="content-box-info">
+                    <div class="right-header">
+                        <h1>
+                            Sign In
+                        </h1>
+                        <div class="benefits">
+                            <a href="BenefitsForSigningUp.aspx">
+                                <img id="ctl00_ContentRow1Right_ctl00_Login1_Image1" src="App_Themes/NICF/images/benifits-icon.png" border="0" />
+                            </a>
+                        </div>
+                        <div class="clear">
+                        </div>
+                        <div id="ctl00_ContentRow1Right_ctl00_Login1_PnlLogin">
+			
+                            <div class="content-right">
+                                <div class="form">
+                                    <div class="login">
+                                        <label>
+                                            Username:</label>
+                                        <input name="ctl00$ContentRow1Right$ctl00$Login1$UserName" type="text" id="ctl00_ContentRow1Right_ctl00_Login1_UserName" class="form-fields" />
+                                        <div class="clear">
+                                        </div>
+                                        <label>
+                                            Password:</label>
+                                        <input name="ctl00$ContentRow1Right$ctl00$Login1$Password" type="password" id="ctl00_ContentRow1Right_ctl00_Login1_Password" class="form-fields" />
+                                        <br />
+                                        <div class="forget-password-username">
+                                            <a id="ctl00_ContentRow1Right_ctl00_Login1_LnkForgetPassword" href="managemyaccount/forgetpassword.aspx">Forget Password</a>
+                                            /
+                                            <a id="ctl00_ContentRow1Right_ctl00_Login1_LnkForgetUserName" href="managemyaccount/forgetusername.aspx">Username</a>
+                                        </div>
+                                    </div>
+                                    <div class="clear">
+                                    </div>
+                                    <div class="failure">
+                                        
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-right-bottom">
+                                <input type="image" name="ctl00$ContentRow1Right$ctl00$Login1$ImageButton1" id="ctl00_ContentRow1Right_ctl00_Login1_ImageButton1" class="login-button" src="App_Themes/NICF/images/login-btn.png" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentRow1Right$ctl00$Login1$ImageButton1&quot;, &quot;&quot;, true, &quot;ctl00$Login1&quot;, &quot;&quot;, false, false))" border="0" />
+                                <div class="signup">
+                                    <a id="ctl00_ContentRow1Right_ctl00_Login1_LnkCreateUser" href="managemyaccount/SignUp.aspx">Sign up for a new user account                     </a>
+                                </div>
+                            </div>
+                        
+		</div>
+                    </div>
+            </td>
+	</tr>
+</table>
+                                      
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div class="content-row-2">
+            <div class="content-row-2-left">
+                
+<h1>Latest News</h1>
+    
+            <div class="news">
+                <div class="news-date">
+                    21.03.2013
+                </div>
+                <div class="news-item">
+                    <a href="News/13-03-21/Courses_for_Healthcare_ICT_practitioners,_managers_and_care_providers,_launched_by_Centre_for_Health_Informatics,_NUS._.aspx">CHI, NUS  set up in partnership with IDA has launched  training and development.......</a>
+                </div>
+            </div>
+        
+            <div class="news">
+                <div class="news-date">
+                    21.03.2013
+                </div>
+                <div class="news-item">
+                    <a href="News/13-03-21/Launch_of_Business_Analytics_Special_Interest_Group.aspx">On 13th Mar 2013, Special Interest Group on Business Analytics was launched by.......</a>
+                </div>
+            </div>
+        
+            <div class="news">
+                <div class="news-date">
+                    13.03.2013
+                </div>
+                <div class="news-item">
+                    <a href="News/13-03-13/Learn_about_a_new_superpower_that_isnt_taught_in_most_schools.aspx">Learn about a new "superpower" that isn't  taught in most schools!!!</a>
+                </div>
+            </div>
+        <input id="ctl00_ContentRow2Left_ctl00_RListLastestNews_ClientState" name="ctl00_ContentRow2Left_ctl00_RListLastestNews_ClientState" type="hidden" /><span id="ctl00_ContentRow2Left_ctl00_RListLastestNews" style="display:none;"></span>
+
+
+                 
+            </div>
+            <div class="content-row-2-middle">
+                
+
+
+
+<h1>Top Searches</h1>
+
+<div class="top-jobs">
+    <div id="ctl00_ContentRow2Middle_ctl00_UpdatePanel1">
+	
+            <h2>
+                <a id="ctl00_ContentRow2Middle_ctl00_LnbTopJobs" class="selected" href="javascript:__doPostBack('ctl00$ContentRow2Middle$ctl00$LnbTopJobs','')">Top Jobs</a> | <a id="ctl00_ContentRow2Middle_ctl00_LnbTopCourses" href="javascript:__doPostBack('ctl00$ContentRow2Middle$ctl00$LnbTopCourses','')">Top Courses</a>
+            </h2>        
+            
+                        <div class="top-item">
+                            <a id="ctl00_ContentRow2Middle_ctl00_RListTopJobs_ctrl0_LnkTopJob" href="JobRoles/SearchJobRole/JobDetail.aspx?id=NICF-OCC-00026">IT Manager</a>
+                        </div>
+                
+                        <div class="top-item">
+                            <a id="ctl00_ContentRow2Middle_ctl00_RListTopJobs_ctrl1_LnkTopJob" href="JobRoles/SearchJobRole/JobDetail.aspx?id=NICF-OCC-00111">Application Programmer</a>
+                        </div>
+                
+                        <div class="top-item">
+                            <a id="ctl00_ContentRow2Middle_ctl00_RListTopJobs_ctrl2_LnkTopJob" href="JobRoles/SearchJobRole/JobDetail.aspx?id=NICF-OCC-00171">Information Security Officer</a>
+                        </div>
+                <input id="ctl00_ContentRow2Middle_ctl00_RListTopJobs_ClientState" name="ctl00_ContentRow2Middle_ctl00_RListTopJobs_ClientState" type="hidden" /><span id="ctl00_ContentRow2Middle_ctl00_RListTopJobs" style="display:none;"></span>
+            
+        
+</div>
+</div>
+    
+            </div>
+            <div class="content-row-2-right">
+                <div id="ctl00_ContentRow2Right_ctl00_UPnlMaillingList">
+	
+        <h1>Join Our Mailing List</h1>
+        
+        
+        
+        <h2>We'll keep you up to date with news and information about NICF.</h2>
+            
+        <div class="form">
+            <div id="ctl00_ContentRow2Right_ctl00_PnlRegistration">
+		
+                <label>Name:</label>
+                
+                &nbsp;
+                
+                <input name="ctl00$ContentRow2Right$ctl00$TxtName" type="text" id="ctl00_ContentRow2Right_ctl00_TxtName" class="form-fields" />
+                
+                <div class="clear"></div>
+                
+                <label>Email:</label>
+                
+                &nbsp;
+                <input name="ctl00$ContentRow2Right$ctl00$TxtEmail" type="text" id="ctl00_ContentRow2Right_ctl00_TxtEmail" class="form-fields" />
+                
+                <br />
+                
+                &nbsp;
+                
+                <div class="clear"></div>
+                
+                <input type="image" name="ctl00$ContentRow2Right$ctl00$ImbSubmit" id="ctl00_ContentRow2Right_ctl00_ImbSubmit" class="submit-button" src="App_Themes/NICF/images/submit-btn.png" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentRow2Right$ctl00$ImbSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" border="0" />
+                
+            
+	</div>
+        </div>
+    
+</div>
+  
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div class="footer">
+            <div class="footer-credits">
+                <div class="logos">
+                    <div class="logo">
+                        <br />
+                        <a href="home.aspx" id="ctl00_A6">
+                            <img src="App_Themes/NICF/images/nicf-logo.png" border="0" /></a>
+                    </div>
+                    <div class="logo">
+                        Brought to you by
+                        <br />
+                        <a href="http://www.ida.gov.sg/">
+                            <img src="App_Themes/NICF/images/ida-logo.png" border="0" /></a>
+                    </div>
+                    
+                    <div class="logo">
+                        Jointly developed with<br />
+                        <a href="http://www.wda.gov.sg/">
+                            <img src="App_Themes/NICF/images/wda-logo.png" border="0" /></a>
+                    </div>
+                               
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+            <div class="footer-links">
+                <a runat="server" id="A1" href="/PrivacyStatement.aspx">Privacy Statement</a> | <a runat="server" id="A2" href="/TermsOfUse.aspx">Terms of Use</a> | Last update on<strong> 30 August 2012</strong>&nbsp;| Best viewed using IE 7 or Firefox 2.0 and above. Screen Resolution 1024 x 768 <strong>© 2011 Government of Singapore. </strong>                  
+            </div>
+        </div>
+    </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadMenu, {"_childListElementCssClass":null,"_skin":"Nicf","clientStateFieldID":"ctl00_ContentMenu_ctl00_RadMenu1_ClientState","collapseAnimation":"{\"duration\":450}","expandAnimation":"{\"duration\":450}","itemData":[{"value":"Home","navigateUrl":"~/home.aspx","cssClass":"rmFocused"},{"items":[{"value":"Overview","navigateUrl":"~/JobRoles/Overview.aspx"},{"value":"Search Job Role","navigateUrl":"~/JobRoles/SearchJobRole.aspx"},{"value":"Search Closest Job Role","navigateUrl":"~/JobRoles/SearchClosestJobRole.aspx"},{"value":"Search Job Role by Competency","navigateUrl":"~/JobRoles/SearchJobRoleByCompetency.aspx"},{"value":"Compare Job Roles","navigateUrl":"~/JobRoles/SearchAndCompareJobRoles.aspx"}],"value":"Job Roles","navigateUrl":"~/JobRoles/Overview.aspx"},{"value":"Competencies","navigateUrl":"~/Competencies.aspx"},{"value":"Courses","navigateUrl":"~/Courses.aspx"},{"value":"Readiness Kit","navigateUrl":"~/ReadinessKit.aspx"},{"value":"FAQ","navigateUrl":"~/FAQ.aspx"},{"value":"Partners","navigateUrl":"~/Partners.aspx"},{"items":[{"value":"Overview Map","navigateUrl":"~/Libraries/Documents/NICF_Brochure.sflb.ashx"},{"value":"NICF Updates","navigateUrl":"~/NicfOverview/NICFUpdates.aspx"},{"value":"Useful Links","navigateUrl":"~/NicfOverview/UsefulLinks.aspx"},{"value":"About Us","navigateUrl":"~/NicfOverview/AboutUs.aspx"},{"value":"Interactive Map","navigateUrl":"~/NicfOverview/InteractiveMap.aspx"}],"value":"NICF Overview","navigateUrl":"~/NicfOverview/OverviewMap.aspx"},{"value":"Events","navigateUrl":"~/Events.aspx"},{"value":"News","navigateUrl":"~/News.aspx"},{"value":"Sign In","navigateUrl":"~/signin.aspx"}]}, null, null, $get("ctl00_ContentMenu_ctl00_RadMenu1"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$ContentRow1Middle$ctl00$RListEvents","_clientSettings":{},"_currentPageIndex":0,"_pageCount":5,"_pageSize":1,"clientStateFieldID":"ctl00_ContentRow1Middle_ctl00_RListEvents_ClientState"}, null, null, $get("ctl00_ContentRow1Middle_ctl00_RListEvents"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$ContentRow2Left$ctl00$RListLastestNews","_clientSettings":{},"_currentPageIndex":0,"_pageCount":1,"_pageSize":10,"clientStateFieldID":"ctl00_ContentRow2Left_ctl00_RListLastestNews_ClientState"}, null, null, $get("ctl00_ContentRow2Left_ctl00_RListLastestNews"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$ContentRow2Middle$ctl00$RListTopJobs","_clientSettings":{},"_currentPageIndex":0,"_pageCount":1,"_pageSize":10,"clientStateFieldID":"ctl00_ContentRow2Middle_ctl00_RListTopJobs_ClientState"}, null, null, $get("ctl00_ContentRow2Middle_ctl00_RListTopJobs"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

@@ -1,0 +1,704 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Homepage.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>NUS Graduate School for Integrative Sciences and Engineering</title>
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="head" -->
+<link href="includes/style.css" type="text/css" rel="stylesheet" />
+<link href="includes/ngs.css" type="text/css" rel="stylesheet" id="ngscss" />
+<script src="includes/jquery.min.js" type="text/javascript"></script>
+
+<script language="JavaScript" type="text/javascript">
+var addthis_config = {ui_click: true }
+</script>
+
+<!-- Main Banner Slider Start -->
+<link rel="stylesheet" href="includes/slider/nivo-slider.css" type="text/css" media="screen" />
+<script src="includes/slider/jquery.nivo.slider.2.1.modif.js" type="text/javascript"></script>
+<script language="JavaScript" src="includes/slider.js" type="text/javascript"></script>
+<!-- Main Banner Slider End -->
+
+<link rel="stylesheet" type="text/css" href="includes/jcarousel/skin.css" />
+<script type="text/javascript" src="includes/jcarousel/jquery.jcarousel.min.js"></script>
+
+<!-- Carousel Left Slider Start -->
+<script language="JavaScript" src="includes/caraousel-left.js" type="text/javascript"></script>
+<!-- Carousel Left Slider End -->
+
+<!-- Carousel Right Slider Start -->
+<script language="JavaScript" src="includes/caraousel-right.js" type="text/javascript"></script>
+<!-- Carousel Right Slider End -->
+
+<!-- Menu Fade Start -->
+<script type="text/javascript" src="includes/fade/jquery.hoverIntent.minified.js"></script>
+<script language="JavaScript" src="includes/fade.js" type="text/javascript"></script>
+<!-- Menu Fade End -->
+
+<!-- Tabs Start -->
+<script language="JavaScript" src="includes/tabs.js" type="text/javascript"></script>
+<!-- Tabs End -->
+
+<!-- Searchbar Dropdown Start -->
+<script language="JavaScript" src="includes/searchbar-dropdown.js" type="text/javascript"></script>
+<!-- Searchbar Dropdown End -->
+
+<!-- Academic Dropdown Start -->
+<script language="JavaScript" src="includes/academic-dropdown.js" type="text/javascript"></script>
+<!-- Academic Dropdown Start -->
+
+<!-- Searchbar Selector Start -->
+<script language="JavaScript" src="includes/search.js" type="text/javascript"></script>
+<!-- Searchbar Selector End -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div class="wrapper">
+  <div id="inner_wrapper">
+  	<div id="wrapper_content">
+		<!-- Header Section Start -->
+        <div id="header">
+        <h1> <a href="http://www.nus.edu.sg"><img src="images/logo.png" alt="nus" width="140" height="64" title="nus" /></a> </h1>
+        <div id="faculty-logo"><a href="index.html"><img src="images/ngs_logo_blue_website.jpg" alt="NGS" /></a></div>
+        <div class="header_right_sec">
+          <div class="top_links">
+            <div class="left_curve">
+              <div class="right_curve">
+                <ul>
+                  <li><a href="http://exchange.nus.edu.sg/" target="_blank">myEmail</a></li>
+                  <li><a href="https://ivle.nus.edu.sg/" target="_blank">IVLE</a></li>
+                  <li><a href="http://www.lib.nus.edu.sg/" target="_blank">Library</a></li>
+                  <li><a href="http://www.nus.edu.sg/campusmap">Map</a></li>
+                  <li><a href="https://aces01.nus.edu.sg/CoE/jsp/coeMain.jsp" target="_blank">Calendar</a></li>
+                </ul>
+                <a href="http://cn.nus.edu.sg" class="language">中文</a> </div>
+            </div>
+          </div>
+          <div class="search_area">
+            <form id="frmSearch" name="frmSearch" onsubmit="evalSearch();return false;" action="#">
+            <div id="search-box">
+                        <input type="text"  value="Search by keyword"  onblur="if (this.value == '') {this.value = 'Search by keyword';}"  onfocus="if (this.value == 'Search by keyword') {this.value = '';}" id="txtKeyword" name="txtKeyword" />
+            </div>
+            <div id="search-coloumn">
+                 <select id="source" name="SearchMenu" >
+
+                         <option selected="selected" value="0">NUS Website</option>
+
+                         <option value="1">Internet</option>
+          
+                         <option value="2">Staff Directory</option>
+
+                 </select>
+            </div>
+            <div id="go-coloumn">
+                <input name="" type="button" id="search-btn" value="Go" onclick="evalSearch();return false;"/>
+            </div>
+            </form>
+
+       	  </div>
+   	 	  </div>
+   	  </div>
+         <div class="clear"></div>
+		<!-- Header Section End -->
+        
+        <!-- Navigation Section Start -->
+       <!-- InstanceBeginEditable name="Skin" --><div id="navigation_orange"><!-- InstanceEndEditable -->     
+         
+       <ul id="topnav">
+   	   <li><a href="http://www.nus.edu.sg/ngs/" class="parent">Home</a>
+    	<!--
+        <div class="sub">        
+        	<div class="sub-middle">
+        	
+            <div class="clear"></div>
+            </div>            
+        </div>
+        -->
+      </li>
+    <li><a href="about_us.html" class="parent">About Us</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>
+                <li><h2><a href="welcome_msg.html">Welcome Message</a></h2></li>
+                <!-- <li class="sublink"><a href="#">Dean's Welcome</a></li>
+                <li><a href="#">Dean's Notes</a></li>
+                <li><a href="#">Dean's Speeches</a></li> -->
+                <li><h2><a href="NGS_vision_mission.html">Vision & Mission</a> </h2></li>
+                <!-- <li><a href="#">Overview</a></li>
+                <li><a href="#">Quick Facts</a></li>
+                <li><a href="#">History &amp; Milestones</a></li>
+                <li><a href="#">Vision &amp; Strategy </a></li>  -->
+                <li><h2><a href="facts_figures.html">Facts & Figures</a></h2></li>
+                <li><h2><a href="iap.html">International Advisory Panel</a></h2></li>
+       		    <!-- <li><h2><a href="board_members.html">Management Board</a></h2></li> 
+                <li><h2><a href="location_map.html">Visit Us</a></h2></li>
+                <li><h2><a href="contact_us.html">Contact Us</a></h2></li>	-->	
+            </ul>
+           <!--  <ul>
+                <li><h2><a href="#">Newsletters</a></h2></li>
+                <li><a href="#">Business Leads</a></li>
+                <li><a href="#">Annual Report</a></li>
+                <li><a href="#">Rigour and Reach</a></li>
+                <li><a href="#">NUS Biz Alum</a></li>
+                <li><a href="#">Executive Education</a></li>
+                <li><a href="#">Window to Management </a></li>
+                <li><h2><a href="#">Corporate Identity</a></h2></li>
+                <li><a href="#">Introduction</a></li>
+                <li><a href="#">Logo &amp; Typefaces </a></li>
+                <li><a href="#">Publications </a></li>
+                <li><a href="#">Advertising </a></li>
+                <li><a href="#">Download Logos</a></li>
+                <li><a href="#">Powerpoint Template</a></li>
+                <li><a href="#">Brand Document</a></li>
+                <li><a href="#">Contact Us </a></li>
+            </ul>
+            <ul>
+            	<li><h2><a href="#">Directory</a></h2></li>
+                <li><a href="#">Faculty - By Name</a></li>
+                <li><a href="#">Faculty - By Department</a></li>
+                <li><a href="#">Staff</a></li>
+                <li><h2><a href="#">Locate Us</a></h2></li>
+                <li><a href="#">Getting To Business School  </a></li>
+                <li><h2><a href="#">Contact Us</a></h2></li>
+            </ul>
+            -->
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    <li><a href="prospective_students.html" class="parent">Prospective Students</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul style="width:200px;">
+                <li><h2><a href="#">For Graduates</a></h2></li>
+                <li><a href="phd.html" >Why pursue a PhD</a></li>
+                <li><a href="Graduate_programme.html" >Graduate Programme</a></li>
+                <li><a href="NGS_Networked_Grps.html" >Networked Groups</a></li>		  
+			    <li ><a href="scholarships.html" >Scholarships</a></li>
+                <li ><a href="international_students.html" >International Students</a></li>
+                <li ><a href="Testimonials.html" >Testimonials</a></li> 
+                <li ><a href="faq_ngss.html" >FAQ - NGS Scholarship</a></li> 		            
+                <li ><a href="faq_ags.html" >FAQ - A*Star Graduate Scholarship</a></li>  
+                <!-- <li ><a href="information_session.html">Information Session on NGS&acute; PhD</a></li> -->
+                  
+                <li><h2><a href="#">For Undergraduates</h2></li>
+                <li><a href="PGSawards.html" >A*Star Pre-Graduate Scholarship (PGS)</a></li>
+            </ul>           
+            <ul>
+            	<li><h2><a href="#">Application Instructions</a></h2></li>
+                <li><a href="Instruction_on_application_submission_to_NGS.html">How to apply for NGS-PhD Program cum Scholarship</a></li>
+                <li><a href="Instruction_on_application_submission_to_PhDMBA.html">How to apply for PhD-MBA Program in NGS</a></li>
+   		        <li><a href="apply_proc_AGS.html" >How to apply for A*Star Graduate Scholarship</a></li>   
+            </ul>
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    <li><a href="research.html" class="parent">Research</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>
+               <li><h2><a href="research.html">Research Areas</a></h2></li>
+              <!-- <li><h2><a href="research_projects.html">Research Projects</a></h2></li> -->
+               <li><h2><a href="http://www.nus.edu.sg/dpr/research/overview.html" target="_blank">NUS Research</a></h2></li>
+               <li><h2><a href="staff.html" >Supervisor Awards</a></h2></li>
+               <li><h2><a href="student_ach.html" >Student Awards</a></h2></li>
+               <li><h2><a href="students_publications.html" >Student Publications</a></h2></li>	
+               
+               <li><h2><a href="#">Supervisors List</h2></li>
+                <li><a href="ngs_supervisors_alphabetical.html">NUS Supervisors List</a></li>
+                <li><a href="ngs_supervisors_research_institutes_alphabetical.html">RI Supervisors List</a></li>       
+                <li><a href="faq_supervisor_ngss.html" >FAQ</a></li>
+             </ul>
+             <ul>
+                <li><h2><a href="supervisors_application_criteria.html" >Application Criteria for NGS Membership</a></h2></li>    
+                <li><h2><a href="./Supervisors/NGS_Membership_Application_Form.doc" >NGS Membership Application Form</a></h2></li>
+             </ul>
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    <!--
+    <li><a href="achievements.html" class="parent">Achievements</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>
+               <li><h2><a href="staff.html" >Supervisors</a></h2></li>
+               <li><h2><a href="student_ach.html" >Students</a></h2></li>
+               <li><h2><a href="students_publications.html" >Student Publications</a></h2></li>	
+            </ul>
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    -->
+    <li><a href="current_students.html" class="parent">Current Students</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>
+               <li><h2><a href="#">Programme Requirements</a></h2></li>
+               <li><a href="course_reqd.html">Coursework</a></li>
+               <li><a href="acad_criteria.html">Academic Performance Criteria</a></li>
+               <li><a href="students_supervisors.html">Supervisors</a></li>
+               <li><a href="tac_ngss.html" >Thesis Advisory Committee (TAC)</a></li>
+               <li><a href="phd_qualify_exam_ngss.html" >PhD Qualifying Examination</a></li>
+               <li><a href="phd_thesis_exam_ngss.html" >PhD Thesis Examination</a></li>
+               <li><a href="leave_ngss.html" >Leave Matters</a></li>
+               <li><a href="ngs_2plus2.html" >2+2 Scheme</a></li>		
+               <li><a href="candidature_conversion_FT_PT.html"> Conversion of Candidature 
+                <br />
+                from 
+              Full-time to Part-time</a></li>	<strong></strong>	  
+               <li><a href="https://share.nus.edu.sg/ngs/students/Eduallow/Forms/AllItems.aspx" >Guidelines for Educational Allowance Claims (restricted access)</a></li>
+	 		   <li><a href="https://aces01.nus.edu.sg/NgsOmr/LoginNgs.jsp">NGS Coursework Portal</a></li>	
+               <li><a href="forms-ngss.html" >Forms</a></li>		
+                
+               <li><h2><a href="#">Modules Information</a></h2></li>
+               <li><a href="NGS_modules.html" >NGS Modules</a></li>
+               <li><a href="current_students/Module_Information_Guide2.pdf" >Guide for Locating Modules</a></li> 		
+               <li><h2><a href="student_advisory.html">Student Advisory Services</a></h2></li>
+               <li><h2><a href="https://share.nus.edu.sg/registrar/student/info/Student-Card-Matters.pdf">Student Card Matters</a></h2></li>
+           </ul>
+           <ul>
+              <li><h2><a href="http://www.nus.edu.sg/registrar/event/registration-infointstudents.html#studentpass">Student Pass</a></h2></li>       
+              <li><h2><a href="social_visit_pass.html">Social Visit Pass for Spouse or Child</a></h2></li>
+              <li><h2><a href="students_status_letter.html">Student Status Letter</a></h2></li> 
+              <li><h2><a href="current_students/Overseas_Trip_Safety_Guidelines_CAA_051011.pdf" target="_blank" >Overseas Trip Safety Guidelines </a></h2></li> 
+         <li><h2><a href="https://share.nus.edu.sg/ngs/students/Lists/Chatroom/AllItems.aspx" target="_blank">NGS Online Student Forum</a></h2></li>
+            
+               <li><h2><a href="#">NGS Scholars' Alliance</a></h2></li>
+               <li><a href="scholars_alliance.html" >NGS Scholars' Alliance</a></li>
+               <li><a href="scholars_alliance_social_welfare.html" >Social Welfare Committee</a></li>
+               <li><a href="scholars_alliance_peer_mentorship.html" >Peer Mentorship Committee</a></li>
+               <li><a href="scholars_alliance_communications.html" >Communications Committee</a></li>
+			   <li><a href="http://ngssa.weebly.com/index.html">Scholars' Alliance Blog</a></li>
+               <li><h2><a href="#">English Resources</a></h2></li>
+               <li><a href="http://www.nus.edu.sg/celc/" >Courses offer by CELC</a></li>		
+               <li><a href="http://nus.edu.sg/prose/resources.htm" >English Resources Links</a></li>			
+            </ul>
+            <ul>
+              <li><h2><a href="#">Information</a></h2></li>
+              <li><a href="http://www.nus.edu.sg/registrar/calendar.html" >NUS Academic Calendar</a></li>
+              <li><a href="http://www.nus.edu.sg/registrar/nusbulletin/index.html" >NUS Bulletin Online (Curriculum Handbooks</a></li>
+              <li><a href="http://www.nus.edu.sg/uhc/healthservice/insurance/index.html" target="_blank" >Graduate Medical Insurance Schemes (GMIS)</a></li>		
+			  <li><a href="http://www.nus.edu.sg/comcen" >Computer Facilities & IT Resources</a></li>
+			  <li><a href="http://libpweb.nus.edu.sg/web/appmanager/lib/desk" >Library Facilities</a></li>		
+			  <!-- <li><a href="http://www.nus.edu.sg/osa/sports" >Sports & Recreation Facilities</a></li> -->	
+            </ul>          
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+   <!--
+   <li><a href="supervisors.html" class="parent">Supervisors</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>
+               <li><h2><a href="ngs_supervisors_alphabetical.html">NUS Supervisors List</a></h2></li>
+               <li><h2><a href="ngs_supervisors_research_institutes_alphabetical.html">RI Supervisors List</a></h2></li>
+               <li><h2><a href="supervisors_application_criteria.html" >Application Criteria for NGS Membership</a></h2></li>
+               <li><h2><a href="./Supervisors/NGS_Membership_Application_Form.doc" >NGS Membership Application Form</a></h2></li>
+               <li><h2><a href="faq_supervisor_ngss.html" >FAQ</a></h2></li>
+            </ul>          
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    -->
+    
+    <li><a href="calendar_of_events.html" class="parent">Events</a>
+	    <!--
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>
+               <li><h2><a href="#">Programmes</a></h2></li>
+               <li><h2><a href="#">Faculty</a></h2></li>
+               <li><h2><a href="#">News &amp; Events</a></h2></li>
+               <li><h2><a href="#">Resources</a></h2></li>
+               <li><h2><a href="#">Chinese Website (中文网页)</a></h2></li>
+            </ul> 
+                 
+            <div class="clear"></div>
+            </div>            
+        </div>
+         -->   
+    </li>
+    <li><a href="ngs_alumni_club.html" class="parent">Alumni</a>
+    	<div class="sub">
+        <div class="sub-top"></div>
+        	<div class="sub-middle">
+        	 <ul>
+               <li><h2><a href="alumni_highlight.html">Highlights</a></h2></li>
+               <li><h2><a href="alumni_awards.html">Alumni Awards</a></h2></li>
+               <li><h2><a href="https://www.alum.nus.edu.sg/update/" target="_blank">Update Your Particulars</a></h2></li>
+               <li><h2><a href="postdoc.html">Postdoc Positions</a></h2></li>   
+            </ul>
+            <div class="clear"></div>
+            </div>
+            <div class="sub-bottom"></div>
+        </div>
+    </li>
+    
+    <li><a href="location_map.html" class="parent">Contact Us</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>
+               <li><h2><a href="directory_exeappt.html">Executive Appointments</a></h2></li>
+               <li><h2><a href="directory_admin.html">Admin Staff</a></h2></li>
+            </ul>          
+            <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    
+</ul>
+
+  <div class="clear"></div>
+
+</div>
+       
+        <!-- Navigation Section End -->
+        
+        <!-- Banner Section Start -->
+
+    <div id="title" class="title">
+        <h1>NUS Graduate School for Integrative Sciences and Engineering</h1> 
+    </div> 
+
+    <div class="clear"></div> 
+         
+ 
+		<!-- InstanceBeginEditable name="Content" -->
+        
+      <div id="slider"> 
+          <!-- <img src="images/homepage/application.jpg" alt="" />    
+          <img src="images/homepage/Einstein_appln.jpg" alt="" />     -->        
+          <img src="images/homepage/sculpture-labelless.jpg" alt="" title="#htmlcaption2"/>
+          <img src="images/homepage/local-n-global-labelless.jpg" alt="" align="top" title="#htmlcaption3"/>
+		  <img src="images/homepage/Wenk-n-Lukas-labelless.jpg" alt="" title="#htmlcaption4"/> 
+          <a href="http://www.todayonline.com/daily-focus/science/water-cuts-diamond-help-graphene" target="_blank"><img src="images/homepage/Haley_TODAY.jpg" alt="" />
+          </a>
+      </div>
+      
+    
+     <!-- <div id="htmlcaption1" class="nivo-html-caption" style="display:none">
+    			<strong>Application for January 2013 intake opens</strong>
+ 	  </div>
+     -->
+     
+      <div id="htmlcaption2" class="nivo-html-caption" style="display:none">
+      <strong>NGS' &quot;Integration&quot; sculpture - inspired by our <br />
+		                philosophy of integration, synergy &amp; globalisation</strong>
+		</div>
+        <div id="htmlcaption3" class="nivo-html-caption" style="display:none">
+    			<strong>Local Address, Global Perspective</strong>
+		</div>
+        
+        <div id="htmlcaption4" class="nivo-html-caption" style="display:none">
+    			<strong>NGS - a hub of international research talents in NUS</strong>
+		</div>
+
+        <div id="content-area-banner">
+        
+        <div id="content-area-banner-right">
+        	<!-- Quicklinks Section Start -->
+            	<div id="quicklinks">
+                	<div id="quicklinks-top"><img src="images/quicklink-top.jpg" width="219" height="7" alt="" /></div>
+                    <div id="quicklinks-middle">
+                        <ul>
+                            <li><a href="prospective_students.html">Prospective Students</a></li>
+                            <li><a href="current_students.html">Current Students</a></li>
+                            <li><a href="ngs_alumni_club.html">Alumni</a></li>
+                            <!-- <li><a href="#">Faculty &amp; Staff</a></li> -->
+                        </ul>
+                    </div>
+                    <div id="quicklinks-bottom"><img src="images/quicklink-bottom.jpg" width="219" height="11" alt="" /></div>
+                </div>
+                <!-- Quicklinks Section End -->
+                <!-- Button Right Section Start -->
+                	<a href="welcome_msg.html" class="button-right-style">Prof Moore writes</a>
+                    <!-- <a href="" class="button-right-style">Photo &amp; Video Gallery </a> -->
+                    <!-- <a href="../calendar_of_events.html" class="button-right-style">Events Calendar</a> -->
+                    <div id="academic">
+                     <ul class="level1">
+                    	<li class="submenu"><a href="javascript:toggle();" class="academic-button" >Graduate Scholarships</a>
+                        	<ul id="dropdowntoggle">
+                            	<li><a href="NGSS.html">NGS</a></li>
+                                <li><a href="AGS.html">A*Star</a></li>
+                                <li><a href="Commonwealth_Scholarship.html">Commonwealth</a></li>
+                                <li><a href="http://www.phd-mba.nus.edu.sg/">NUS PhD-MBA</a></li>
+                            </ul>
+                        </li>
+                     </ul>
+                    </div>
+                    <a href="PGSawards.html" class="button-right-style">Undergrad Scholarship</a>
+                    <br />
+                    <a href="give_NGS.html"><img src="images/NGS_Giving/giving-button-mainpage.jpg" alt="" /></a>                    
+
+                <div class="social_links"> <strong><a href="http://www.facebook.com/ngs.alliance?fref=ts" target="_blank">Connect with NGS</a>!</strong>                  
+                  <ul>
+                    <li><a href="http://www.facebook.com/ngs.alliance?fref=ts"><img src="images/pic01.jpg" alt="" /></a></li>
+                    <!--
+                    <li><a href="#"><img src="../images/pic02.jpg" alt="" /></a></li>
+                    <li><a href="#"><img src="../images/pic03.jpg" alt="" /></a></li>
+                    <li class="last"><a href="#"><img src="../images/pic04.jpg" alt="" /></a></li> 
+                    -->
+                  </ul>
+       	  </div>
+          <!-- Button Right Section End -->
+         </div>
+      
+          <div class="clear"></div>
+        </div>
+      
+        <!-- Banner Section End -->
+        
+        <div id="content-area">
+ 
+        <div id="content-area-left">
+        	                    
+            	<!-- Tabs Section Start -->
+                	<ul class="tabs" >
+                        <li style="border-left:none !important; background-color:#f0efef"><a href="#tab1">Highlights</a></li>
+                        <!-- <li style="background-color:#f0efef"><a href="#tab2">Events</a></li> -->
+                        <li style="background-color:#f0efef"><a href="#tab3">Seminars</a></li> 
+                        <li style="background-color:#f0efef"><a href="#tab4">Oral Examinations Schedule</a></li> 
+                    </ul>
+                    
+<div class="tab_container">
+
+                    	<div id="tab1" class="tab_content">
+                   
+                        <!-- <div class="news-row">
+                            <div class="news-row-left"><img src="images/IAP_members/Chris_Leaver.jpg" width="109" height="147" alt="Professor Christopher J. Leaver" /></div>
+                            <div class="news-row-right">
+                            	
+                                <p align="center"><strong>Professor  Christopher J. Leaver,&nbsp; </strong>&nbsp;Emeritus Professor of Plant Science, University  of Oxford, will be presenting a seminar entitled &quot; <strong>&quot;Achieving Food Security and Sustainability for 9  Billion</strong>&quot;  on <strong><br />
+                                04  February, Monday</strong><br />
+                                <strong>10am  -11.30am</strong><br />
+                                <strong>CeLS  Auditorium Level 1</strong>,  Centre for Life Sciences Building. </p>
+                                
+                        </div>
+                            <div class="clear"></div>
+                          </div>
+						-->
+                                               
+                        <div class="news-row">
+                          <div class="news-row-right">
+                            	
+                              <p>Heartiest congratulations to our alumnus, Dr  Melissa Jane Fullwood for winning the Singapore National Research Foundation  (NRF) Fellowship Award 2013!</p>
+                            <p>The aim of this award is to attract young,  promising and passionate researchers in various fields of science and  technology to add to Singapore’s research talent pool and help sharpen the  nation’s scientific and technological edge.<br />
+                              <br />
+<img src="images/item_divider.jpg" width="780" height="8" /></p>
+                          </div>
+                            <div class="clear"></div>
+                          </div>
+                        
+						<div class="news-row">
+                        <div class="news-row-left"><img src="images/Calendar_of_Events/seminar/LOR2013/LOR_Symposium_Organizing_Comm_2013.jpg" width="217" height="144" /></div>
+                
+                          <div class="news-row-right">
+                            <p>The 5th NGS Students’ Symposium L.O.R (Life,  Opportunities, Research) 2013 was held on Jan 25, 2013 at University Hall  Auditorium. </p>
+                          
+                                    <p>L.O.R. 2013 showcased the diversity of research topics  undertaken by NGS-ians, through 12 oral presentations and 21 poster  presentations. It was an excellent platform for our young scientists to share  their findings and hone their presentation skills. Participants of the  symposium were introduced to new frontiers in computational science,  nanotechnology, material science, sustainable energy, bioengineering and  medicine through this one day event.</p>
+                                    <p>&nbsp;</p>
+                                    <p>A big “Thank you!” to the Organizing Committee and all  presenters who have made this event a success. </p>
+                            <ul class="bullet-arrow">
+                                      <li>
+                                        <p>Best Oral Presenter: Tang Qianqiao (Influence of CD137L  Signaling in Myelopoiesis during Acute and Chronic Inflammation)</p>
+                                      </li>
+                                      <li>
+                                        <p>                                          Best Poster: Michal Dykas (Super-resolution Scanning Helium  Ion Microscopy for Biological Imaging)</p>
+                                      </li>
+                            </ul>
+                            <p><br />
+                            Click <a href="images/Calendar_of_Events/seminar/LOR2013/LOR_committee_presenters_2013.pdf" target="_blank">here</a> for the list of organizing committee and oral presenters.</p>
+                            <p> <br />
+                            </p>
+                            
+                          <img src="images/item_divider.jpg" width="780" height="8" /></div>
+                            <div class="clear"></div>
+                          </div>  
+                          
+                        <div class="news-row">
+                          <div class="news-row-right">
+                            	
+                                    <p>                                      The Global Young  Scientists Summit (GYSS), an international research meeting for bright young  researchers from all over the world to meet, learn from and interact with  eminent scientists from diverse fields including 9 Nobel Laureates, 2 Millennium  Technology Prize winners, 2 Turing Award winners and a recipient of the Fields  Medal. <br />
+                                      <br />
+                                    </p>
+
+                                <p>The inaugural GYSS @ one-north was held from 20 – 25 January with  the theme “Advancing Science, Creating Technologies for a Better World”.&nbsp; </p>
+                            <p><br />
+                            Two students from NGS  participated in this meeting: </p>
+                            <ul class="bullet-arrow">
+                              <li>
+                                <p>Daniel Yim Guo Rong                              </p>
+                              </li>
+                              <li>
+                                <p> Benjamin Mate Gyori<br />
+                                <br />
+                              </p>
+                              </li>
+                            </ul>
+                            
+                          <img src="images/item_divider.jpg" width="780" height="8" /></div>
+                            <div class="clear"></div>
+                          </div>  
+                          
+                           <div class="news-row">
+                             <div class="news-row-right">
+<p>Organized by The Japan Society for the  Promotion of Science (JSPS), HOPE Meetings give opportunities to excellent graduate  students and young &nbsp;researchers to engage in interdisciplinary discussions with Nobel laureates and other distinguished scientists pioneering the  frontiers of knowledge. It is hoped that the experience the students and researchers  gain at the meeting will inspire and motivate them to become excellent scientists able to shoulder the future of science and  technology.&nbsp;&nbsp; <br />
+  <br />
+</p>
+<p>Five   NGS PhD students, Kwok Hui Si, Deng Niantao, Teo Teck Hui, Juan Wen Chun and  Terence Goh Bing Hui, who specialize in the area of Life Sciences (or related  fields)  participated in the <strong>5th HOPE Meeting</strong> from <strong><u>26 February to 2 March 2013</u></strong>  in Tokyo.</p>
+</div>
+                            <div class="clear"></div>
+                          </div>
+                          
+       	  </div>
+                        
+                        <!-- For Events Tab -->
+                     <!--   
+                    	<div id="tab2" class="tab_content">
+                          <div class="news-row">
+                            <div class="news-row-events-left">
+                                <p align="center"><strong>4 Feb 2013</strong></p>
+                            </div>
+                            <div class="news-row-right">
+                               <table width="456" height="38" border="1">
+                                 <tr>
+                                   <td width="260" height="32" valign="top"><p><a href="calendar_of_events_Chris_Leaver_seminar.html" target="_blank" class="mystyle8">NGS Seminar by Professor Christopher J. Leaver</a></p></td>
+                                   <td width="180" valign="top"><p class="mystyle8">10.00 am - 11.30 am<br />
+                                     CeLS Auditorium<br />
+                                     Centre for Life Sciences
+                                   </p></td>
+                                 
+                                 </tr>
+                                
+                               </table>
+                            </div> 
+                            <div class="clear"></div>
+                          </div> 
+                        </div>
+                        -->
+                      <!-- end for Events Tab -->    
+                          
+                      <!-- For Seminars Tab -->
+                      
+                    	<div id="tab3" class="tab_content">
+                    	  <div class="news-row">
+                        <div class="news-row-events-left">
+                                <p align="center"><strong>8 Apr - 12 Apr 2013</strong></p>
+                            </div>
+                            <div class="news-row-right">
+                             <table width="655" height="69" border="1">
+                                 <tr>
+                                   <td width="367" height="63"><p class="mystyle8">&nbsp;  Click <a href="Seminars/Seminars 8Apr-12Apr.pdf" target="_blank">HERE</a> for a list of seminars.</p></td>
+                                   <!-- <td width="141" valign="top" class="mystyle8"><p class="mystyle8">Prof James McCluskey</p></td>
+<td width="125" valign="top"><p class="mystyle8">11.00 am<br />
+                                                     Seminar Room, Level 4, Immunos, Biopolis</p></td>  -->
+                               </tr>                                
+                               </table>
+                            </div> 
+                            <div class="clear"></div>
+                          </div> 
+                      </div>       
+                <!-- end for seminars tab -->                
+
+                      <!-- For Oral Exams Schedule Tab -->
+                      
+                    	<div id="tab4" class="tab_content">
+                        
+ 						   <div class="news-row">
+                           <div class="news-row-events-left">
+                                <p align="center"><strong>April 2013</strong></p>
+                            </div>
+                            <div class="news-row-right">
+                             <table width="655" height="69" border="1">
+                                 <tr>
+                                   <td width="367" height="63"><p class="mystyle8">&nbsp;  Click <a href="Seminars/List of Oral Examination - April2013.pdf" target="_blank">HERE</a> for the schedule of oral exams of NGS students.</p></td>
+                                   <!-- <td width="141" valign="top" class="mystyle8"><p class="mystyle8">Prof James McCluskey</p></td>
+<td width="125" valign="top"><p class="mystyle8">11.00 am<br />
+                                                     Seminar Room, Level 4, Immunos, Biopolis</p></td>  -->
+                               </tr>                                
+                               </table>
+                            </div> 
+                            <div class="clear"></div>
+                          </div> 
+                      </div>       
+                <!-- end for Oral Exams Schedule tab -->         
+
+                          
+                   	 </div>
+                <!-- Tabs Section End -->
+        </div>
+        <div class="clear"></div>
+        </div>
+        
+         <!-- Carousel Section Start -->
+         <div id="caraousel">
+       
+       <!--  <div id="caraousel-left">
+            	<div id="carausel-left-top"><img src="../images/carousal_top_curve.gif" width="689" height="15" alt="" /></div>
+                <div id="caraousel-left-middle">
+               
+            	<ul id="mycarousel" class="jcarousel-skin-tango">
+                  <li><img src="../images/logo-1.jpg" width="85" height="74" alt="" /></li>
+                       <li><img src="../images/logo-2.jpg" width="85" height="74" alt="" /></li>
+                       <li><img src="../images/logo-3.jpg" width="85" height="74" alt="" /></li>
+                       <li><img src="../images/logo-4.jpg" width="85" height="74" alt="" /></li>
+                       <li><img src="../images/logo-5.jpg" width="85" height="74" alt="" /></li>
+                       <li><img src="../images/logo-6.jpg" width="85" height="74" alt="" /></li>
+                       <li><img src="../images/logo-7.jpg" width="85" height="74" alt="" /></li>
+                       <li><img src="../images/logo-1.jpg" width="85" height="74" alt="" /></li>
+                       <li><img src="../images/logo-2.jpg" width="85" height="74" alt="" /></li>
+                       <li><img src="../images/logo-1.jpg" width="85" height="74" alt="" /></li>
+               </ul>
+              
+              
+          </div>
+               <div id="carausel-left-bottom"><img src="../images/carousal_bottom_curve.gif" width="689" height="13" alt="" /></div>
+           </div>
+          -->
+        </div>
+         <!-- InstanceEndEditable -->
+         <!-- Carousel Section End -->
+<div class="clear"></div>
+		</div>
+  </div>
+  <div class="bottom_curve">&nbsp;</div>
+    	<!-- Footer Section Start -->
+        	<div id="footer">
+                <div class="left_sec">
+                  <p>&copy; Copyright 2001- 
+                        <!-- This is to get the current year -->
+                        <SCRIPT TYPE="text/javascript">
+                        <!--
+                        var da = new Date();
+                        document.write(da.getFullYear());
+                        //-->
+                        </SCRIPT> 
+                        <!--/ end -->
+<strong>National University of Singapore.</strong> All Rights Reserved.</p>
+                  <ul>
+                    <li><a href="http://www.nus.edu.sg/terms-of-use">Terms&nbsp;of&nbsp;Use</a></li>
+                    <li><a href="http://www.nus.edu.sg/privacy">Privacy</a></li>
+                    <li class="last"><a href="http://www.nus.edu.sg/non-discrimination">Non-&nbsp;discrimination</a></li>
+                  </ul>
+                </div>
+              <div class="right_sec">
+                <ul>
+                    <li> <a href="http://www.ngs.nus.edu.sg">Home</a> </li>
+                    <!-- <li> <a href="#">Careers</a> </li> -->
+                    <li> <a href="sitemap.html">Site&nbsp;Map</a> </li>
+                    <li class="last"> <a href="directory_admin.html">Contact Us</a> </li>
+                </ul>
+                <p>Last modified on <!-- #BeginDate format:Am1 -->April 5, 2013<!-- #EndDate --> by <a href="mailto:ngspym@nus.edu.sg">NGS</a></p>
+                </div>
+  </div>
+        <!-- Footer Section End -->
+</body>
+<!-- InstanceEnd --></html>

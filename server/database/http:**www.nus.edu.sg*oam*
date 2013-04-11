@@ -1,0 +1,457 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Toppage.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>NUS - Office of Admissions</title>
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="cache-control" content="no-cache, must-revalidate">
+<script language="javascript" type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39523139-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- InstanceEndEditable -->
+<link href="includes/style.css" type="text/css" rel="stylesheet" />
+<script src="includes/jquery.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+var addthis_config = {ui_click: true }
+</script>
+<!-- Menu Fade Start -->
+<script type="text/javascript" src="includes/fade/jquery.hoverIntent.minified.js"></script>
+<script language="javascript" src="includes/fade.js" type="text/javascript"></script>
+<!-- Menu Fade End -->
+<!-- Tabs Start -->
+<script language="javascript" src="includes/tabs.js" type="text/javascript"></script>
+<!-- Tabs End -->
+<!-- Searchbar Dropdown Start -->
+<script language="javascript" src="includes/searchbar-dropdown.js" type="text/javascript"></script>
+<!-- Searchbar Dropdown End -->
+<!-- Searchbar Selector Start -->
+<script language="javascript" src="includes/search.js" type="text/javascript"></script>
+<!-- Searchbar Selector End -->
+<script language="javascript" src="includes/js/hover.js" type="text/javascript"></script>
+<script language="javascript" src="includes/js/checkStatusURL.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="includes/styles/content.css" />
+
+<script type="text/javascript"> var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); </script>
+<script type="text/javascript"> try { var pageTracker = _gat._getTracker("UA-7277683-1"); pageTracker._trackPageview(); } catch(err) {}</script>
+
+<!-- InstanceBeginEditable name="header" -->
+<!-- Main Banner Slider Start -->
+<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+			var images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = preload.arguments[i]
+				}
+			}
+			preload(
+				"images/content/homeicon-1.jpg",
+				"images/content/homeicon-2.jpg",
+				"images/content/homeicon-3.jpg",
+				"images/content/homeicon-4.jpg",
+				"images/content/homeicon-5.jpg",
+				"images/content/homeicon-directormsg.jpg"
+			)
+		//--><!]]>
+</script>
+<link rel="stylesheet" href="includes/slider/nivo-slider.css" type="text/css" media="screen" />
+<script src="includes/slider/jquery.nivo.slider.2.1.modif.js" type="text/javascript"></script>
+<script language="JavaScript" src="includes/slider.js" type="text/javascript"></script>
+<link href="includes/jcarousel/skin.css" type="text/css" rel="stylesheet"/>
+<script src="includes/jcarousel/jquery.jcarousel.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="includes/caraousel-left.js" language="JavaScript"></script>
+<style>
+#slider p {
+	line-height: 1em;
+	margin: 0;
+}
+</style>
+<!-- Main Banner Slider End -->
+<script type="text/javascript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script>
+<!-- InstanceEndEditable -->
+</head>
+<body>
+<div class="wrapper">
+  <div id="inner_wrapper">
+    <div id="wrapper_content">
+      <!-- Header Section Start -->
+      <div id="header">
+        <h1> <a href="http://www.nus.edu.sg/"><img src="images/logo.png" alt="nus" width="140" height="64" title="nus" /> </a></h1>
+        <div id="faculty-logo"><a href="index.html"><img src="images/OAM_cobrand.png" width="100" height="64" alt="" /></a></div>
+        <div class="header_right_sec">
+          <div class="top_links">
+            <div class="left_curve">
+              <div class="right_curve">
+                <ul>
+                  <li><a href="http://exchange.nus.edu.sg/" target="_blank">myEmail</a></li>
+                  <li><a href="https://ivle.nus.edu.sg/lms/default.aspx" target="_blank">IVLE</a></li>
+                  <li><a href="http://libportal.nus.edu.sg/" target="_blank">Library</a></li>
+                  <li><a href="http://www.nus.edu.sg/campusmap/" target="_blank">Map</a></li>
+                  <li><a href="http://www.nus.edu.sg/registrar/calendar.html" target="_blank">Calendar</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="search_area">
+            <form id="frmSearch" name="frmSearch" onsubmit="evalSearch();return false;" action="#">
+              <div id="search-box">
+                <input type="text"  value="Search by keyword"  onblur="if (this.value == '') {this.value = 'Search by keyword';}"  onfocus="if (this.value == 'Search by keyword') {this.value = '';}" id="txtKeyword" name="txtKeyword" />
+              </div>
+              <div id="search-coloumn">
+                <select id="source" name="SearchMenu" >
+                  <option selected="selected" value="0">NUS Website</option>
+                  <option value="1">Internet</option>
+                  <option value="2">Staff Directory</option>
+                </select>
+              </div>
+              <div id="go-coloumn">
+                <input name="" type="button" id="search-btn" value="Go" onclick="evalSearch();return false;"/>
+              </div>
+            </form>
+          </div>
+          <!-- InstanceBeginEditable name="TopButton" -->
+          <div id="bookmark-btn-home"><span class="addthis_toolbox addthis_default_style "><a onclick="return addthis_sendto()" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" href="http://www.addthis.com/bookmark.php?v=20"><img src="images/lg-bookmark.gif" style="border:0; float:right; margin-right:10px;" alt="Bookmark and Share" /></a></span>
+            <div id="bookmark-btn">
+              <!-- AddThis Button BEGIN -->
+              <div class="addthis_toolbox addthis_default_style "></div>
+              <script src="http://s7.addthis.com/js/200/addthis_widget.js" type="text/javascript"></script>
+              <!-- AddThis Button END -->
+            </div>
+          </div>
+          <!-- InstanceEndEditable -->
+                              <div id="status-check"> <a href="#" onClick="getURL();"  onmouseover="status_check_popup();" onmouseout="status_check_hide();" > <img id="status_check" border="0" alt="" src="images/icon-app-1.gif" style="width:35px;"> </a> </div>
+          <div id="status-check-desc" style="display:none;">
+          accessible via mobile phone only (applicable only to prospective students) 
+          </div> 
+          <div id="askadmissions"> <a href="http://www.askadmissions.nus.edu.sg" target="_blank"> <img id="Image11" border="0" alt="" src="images/ask-admin_h1.gif"> </a> </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <!-- Header Section End -->
+      <!-- Navigation Section Start -->
+      <div id="navigation">
+        <ul id="topnav">
+          <li><a href="/oam/index.html" class="parent">Home</a> </li>
+          <li><a class="parent">Why NUS?</a>
+            <div class="sub">
+              <div class="sub-middle">
+                <ul>
+                  <li>
+                    <h2><a href="/oam/whynus/welcome.html">Director's Message</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/whynus/university-rankings.html">University Rankings</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/whynus/global-education.html">Global Education</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/whynus/multiple-pathways.html">Multiple Pathways</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/whynus/students-life.html">Student Life</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/whynus/international-alumni.html">International Alumni</a></h2>
+                  </li>
+                   </li>
+                  <li>
+                    <h2><a href="http://www.nus.edu.sg/oam/whynus/nus-because.html">NUS Because</a></h2>
+                  </li>
+                </ul>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </li>
+          <li><a href="/oam/academic/academic.html" class="parent">Undergraduate Programmes</a>
+            <div class="sub">
+              <div class="sub-middle">
+                <ul>
+                  <li>
+                    <h2><a href="/oam/courses/course.html">Undergraduate Programmes</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="http://admissions.nus.edu.sg/coursefinder.aspx" target="_blank">Course Finder</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/gradeprofile/sprogramme-igp.html">Indicative Grade Profile (IGP)</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/specialprogram/sprogramme.html">Special Programmes</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/researchprogram/urop.html">Research Opportunities</a></h2>
+                  </li>
+                </ul>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </li>
+          <li><a href="/oam/scholarships" class="parent">Scholarships</a>
+            <div class="sub">
+              <div class="sub-middle">
+                <ul ul style="width:180px;">
+                  <li>
+                    <h2><a href="/oam/scholarships/freshmen/scholarship-freshmen.html">Freshmen(Singapore Citizens & PRs)</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/scholarships/freshmen/scholarship-international.html">Freshmen(International Students)</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/scholarships/currentstudent/scholarship-ug-scholar.html">Current Undergraduate Students</a></h2>
+                  </li>
+                </ul>
+                <ul style="width:180px;">
+                  <li>
+                    <h2><a href="/oam/scholarships/scholarship-awards.html">Awards</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/scholarships/scholars/meetourscholars.html">Meet Our Scholars</a></h2>
+                  </li>
+                  <li><a href="/oam/scholarships/scholars/upcloseandpersonal.html">Up Close and Personal</a></li>
+                  <li><a href="/oam/scholarships/scholars/hearourvoices.html">Hear Our Voices</a></li>
+                  <li><a href="/oam/scholarships/scholars/recenthappenings.html">Recent Happenings</a></li>
+                  <li><a href="/oam/scholarships/scholars/dunmissthis.html">Don't Miss This</a></li>
+                </ul>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </li>
+          <li><a href="/oam/financialaid/" class="parent">Financial Aid</a>
+            <div class="sub">
+              <div class="sub-middle">
+                <ul>
+                  <li>
+                    <h2><a href="/oam/financialaid/index.html">Overview</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-eligibility.html">Eligibility </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-application.html">Application </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-aid-package.html">Financial Aid Package</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/loans/financial-loans.html">Loans, Subsidies &amp; PSEA </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/bursaries/financial-bursaries.html">Bursaries</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-studentemp-work.html">Work Study Assistance </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="http://www.nus.edu.sg/admissions/graduate-studies/partime.php" target="_blank">Part-time Appointment Scheme </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial_aid_acceptance_guide.html ">Financial Aid Acceptance Guide</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-financial-calendar.html">Financial Aid Calendar </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-tuition-fees.html">Tuition Fees &amp; Cost of Living </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="https://aces01.nus.edu.sg/webroapsbs/jsp/FinancialNeedsCalculator.jsp" target="_blank">Financial Needs Calculator </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="http://vidcast.nus.edu.sg/camtasiarelay/How_to_Finance_Your_Undergraduate_Education_-_Flash_(Large)_-_20110314_02.50.03PM.html" target="_blank">Webcast </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-donors.html">Donors</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-faq.html">FAQ</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/financialaid/financial-contact.html">Contact Info </a></h2>
+                  </li>
+                </ul>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </li>
+          <li><a class="parent">Apply To NUS</a>
+            <div class="sub">
+              <div class="sub-middle">
+                <ul>
+                  <li>
+                    <h2><a href="/oam/apply/local/alevel/">Singapore-Cambridge 'A' Levels </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/apply/local/poly/">Polytechnic Diplomas from Singapore</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/apply/local/nushs/">NUS High School Diploma</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/apply/local/ib/">International Baccalaureate (IB) Diploma </a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="apply/ssprs/admissionreq/BYA-admissionreq.html">Singapore Citizens/SPRs with International Qualifications</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="apply/international/admissionreq/BYA-admissionreq.html">International Qualifications</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="apply/transfer/admissionreq/BYA-admission.html">Transfer Applicants</a></h2>
+                  </li>
+
+                </ul>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </li>
+          <li><a href="/oam/news/news.html" class="parent">News &amp; Events</a>
+            <div class="sub">
+              <div class="sub-middle">
+                <ul>
+                  <li>
+                    <h2><a href="/oam/news/news.html">News</a></h2>
+                  </li>
+                  <li>
+                    <h2><a href="/oam/events/events.html">Events</a></h2>
+                  </li>
+                </ul>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </li>
+          <li><a href="/oam/publication/" class="parent">publications</a> </li>
+          <li><a href="/oam/contactus/contact.html" class="parent">Contact</a> </li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <!-- Navigation Section End -->
+      <div id="top-page-content"> <!-- InstanceBeginEditable name="Main" -->
+        <div id="slider"> <img src="images/bannerD-6.jpg" alt="" title="#htmlcaption1"/> <img src="images/bannerD-2.jpg" alt="" title="#htmlcaption2"/> <img src="images/bannerD-3.jpg" alt="" title="#htmlcaption3"/> <img src="images/bannerD-1.jpg" alt="" title="#htmlcaption4"/> <img src="images/bannerD-5.jpg" alt="" title="#htmlcaption5"/> </div>
+        <div id="htmlcaption1" class="nivo-html-caption" style="display:none"> <strong>NUS students participating in the Prime Minister’s Dragon Boat Challenge Trophy Race</strong> </div>
+        <div id="htmlcaption2" class="nivo-html-caption" style="display:none"> <strong>Overseas Community Project with the Global Village Foundation in Vietnam</strong> </div>
+        <div id="htmlcaption3" class="nivo-html-caption" style="display:none"> <strong>Students from the Yong Loo Lin School of Medicine</strong> </div>
+        <div id="htmlcaption4" class="nivo-html-caption" style="display:none"> <strong>NUS Rag and Flag Day 2012</strong> </div>
+        <div id="htmlcaption5" class="nivo-html-caption" style="display:none"> <strong>USP students interacting at Chatterbox, Cinnamon College</strong> </div>
+        <hr class="hr-home" color=#111 SIZE=1 />
+        <div class="home-rightcontent">
+          <div class="news-title">Latest News <img src="images/content/t_bluearrow.gif" height="10"/></div>
+          <div class="homeplus" style="height:170px; overflow:auto;">
+            <ul>
+            <li><a href="http://newshub.nus.edu.sg/headlines/1303/top_05Mar13.php" target="_blank">NUS ranked among world's top 22 in 2013 World Reputation Ranking</a></li>
+                                   <li><a href="news/news.html" target="_blank">New NUS Programme for AY2013-2014 - Business Analytics</a></li>
+             <li><a href="news/news.html" target="_blank">NUS Office of Admissions is now at Stephen Riady Centre, University Town</a><a href="http://www.nus.edu.sg/oam/gradeprofile/sprogramme-igp.html" target="_blank"></a></li>
+                                       <li><a href="news/news.html" target="_blank">Prospective undergraduate students can now check the  status of their admission, scholarship and financial aid application via a new  mobile web application. Click here for more details.</a></li>
+            </ul>
+          </div>
+          <div class="readmore-home"><a href="news/news.html" target="_blank">Read More <img src="images/content/t_bluearrow.gif" height="10"/></a></div>
+          <div class="news-title">Upcoming Events <img src="images/content/t_bluearrow.gif" height="10"/></div>
+          <div class="homeplus">
+            <ul>
+              <li><a href="https://share.nus.edu.sg/registrar/info/calendar/AY2013-2014.pdf" target="_blank">Academic Calendar 2013 </a></li>
+            </ul>
+          </div>
+          <div class="readmore-home"><a href="events/events.html" target="_blank">Read More <img src="images/content/t_bluearrow.gif" height="10"/></a></div>
+          <div class="news-title">Quick Links <img src="images/content/t_bluearrow.gif" height="10"/></div>
+          <form action="javascript:alert('Internal forms can not be handled by generated pages.');" id="form" method="post">
+            <select class="contact" id="jumpMenu" name="jumpMenu" onchange="MM_jumpMenu('parent',this,0)">
+              <option value="http://www.nus.edu.sg/oam"> Select here </option>
+              <option value=" apply/international/exams/BYA-exam.html"> University Entrance Exam </option>
+              <option value=" https://aces01.nus.edu.sg/uasonline/Login ">Check Application Status </option>
+              <option value=" http://www.nus.edu.sg/registrar/calendar.html"> Academic Calendar </option>
+              <option value=" campustour/campustour.html "> Campus Tour </option>
+              <option value=" http://www.askadmissions.nus.edu.sg "> Ask Admissions </option>
+              <option value=" http://admissions.nus.edu.sg/coursefinder.aspx "> Course Finder </option>
+              <option value="scholarships/index.html"> Scholarships</option>
+              <option value="financialaid/index.html">Financial Aid </option>
+              <option value=" https://aces01.nus.edu.sg/webroapsbs/jsp/FinancialNeedsCalculator.jsp "> Financial Needs Calculator </option>
+            </select>
+          </form>
+        </div>
+        <!-- Banner Section End -->
+        <div id="caraousel">
+          <div id="caraousel-left">
+            <div id="carausel-left-top"><img src="images/carousal_top_curve.gif" width="940" height="15" alt="" /></div>
+            <div id="caraousel-left-middle">
+              <ul id="mycarousel" class="jcarousel-skin-tango">
+                <li><a target="_blank" href="http://utown.nus.edu.sg/"><img alt="U town" title="Utown" src="images/content/homeicon-1.jpg" class="home-img"></a></li>
+                <li><a target="_blank" href="campustour/campustour.html"><img  alt="Campus Tours" title="Campus Tours" src="images/content/homeicon-2.jpg" class="home-img"></a></li>
+                <li><a target="_blank" href="http://www.nus.edu.sg/oam/whynus/nus-because.html"><img alt="virtualtour" title="virtualtour" src="images/content/homeicon-3.jpg" class="home-img"></a></li>
+                <li><a target="_blank" href="http://campuslife.nus.edu.sg/"><img alt="campuslife" title="campuslife" src="images/content/homeicon-4.jpg" class="home-img"></a></li>
+                <li><a target="_blank" href="http://www.nus.edu.sg/oam/docs/Directions%20to%20NUS%20Office%20of%20Admissions.pdf"><img alt="How to get to admissions office " title="admissionsvideo" src="images/content/homeicon-5.jpg" class="home-img"></a></li>
+               <!-- <li><a target="_blank" href="welcome/welcome.html"><img alt="Director's Message " title="Director's Message " src="images/content/homeicon-directormsg.jpg" class="home-img"></a></li>-->
+              </ul>
+            </div>
+            <div id="carausel-left-bottom"><img src="images/carousal_bottom_curve.gif" width="940" height="13" alt="" /></div>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div id="home-accordion">
+          <table width="220px;" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr style="padding:0">
+                <td style=" vertical-align:middle; width:130px;"><font style="font-size: 1.1em;color: #333333; font-weight:bold">Connect with (N)US!</font></td>
+                <td  style="text-align:right; width:90px;"><a target="_blank" href="https://twitter.com/#!/NUSadmissions"><img height="22" border="0" width="22" title="Follow Office of Admissions on Twitter" src="images/content/icon_twitter.jpg"></a> <a target="_blank" href="http://www.youtube.com/nuscast"> <img height="22" border="0" width="22" title="NUS on YouTube" src="images/content/icon_youtube.jpg"></a> <a target="_blank" href="http://itunesu.nus.edu.sg/"> <img height="22" border="0" width="22" title="NUS on iTunes U" src="images/content/icon_itunesu.jpg"></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <style>
+#askadmissions {
+	right:70px;
+	
+}
+#status-check {
+	right: 25px;
+}
+</style>
+        <!-- InstanceEndEditable --> </div>
+      <div class="clear">
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </div>
+  <div class="bottom_curve">&nbsp;</div>
+  <!-- Footer Section Start -->
+  <div id="footer">
+    <div class="left_sec">
+      <p>&copy; Copyright 2001-2010 <strong>National University of Singapore.</strong> All Rights Reserved.</p>
+      <ul>
+        <li><a href="http://www.nus.edu.sg/terms-of-use" target="_blank">Terms&nbsp;of&nbsp;Use</a></li>
+        <li><a href="http://www.nus.edu.sg/privacy" target="_blank">Privacy</a></li>
+        <li class="last"><a href="http://www.nus.edu.sg/non-discrimination" target="_blank">Non-&nbsp;discrimination</a></li>
+      </ul>
+    </div>
+    <div class="right_sec">
+      <ul>
+        <li> <a href="http://www.nus.edu.sg/" target="_blank">Home</a> </li>
+        <li> <a href="http://www.nus.edu.sg/site-map">Site&nbsp;Map</a> </li>
+        <li class="last"> <a href="http://www.nus.edu.sg/campusmap/" target="_blank">Campus Map</a> </li>
+      </ul>
+      <p>Last modified on
+        <!-- #BeginDate format:Am1 -->April 2, 2013<!-- #EndDate -->
+        by <a href="http://www.nus.edu.sg/oam/" style="color: #333333;">Office of Admissions</a></p>
+    </div>
+  </div>
+  <!-- Footer Section End -->
+</div>
+</body>
+<!-- InstanceEnd --></html>

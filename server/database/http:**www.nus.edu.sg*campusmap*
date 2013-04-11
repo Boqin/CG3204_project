@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>NUS Campus Map</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<frameset rows="0,*" frameborder="NO" border="0" framespacing="0"> 
+  <frame name="emptyFrame" scrolling="NO" noresize src="empty.htm" marginwidth="0" marginheight="0" bordercolor="0" >
+  <frame name="mainFrame" src="http://www.street-directory.com/nus/campus2.cgi?x=1488&y=1032&level=1&star=&heading=National%20University%20of%20Singapore" marginwidth="0" marginheight="0" bordercolor="0">
+</frameset>
+<noframes><body bgcolor="#FFFFFF" text="#000000">
+
+</body></noframes>
+</html>

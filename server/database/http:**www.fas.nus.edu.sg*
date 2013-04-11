@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>NUS.</title>
+ <!-- <meta http-equiv="Refresh" content="0; url=about/index.html/" /> -->
+</head>
+<body>
+  <script language="javascript" type="text/javascript">
+     <!--
+     window.location="home/index.htm";
+     // -->
+ </script>
+<noscript>
+<p>Your Browser does not support Javascript. Please enable javascript and refresh this page.</p>
+<p><strong>To enable JavaScript in Microsoft Internet Explorer 5 or Later (for Windows):</strong></p>
+    <ol>
+        <li>Open <b>Internet Explorer</b>. </li>
+        <li>On the <b>Tools</b> menu, click <b>Internet Options</b>. </li>
+        <li>On the <b>Security tab</b>, click <b>Internet</b>. </li>
+        <li>Click <b>Custom Level</b>. (Fig.1) </li>
+        <li>Scroll down to <b>Active scripting</b>. </li>
+        <li>Click <b>Enable</b> (or <b>Prompt</b>). (Fig.2) </li>
+        <li>Click <b>OK</b>. </li>
+        <li>Click <b>Yes</b>. </li>
+        <li>Click <b>OK</b>.</li>
+    </ol>
+    <p> You can also follow <a href="home/index.htm">link</a>! after enabling javascript.</p>
+    <img alt="" src="Images/localintranet.jpg" /><img src="Images/activescripting.jpg" alt="" />
+    </noscript>
+  </body>
+</html>

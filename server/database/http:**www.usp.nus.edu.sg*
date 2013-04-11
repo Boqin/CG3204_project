@@ -1,0 +1,576 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Homepage.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>NUS University Scholars Programme</title>
+<meta name="description" content="Welcome to the official website for the NUS University Scholars Programme (USP), a multidisciplinary, partially residential, academic programme for NUS undergraduates. NUS USP offers an environment of inquiry, collaboration, and creative discovery. Our students learn to engage with ideas and situations, and to challenge themselves intellectually, socially, and personally." />
+<meta name="keywords" content="active student community, intellectual curiosity, interdisciplinary, multidisciplinary, overseas, overseas opportunities, opportunity, integrated learning and living experiences, ideas, passions, residential college, college, USP, University Scholars Programme, NUS, National University of Singapore, Asia, academic programmes, USP modules, USP scholar, USP international programmes, exchange, student exchange programme, joint degree programme, double degree programme, cultural immersion programme, summer programme, module study, study trip, youth expedition community service, learning projects, conference, symposium, dialogue, international internship, study abroad" />  
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<link href="includes/style.css" type="text/css" rel="stylesheet" />
+
+<style type="text/css" media="screen"></style>
+
+<script language="javascript" src="includes/decoder.js"></script>
+
+<script src="includes/jquery-1.9.1.min.js" type="text/javascript"></script>
+
+<script language="JavaScript" type="text/javascript">
+var addthis_config = {ui_click: true }
+</script>
+
+<!-- Menu Fade Start -->
+<script type="text/javascript" src="includes/fade/jquery.hoverIntent.minified.js"></script>
+<script language="JavaScript" src="includes/fade.js" type="text/javascript"></script>
+<!-- Menu Fade End -->
+
+<!-- Tabs Start -->
+<script language="JavaScript" src="includes/tabs.js" type="text/javascript"></script>
+<!-- Tabs End -->
+
+<!-- Searchbar Dropdown Start -->
+<script language="JavaScript" src="includes/searchbar-dropdown.js" type="text/javascript"></script>
+<!-- Searchbar Dropdown End -->
+
+<!-- Academic Dropdown Start -->
+<script language="JavaScript" src="includes/academic-dropdown.js" type="text/javascript"></script>
+<!-- Academic Dropdown Start -->
+
+<!-- Searchbar Selector Start -->
+<script language="JavaScript" src="includes/search.js" type="text/javascript"></script>
+<!-- Searchbar Selector End -->
+
+<script src="includes/slides-js/jquery.slides.min.js"></script>
+
+ <!-- SlidesJS Optional: If you'd like to use this design -->
+<style>
+#slides, #slides2, { display: none; margin-bottom:10px; }
+#slides { position: relative; margin-top: 25px; width: 660px; height: 240px; margin-left: 20px; }
+#slides2 { position: relative; margin-top: 20px; top: -290px; width: 660px; height: 240px; margin-left: 20px; }
+.slidesjs-navigation { margin-top:3px; }
+.slidesjs-previous { margin-right: 5px; float: left; display: none; }
+.slidesjs-next { margin-right: 5px; float: left; display: none; }
+.slidesjs-pagination { margin: -25px 0 0 15px; float: left; list-style: none; position: relative; z-index: 999; }
+.slidesjs-pagination li { float: left; margin: 0 1px; }
+.slidesjs-pagination li a { display: block; width: 13px; height: 0; padding-top: 13px; background-image: url(images/slides/pagination.png); background-position: 0 0; float: left; overflow: hidden; }
+.slidesjs-pagination li a.active,.slidesjs-pagination li a:hover.active { background-position: 0 -13px }
+.slidesjs-pagination li a:hover { background-position: 0 -26px }
+
+/* color: rgb(2, 51, 157); */
+
+#slides a:link, #slides a:visited, #slides2 a:link, #slides2 a:visited { color: rgb(41, 196, 255); }
+#slides a:active, #slides2 a:active { color: #9e2020 }
+#slides a:hover, #slides2 a:hover { color: rgb(255, 255, 255); }
+
+.navbar { overflow: hidden }
+.caption-bg { z-index: 800; position: relative; bottom: 0; top: -244px; left: 460px; width: 240px; height: 240px; font-size: 1em; line-height: 1.4em; color: rgb(255, 255, 255); text-shadow: none;	}
+.caption-bg-2 { top: -494px; }
+.caption-bg p, .caption-bg h2 {	padding: 0;	margin: 0 0 1em 0; padding: 5px 0 0 15px; /* 5px 20px 0 20px; */ }
+.caption-bg ul, .caption-bg li { }
+.caption-bg a { outline:0; position: relative; color: rgb(41, 196, 255); }
+.caption-bg a:active { outline: none; color: rgb(41, 196, 255); }
+.caption-bg a:link { text-decoration: none; color: rgb(41, 196, 255); }
+.caption-bg a:hover { text-decoration: underline; color: rgb(41, 196, 255); }
+.caption-bg a:visited { text-decoration: none; }
+.caption-bg h2 { padding-top: 12px; letter-spacing: 1px; color: rgb(0, 174, 239); margin-bottom: 0; line-height: 1.4em; font-size: 1.166em; }
+.caption-bg ul { margin-left: 30px; }
+</style>
+<!-- End SlidesJS Optional-->
+    
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div class="wrapper">
+  <div id="inner_wrapper">
+  	<div id="wrapper_content">
+		<!-- Header Section Start -->
+       
+        <div id="header">
+        <h1><a href="http://www.nus.edu.sg"><img src="images/logo.png" width="140" height="64" alt="National University of Singapore (NUS) logo" title="Go to the NUS website" />
+        </a></h1>
+        
+        <div id="faculty-logo"><a href="index.html"><img src="images/subbrand.png" width="98" height="57" alt="University Scholars Programme (USP) logo" title="Go to the USP website"/>        
+        </a></div>
+                
+        <div class="header_right_sec">
+        
+          <div class="top_links">
+            <div class="left_curve">
+              <div class="right_curve">
+                <ul>
+                  <li><a href="http://exchange.nus.edu.sg/" target="_blank">myEmail</a></li>
+                  <li><a href="https://ivle.nus.edu.sg/" target="_blank">IVLE</a></li>
+                  <li><a href="http://www.lib.nus.edu.sg/" target="_blank">Library</a></li>
+                  <li><a href="http://www.nus.edu.sg/campusmap">Map</a></li>
+                  <li><a href="https://aces01.nus.edu.sg/CoE/jsp/coeMain.jsp" target="_blank">Calendar</a></li>
+                </ul>
+             </div> <!-- end right_curve -->
+            </div> <!-- end left curve -->
+          </div> <!-- end top_links -->
+          
+          <div class="search_area">
+            <form id="frmSearch" name="frmSearch" onsubmit="evalSearch();return false;" action="#">
+            <div id="search-box">
+                        <input type="text"  value="Search by keyword"  onblur="if (this.value == '') {this.value = 'Search by keyword';}"  onfocus="if (this.value == 'Search by keyword') {this.value = '';}" id="txtKeyword" name="txtKeyword" />
+            </div>
+            <div id="search-coloumn">
+                 <select id="source" name="SearchMenu" >
+
+                         <option selected="selected" value="0">NUS Website</option>
+
+                         <option value="1">Internet</option>
+          
+                         <option value="2">Staff Directory</option>
+
+                 </select>
+            </div>
+            <div id="go-coloumn">
+                <input name="" type="button" id="search-btn" value="Go" onclick="evalSearch();return false;"/>
+            </div>
+            </form>
+
+       	  </div>
+   	 	  </div>
+     	 </div>
+         <div class="clear"></div>
+	   <!-- Header Section End -->
+        
+       <!-- Navigation Section Start -->
+       <!-- InstanceBeginEditable name="Skin" -->
+	   <!-- InstanceEndEditable -->     
+
+    <div id="navigation_gray">     
+         
+        <ul id="topnav">
+         
+          <li><a href="index.html" class="parent">Home</a></li>
+          
+      <li><a href="aboutusp/index.html" class="parent">About USP</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>
+
+  <li><h2><a href="aboutusp/index.html">Overview</a></h2></li>
+
+                <li><h2><a href="aboutusp/people/directors/index.html">Director's Welcome</a></h2></li>
+
+                <li><h2><a href="aboutusp/vision-and-mission.html">Our Vision & Mission</a></h2></li>
+
+                <li><h2><a href="aboutusp/history.html">Our History</a></h2></li>
+				
+				<li><h2><a href="aboutusp/about-academic-programmes.html">Our Academic Programmes</a></h2></li>
+
+                <li><h2>Our People</h2></li>
+                <li><a href="aboutusp/people/management.html">Management</a></li>
+                <li><a href="aboutusp/people/office.html">Faculty & Admin</a></li>
+                <li><a href="aboutusp/people/teachingawards/index.html">Teaching Excellence Awards</a></li>
+                
+                <li><h2><a href="aboutusp/partner-faculties.html">Our Partner Faculties</a></h2></li>
+			</ul>
+            
+            <ul>            
+                <li><h2>Our Informational Materials</h2></li>
+                <li><a href="aboutusp/info-materials/index.html#prospectus">USP Prospectus</a></li>
+                <li><a href="aboutusp/info-materials/index.html#micro-prospectus">USP Micro Prospectus</a></li>
+                <li><a href="aboutusp/info-materials/index.html#info-cards">USP Info Cards</a></li>
+                <li><a href="aboutusp/info-materials/index.html#journals">Students & Alumni Journals</a></li>
+
+                <li><h2><a href="aboutusp/publications/index.html">Our Publications</a></h2></li>
+            
+                <li><h2><a href="aboutusp/newsroom/index.html">Newsroom</a></h2></li>
+                <li><h2><a href="aboutusp/careers/index.html">Career @ USP</a></h2></li>
+                <li><h2><a href="aboutusp/contact.html">Contact Us</a></h2></li>
+            </ul>
+
+               <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+    
+        <li><a href="curriculum/index.html" class="parent">Curriculum</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+        	 <ul>
+               <li><h2><a href="curriculum/index.html">Overview</a></h2></li>
+               <li><h2><a href="curriculum/modules/index.html">USP Modules</a></h2></li>
+               <li><h2><a href="curriculum/modules/modules-offered.html">Modules Offered</a></h2></li>
+
+               <li><h2>Curriculum up to AY2011/12</h2></li>
+               <li><a href="curriculum/modules/first-tier/index.html">First-tier Modules</a></li>
+               <li><a href="curriculum/modules/advanced/index.html">Advanced Modules</a></li>
+
+               <li><h2>Curriculum AY2012/13 & onwards</h2></li>
+			   <li><a href="curriculum/modules/foundation/index.html">Foundation Modules</a></li>
+               <li><a href="curriculum/modules/inquiry/index.html">Inquiry Modules</a></li>
+               <li><a href="curriculum/modules/reflection/index.html">Reflection Modules</a></li>
+               
+               <li><h2>Academic Structure</h2></li>
+               <li><a href="curriculum/acad-structure/index.html">Overview</a></li>
+               <li><a href="curriculum/acad-structure/requirements/index.html">Requirements</a></li>
+               <li><a href="curriculum/acad-structure/fitting-usp.html">Fitting USP in your Curriculum</a></li>
+               <li><a href="curriculum/acad-structure/fulfilling-singapore-studies.html">Fulfilling Singapore Studies</a></li>
+               <li><a href="http://www.nus.edu.sg/registrar/nusbulletin/index.html">NUS Bulletin</a></li>
+
+               <li><h2>Joint Degree Programmes</h2></li>
+               <li><a href="curriculum/joint-degree/index.html">Overview</a></li>
+               <li><a href="curriculum/joint-degree/anu-fos/index.html">ANU-FOS</a></li>
+               <li><a href="curriculum/joint-degree/anu-fass/index.html">ANU-FASS</a></li>
+            </ul>          
+            
+            <ul>
+               <li><h2>Cultural Immersion/Double Degree Programmes</h2></li>
+               <li><a href="curriculum/cultural-immersion/index.html">Overview</a></li>
+               <li><a href="curriculum/cultural-immersion/yuanpei/index.html">USP - PKU Yuanpei Programme</a></li>
+               <li><a href="curriculum/cultural-immersion/hindu-college/index.html">USP - Hindu College Programme</a></li>
+               <li><a href="curriculum/cultural-immersion/shri-ram/index.html">USP - Lady Shri Ram College for Women Programme</a></li>
+               <li><a href="curriculum/cultural-immersion/waseda/index.html">USP - Waseda Programme</a></li>
+               
+                <li><h2><a href="curriculum/student-exchange/index.html">Student Exchange Programmes</a></h2></li>
+                
+                <li><h2>Academic Matters</h2></li>
+                <li><a href="curriculum/acad-matters/index.html">Overview</a></li>
+   			    <li><a href="curriculum/acad-matters/academic-code.html">Academic Code & Penalties for Plagiarism</a></li>
+                <li><a href="curriculum/acad-matters/academic-expectations.html">Academic Expectations</a></li>
+                <li><a href="curriculum/acad-matters/transfer.html">Change of Courses</a></li>
+                <li><a href="curriculum/acad-matters/su-option.html">S/U Options</a></li>
+                <li><a href="curriculum/acad-matters/programme-withdrawal.html">Programme Withdrawal</a></li>
+
+			    <li><h2>Academic Advising</h2></li>
+                <li><a href="curriculum/acad-advising/index.html">Overview</a></li>                			
+                <li><a href="curriculum/acad-advising/faculty-advising.html">Faculty Advising</a></li>                			
+                <li><a href="curriculum/acad-advising/usp-mentorship-programme.html">Peer Mentoring</a></li>                			
+
+                <li><h2>Graduation & Recognition</h2></li>
+                <li><a href="curriculum/graduation-recognition/index.html">Overview</a></li>
+                <li><a href="curriculum/graduation-recognition/commencement.html">Commencement</a></li>                
+		        <li><a href="curriculum/graduation-recognition/testimonial.html">USP Testimonial</a></li>                			
+                <li><a href="curriculum/graduation-recognition/medals-awards-prizes.html">Medals, Awards & Prizes</a></li>
+                
+                <li><h2><a href="curriculum/faq/index.html">Frequently Asked Questions</a></h2></li>
+            </ul>   
+            
+               <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+ 
+
+    <li><a href="community-college/index.html" class="parent">Community & College</a>
+    	<div class="sub">        
+        	<div class="sub-middle">
+             <ul>
+			   <li><h2>Community</h2>
+               <li><a href="community-college/index.html">Overview</a></li>
+			   <li><a href="community-college/calendar.html">Calendar of Events</a></li>
+               <li><a href="http://usc.usp.nus.edu.sg/">University Scholars Club</a></li>
+               <li><a href="community-college/interest-groups.html">Interest Groups</a></li> 
+               <li><a href="community-college/snippets-of-life.html">Snippets of Life</a></li>
+			   
+             </ul>
+            
+        	 <ul>
+               <li><h2>College</h2></li>
+               <li><a href="community-college/college/index.html">Overview</a></li>
+                <li><a href="community-college/college/community-activities.html">Community & Activities</a></li>
+               <li><a href="community-college/college/amenities-rates.html">Amenities & Events</a></li>
+               <li><a href="community-college/college/financial-assistance-schemes.html">Financial Assistance Scheme</a></li>
+               <li><a href="community-college/college/views-quotes.html">Views & Quotes</a></li>
+            </ul>            
+               <div class="clear"></div>
+            </div>            
+        </div>
+    </li>
+
+    <li><a href="opportunities/international-programmes/index.html" class="parent">Opportunities</a>
+    	<div class="sub">
+        	<div class="sub-middle">
+        	 <ul>
+            
+               <li><h2>International Programmes</h2></li>
+               <li><a href="opportunities/international-programmes/index.html">Overview</a></li>
+               <li><a href="opportunities/international-programmes/student-exchange/index.html">Student Exchange Programmes</a></li>
+               <li><a href="opportunities/international-programmes/study-programmes/index.html">Study Programmes</a></li>
+               <li><a href="opportunities/international-programmes/ddp-jdp/index.html">Double Degree (DD) & Joint Degree (JD) Programmes</a></li>  
+               <li><a href="opportunities/international-programmes/cultural-immersion/index.html">Cultural Immersion Programmes</a></li>
+               <li><a href="opportunities/international-programmes/module-study/index.html">Module Study Trips</a></li>
+               <li><a href="opportunities/international-programmes/international-internships/index.html">International Internships</a></li>
+               <li><a href="opportunities/international-programmes/conferences-symposia/index.html">Conferences & Symposia</a></li>
+               <li><a href="opportunities/international-programmes/youth-expedition/index.html">Youth Expedition Programmes</a></li>
+
+               <li><h2><a href="opportunities/career-services/index.html">Career Services</a></h2></li>
+            </ul>
+            
+               <div class="clear"></div>           
+            </div>
+        </div>
+    </li>
+ 
+    
+     <li><a href="alumni-network/index.html" class="parent">Alumni Network</a>
+    	<div class="sub">
+        	<div class="sub-middle">
+        	 <ul>
+
+			   <li><h2><a href="alumni-network/index.html">Welcome</a></h2></li>
+
+			   <li><h2>Alumni Contributions</h2></li>
+               <li><a href="alumni-network/mentorship-programmes/index.html">Mentorship Programmes</a></li>
+               <li><a href="alumni-network/admission-interviews/index.html">Admission Interview</a></li>
+               <li><a href="alumni-network/sharing-sessions/index.html">Sharing Sessions</a></li>
+
+			   <li><h2>Donations</h2></li>
+               <li><a href="alumni-network/donations/index.html#general-fund">USP General Purpose Fund</a></li>
+               <li><a href="alumni-network/donations/index.html#alumni-fund">USP Alumni Fund</a></li>
+               <li><a href="alumni-network/donations/index.html#student-fund">Student Assistance Fund - USP Residence</a></li>
+               
+               <li><h2>Alumni Achievements</h2></li>
+               <li><a href="alumni-network/awards/index.html">Alumni Awards</a></li>
+               <li><a href="alumni-network/profiles/index.html">Alumni Profiles</a></li>
+
+               <li><h2><a href="http://www.usp.nus.edu.sg/alumni-network/alumni-registration.html">Stay in Touch!</a></h2></li>
+                           
+                              
+            </ul>
+            
+            <div class="clear"></div>           
+            </div>
+        </div>
+    </li>   
+  </ul>
+       <div class="clear"></div>
+  </div>
+        <!-- navigation section end -->
+	    <!-- InstanceBeginEditable name="Content" -->
+        
+        <div id="usp-content-area">
+        
+          <div id="usp-container">
+        
+           <div id="left-usp">
+
+           <img src="images/homepage/usp-letters-homepage.gif"/>
+           
+           <div id ="left-links">
+           <ul>
+           
+           <li><a href="aboutusp/people/directors/index.html">Director's Welcome</a></li>
+           <li><a href="alumni-network/donations/index.html">Giving to USP</a></li>
+           <li><a href="staff-resources/index.html">Staff Resources</a></li>
+           <li><a href="http://www.facebook.com/NUSUSP" rel="nofollow">Facebook</a></li>
+
+		   </ul>
+
+           </div> <!-- end left links -->
+
+           </div> <!-- end left column -->
+        
+           <div id="right-usp">
+		           
+           <img src="images/homepage/usp-title-homepage.gif" class="right-title-img"/>   
+           
+              <div id="right-button-area">
+             
+                 <p><a href="aboutusp/index.html" class="home-text" title="Learn More"><img src="images/homepage/learn-more.gif" width="166" height="34"/></a><a href="http://www.usp.sg" class="home-text" title="Apply to USP"><img src="images/homepage/apply-to-usp.gif" width="223" height="34"/></a></p>
+                 
+              </div>
+              
+        <!-- banner section start -->
+        
+     <div id="slides">
+ 
+   	  <div class="slide">
+      <img src="images/slides/usp-jolly-good-fellow.jpg" alt="" title="" width="660" height="240"> 
+		     <div class="caption"> 
+                <p><a href="community-life/2013/jolly-good-fellow.html">For He's A Jolly Good Fellow</a></p>
+			 </div>
+      </div>
+                           
+	  <div class="slide">
+      <img src="images/slides/usp-nus-because-ang.jpg" alt="" title="" width="660" height="240">
+	         <div class="caption"> 
+                <p><a href="community-life/2013/ang-jin-hui.html">Ang Jin Hui (Computing + USP, Year 2) on "NUS Because"</a></p>
+			 </div>
+      </div>
+
+   	  <div class="slide">
+      <img src="images/slides/usp-picsim.jpg" alt="" title="" width="660" height="240">
+   	         <div class="caption"> 
+                <p><a href="community-life/2013/picsim-2013.html">USP students shine at Princeton Conference</a></p>
+			 </div>
+      </div>
+      
+  <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left"></i>
+  </a>
+     
+  <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right"></i>
+  </a>
+  
+ </div>
+ 
+ <!-- end banner section -->
+ 
+ <!-- banner section 2 start -->
+    
+ <img src="images/homepage/highlights-header.png" class="highlights-header" />
+
+  <div class="caption-bg"></div> 
+
+    <div id="slides2">
+          
+      <div class="slide">
+      <img src="images/slides/usp-farewell-tea.jpg" alt="" title="" width="660" height="240">
+	         <div class="caption"> 
+                <p><a href="whats-new/2013/usp-farewell-tea-20130418.html">Exchange Students Farewell Tea</a></p>
+			 </div>
+      </div>
+
+   	  <div class="slide">
+      <img src="images/slides/tribeca-oxyana-daly.jpg" alt="" title="" width="660" height="240">
+   	         <div class="caption"> 
+                <p><a href="whats-new/2013/tribeca-oxyana-daly.html">Dr Patrick Daly's film project <i>Oxyana</i> in 2013 Tribeca Film Festival</a></p>
+			 </div>
+      </div>
+      
+      <div class="slide">
+      <img src="images/slides/rlaa-perfectblue.jpg" alt="" title="" width="660" height="240">
+   	         <div class="caption"> 
+                <p><a href="whats-new/2013/rlaa-perfectblue-20130411.html">Random Looks at Art: <i>Perfect Blue</i></a></p>
+			 </div>
+      </div>
+
+     <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left"></i></a>
+     
+      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right"></i></a> 
+      
+    </div>
+    
+  <div class="caption-bg caption-bg-2"></div> 
+
+  <img src="images/homepage/whats-new-header.png" class="highlights-header-2" />
+ 
+    <!-- end banner section 2 -->
+                     
+            
+            </div> <!-- end right column -->  
+
+          </div> <!-- end usp container -->
+        
+        <div class="clear"></div>
+        
+</div>
+
+
+  <!-- slidesJS: initialize slidesJS w/ jQuery -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 660,
+        height: 240,
+		       navigation: {
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          fade: {
+            speed: 400,
+			crossfade: true
+          }
+        },
+        navigation: false,
+		 play: {
+          auto: true,
+		   effect: "fade",
+        // [string] Can be either "slide" or "fade".
+         interval: 10100
+        }
+      });
+
+      /*
+        To have multiple slideshows on the same page
+        they just need to have separate IDs
+      */
+      $('#slides2').slidesjs({
+       width: 660,
+        height: 240,
+		       navigation: {
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          fade: {
+            speed: 400,
+			crossfade: true
+          }
+        },
+        navigation: false,
+		 play: {
+          auto: true,
+		   effect: "fade",
+        // [string] Can be either "slide" or "fade".
+         interval: 10000
+        }
+      });
+
+    });
+  </script>
+  <!-- end slidesJS -->
+  <!-- InstanceEndEditable -->
+
+         <div class="clear"></div>
+		</div>
+  </div>
+  <div class="bottom_curve">&nbsp;</div>
+    	
+		<!-- footer section start -->
+		
+        	<div id="footer">
+                <div class="left_sec">
+                  <p>&copy; Copyright 2001- 
+                        <!-- This is to get the current year -->
+                        <SCRIPT TYPE="text/javascript">
+                        <!--
+                        var da = new Date();
+                        document.write(da.getFullYear());
+                        //-->
+                        </SCRIPT> 
+                        <!--/ end -->
+<strong>National University of Singapore.</strong> All Rights Reserved.</p>
+                  <ul>
+                    <li><a href="http://www.nus.edu.sg/terms-of-use">Terms&nbsp;of&nbsp;Use</a></li>
+                    <li><a href="http://www.nus.edu.sg/privacy">Privacy</a></li>
+                    <li class="last"><a href="http://www.nus.edu.sg/non-discrimination">Non-&nbsp;discrimination</a></li>
+                  </ul>
+                </div>
+              <div class="right_sec">
+                <ul>
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="aboutusp/careers/index.html">Careers</a> </li>
+                    <li> <a href="sitemap.html">Site&nbsp;Map</a> </li>
+                    <li class="last"> <a href="aboutusp/contact.html">Contact</a> </li>
+                </ul>
+                <p>Last modified on <!-- #BeginDate format:Am1 -->April 10, 2013<!-- #EndDate --> by <script>EmailLink('73ykxbU@w73.nm7.3p','University Scholars Programme')</script></p>
+                </div>
+  </div>
+        <!-- end footer section -->
+        
+          <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "http://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+  <script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3440233-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</div>
+</body>
+<!-- InstanceEnd --></html>

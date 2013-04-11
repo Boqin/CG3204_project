@@ -1,0 +1,467 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="content-language" content="en"> 
+<meta name="description" content="EU Centre Singapore website">
+<meta name="keywords" content="EU, NUS, NTU, SIIA, Singapore, education, research">  
+    <title>EU Centre in Singapore</title> 
+    <link rel="stylesheet" type="text/css" href="./css/all.css" /> 
+    
+    <link rel="stylesheet" type="text/css" href="./css/dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="./css/nav_default.css" />
+    
+    <link rel="stylesheet" type="text/css" href="./css/leftnav.css" /> 
+    <link type="text/css" href="./css/ui.theme.css" rel="stylesheet" />
+    <!-- link type="text/css" href="./css/ui.accordion.css" rel="stylesheet" / -->
+    <link type="text/css" href="./css/ui.core.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="./css/ui.dialog.css" />
+    
+    <script type="text/javascript" src="./js/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="./js/ui.core.js"></script>
+    <!-- script type="text/javascript" src="./js/ui.accordion.js"></script -->
+    <script type="text/javascript" src="./js/ui.dialog.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){ 
+    
+
+        $(".accordion.header").click(function() {
+            $(".accordion.details").slideUp();
+                
+            if ($(this).next(".accordion.details").css("display") == 'none')
+                $(this).next(".accordion.details").slideDown();
+        });
+    });
+    
+
+    </script>
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <script type="text/javascript" src="js/jquery.cycle.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.trans.min.js"></script>
+    
+	<script>
+	  
+        $(document).ready(function(){
+			$('#left_panel').cycle({ 
+                fx:      'zoom',
+                sync: true,
+                cleartypeNoBg: true,
+                cleartype: true,
+				timeout: 15000, 
+				next:   '.next2', 
+				prev:   '.prev2' 
+			});
+
+            $(".featureexpand").click(function(event) {
+
+                event.preventDefault();
+
+                $("#expand").slideToggle();
+
+            }); 
+
+            $("#expand a").click(function(event) {
+
+                event.preventDefault();
+
+                $("#expand").slideUp();
+
+            });
+
+        });
+		
+    </script>
+
+<!--[if gt IE 6]>
+            <link rel="stylesheet" type="text/css" href="./css/ie.css" /> 
+<![endif]-->
+</head>  ﻿﻿<body>  
+<div id="container"> 
+    <div id="top"> 
+        <div id="top_left">
+            <img class="logonav" src="images/onepx.gif" usemap="#logonav" /> 
+            <map name="logonav">
+                <area shape="rect" coords="4,12,60,45" href="http://europa.eu/" target="_new" />
+                <area shape="rect" coords="79,12,155,45" href="http://www.nus.edu.sg/" target="_new" />
+                <area shape="rect" coords="169,12,264,45" href="http://www.ntu.edu.sg/" target="_new" />
+                <area shape="rect" coords="274,12,449,45" href="http://siiaonline.org" target="_new" />
+            </map>
+            <h4>Partnership of EU, NUS, NTU & SIIA</h4>
+         </div>
+         <div id="top_right">
+            <div id="pointermenu2">
+               
+
+            </div>
+            <div id="tr_lower">
+
+            </div> 
+           
+         </div>
+    </div>
+    <div id="mainnav">
+        <ul id="nav" class="dropdown">
+<li><a href=".">HOME</a></li><li class="dir"><a href="listing.php?i=2">EDUCATION</a><ul><li class="dir"><a class="drop" href="details.php?i=1">EU/EUROPEAN STUDIES IN SINGAPORE</a><ul><li><a href="details.php?i=1#2">Courses at NTU</a></li><li><a href="details.php?i=1#4">Career Prospects</a></li><li><a href="details.php?i=1#5">Scholarships and Funding</a></li><li><a href="details.php?i=1#14">A Higher Education Area in ASEAN?  </a></li><li><a href="details.php?i=1#3">EU Politics at SMU</a></li><li><a href="details.php?i=1#364">EU Centre-RSIS Summer Programme 2012</a></li><li><a href="details.php?i=1#1">European Studies B.A. (Honours) at NUS</a></li><li><a href="details.php?i=1#365">NUS Special Term 2012</a></li><li><a href="details.php?i=1#440">Call for Application: Master in EU Studies Online</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=2">STUDY IN EUROPE</a><ul><li><a href="details.php?i=2#441">Master in EU Studies Online</a></li><li><a href="details.php?i=2#17">When Paris Beckons – Sciences Po Exchange </a></li><li><a href="details.php?i=2#18">ERASMUS MUNDUS FUNDING</a></li><li><a href="details.php?i=2#23">NUS-LMU Summer School in Germany</a></li><li><a href="details.php?i=2#30">Lithuania- Rising Star</a></li><li><a href="details.php?i=2#351">Summer Programme at LMU - "Approaching the European Union"</a></li><li><a href="details.php?i=2#237">New Master's at Trinity College Dublin</a></li><li><a href="details.php?i=2#126">NTU INSTEP EXCHANGE PROGRAMME</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=3">TEACHING EUROPEAN STUDIES</a><ul><li><a href="details.php?i=3#451">Pusan National University EU Center: 2013-2014 Visiting Professors </a></li><li><a href="details.php?i=3#392">Monetary integration and the Eurozone</a></li><li><a href="details.php?i=3#360">Globalisation, International Trade & the EU</a></li><li><a href="details.php?i=3#376">Regional Organisations & Conflict Management</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=56">Schools Outreach </a><ul><li><a href="details.php?i=56#194">Single Market: Challenge, Achievements, ASEAN Model?</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=63">Ph.D Scholarships</a></li></ul></li><li class="dir"><a href="listing.php?i=3">RESEARCH</a><ul><li class="dir"><a class="drop" href="details.php?i=13">PUBLICATIONS</a><ul><li><a href="details.php?i=13#427">EU-Asia Relations </a></li><li><a href="details.php?i=13#387">The Asian-European Agenda</a></li><li><a href="details.php?i=13#384">EU and Myanmar</a></li><li><a href="details.php?i=13#347">EU-Asia Trade Relations: Getting through the Crisis</a></li><li><a href="details.php?i=13#345">Balancing Civil Rights & National Security</a></li><li><a href="details.php?i=13#341">The Future of an Asia-Europe Strategic Partnership in Conflict Transformation</a></li><li><a href="details.php?i=13#308">Where is ASEM Heading?</a></li><li><a href="details.php?i=13#292">Asia Europe Journal </a></li><li><a href="details.php?i=13#223">The Asia‐Europe Meeting: Engagement, Enlargement and Expectations</a></li><li><a href="details.php?i=13#201">EU- a Security Actor in SEA? </a></li><li><a href="details.php?i=13#200">Institutional vs Networked Regionalism: Europe and Asia Compared</a></li><li><a href="details.php?i=13#203">Regionalisation & Decentralisation: Eastern Europe & Poland Compared</a></li><li><a href="details.php?i=13#204">East European Civil Societies in the 90s</a></li><li><a href="details.php?i=13#199">Impact of ASEM on EU-East Asia Relations</a></li><li><a href="details.php?i=13#104">Towards a Common European Policy on China? Economic, Diplomatic and Human Rights Trends Since 1985</a></li><li><a href="details.php?i=13#7">Singapore Tertiary Perceptions of the EU </a></li><li><a href="details.php?i=13#6">Regionalism and InterRegionalism in ASEM</a></li><li><a href="details.php?i=13#8">Singapore Media, Public and Elite Perceptions of the EU</a></li><li><a href="details.php?i=13#22">EU-ASEAN, Reaching Limits of Integration? </a></li><li><a href="details.php?i=13#198">Policy-Learning in EU-ASEAN Relations</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=14">CONFERENCE REPORTS</a><ul><li><a href="details.php?i=14#442">Multicultural challenges and Sustainable Democracy in Europe and Asia</a></li><li><a href="details.php?i=14#429">Foreign and EU Policies of the Asia-Pacific Countries</a></li><li><a href="details.php?i=14#382">Nuclear Energy and Nuclear Safety</a></li><li><a href="details.php?i=14#362">Workshop on Leadership, Decision‐Making and Governance in the EU and East Asia: Crisis and Post-Crisis</a></li><li><a href="details.php?i=14#280">EU-Asia Strategic Partnership - Form and Substance</a></li><li><a href="details.php?i=14#268">2011 Asian Workshop on EU Study </a></li><li><a href="details.php?i=14#218">Climate Change and Energy Security after Copenhagen</a></li><li><a href="details.php?i=14#193">Conference on Networked versus Institutional Regionalism</a></li><li><a href="details.php?i=14#10">Migration, Societal and Market Transformations- Debates & Policies in Asia and Europe</a></li><li><a href="details.php?i=14#11">Role of EU in Shaping Asia</a></li><li><a href="details.php?i=14#12">Green Innovations Symposium & Competition</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=16">POLICY BRIEFS</a><ul><li><a href="details.php?i=16#454"> Transatlantic Trade and Investment Partnership</a></li><li><a href="details.php?i=16#383">Regional Health Governance</a></li><li><a href="details.php?i=16#335">The Eurozone Debt Crisis and the Role of China</a></li><li><a href="details.php?i=16#289">The Remaking of the Euro</a></li><li><a href="details.php?i=16#9">10 Years of the Euro: Achievements & Lessons for Asia</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=28">WORKING PAPERS</a><ul><li><a href="details.php?i=28#420">Students' Perceptions of the economic crises in the EU and SEA</a></li><li><a href="details.php?i=28#401">Why EU promotion is at odds with successful crisis management</a></li><li><a href="details.php?i=28#397">Still the “pivot”: Russia’s self-conception and view of the euro crisis as perceived in public opinion and the Rossiiskaya Gazeta, 2011-12 </a></li><li><a href="details.php?i=28#398">Turkey’s boycott of the Cyprus EU presidency</a></li><li><a href="details.php?i=28#448">How should ASEAN engage the EU? </a></li><li><a href="details.php?i=28#205">EU-ASEAN Relations: Importance of Values, Norms & Culture</a></li><li><a href="details.php?i=28#421">Mutual perceptions of Asia and the EU/Europe </a></li><li><a href="details.php?i=28#385">The “European Model” of International Law</a></li><li><a href="details.php?i=28#374">Forging the ties the bind</a></li><li><a href="details.php?i=28#339">The European Union: Still “United in Diversity”?  </a></li><li><a href="details.php?i=28#336">The Struggle Against Neoliberal Austerity and the Survival of the European Project</a></li><li><a href="details.php?i=28#306">Change and stability in the EU budget</a></li><li><a href="details.php?i=28#243">Representations of Euro-Asian relations in 2010</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=70">Background Briefs</a><ul><li><a href="details.php?i=70#446">50 years of the ‘twin engine’ </a></li><li><a href="details.php?i=70#419">Ageing Modernity: Growing old in the EU in the 21st Century</a></li><li><a href="details.php?i=70#312">Of neighbours, partners and EU aspirants</a></li><li><a href="details.php?i=70#322">Euro-Mediterranean relations and the Arab Spring</a></li><li><a href="details.php?i=70#281">Regional Initiatives to Combat Poverty and Social Exclusion: A Case Study of the European Union</a></li><li><a href="details.php?i=70#296">The EU-Korea FTA and its Implications for the Future EU-Singapore FTA</a></li><li><a href="details.php?i=70#90">The Road to Copenhagen 2009 - The European Union and Climate Change Action</a></li><li><a href="details.php?i=70#141">Implications of the Lisbon Treaty on EU External Trade Policy</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=72">Research Briefs</a><ul><li><a href="details.php?i=72#323">Perceptions of the EU in the Singapore media in 2011</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=64">CALL FOR VISITING FELLOWSHIPS</a><ul><li><a href="details.php?i=64#433">EU Centre in Singapore: Visiting Fellowship 2013 </a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=69">Research Projects</a><ul><li><a href="details.php?i=69#293">EU Perceptions in Asia-Pacific</a></li><li><a href="details.php?i=69#356">EU-Asia Dialogue "Shaping a Common Future for Europe and Asia"</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=65">Research Grants and Awards</a></li><li class="dir"><a class="drop" href="details.php?i=60">CALL FOR PAPERS</a><ul><li><a href="details.php?i=60#399">EU and East Asian Economic Integration</a></li></ul></li></ul></li><li class="dir"><a href="events.php">EVENTS</a><ul><li><a href="events.php">CURRENT　EVENTS</a></li><li><a href="past_events.php">PAST EVENTS</a></li><li><a href="event_registration.php">REGISTER FOR ALERTS</a></li></ul></li><li class="dir"><a href="listing.php?i=5">RESOURCE</a><ul><li class="dir"><a class="drop" href="details.php?i=29">COMMENTARY</a><ul><li><a href="details.php?i=29#453">From Cyprus to Asia</a></li><li><a href="details.php?i=29#452">CFSP to CSDP</a></li><li><a href="details.php?i=29#444">From TAFTA to TTIP</a></li><li><a href="details.php?i=29#426">An EU Model for ASEAN?</a></li><li><a href="details.php?i=29#413">'Peace in what form?'</a></li><li><a href="details.php?i=29#405">The eurozone crisis and the idea of ‘Small Europe’</a></li><li><a href="details.php?i=29#381">EU Foreign Policy after Lisbon - A View from ASEAN</a></li><li><a href="details.php?i=29#366">Light at the end of euro tunnel</a></li><li><a href="details.php?i=29#350">Is France 'comfortable' as Germany's junior partner?</a></li><li><a href="details.php?i=29#344">In Defence of Europe</a></li><li><a href="details.php?i=29#329">Financial catastrophe averted.. for now</a></li><li><a href="details.php?i=29#319">Reaffirming EU-Asia Partnership</a></li><li><a href="details.php?i=29#327">Asian perspectives of the euro crisis</a></li><li><a href="details.php?i=29#309">Finally, some political support for a financial transaction tax in the EU – but a global solution is necessary (or a tax on settlements).</a></li><li><a href="details.php?i=29#297">Another ‘lost generation’ fights back</a></li><li><a href="details.php?i=29#288">ASEM: meeting of minds or mindless monologue?</a></li><li><a href="details.php?i=29#287">Europe-Southeast Asia relations</a></li><li><a href="details.php?i=29#273">The Eurozone Debt Crisis Has Only Begun   </a></li><li><a href="details.php?i=29#119">Year in Review- Crisis and Consolidation for the EU</a></li><li><a href="details.php?i=29#21">Higher Education Area in ASEAN? </a></li><li><a href="details.php?i=29#27">New Partnership, New Deal: EU-US Relations under Obama</a></li><li><a href="details.php?i=29#38">Russia-EU-US: New Strategic Triangle?</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=30">REVIEW</a><ul><li><a href="details.php?i=30#368">Will East Asians Move Towards the Pooling and Delegation of Sovereignty to Create</a></li><li><a href="details.php?i=30#359">Significance of the Asia-Europe Meeting </a></li><li><a href="details.php?i=30#40">Identity and Memory (Collection Penser L’Europe 08)</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=73">Analysis</a><ul><li><a href="details.php?i=73#272">Rethinking EU nuclear plans</a></li><li><a href="details.php?i=73#242">EU Leaders Agree to Create a Permanent Crisis Mechanism</a></li><li><a href="details.php?i=73#236">The EU and the IMF to Help Ireland</a></li><li><a href="details.php?i=73#234">The Global Rebalancing Game</a></li><li><a href="details.php?i=73#233">The EU Set to revise the Lisbon Treaty</a></li><li><a href="details.php?i=73#228">Immigration and Integration Blues</a></li><li><a href="details.php?i=73#221">EU Economy: Not Out of the Woods Yet?</a></li><li><a href="details.php?i=73#214">The External Action Service Gets the Green Light</a></li><li><a href="details.php?i=73#137">Alain Ruche, Senior EC official on EU strategy towards Asia</a></li><li><a href="details.php?i=73#276">Power, Interest and Norms: Competing Visions of EU-Asia Partnership</a></li></ul></li></ul></li><li class="dir"><a href="listing.php?i=6">MEDIA</a><ul><li class="dir"><a class="drop" href="details.php?i=35">CURRENT NEWS & FEATURES</a><ul><li><a href="details.php?i=35#455">News and insights on Europe (10 April 2013) </a></li><li><a href="details.php?i=35#450">News and insights on Europe (3 April 2013) </a></li><li><a href="details.php?i=35#445">News and insights on Europe (20 March 2013) </a></li><li><a href="details.php?i=35#443">News and insights on Europe (13 March 2013) </a></li><li><a href="details.php?i=35#439">Thein Sein Met With Leaders of the EU</a></li><li><a href="details.php?i=35#438">News & insights on Europe (6 March 2013)</a></li><li><a href="details.php?i=35#437">EU-Myanmar ties</a></li><li><a href="details.php?i=35#434">Myanmar’s Thein Sein visits Europe</a></li><li><a href="details.php?i=35#435">Hung parliament in Italy</a></li><li><a href="details.php?i=35#436">New President for Cyprus  </a></li><li><a href="details.php?i=35#431">ASEAN-EU Business Summit</a></li><li><a href="details.php?i=35#430">EU Centre receives another 3-year grant</a></li><li><a href="details.php?i=35#432">Priorities for EU diplomacy in East Asia</a></li><li><a href="details.php?i=35#428">'Views on the News'</a></li><li><a href="details.php?i=35#424">Small-state influence in international organizations</a></li><li><a href="details.php?i=35#423">Year in Review: Europe in 2012</a></li><li><a href="details.php?i=35#422">'EU-S'pore FTA shows free trade is the way to go'</a></li><li><a href="details.php?i=35#416">EU-Singapore FTA concluded</a></li><li><a href="details.php?i=35#415">Human Rights Day seminar </a></li><li><a href="details.php?i=35#411">Challenges and Opportunities in EU-Asia relations</a></li><li><a href="details.php?i=35#412">Forum on Active Aging </a></li><li><a href="details.php?i=35#407">Asia-Europe calls for greater economic cooperation</a></li><li><a href="details.php?i=35#403">EU wins Nobel Peace Prize </a></li><li><a href="details.php?i=35#358">European Commission Vice-President Siim Kallas Visits Singapore</a></li><li><a href="details.php?i=35#395">"Saving Europe in a Big Way"</a></li><li><a href="details.php?i=35#391">EU accedes to Treaty of Amity and Cooperation</a></li><li><a href="details.php?i=35#332">Hungarian Minister visits Singapore, delivers EUC Lecture</a></li><li><a href="details.php?i=35#316">Barroso in Singapore, meets PM Lee </a></li><li><a href="details.php?i=35#295">S'pore-EU FTA talks making good progress</a></li><li><a href="details.php?i=35#261">EU ambassador: S'pore-EU FTA expected in next few months</a></li><li><a href="details.php?i=35#244">EU Ambassador: ASEAN integration is vital</a></li><li><a href="details.php?i=35#226">Where is ASEM heading?</a></li><li><a href="details.php?i=35#212">European Union Youth Forum 2010 (EUYF) </a></li><li><a href="details.php?i=35#213">EU and Asian Policy Responses to Climate Change and Energy Security Post Copenhagen</a></li><li><a href="details.php?i=35#211">Singapore-EU Free Trade Agreement on Track for 2011</a></li><li><a href="details.php?i=35#188">EU to Fast Track Single European Sky</a></li><li><a href="details.php?i=35#142">EU, S'pore set sights on FTA</a></li><li><a href="details.php?i=35#77">"Single Market of the European Union" course @NUS</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=38">NEWSLETTER</a><ul><li><a href="details.php?i=38#66">Scene@EUC </a></li><li><a href="details.php?i=38#298">EUCI Asia</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=43">PRESS RELEASES & ANNOUNCEMENTS</a><ul><li><a href="details.php?i=43#410">Human Rights Day 2012</a></li><li><a href="details.php?i=43#291">EUC launches Video Essay Competition</a></li><li><a href="details.php?i=43#65">Archive (July '09)</a></li><li><a href="details.php?i=43#82">Judges and audience agree CSR <em>is</em> the key to competitive EU!</a></li></ul></li></ul></li><li class="dir"><a href="listing.php?i=7">LINKS</a><ul><li class="dir"><a class="drop" href="details.php?i=42"><a href="details.php?j=62">Official Websites of 27 EU Member States</a></a></li><li class="dir"><a class="drop" href="details.php?i=21"><a href="details.php?j=56">Official EU Websites</a></a><ul><li><a href="details.php?i=21#56">Official EU Websites</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=23"><a href="details.php?j=57">Think Tanks & Research Bodies</a></a></li><li class="dir"><a class="drop" href="details.php?i=24"><a href="details.php?j=59">Journals</a></a></li><li class="dir"><a class="drop" href="details.php?i=25"><a href="details.php?j=58">Libraries & Resources</a></a></li><li class="dir"><a class="drop" href="details.php?i=26"><a href="details.php?j=61">Other Centres & Networks</a></a></li><li class="dir"><a class="drop" href="details.php?i=39"><a href="details.php?j=60">Media & E-zines</a></a></li><li class="dir"><a class="drop" href="details.php?i=55"><a href="details.php?j=187">EU Centres in Asia</a></a></li><li class="dir"><a class="drop" href="details.php?i=74">EU info-packs</a><ul><li><a href="details.php?i=74#25">EU4Journalists</a></li><li><a href="details.php?i=74#26">The EU at a Glance</a></li><li><a href="details.php?i=74#44">European Documentation Centre Portal</a></li></ul></li></ul></li><li class="dir"><a href="listing.php?i=8">ABOUT US</a><ul><li class="dir"><a class="drop" href="details.php?i=10">OUR PEOPLE</a><ul><li><a href="details.php?i=10#50">Management & Administration</a></li><li><a href="details.php?i=10#51">Associate Fellows</a></li><li><a href="details.php?i=10#52">EUC Visiting Fellows</a></li><li><a href="details.php?i=10#252">Visiting Rearchers / Scholars</a></li><li><a href="details.php?i=10#54">Interns</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=9">VISION & MISSION</a><ul><li><a href="details.php?i=9#48">Our Activities</a></li><li><a href="details.php?i=9#46">Why the EU Matters</a></li><li><a href="details.php?i=9#47">History and Background</a></li><li><a href="details.php?i=9#15">Welcome By Director</a></li><li><a href="details.php?i=9#49">Message from Past Chair </a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=11">FIND US</a><ul><li><a href="details.php?i=11#55">Location</a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=54">BOARD MEMBERS</a><ul><li><a href="details.php?i=54#139">Steering Committee  </a></li></ul></li><li class="dir"><a class="drop" href="details.php?i=66">VACANCIES</a><ul><li><a href="details.php?i=66#260">Vacancies at EU Centre in Singapore</a></li></ul></li></ul></li>        </ul>
+    </div>
+       
+    <div id="eucentre">
+    EU Centre in Singapore
+    </div><div id="content">
+
+
+
+        ﻿<div id="content_left">
+    <div id="leftnav">
+        <div class="navpanel">
+
+            
+
+            <div class="accordion header">Current News & Features </div>
+            <div class="accordion details">
+                <p><a href="details.php?i=35">Current News & Features </a> </p>
+
+             </div>
+
+
+
+            <div class="accordion header">Study</div>
+            <div class="accordion details">
+                <p><a href="details.php?i=1#1">Get a degree in Singapore</a></p> 
+
+                <p><a href="details.php?j=29">NUS-LMU Students in Germany </a></p>
+
+                <p><a href="details.php?i=3#20">Resources for Teaching European Studies</a></p> 
+  
+            </div>
+            
+
+           
+<div>
+<br>
+Find us on &nbsp&nbsp
+<a href="http://www.facebook.com/eucentresg"><img src="http://www.eucentre.sg/images/icon_fbook.jpg" alt="Like us on Facebook" border="0"></a>  &nbsp&nbsp
+<a href="http://twitter.com/EUCentreSg"><img src="http://www.eucentre.sg/images/icon_twitter.jpg" alt="Follow us on Twitter" border="0"></a>
+<br>
+</div>
+
+        </div>
+    </div>
+
+
+
+    <div id="abouteuc">
+
+     
+ <h1>About the Centre</h1>
+   <p>     
+The EU Centre in Singapore (first established in mid-2008 as a partnership of NUS and NTU, and co-funded by the European Union) has received another 3-year grant (2013-2015) to continue its mission to promote knowledge of the EU and its policies and raise the visibility of the EU in Singapore. A new partner, the Singapore Institute of International Affairs (SIIA), the oldest think tank in Singapore, is now part of the consortium. 
+ 
+      </p>
+
+    </div>
+
+</div>
+        <div id="content_right">
+
+            <div id="right_upper">
+				
+				<div id="left_panel">
+				 
+					<div>
+	
+						<h1>How should ASEAN engage the EU? </h1>
+						
+						<div class="lpanel">
+							<div class="imageframe">
+								<img src="level2/1/obimage/425/Asean_EU.jpg" />                      
+							</div>					
+							
+							<div class="observer_nav">
+								<p>1 of 6</p><a href="#" class="prev2"><img src="images/arrow_turquoise_left.gif" alt="prev" /></a><a href="#" class="next2"><img src="images/arrow_turquoise_right.gif" alt="next" /></a>
+							</div>
+							
+							<p>
+							EUC has published a new working paper “<strong>How should ASEAN engage the EU? - Reflections on ASEAN’s external relations</strong>” by our centre's Director, Dr Yeo Lay Hwee. Click <a href="/details.php?i=28#448" target="">here</a> for details. 							</p>
+																
+						</div>
+					
+					</div>
+				 
+					<div>
+	
+						<h1>Pusan EU Center: Visiting Professorship</h1>
+						
+						<div class="lpanel">
+							<div class="imageframe">
+								<img src="level2/1/obimage/428/800px-Busan_tower_view_074.jpg" />                      
+							</div>					
+							
+							<div class="observer_nav">
+								<p>2 of 6</p><a href="#" class="prev2"><img src="images/arrow_turquoise_left.gif" alt="prev" /></a><a href="#" class="next2"><img src="images/arrow_turquoise_right.gif" alt="next" /></a>
+							</div>
+							
+							<p>
+							<P>The Pusan National University (PNU) EU Center, South Korea,&nbsp;is inviting applications for Visiting Professor for the year 2013-14 in any field in European Studies. The application deadline is 10 May 2013. For details, <A href="http://eucentre.sg/details.php?i=3#451" target="">click here</A>. </P>							</p>
+																
+						</div>
+					
+					</div>
+				 
+					<div>
+	
+						<h1>The evolution of the EU’s CFSP and CSDP</h1>
+						
+						<div class="lpanel">
+							<div class="imageframe">
+								<img src="level2/1/obimage/429/CSDP-map.bmp" />                      
+							</div>					
+							
+							<div class="observer_nav">
+								<p>3 of 6</p><a href="#" class="prev2"><img src="images/arrow_turquoise_left.gif" alt="prev" /></a><a href="#" class="next2"><img src="images/arrow_turquoise_right.gif" alt="next" /></a>
+							</div>
+							
+							<p>
+							<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US style="FONT-SIZE: 11pt; FONT-FAMILY: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin">The EU’s Common Foreign and Security Policy (CFSP) has come a long way since it was first introduced in 1993. An integral part of the CFSP is the Common Security and Defence Policy (CSDP). This Lisbon Treaty has provided new impetus for the development of CSDP which has become an essential element of the comprehensive approach that the EU assumes in its role as a global security actor. <A href="http://eucentre.sg/details.php?i=29#452" target="">Click here</A> to read some background notes on the CFSP/CDSP. <?xml:namespace prefix = "o" ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></P>							</p>
+																
+						</div>
+					
+					</div>
+				 
+					<div>
+	
+						<h1>From Cyprus to Asia: lessons</h1>
+						
+						<div class="lpanel">
+							<div class="imageframe">
+								<img src="level2/1/obimage/430/800px-Emporiki_bank_shop.jpg" />                      
+							</div>					
+							
+							<div class="observer_nav">
+								<p>4 of 6</p><a href="#" class="prev2"><img src="images/arrow_turquoise_left.gif" alt="prev" /></a><a href="#" class="next2"><img src="images/arrow_turquoise_right.gif" alt="next" /></a>
+							</div>
+							
+							<p>
+							<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt"><FONT size=3 face=Calibri>The EU Centre’s Associate Fellow, <STRONG>Richard Werly</STRONG>, has written an op-ed in <I style="mso-bidi-font-style: normal">The Jakarta Post</I> (8 April 2013) looking at the recent bailout plan for Cyprus and the implications these may have for Asia. </FONT><FONT size=3 face=Calibri>You can read the op-ed on the <EM>Jakarta Post</EM> website <A href="http://www.thejakartapost.com/news/2013/04/08/from-cyprus-asia-lessons-a-european-banking-disaster.html" target="">here</A>. </FONT></P>							</p>
+																
+						</div>
+					
+					</div>
+				 
+					<div>
+	
+						<h1>Transatlantic Trade & Investment Partnership: a game-changer?</h1>
+						
+						<div class="lpanel">
+							<div class="imageframe">
+								<img src="level2/1/obimage/431/PB05 Image small.jpg" />                      
+							</div>					
+							
+							<div class="observer_nav">
+								<p>5 of 6</p><a href="#" class="prev2"><img src="images/arrow_turquoise_left.gif" alt="prev" /></a><a href="#" class="next2"><img src="images/arrow_turquoise_right.gif" alt="next" /></a>
+							</div>
+							
+							<p>
+							<P class=MsoNoSpacing style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US style="FONT-SIZE: 11pt; FONT-FAMILY: 'Calibri','sans-serif'; mso-ansi-language: EN-US">The EU Centre has just published a policy brief by Anne Pollet-Fort (Associate Fellow, EU Centre) titled <I>‘Will the Transatlantic Trade and Investment Partnership be a game-changer?’</I> Announced in February 2013 by the US and the EU, </SPAN><SPAN style="FONT-SIZE: 11pt; FONT-FAMILY: 'Calibri','sans-serif'">the Transatlantic Trade and Investment Partnership (TTIP) will be a much needed boost to the lacklustre economic recovery so far. </SPAN><SPAN lang=EN-US style="FONT-SIZE: 11pt; FONT-FAMILY: 'Calibri','sans-serif'; mso-ansi-language: EN-US">This </SPAN><SPAN style="FONT-SIZE: 11pt; FONT-FAMILY: 'Calibri','sans-serif'">brief examines the reasons behind the current push towards TTIP, the possible contents of such an agreement, and what it would mean for Asia. Read the brief <A href="/details.php?i=16#454" target="">here</A>. </SPAN><SPAN lang=EN-US style="FONT-SIZE: 11pt; FONT-FAMILY: 'Calibri','sans-serif'; mso-ansi-language: EN-US"><?xml:namespace prefix = "o" ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></P>							</p>
+																
+						</div>
+					
+					</div>
+				 
+					<div>
+	
+						<h1>News & insights on Europe (10 April 2013) </h1>
+						
+						<div class="lpanel">
+							<div class="imageframe">
+								<img src="level2/1/obimage/432/Jack Lew in Brussels.jpg" />                      
+							</div>					
+							
+							<div class="observer_nav">
+								<p>6 of 6</p><a href="#" class="prev2"><img src="images/arrow_turquoise_left.gif" alt="prev" /></a><a href="#" class="next2"><img src="images/arrow_turquoise_right.gif" alt="next" /></a>
+							</div>
+							
+							<p>
+							(Photo above: European Union) Newly appointed US Treasury Secretary Jack Lew is in Europe to meet&nbsp;EU leaders, and tells them that Europe needs more growth and less austerity; Portugal looks&nbsp;headed for a second international bailout, while the banking crisis in Slovenia is drawing attention in the country's drive to avoid being the fifth euro zone country is&nbsp;ask for a bailout. <A href="/details.php?i=35#455" target="">More...&nbsp;&nbsp;&nbsp;</A>							</p>
+																
+						</div>
+					
+					</div>
+				                </div>
+
+                <div id="right_panel">
+
+                    
+
+                    <div id="r_top"></div>
+
+                    <div id="r_tile">  
+
+                     <label>Highlights</label>
+                         <div class="happening_item_box">
+
+                            <img src="level2/1/himage/44/Scene@EUC-Issue15.v2.jpg" />
+
+                            <h1>Scene@EUC Newsletter</h1>
+
+                            <p>
+
+                            <a href="/articles/66/downloads/Scene@EUC-Issue15.pdf">Issue #15 - Mar 2013</a>
+
+                            </p>
+
+                         </div>
+                         <div class="happening_item_box">
+
+                            <img src="level2/1/himage/45/469701_478473928869501_1294135509_o.jpg" />
+
+                            <h1>EUC book:</h1>
+
+                            <p>
+
+                            <a href="https://www.facebook.com/media/set/?set=a.478473882202839.122844.101665813216983&type=3">“Changing Tides and Changing Ties"</a>
+
+                            </p>
+
+                         </div>
+                         <div class="happening_item_box">
+
+                            <img src="level2/1/himage/46/EUCIAsia4.jpg" />
+
+                            <h1>EUCI Asia Issue 4</h1>
+
+                            <p>
+
+                            <a href="http://www.eucentre.sg/articles/298/downloads/EUCI%20Asia%20Regional%20newsletter%20Jan%202013.pdf">Regional newsletter</a>
+
+                            </p>
+
+                         </div>
+
+                   </div>
+
+                    <div id="r_bottom"></div>
+
+                    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like-box" data-href="http://www.facebook.com/eucentresg" data-width="260" data-show-faces="true" data-stream="true" data-header="false"></div>
+                </div>
+
+            </div>
+
+
+
+            <div id="right_lower">
+
+                <div id="rl_top">
+
+                  <label><strong><br />
+                  <br />
+                  </strong></label>
+                  <p> </p>
+                  <p>&nbsp;</p>
+                </div> 
+
+                <div id="rl_tile">  
+
+                   
+
+                    <div id="feature_intro">
+
+                     
+
+                    
+
+                    <a href="#" class="featureexpand"><h1><br />
+                      <br />
+                    </h1></a></div>
+                    <div id="expand" style="display: none;">
+
+                    
+     
+
+
+
+
+                      </p>
+
+                      </div>
+
+                  </div>
+
+                <div id="rl_bottom"> 
+
+                </div> 
+
+        
+
+            </div>
+
+        </div>
+
+          
+
+        <div id="lowest_div">  
+            <div id="lowest_div_top">
+                <form name="mailinglist" action="/" method="post">
+                <p>  
+                <span class="hilite">
+                    Mailing List
+                </span>
+                To join our mailing list, please <a href="mailto:eucsec@nus.edu.sg?subject=Join Mailing List">email</a> us.  
+                
+                
+                    
+                </p> 
+                </form>
+                
+             </div>
+             <div id="lowest_div_btm">
+                <p>European Union Centre in Singapore 11 Slim Barracks Rise (off North Buona Vista Road), #06-01 Executive Centre (NTU@one-north), Singapore 138664 </p>
+             </div>
+             
+        </div>
+    
+    </div> <!-- end div id="content" -->
+
+    <div id="footer">
+        <div id="footer_left">
+            Copyright 2001-2009 EU Centre. All Rights Reserved.
+        </div>
+        <div id="footer_right">
+            <div id="footernav">
+                <ul>
+                    <li><a href=".">Home</a></li>
+                    <li><a href="sitemap.php">Site Map</a></li>
+                    <li><a href="contactus.php"></a></li>
+
+                </ul>
+            </div>    
+        <label>Last modified in Feb 2013 by EU Centre in Singapore</label>
+        </div> 
+    </div>
+    <div id="mailinglistdialog" title="Mailing List" style="display: none;">
+        <p></p>
+    </div>
+    
+</div> <!-- end div id="container" --> 
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10670583-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>

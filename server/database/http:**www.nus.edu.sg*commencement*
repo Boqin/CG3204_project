@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta content="2013" about="/commencement/2013" property="dc:title" />
+<link rel="shortlink" href="/commencement/node/15" />
+<link rel="canonical" href="/commencement/2013" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>2013 | NUS Commencement</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+
+  <style>@import url("http://www.nus.edu.sg/commencement/modules/system/system.base.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/modules/system/system.messages.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/modules/system/system.theme.css?mjmur1");</style>
+<style>@import url("http://www.nus.edu.sg/commencement/sites/all/modules/date/date_api/date.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/modules/field/theme/field.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/modules/node/node.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/modules/user/user.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/modules/views/css/views.css?mjmur1");</style>
+<style>@import url("http://www.nus.edu.sg/commencement/sites/all/modules/ctools/css/ctools.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/modules/print/css/printlinks.css?mjmur1");</style>
+<style>@import url("http://www.nus.edu.sg/commencement/sites/all/themes/commencement/css/normalize.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/themes/commencement/css/layouts/nus-fixed-width.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/themes/commencement/css/tabs.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/themes/commencement/css/pages.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/themes/commencement/css/blocks.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/themes/commencement/css/navigation.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/themes/commencement/css/views-styles.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/themes/commencement/css/nodes.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/themes/commencement/css/comments.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/themes/commencement/css/forms.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/themes/commencement/css/fields.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/themes/commencement/css/print.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/themes/commencement/css/myreset.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/themes/commencement/styles.css?mjmur1");
+@import url("http://www.nus.edu.sg/commencement/sites/all/themes/commencement/commencement.css?mjmur1");</style>
+  <script src="http://www.nus.edu.sg/commencement/sites/all/modules/jquery_update/replace/jquery/1.5/jquery.min.js?v=1.5.2"></script>
+<script src="http://www.nus.edu.sg/commencement/misc/jquery.once.js?v=1.2"></script>
+<script src="http://www.nus.edu.sg/commencement/misc/drupal.js?mjmur1"></script>
+<script src="http://www.nus.edu.sg/commencement/sites/all/modules/admin_menu/admin_devel/admin_devel.js?mjmur1"></script>
+<script src="http://www.nus.edu.sg/commencement/sites/all/themes/commencement/js/script.js?mjmur1"></script>
+<script src="http://www.nus.edu.sg/commencement/sites/all/themes/commencement/js/jquery.cycle.all.latest.js?mjmur1"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/commencement\/","pathPrefix":"","ajaxPageState":{"theme":"commencement","theme_token":"xq4jE4IaA-fzmfzVZ6XfkHqLJHA1a_SyRZWLx2FPGaE","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.5\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/themes\/commencement\/js\/script.js":1,"sites\/all\/themes\/commencement\/js\/jquery.cycle.all.latest.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/print\/css\/printlinks.css":1,"sites\/all\/themes\/commencement\/system.menus.css":1,"sites\/all\/themes\/commencement\/css\/normalize.css":1,"sites\/all\/themes\/commencement\/css\/layouts\/nus-fixed-width.css":1,"sites\/all\/themes\/commencement\/css\/page-backgrounds.css":1,"sites\/all\/themes\/commencement\/css\/tabs.css":1,"sites\/all\/themes\/commencement\/css\/pages.css":1,"sites\/all\/themes\/commencement\/css\/blocks.css":1,"sites\/all\/themes\/commencement\/css\/navigation.css":1,"sites\/all\/themes\/commencement\/css\/views-styles.css":1,"sites\/all\/themes\/commencement\/css\/nodes.css":1,"sites\/all\/themes\/commencement\/css\/comments.css":1,"sites\/all\/themes\/commencement\/css\/forms.css":1,"sites\/all\/themes\/commencement\/css\/fields.css":1,"sites\/all\/themes\/commencement\/css\/print.css":1,"sites\/all\/themes\/commencement\/css\/myreset.css":1,"sites\/all\/themes\/commencement\/styles.css":1,"sites\/all\/themes\/commencement\/folio.css":1,"sites\/all\/themes\/commencement\/commencement.css":1}}});</script>
+      <!--[if lt IE 9]>
+    <script src="/commencement/sites/all/themes/zen/js/html5-respond.js"></script>
+    <![endif]-->
+      <script type="text/javascript">
+	  jQuery(document).ready(function($) {
+		  jQuery('#slider_announcement_wrapper .com_slider ul').cycle({
+			  fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+			  timeout: 10000
+		  });
+	  });
+  </script>
+    <script type="text/javascript">
+  //From NUS Main Site
+	function frmCheck(){
+		if(document.frmSearch.txtKeyword.value==""){
+			alert("Please enter a search keyword");
+			return false;
+		}
+		return true;
+	}
+	function evalSearch(){
+	  if(frmCheck()){
+  
+		  if(document.frmSearch.SearchMenu.options[document.frmSearch.SearchMenu.selectedIndex].value=="0"){
+			  ret=window.open('http://www.google.com/search?q=' +  escape(document.frmSearch.txtKeyword.value) + '&domains=nus.edu.sg&sitesearch=nus.edu.sg');
+		  }
+		  else if(document.frmSearch.SearchMenu.options[document.frmSearch.SearchMenu.selectedIndex].value=="1"){
+			  ret=window.open('http://www.google.com/search?q=' +  escape(document.frmSearch.txtKeyword.value) + '&btnG=Google+Search');
+		  }
+		  else if(document.frmSearch.SearchMenu.options[document.frmSearch.SearchMenu.selectedIndex].value=="2"){
+			  ret=window.open('https://aces01.nus.edu.sg/staffsearch/search?actionParam=staff&SearchValue=' +  escape(document.frmSearch.txtKeyword.value));
+		  }
+		  else if(document.frmSearch.SearchMenu.options[document.frmSearch.SearchMenu.selectedIndex].value=="3"){
+			  ret=window.open('http://www.nus.edu.sg/search/' );
+		  }
+		  
+	  }
+	}
+  </script>
+</head>
+<body id="body_jump" class="html front not-logged-in no-sidebars page-node page-node- page-node-15 node-type-commencement-homepage" >
+      <p id="skip-link">
+      <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+    </p>
+      
+<div id="page" class="page_wrapper">
+	<div id="header_wrapper"><!-- START HEADER WRAPPER -->
+	<header id="header" role="banner">
+
+          <a href="/" title="Home" rel="home" id="logo"><img src="http://www.nus.edu.sg/commencement/sites/default/files/NUS_Main_Logo.png" alt="Home" /></a>
+    		<a href="/commencement/" id="com_logo" ><img src="http://www.nus.edu.sg/commencement/sites/default/files/styles/commencement_logo/public/com_logos/Commencement_2013.png" class="nus_logo"></a>
+    
+    	<div class="top_links_wrapper">
+	<span class="top_link_bg_left"></span>
+	<ul class="top_links">
+            <li id="item-103"><a href="http://exchange.nus.edu.sg">myEmail</a></li>
+            <li id="item-104"><a href="https://ivle.nus.edu.sg/">IVLE</a></li>
+            <li id="item-105"><a href="http://www.lib.nus.edu.sg">Library</a></li>
+            <li id="item-106"><a href="http://www.nus.edu.sg/campusmap">Map</a></li>
+            <li id="item-279"><a href="http://www.nus.edu.sg/careers">Careers</a></li>
+            <li id="item-107"><a href="https://aces01.nus.edu.sg/CoE/jsp/coeMain.jsp">Calendar</a></li>
+    </ul>
+	<span class="top_link_bg_right"></span>
+	</div>
+	<div class="clear"></div>
+	<div class="search_area">
+		<form id="frmSearch" name="frmSearch" onsubmit="evalSearch();return false;" action="#">
+			<div id="search-box">
+				<input type="text" value="Search by keyword" onblur="if (this.value == '') {this.value = 'Search by keyword';}" onfocus="if (this.value == 'Search by keyword') {this.value = '';}" id="txtKeyword" name="txtKeyword">
+			</div>
+			<div id="search-coloumn">
+				<select id="source" name="SearchMenu">
+				<option selected="selected" value="0">NUS Website</option>
+				<option value="1">Internet</option>
+				<option value="2">Staff Directory</option>
+				</select>
+			<dl id="target" class="dropdown"><dt><a href="#" title="NUS Website">NUS Website<span class="value">0</span></a></dt><dd><ul style="display: none;"><li><a href="#" title="NUS Website">NUS Website<span class="value">0</span></a></li><li><a href="#" title="Internet">Internet<span class="value">1</span></a></li><li><a href="#" title="Staff Directory">Staff Directory<span class="value">2</span></a></li></ul></dd></dl></div>
+			<div id="go-coloumn">
+				<input name="" type="button" id="search-btn" value="Go" onclick="evalSearch();return false;">
+			</div>
+		</form>
+	</div>
+		
+	<nav id="main_nav" class="commencement_nav" role="navigation">
+		<ul class="menu"><li class="first leaf"><a href="/commencement/2013" class="active">Home</a></li>
+<li class="leaf"><a href="/commencement/2013/important-dates">Important Dates</a></li>
+<li class="expanded dead"><a href="/commencement/2013/schedule-ceremonies">Ceremonies</a><ul class="menu"><li class="first leaf"><a href="/commencement/2013/schedule-ceremonies" title="">Schedule of Ceremonies</a></li>
+<li class="last leaf"><a href="/commencement/2013/order-proceedings">Order of Proceedings</a></li>
+</ul></li>
+<li class="expanded dead"><a href="/commencement/2013/registration">Graduates</a><ul class="menu"><li class="first leaf"><a href="/commencement/2013/registration" title="">Registration</a></li>
+<li class="expanded dead"><a href="/commencement/2013/information-academic-dress">Academic Dress</a><ul class="menu"><li class="first leaf"><a href="/commencement/2013/information-academic-dress" title="">Information On Academic Dress</a></li>
+<li class="leaf"><a href="/commencement/2013/types-academic-dress">Types of Academic Dress</a></li>
+<li class="leaf"><a href="/commencement/2013/hoods-and-colours">Hoods and Colours</a></li>
+<li class="last leaf"><a href="/commencement/2013/how-wear-your-academic-dress">How to wear your Academic Dress</a></li>
+</ul></li>
+<li class="leaf"><a href="/commencement/2013/invitation-package">Invitation Package</a></li>
+<li class="leaf"><a href="/commencement/2013/day-ceremony">On the Day of Ceremony</a></li>
+<li class="last leaf"><a href="/commencement/2013/degree-scrolls-transcript">Degree Scrolls and Transcripts</a></li>
+</ul></li>
+<li class="leaf"><a href="/commencement/2013/guests">Guests</a></li>
+<li class="leaf"><a href="/commencement/2013/venue">Venue</a></li>
+<li class="leaf"><a href="/commencement/2013/webcast" title="">Webcast</a></li>
+<li class="expanded dead"><a href="/commencement/2013/faqs-registration">FAQs</a><ul class="menu"><li class="first leaf"><a href="/commencement/2013/faqs-registration" title="FAQs on Registration">Registration</a></li>
+<li class="leaf"><a href="/commencement/2013/faqs-ceremonies" title="FAQs on Ceremonies">Ceremonies</a></li>
+<li class="leaf"><a href="/commencement/2013/faqs-academic-dress" title="FAQs on Academic Dress">Academic Dress</a></li>
+<li class="leaf"><a href="/commencement/2013/faqs-invitation-package-cards" title="FAQs on Invitation Package/Cards">Invitation Package/Cards</a></li>
+<li class="leaf"><a href="/commencement/2013/faqs-degree-scrolls-transcripts" title="FAQs on Degree Scrolls and Transcripts">Degree Scrolls and Transcripts</a></li>
+<li class="last leaf"><a href="/commencement/2013/faqs-guests" title="FAQs for Guests">Guests</a></li>
+</ul></li>
+<li class="last leaf"><a href="/commencement/2013/contact">Contact</a></li>
+</ul>    </nav>
+	</header>
+	
+	</div><!-- END HEADER WRAPPER -->
+  <div id="main">
+
+    <div id="content" class="column" role="main">
+            <a id="main-content"></a>
+                                          
+
+
+<!-- START SLIDER ANNOUNCEMENT WRAPPER -->
+	<div id="slider_announcement_wrapper">
+		<div class="com_slider">
+			<ul>		
+											<li><img src="http://www.nus.edu.sg/commencement/sites/default/files/styles/commencement_slider/public/slide720-1NEW.jpg" /></li>
+											<li><img src="http://www.nus.edu.sg/commencement/sites/default/files/styles/commencement_slider/public/slide720-2NEW.jpg" /></li>
+											<li><img src="http://www.nus.edu.sg/commencement/sites/default/files/styles/commencement_slider/public/slide720-3NEW.jpg" /></li>
+											<li><img src="http://www.nus.edu.sg/commencement/sites/default/files/styles/commencement_slider/public/slide720-4NEW.jpg" /></li>
+						</ul>
+		</div>
+		<aside class="com_announcements">
+			<div class="com_sidebar_bg"></div>
+			<div class="view view-announcements view-id-announcements view-display-id-default view-dom-id-4adea82643b836f4c956811207b24d6f">
+            <div class="view-header">
+      <h3>Announcements!</h3>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="announcement">    <ul>          <li class="">  
+          <a href="/commencement/2013/information-academic-dress">The Online Ordering of Academic Dress is now open.</a>    
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-03-15T00:00:00+08:00">15 Mar 2013</span>  </li>
+          <li class="">  
+          <a href="/commencement/2013/registration">The Online Attendance Registration for Commencement 2013 is now open. </a>    
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-03-08T00:00:00+08:00">08 Mar 2013</span>  </li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>		</aside>
+		<div class="clear"></div>
+	</div><!-- END SLIDER ANNOUNCEMENT WRAPPER -->
+	<div id="commencement_content_wrapper" class="homepage">
+		<div class="com_content_wrapper">
+			<section>
+				<div class="com_content floatleft">
+					<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h3>Heartiest Congratulations to the Graduating Class of 2013!</h3>
+<p>Commencement is a University-wide event held annually in the month of July. The University celebrates this special occasion with you, your family and friends, to mark the achievement of a major milestone in your life. Commencement signifies the start of a new journey as you are now officially an NUS alumnus, ready to embark on your career or to take on new challenges in your profession. The University congratulates each one of you as we celebrate your achievements at your Commencement ceremony.</p>
+<p>Commencement 2013 will be held from 8 to 18 July 2013.</p>
+<p>You may click on the tabs above for the relevant information to help you prepare for your Commencement ceremony. Please visit this website regularly for the most up-to-date information on Commencement 2013.</p>
+</div></div></div>				</div>
+			</section>
+			<aside  class="floatleft">
+				<div class="field field-name-field-com-home-sidebarlinks field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="https://aces01.nus.edu.sg/CommRegistration/index.jsp" target="_blank">Online Registration of<br />Attendance</a></p>
+</div><div class="field-item odd"><p><a href="https://coopserver.nus.edu.sg/" target="_blank">Online Ordering of<br />Academic Dress</a></p>
+</div></div></div>			</aside>
+			<div class="clear"></div>
+		</div>
+		<div class="com_links_wrapper" >
+			<div class="com_links_top"></div>
+			<div class="view view-footer-links view-id-footer_links view-display-id-default view-dom-id-d08be8cb6d9d29dc3c9d5038ad61a376">
+        
+  
+  
+      <div class="view-content">
+      <div class="com_links">    <ul class="links">          <li class="">  
+          <a href="http://www.nus.edu.sg/about-nus/overview/corporate-videos" title="http://www.nus.edu.sg/about-nus/overview/corporate-videos" target="_blank"><img typeof="foaf:Image" src="http://www.nus.edu.sg/commencement/sites/default/files/styles/footer_links/public/discover_video-arial.jpg" width="150" height="76" alt="Corporate Video" title="Corporate Video" /></a>  </li>
+          <li class="">  
+          <a href="http://giving.nus.edu.sg/" title="http://giving.nus.edu.sg/" target="_blank"><img typeof="foaf:Image" src="http://www.nus.edu.sg/commencement/sites/default/files/styles/footer_links/public/discover_giving_arial.jpg" width="150" height="76" alt="Giving to NUS" title="Giving to NUS" /></a>  </li>
+          <li class="">  
+          <a href="http://alumnet.nus.edu.sg/module/portal/index.html" title="http://alumnet.nus.edu.sg/module/portal/index.html" target="_blank"><img typeof="foaf:Image" src="http://www.nus.edu.sg/commencement/sites/default/files/styles/footer_links/public/alumni%20relations_arial.jpg" width="150" height="76" alt="OAR" title="OAR" /></a>  </li>
+          <li class="">  
+          <a href="http://nus.edu.sg/cfa/venues/overview.php" title="http://nus.edu.sg/cfa/venues/overview.php" target="_blank"><img typeof="foaf:Image" src="http://www.nus.edu.sg/commencement/sites/default/files/styles/footer_links/public/cultural%20centre_arial.jpg" width="150" height="76" alt="UCC" title="UCC" /></a>  </li>
+          <li class="">  
+          <a href="/commencement/2013/webcast-2012" title="/commencement/2013/webcast-2012" target="_blank"><img typeof="foaf:Image" src="http://www.nus.edu.sg/commencement/sites/default/files/styles/footer_links/public/webcast_arial.jpg" width="150" height="76" alt="Webcast 2012" title="Webcast 2012" /></a>  </li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>			<div class="com_links_bottom"></div>
+		</div>
+	</div><!-- block__no_wrapper -->
+<!-- region__no_wrapper -->
+          </div><!-- /#content -->
+
+  </div><!-- /#main -->
+  <div id="bottom"></div>
+<footer>
+	<p>&copy; Copyright 2001-2012 National University of Singapore. All Rights Reserved. <br />
+	<a href="http://www.nus.edu.sg/terms.php">Terms of Use</a> | <a href="http://www.nus.edu.sg/policy.php">Privacy</a> | <a href="http://www.nus.edu.sg/nondiscrim.php">Non-discrimination</a>
+	</p>
+	<div id="site_map">
+	<ul>
+		<li><a href="http://www.nus.edu.sg/">Home</a></li>
+		<li><a href="http://www.nus.edu.sg/sitemap.php">Site Map</a></li>
+		<li><a href="http://www.nus.edu.sg/contact">Contact Us</a></li>
+	</ul>
+	<p>Last modified on 15 March 2013 by <a class="link" href="/registrar">Registrar&#8217;s Office</a></p>	
+	</div>
+	<div class="clear"></div>
+</footer>
+  
+</div><!-- /#page -->
+  </body>
+</html>
