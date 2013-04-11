@@ -1,0 +1,18 @@
+a:link{
+	text-decoration:none;
+}
+a:visited{
+	color:red;	
+}
+a:active{
+	color:blue;
+}
+a:hover{
+	color:#4169E1;
+}
+
+.url{
+	color:green;
+	font-size:14px;
+	font-family:Arial;
+}
