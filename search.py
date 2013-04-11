@@ -82,3 +82,21 @@ for f in files:
 
 list_ri.sort(reverse=True)
 generate_html(list_pg[0:9], keyword)
+
+
+from flask import Flask, render_template
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+  return render_template('template.html')
+
+@app.route('/my-link/')
+def my_link():
+  print 'I got clicked!'
+
+  return 'Click.'
+
+if __name__ == '__main__':
+  app.run()
+
