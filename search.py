@@ -9,8 +9,6 @@ import re
 DB_DIR 		= "./server/database/"
 RESULT_DIR 	= "./result.html"
 
-keyword 	= "nus"
-
 def generate_html(ranked_list_pg, keyword):
 	fout = open(RESULT_DIR, 'w+')
 	for pg in ranked_list_pg:
@@ -60,7 +58,16 @@ class Page(object):
 # Main program
 ##
 
+parser = argparse.ArgumentParser(description=\
+	'Simple Search Engine for NUS')
+parser.add_argument('--keyword', dest='kw',\
+	help='KEY WORD to start searching')
+args = parser.parse_args()
 
+keyword = args.kw
+if keyword == None:
+	print 'please enter a NUS-related keyword'
+	sys.exit(-1)
 
 list_pg = []
 list_ri = []
@@ -80,7 +87,9 @@ for f in files:
 	list_pg.append(pg)
 	list_ri.append(pg.get_ri())
 
+ranked_list_pg = []
 list_ri.sort(reverse=True)
+"""
 generate_html(list_pg[0:9], keyword)
 
 
@@ -96,7 +105,16 @@ def my_link():
   print 'I got clicked!'
 
   return 'Click.'
-
+"""
 if __name__ == '__main__':
   app.run()
 
+for ri in list_ri:
+	for pg in list_pg:
+		if ri == pg.get_ri():
+			ranked_list_pg.append(pg)
+
+if len(ranked_list_pg) <= 10:
+	generate_html(ranked_list_pg, keyword)
+else:
+	generate_html(ranked_list_pg[0:9], keyword)
