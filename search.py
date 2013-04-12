@@ -105,10 +105,9 @@ def my_link():
   print 'I got clicked!'
 
   return 'Click.'
-"""
 if __name__ == '__main__':
   app.run()
-
+"""
 for ri in list_ri:
 	for pg in list_pg:
 		if ri == pg.get_ri():
