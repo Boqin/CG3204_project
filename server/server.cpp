@@ -45,6 +45,7 @@ int main (int argc , char **argv)
     // Port to listen on
     uint16_t port = PORT;
 
+	/*
 	if (argc != 2)
 	{
 		cerr << "Please enter a key word." << endl;
@@ -52,6 +53,7 @@ int main (int argc , char **argv)
 	}
 
 	string keywd = argv[1];
+	*/
 
     // Create a TCP socket
     int socketFD;
